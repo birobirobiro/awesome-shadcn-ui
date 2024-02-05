@@ -33,6 +33,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Swift](https://github.com/Mobilecn-UI/swiftcn-ui) - Swift port of shadcn/ui
 - [Flutter](https://github.com/nank1ro/shadcn-ui) - Flutter port of shadcn/ui
 - [Ruby](https://github.com/aviflombaum/shadcn-rails) - Ruby port of shadcn/ui
+- [Kotlin](https://github.com/dead8309/shadcn-kotlin) - Kotlin port of shadcn/ui
 
 ## Boilerplates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
