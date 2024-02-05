@@ -17,7 +17,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 </p>
 
 ## Libs and Components
-- [shadcn-table-v2](https://github.com/sadmann7/shadcn-table-v2) - shadcn/ui table component with server-side sorting, filtering, and paginationPrisma..
+- [shadcn-table-v2](https://github.com/sadmann7/shadcn-table-v2) - shadcn table component with server-side sorting, filtering, and pagination.
 - [shadcn-phone-input](https://shadcn-phone-input.vercel.app/) - Customizable phone input component with proper validation for any country. Built on top of shadcn.
 - [react-dnd-kit-tailwind-shadcn-ui](https://georgegriff.github.io/react-dnd-kit-tailwind-shadcn-ui/) - Drag and drop Accessible kanban board implementing using React, @dnd-kit, tailwind and shadcn/ui
 - [shadcn/ui expansions](https://shadcnui-expansions.typeart.cc/) - shadcn/ui expansions collect lots of useful components which shadcn/ui does not have out of box. All the components are base on shadcn/ui. Just copy and paste. The component is yours.
