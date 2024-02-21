@@ -29,6 +29,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and re-usable chat component for you to use in your projects.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components (for websites) that are built with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
+- [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
