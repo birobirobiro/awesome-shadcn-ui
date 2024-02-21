@@ -30,6 +30,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and re-usable chat component for you to use in your projects.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components (for websites) that are built with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
+- [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
