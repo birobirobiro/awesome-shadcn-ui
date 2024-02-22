@@ -33,6 +33,11 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js
 
+## Apps
+### Colors and Customizations
+- [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
+- [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui !
+
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
 - [Vue](https://github.com/radix-vue/shadcn-vue) - Vue port of shadcn/ui
