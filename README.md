@@ -36,7 +36,11 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 ## Apps
 ### Colors and Customizations
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
-- [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui !
+- [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui.
+- [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.
+
+### Animations
+- [motionvariants](https://github.com/chrisabdo/motionvariants) - Beautiful Framer Motion Animations.
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
