@@ -36,7 +36,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 
 ## Colors and Customization
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
-
 - [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui !
 
 ## Ports
