@@ -32,6 +32,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 - [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js
+- [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
 
 ## Apps
 ### Colors and Customizations
