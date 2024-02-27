@@ -5,7 +5,7 @@
   <br>
 </p>
 
-<h2 align='center'>Awesome shadcn/ui</h2>
+<h2 align='center'>awesome-shadcn/ui</h2>
 
 <p align='center'>
 A curated list of awesome things related to <a href='https://ui.shadcn.com/'>shadcn/ui</a>
@@ -20,8 +20,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, @dnd-kit, tailwind and shadcn/ui
-- [shadcn/ui expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - shadcn/ui expansions collect lots of useful components which shadcn/ui does not have out of box. All the components are base on shadcn/ui. Just copy and paste. The component is yours.
-- [Fancy Multi Select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
+- [shadcn-ui-expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - shadcn/ui expansions collect lots of useful components which shadcn/ui does not have out of box. All the components are base on shadcn/ui. Just copy and paste. The component is yours.
+- [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design and date range comparisons.
 - [shadcn-tag-input](https://github.com/JaleelB/shadcn-tag-input) - A tag input component built with shadcn/ui.
@@ -32,6 +32,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 - [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js
+- [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
+- [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 
 ## Apps
 ### Colors and Customizations
@@ -56,3 +58,11 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
+- 
+## Contributors
+
+Thanks goes to all these wonderful people:
+
+<a href="https://github.com/birobirobiro/awesome-shadcn-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=birobirobiro/awesome-shadcn-ui" />
+</a>
