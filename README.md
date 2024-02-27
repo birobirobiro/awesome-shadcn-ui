@@ -21,7 +21,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, @dnd-kit, tailwind and shadcn/ui
 - [shadcn/ui expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - shadcn/ui expansions collect lots of useful components which shadcn/ui does not have out of box. All the components are base on shadcn/ui. Just copy and paste. The component is yours.
-- [Fancy Multi Select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
+- [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design and date range comparisons.
 - [shadcn-tag-input](https://github.com/JaleelB/shadcn-tag-input) - A tag input component built with shadcn/ui.
