@@ -5,7 +5,7 @@
   <br>
 </p>
 
-<h2 align='center'>Awesome shadcn/ui</h2>
+<h2 align='center'>awesome-shadcn/ui</h2>
 
 <p align='center'>
 A curated list of awesome things related to <a href='https://ui.shadcn.com/'>shadcn/ui</a>
