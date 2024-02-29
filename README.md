@@ -34,6 +34,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
+- [nativecn-ui](https://github.com/Mobilecn-UI/nativecn-ui) - Beautiful and customizable React Native components, inspired by shadcn/ui.
 
 ## Apps
 ### Colors and Customizations
@@ -58,7 +59,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
-- 
+- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Nextjs14 and shadcn ui
 ## Contributors
 
 Thanks goes to all these wonderful people:
