@@ -34,6 +34,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
+- [extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 
 ## Apps
 ### Colors and Customizations
