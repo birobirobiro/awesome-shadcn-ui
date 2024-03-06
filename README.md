@@ -60,11 +60,18 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
-- 
+
+## Star History
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
+</picture>
+
 ## Contributors
 
 Thanks goes to all these wonderful people:
 
 <a href="https://github.com/birobirobiro/awesome-shadcn-ui/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=birobirobiro/awesome-shadcn-ui" />
-</a>
