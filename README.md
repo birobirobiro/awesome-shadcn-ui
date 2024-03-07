@@ -35,6 +35,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 - [extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
+- [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
 
 ## Apps
 ### Colors and Customizations
