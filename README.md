@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img width="400" src="./assets/logo.svg" alt="logo of awesome-shadcn/ui repository">
+  <img width="400" src="https://raw.githubusercontent.com/birobirobiro/awesome-shadcn-ui/64729b2c178e3fdcb42c0c7bf341bcde7ae502ea/assets/logo.svg" alt="logo of awesome-shadcn/ui repository">
   <br>
   <br>
 </p>
@@ -35,6 +35,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 - [extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
+- [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
 
 ## Apps
 ### Colors and Customizations
@@ -54,16 +55,25 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Flutter](https://github.com/nank1ro/shadcn-ui) - Flutter port of shadcn/ui
 - [Ruby](https://github.com/aviflombaum/shadcn-rails) - Ruby port of shadcn/ui
 - [Kotlin](https://github.com/dead8309/shadcn-kotlin) - Kotlin port of shadcn/ui
+- [Solid](https://github.com/hngngn/shadcn-solid) - Solid, port of shadcn/ui
 
 ## Boilerplates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
-- 
+- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Nextjs14 and shadcn ui
+
+## Star History
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
+</picture>
+
 ## Contributors
 
 Thanks goes to all these wonderful people:
 
 <a href="https://github.com/birobirobiro/awesome-shadcn-ui/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=birobirobiro/awesome-shadcn-ui" />
-</a>
