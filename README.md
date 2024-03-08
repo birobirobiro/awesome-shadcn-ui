@@ -36,6 +36,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 - [extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
+- [shadcn-sidebar](https://github.com/Yudian00/shadcn-sidebar) - This is a prebuild template NextJS using shadcn/ui
 
 ## Apps
 ### Colors and Customizations
