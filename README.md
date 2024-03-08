@@ -62,6 +62,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Kotlin](https://github.com/dead8309/shadcn-kotlin) - Kotlin port of shadcn/ui
 - [Solid](https://github.com/hngngn/shadcn-solid) - Solid, port of shadcn/ui
 
+## Design System
+[shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - Every component recreated in Figma.
+
 ## Boilerplates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
