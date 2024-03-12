@@ -86,3 +86,4 @@ Thanks goes to all these wonderful people:
 
 <a href="https://github.com/birobirobiro/awesome-shadcn-ui/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=birobirobiro/awesome-shadcn-ui" />
+</a>
