@@ -38,6 +38,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
 - [shadcn-sidebar](https://github.com/Yudian00/shadcn-sidebar) - This is a prebuild template NextJS using shadcn/ui.
 - [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - An open-source component collection, that extend your ui library, built using shadcn/ui components.
+- [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
+- [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - custom phone number component built with shadcn/ui.
 
 ## Apps
 ### Colors and Customizations
