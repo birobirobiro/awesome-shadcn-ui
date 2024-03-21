@@ -71,7 +71,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Angular](https://github.com/goetzrobin/spartan) - Angular, port of shadcn/ui
 
 ## Design System
-[shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - Every component recreated in Figma.
+- [shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - Every component recreated in Figma.
+- [shadcn-ui-storybook](https://65cbbef5e6055247b3744fab-rmvtrdhlpv.chromatic.com/) - All shadcn/ui components registered in the storybook  
 
 ## Boilerplates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
