@@ -72,7 +72,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 
 ## Design System
 - [shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - Every component recreated in Figma.
-- [shadcn-ui-storybook](https://65cbbef5e6055247b3744fab-rmvtrdhlpv.chromatic.com/) - All shadcn/ui components registered in the storybook  
+- [shadcn-ui-storybook](https://65cbbef5e6055247b3744fab-rmvtrdhlpv.chromatic.com/) - All shadcn/ui components registered in the storybook by [JheanAntunes](https://github.com/JheanAntunes/storybook-shadcn)
+- [shadcn-ui-storybook](https://fellipeutaka-ui.vercel.app/?path=/docs/components-accordion--docs) - All shadcn/ui components registered in the storybook by [fellipeutaka](https://github.com/fellipeutaka/ui)
 
 ## Boilerplates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
