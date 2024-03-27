@@ -69,6 +69,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Kotlin](https://github.com/dead8309/shadcn-kotlin) - Kotlin port of shadcn/ui
 - [Solid](https://github.com/hngngn/shadcn-solid) - Solid, port of shadcn/ui
 - [Angular](https://github.com/goetzrobin/spartan) - Angular, port of shadcn/ui
+- [JollyUI](https://github.com/jolbol1/jolly-ui) - shadcn/ui compatible react aria components
 
 ## Design System
 - [shadcn-ui-components](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) - Every component recreated in Figma.
