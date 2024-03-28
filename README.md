@@ -45,6 +45,12 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input
 
 ## Apps
+
+### Plugins and Extensions
+- [shadcn-ui](https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui) - Add components from shadcn/ui directly from VS Code.
+- [vscode-shadcn-svelte](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false#overview) - VS Code extension for Shadcn UI components in Svelte projects.
+- [vscode-shadcn-vue](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) - Extension for integrating Shadcn UI components into Vue.js projects.
+- [shadcn/ui Components Manager](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager) - A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte, React, Vue, and Solid frameworks with this plugin. Simplify tasks like adding, removing, and updating components.
 ### Colors and Customizations
 - [zippy starter's shadcn/ui theme generator.](https://zippystarter.com/tools/shadcn-ui-theme-generator) - Easily create custom themes from a single colour that you can copy and paste into your apps.
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
