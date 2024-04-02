@@ -24,6 +24,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
+- [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, @dnd-kit, tailwind, and shadcn/ui.
 - [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
@@ -42,7 +43,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-sidebar](https://github.com/Yudian00/shadcn-sidebar) - This is a prebuild template NextJS using shadcn/ui.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
-- [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input.
+- [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable
 
 ## Apps
 
@@ -86,14 +87,15 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-ui-storybook](https://65cbbef5e6055247b3744fab-rmvtrdhlpv.chromatic.com/) - All shadcn/ui components registered in the storybook by [JheanAntunes](https://github.com/JheanAntunes/storybook-shadcn)
 - [shadcn-ui-storybook](https://fellipeutaka-ui.vercel.app/?path=/docs/components-accordion--docs) - All shadcn/ui components registered in the storybook by [fellipeutaka](https://github.com/fellipeutaka/ui)
 
-## Templates
-- [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
-
-## Boilerplates
+## Boilerplates / Templates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
+- [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
-- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Nextjs14 and shadcn ui
+- [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
+- [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
+- [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
+- [t3-app-template](https://github.com/gaofubin/t3-app-template) - This is the admin template for T3 Stack and shadcn/ui
 
 ## Star History
 
