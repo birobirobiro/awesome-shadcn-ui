@@ -74,7 +74,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/
 
 ### Music
-[infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using ▲ Next.js, shadcn/ui, TailwindCSS, DrizzleORM and more...
+- [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using ▲ Next.js, shadcn/ui, TailwindCSS, DrizzleORM and more...
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
