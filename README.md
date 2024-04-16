@@ -71,7 +71,10 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 ### Tools
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
-- [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
+- [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/
+
+### Music
+[infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using ▲ Next.js, shadcn/ui, TailwindCSS, DrizzleORM and more...
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
