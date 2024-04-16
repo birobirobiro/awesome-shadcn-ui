@@ -39,6 +39,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React.
+- [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
 - [shadcn-sidebar](https://github.com/Yudian00/shadcn-sidebar) - This is a prebuild template NextJS using shadcn/ui.
