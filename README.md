@@ -73,6 +73,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, Shadcn, RSC
+- [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 
 ### Music
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, TailwindCSS, DrizzleORM and more...
