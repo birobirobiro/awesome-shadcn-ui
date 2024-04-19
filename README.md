@@ -23,6 +23,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
+- [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - Simple and formatted phone input component built with shadcn/ui y libphonenumber-js
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
 - [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, dnd-kit, tailwind, and shadcn/ui.
