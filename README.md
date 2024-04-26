@@ -82,8 +82,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui
 - [5devs](https://5devs-rho.vercel.app/) - A website to get fake brazilian data for testing purposes.
 
-### Music
-- [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, TailwindCSS, DrizzleORM and more...
+## Platforms
+- [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
+- [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
