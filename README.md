@@ -51,6 +51,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-stepper](https://github.com/damianricobelli/shadcn-stepper) - A complete stepper component built with shadcn/ui
 - [shadcn-linear-combobox](https://github.com/damianricobelli/shadcn-linear-combobox) - A copy of the combobox that Linear uses to set the priority of a task.
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
+- [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
 
 
 ## Apps
