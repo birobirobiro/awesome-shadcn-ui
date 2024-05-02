@@ -86,6 +86,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 ## Platforms
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
+- [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
