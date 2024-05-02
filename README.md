@@ -43,7 +43,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
-- [shadcn-sidebar](https://github.com/Yudian00/shadcn-sidebar) - This is a prebuild template NextJS using shadcn/ui.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable
@@ -52,7 +51,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [shadcn-linear-combobox](https://github.com/damianricobelli/shadcn-linear-combobox) - A copy of the combobox that Linear uses to set the priority of a task.
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
-- [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria
+- [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria.
+- [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning and functional retractable sidebar for Next.js using shadcn/ui complete with desktop and mobile responsiveness.
 
 ## Apps
 
