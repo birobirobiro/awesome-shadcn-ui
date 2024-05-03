@@ -82,6 +82,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui
 - [5devs](https://5devs-rho.vercel.app/) - A website to get fake brazilian data for testing purposes.
+- [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 
 ## Platforms
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
