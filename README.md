@@ -53,7 +53,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
 - [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria.
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
-- [Capture-Photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications. 
+- [Capture-Photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications.
 ## Apps
 
 ### Plugins and Extensions
@@ -85,7 +85,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 
 ## Platforms
-- [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
+- [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui.
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
 - [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
 
@@ -117,6 +117,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
 - [t3-app-template](https://github.com/gaofubin/t3-app-template) - This is the admin template for T3 Stack and shadcn/ui
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
+- [WEBAPPBOOST](https://webappboost.com) Next.js turborepo boilerplate with shadcn/ui library and more.
 
 ## Star History
 
