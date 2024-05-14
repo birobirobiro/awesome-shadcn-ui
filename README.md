@@ -53,8 +53,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
 - [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria.
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
-- [Capture-Photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications. 
-- [Search-Address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
+- [capture-photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications. 
+- [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
  
 ## Apps
 
@@ -71,6 +71,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui.
 - [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.
 - [shadcn-ui-customizer](https://github.com/Railly/shadcn-ui-customizer) - POC - shadcn/ui themes with color pickers
+- [navnote/rangeen](https://github.com/navnote/rangeen) - Tool that helps you to create a colour palette for your website
 
 ### Animations
 - [magicui.design](https://magicui.design) - Largest collection of open-source react components to build beautiful landing pages.
