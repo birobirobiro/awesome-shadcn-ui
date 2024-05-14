@@ -85,7 +85,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, Shadcn, RSC
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui
-- [5devs](https://5devs-rho.vercel.app/) - A website to get fake brazilian data for testing purposes.
+- [5devs](https://www.5devs.com.br/) - A website to get fake brazilian data for testing purposes.
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 
