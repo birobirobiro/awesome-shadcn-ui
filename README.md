@@ -125,6 +125,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
 - [t3-app-template](https://github.com/gaofubin/t3-app-template) - This is the admin template for T3 Stack and shadcn/ui
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
+- [shadcn-nextjs-free-boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template
+- [horizon-ai-nextjs-shadcn-boilerplate](https://horizon-ui.com/boilerplate-shacn) - Premium AI NextJS & Shadcn UI Boilerplate + Stripe + Supabase + OAuth
 
 ## Star History
 
