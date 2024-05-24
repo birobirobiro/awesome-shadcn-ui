@@ -42,7 +42,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React.
 - [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
 - [plate](https://github.com/udecode/plate) - The rich-text editor for React.
-- [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable
@@ -59,6 +58,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 - [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - A multi-select component designed with shadcn/ui
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
+- [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles
+- [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - Composable components that can be used to build custom UIs on top of Clerk's APIs
  
 ## Apps
 
