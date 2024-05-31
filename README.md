@@ -94,6 +94,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [5devs](https://www.5devs.com.br/) - A website to get fake brazilian data for testing purposes.
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
+- [CV Forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 
 ## Platforms
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
