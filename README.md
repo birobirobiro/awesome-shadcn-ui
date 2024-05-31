@@ -124,6 +124,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 ## Boilerplates / Templates
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
+- [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) - Landing page template using Vue, shadcn-vue, TypeScript, Tailwind CSS
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
