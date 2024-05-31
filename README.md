@@ -113,6 +113,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [Kotlin](https://github.com/dead8309/shadcn-kotlin) - Kotlin port of shadcn/ui
 - [Solid](https://github.com/hngngn/shadcn-solid) - Solid port of shadcn/ui
 - [Angular](https://github.com/goetzrobin/spartan) - Angular port of shadcn/ui
+- [Phoenix Liveview](https://github.com/bluzky/salad_ui) - Phoenix Liveview port of shadcn/ui
 - [JollyUI](https://github.com/jolbol1/jolly-ui) - shadcn/ui compatible react aria components
 - [Franken UI](https://www.franken-ui.dev/) - HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source.
 
