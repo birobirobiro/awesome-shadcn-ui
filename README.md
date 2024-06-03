@@ -96,6 +96,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [CV Forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 
+### Extensions
+- [chat-with-youtube](https://chat-with-youtube.vercel.app/) - A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features.
+
 ## Platforms
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui. 
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
