@@ -104,6 +104,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
 - [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
 - [bolhadev](https://bolhadev.chat/) - The quickest path to learn English is speaking it regularly. Just find someone to chat with.
+- [enjoytown](https://github.com/avalynndev/enjoytown) - A free anime, manga, movie, tv-shows streaming platform. Built with Nextjs, shadcn/ui
 
 ## Ports
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
