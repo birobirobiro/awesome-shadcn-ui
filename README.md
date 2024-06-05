@@ -71,6 +71,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [vscode-shadcn-vue](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) - Extension for integrating shadcn/ui components into Vue.js projects.
 - [shadcn/ui Components Manager](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager) - A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte, React, Vue, and Solid frameworks with this plugin. Simplify tasks like adding, removing, and updating components.
 - [raycast-shadcn](https://www.raycast.com/luisFilipePT/shadcn-ui) - Raycast extension to Browse shadcn/ui documentation, components and examples
+- [vscode-shadcn-ui-snippets](https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets) - Easily import and use shadcn-ui components with ease using snippets within VSCode. Just type cn or shadcn in you jsx/tsx file and you will get a list of all the components to choose from.
 
 ### Colors and Customizations
 - [zippy starter's shadcn/ui theme generator.](https://zippystarter.com/tools/shadcn-ui-theme-generator) - Easily create custom themes from a single colour that you can copy and paste into your apps.
