@@ -79,6 +79,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with Shadcn UI, Radix UI and Tailwind CSS.
 - [shadcn-ui-customizer](https://github.com/Railly/shadcn-ui-customizer) - POC - shadcn/ui themes with color pickers
 - [navnote/rangeen](https://github.com/navnote/rangeen) - Tool that helps you to create a colour palette for your website
+- [dizzy](https://dizzy.systems/) - Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radii, and shadows.
 
 ### Animations
 - [magicui.design](https://magicui.design) - Largest collection of open-source react components to build beautiful landing pages.
