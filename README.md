@@ -62,6 +62,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles
 - [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - Composable components that can be used to build custom UIs on top of Clerk's APIs
+- [Indie UI](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
  
 ## Apps
 
