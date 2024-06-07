@@ -78,6 +78,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [vscode-shadcn-svelte](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false#overview) - VS Code extension for shadcn/ui components in Svelte projects.
 - [vscode-shadcn-ui-snippets](https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets) - Easily import and use shadcn-ui components with ease using snippets within VSCode. Just type cn or shadcn in you jsx/tsx file and you will get a list of all the components to choose from.
 - [vscode-shadcn-vue](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) - Extension for integrating shadcn/ui components into Vue.js projects.
+- [chat-with-youtube](https://chat-with-youtube.vercel.app/) - A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features.
 
 ### Colors and Customizations
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
@@ -102,9 +103,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
-
-### Extensions
-- [chat-with-youtube](https://chat-with-youtube.vercel.app/) - A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features.
 
 ## Platforms
 - [bolhadev](https://bolhadev.chat/) - The quickest path to learn English is speaking it regularly. Just find someone to chat with.
