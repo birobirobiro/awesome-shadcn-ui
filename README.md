@@ -68,7 +68,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
-
+- [ibelick/background-snippet](https://bg.ibelick.com/) - Collection of modern background snippets ready to use.
 ## Apps
 
 ### Plugins and Extensions
