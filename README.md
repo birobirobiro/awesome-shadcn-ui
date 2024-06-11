@@ -33,7 +33,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [cult-ui](https://www.cult-ui.com/) - A well curated set of animated shadcn-style React components for more specific use-cases.
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
-- [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and [https://www.downshift-js.com/](Downshift).
+- [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
