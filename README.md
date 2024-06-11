@@ -70,6 +70,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
+
 ## Apps
 
 ### Plugins and Extensions
@@ -156,6 +157,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
+- [kirimase](https://kirimase.dev/) - A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js.
 
 ## Star History
 
