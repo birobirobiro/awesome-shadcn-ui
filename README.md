@@ -147,6 +147,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
 - [horizon-ai-nextjs-shadcn-boilerplate](https://horizon-ui.com/boilerplate-shadcn) - Premium AI NextJS & Shadcn UI Boilerplate + Stripe + Supabase + OAuth
+- [kirimase](https://kirimase.dev/) - A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js.
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
@@ -158,7 +159,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
-- [kirimase](https://kirimase.dev/) - A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js.
 
 ## Star History
 
