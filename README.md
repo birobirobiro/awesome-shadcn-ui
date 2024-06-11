@@ -8,11 +8,11 @@
 <h2 align='center'>awesome-shadcn/ui</h2>
 
 <p align='center'>
-A curated list of awesome things related to <a href='https://ui.shadcn.com/'>shadcn/ui</a>
+A curated list of awesome things related to <a href='https://ui.shadcn.com/' target="_blank">shadcn/ui</a>
 <br><br>
 
 <p align='center'>
-<i>Created by: <a href='https://birobirobiro.dev/'>birobirobiro.dev</a></i>
+<i>Created by: <a href='https://birobirobiro.dev/' target="_blank">birobirobiro.dev</a></i>
 <br><br>
 
 <a href='https://github.com/birobirobiro/awesome-shadcn-ui/' target="_blank">
