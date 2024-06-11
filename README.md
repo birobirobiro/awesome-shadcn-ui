@@ -22,6 +22,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/'>sha
 
 ## Libs and Components
 
+- [assistant-ui](https://github.com/Yonom/assistant-ui) - React Components for AI Chat
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
 - [capture-photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications.
