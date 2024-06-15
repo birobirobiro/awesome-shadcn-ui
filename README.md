@@ -44,6 +44,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [ibelick/background-snippet](https://bg.ibelick.com/) - Ready to use collection of modern background snippets.
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
+- [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and Shadcn UI components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
@@ -73,6 +74,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
+- [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 
 ## Apps
