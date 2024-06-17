@@ -153,6 +153,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
+- [electron-shadcn](https://github.com/LuanRoger/electron-shadcn) - Electron app template with shadcn/ui and a bunch of other libs and tools ready to use.
 - [horizon-ai-nextjs-shadcn-boilerplate](https://horizon-ui.com/boilerplate-shadcn) - Premium AI NextJS & Shadcn UI Boilerplate + Stripe + Supabase + OAuth
 - [kirimase](https://kirimase.dev/) - A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js.
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
