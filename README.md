@@ -37,6 +37,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
+- [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - The Textarea is inspired by GitHub's PR comment section. The impressive part is the @mention support including hover cards in the preview. The goal is to reproduce it without text editor library.
+- [fancy-box](https://craft.mxkaske.dev/post/fancy-box) - The Combobox is inspired by GitHub's PR label selector and is powered by shadcn/ui. Almost all elements are radix-ui components, styled with tailwindcss.
 - [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
 - [farmui](https://farmui.com) - A shadcn and tailwindcss based beautifully styled and animated component library solution with its own [npm package](https://www.npmjs.com/package/@kinfe123/farm-ui) to install any component with in a component registery.
 - [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
