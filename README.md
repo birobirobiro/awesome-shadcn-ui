@@ -47,6 +47,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
+- [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
 - [mynaui](https://mynaui.com/) - ailwindCSS and shadcn/ui UI Kit for Figma and React.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and Shadcn UI components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
