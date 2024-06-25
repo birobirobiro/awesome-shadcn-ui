@@ -89,6 +89,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 ### Plugins and Extensions
 
 - [chat-with-youtube](https://chat-with-youtube.vercel.app/) - A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features.
+- [designgui](https://www.designgui.io/) - A Chrome Browser Extension for managing colors in CSS Variables.
 - [raycast-shadcn](https://www.raycast.com/luisFilipePT/shadcn-ui) - Raycast extension to Browse shadcn/ui documentation, components and examples
 - [shadcn-ui](https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui) - Add components from shadcn/ui directly from VS Code.
 - [shadcn/ui Components Manager](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager) - A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte, React, Vue, and Solid frameworks with this plugin. Simplify tasks like adding, removing, and updating components.
