@@ -7,7 +7,7 @@ labels: feature
 
 ---
 
-##  Describe the awesome thing you want to add
+## Describe the awesome thing you want to add
 
 **What is it?** 
 
@@ -24,3 +24,5 @@ labels: feature
 - [ ] I have assigned the correct category to the awesome thing.
 
 **Please note:** If you are adding a new category, you will need to create a new section in the `README.md` file. Please make sure to update the table of contents as well.
+
+**Important:** The idea of this repository is to bring together free projects for open-source contributions. If the proposed addition is an entirely paid project, the PR will be closed.
