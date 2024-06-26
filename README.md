@@ -69,6 +69,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
 - [shadcn-extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - An open-source component collection that extends your UI library, built using shadcn/ui components.
+- [shadcn-image-cropper](https://github.com/sujjeee/shadcn-image-cropper) - A minimal image cropper UI built with shadcn and the react-image-crop library.
 - [shadcn-linear-combobox](https://github.com/damianricobelli/shadcn-linear-combobox) - A copy of the combobox that Linear uses to set the priority of a task.
 - [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - A multi-select component designed with shadcn/ui.
 - [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - Simple and formatted phone input component built with shadcn/ui y libphonenumber-js.
