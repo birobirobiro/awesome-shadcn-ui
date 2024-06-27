@@ -35,6 +35,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
+- [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind. 
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
 - [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - The Textarea is inspired by GitHub's PR comment section. The impressive part is the @mention support including hover cards in the preview. The goal is to reproduce it without text editor library.
