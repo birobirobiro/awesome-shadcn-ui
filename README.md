@@ -67,6 +67,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
 - [shadcn-blocks](https://ui.shadcn.com/blocks) - Blocks is the official shadcn/ui pre-made but customizable components that can be copied and pasted into your projects.
 - [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria.
+- [shadcn-calendar-heatmap](https://shadcn-calendar-heatmap.vercel.app/) - Modern alternative to primitive react heatmaps built on top of shadcn/ui calendar component.
 - [shadcn-calendar-component](https://github.com/sersavan/shadcn-calendar-component) - A calendar date picker component designed with shadcn/ui.
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and reusable chat component for you to use in your projects.
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
