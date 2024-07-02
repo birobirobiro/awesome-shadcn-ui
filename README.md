@@ -35,6 +35,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
+- [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
 - [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - The Textarea is inspired by GitHub's PR comment section. The impressive part is the @mention support including hover cards in the preview. The goal is to reproduce it without text editor library.
@@ -43,12 +44,13 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [farmui](https://farmui.com) - A shadcn and tailwindcss based beautifully styled and animated component library solution with its own [npm package](https://www.npmjs.com/package/@kinfe123/farm-ui) to install any component with in a component registery.
 - [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React.
+- [fusion-ui](https://github.com/nyxb-ui/ui) - Fusion UI library combining shadcn/ui and MagicUI.
 - [ibelick/background-snippet](https://bg.ibelick.com/) - Ready to use collection of modern background snippets.
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
-- [mynaui](https://mynaui.com/) - ailwindCSS and shadcn/ui UI Kit for Figma and React.
+- [mynaui](https://mynaui.com/) - TailwindCSS and shadcn/ui UI Kit for Figma and React.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and Shadcn UI components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
@@ -69,6 +71,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
 - [shadcn-extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - An open-source component collection that extends your UI library, built using shadcn/ui components.
+- [shadcn-image-cropper](https://github.com/sujjeee/shadcn-image-cropper) - A minimal image cropper UI built with shadcn and the react-image-crop library.
 - [shadcn-linear-combobox](https://github.com/damianricobelli/shadcn-linear-combobox) - A copy of the combobox that Linear uses to set the priority of a task.
 - [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - A multi-select component designed with shadcn/ui.
 - [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - Simple and formatted phone input component built with shadcn/ui y libphonenumber-js.
@@ -89,6 +92,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 ### Plugins and Extensions
 
 - [chat-with-youtube](https://chat-with-youtube.vercel.app/) - A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features.
+- [designgui](https://www.designgui.io/) - A Chrome Browser Extension for managing colors in CSS Variables.
 - [raycast-shadcn](https://www.raycast.com/luisFilipePT/shadcn-ui) - Raycast extension to Browse shadcn/ui documentation, components and examples
 - [shadcn-ui](https://marketplace.visualstudio.com/items?itemName=SuhelMakkad.shadcn-ui) - Add components from shadcn/ui directly from VS Code.
 - [shadcn/ui Components Manager](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager) - A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte, React, Vue, and Solid frameworks with this plugin. Simplify tasks like adding, removing, and updating components.
