@@ -29,6 +29,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [capture-photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications.
 - [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - Composable components that can be used to build custom UIs on top of Clerk's APIs.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
+- [confirm-dialog](https://github.com/Aslam97/react-confirm-dialog) - A confirm dialog component built with shadcn/ui.
 - [country-state-dropdown](https://github.com/Jayprecode/country-state-dropdown) - This Component is built with Nextjs, Tailwindcss, shadcn/ui & Zustand for state management.
 - [cult-ui](https://www.cult-ui.com/) - A well curated set of animated shadcn-style React components for more specific use-cases.
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
