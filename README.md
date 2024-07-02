@@ -47,6 +47,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [fusion-ui](https://github.com/nyxb-ui/ui) - Fusion UI library combining shadcn/ui and MagicUI.
 - [ibelick/background-snippet](https://bg.ibelick.com/) - Ready to use collection of modern background snippets.
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
+- [lukacho-ui](https://ui.lukacho.com/components) - Next Generation UI Components
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
