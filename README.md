@@ -91,6 +91,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
+- [motion-primitives](https://motion-primitives.com/) - Beautifully designed motions components. Easy copy-paste. Customizable. Open Source. Built for engineers and designers.
 
 ## Apps
 
