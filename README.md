@@ -35,6 +35,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 - [crypto-charts](https://github.com/jstnw10/crypto-charts) - Crypto charts made for shadcn/ui using PythNetwork.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
+- [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - Beautifully Crafted Datetime Picker for your shadNext Project.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
 - [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
