@@ -131,6 +131,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, Shadcn, RSC
+- [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
