@@ -135,6 +135,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
+- [JobSync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
