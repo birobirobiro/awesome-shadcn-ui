@@ -137,6 +137,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [JobSync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
+- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
 - [metro-sp](https://github.com/birobirobiro/metro-sp-front) - Receive automatic real-time updates on incidents and changes on the SP Metro, ViaMobilidade and CPTM lines every 5 minutes.
 - [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil! 
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
@@ -148,7 +149,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [typelabs](https://github.com/imsandeshpandey/typelabs) - MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core.
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [Xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
-- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
 
 ## Platforms
 
