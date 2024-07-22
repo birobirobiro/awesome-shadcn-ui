@@ -137,6 +137,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [JobSync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
+- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
 - [metro-sp](https://github.com/birobirobiro/metro-sp-front) - Receive automatic real-time updates on incidents and changes on the SP Metro, ViaMobilidade and CPTM lines every 5 minutes.
 - [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil! 
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
