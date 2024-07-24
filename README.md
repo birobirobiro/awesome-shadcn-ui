@@ -186,6 +186,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 ## Boilerplates / Templates
 
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
+- [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
 - [electron-shadcn](https://github.com/LuanRoger/electron-shadcn) - Electron app template with shadcn/ui and a bunch of other libs and tools ready to use.
 - [horizon-ai-nextjs-shadcn-boilerplate](https://horizon-ui.com/boilerplate-shadcn) - Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth
