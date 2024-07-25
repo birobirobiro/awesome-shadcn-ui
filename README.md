@@ -78,6 +78,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and reusable chat component for you to use in your projects.
 - [shadcn-carousel-testimonials](https://github.com/johanguse/shadcn-carousel-testimonials) - shadcn UI Carousel Testimonials.
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
+- [shadcn-date-picker](https://date-picker.luca-felix.com) - Advanced date picker with range selection, year and month selection, and more.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
 - [shadcn-extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - An open-source component collection that extends your UI library, built using shadcn/ui components.
