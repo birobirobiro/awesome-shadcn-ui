@@ -157,7 +157,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 ### Websites
 
 - [godly](https://godly.website/) - Astronomically good web design inspiration. Only the best of the best.
-- [list.swajp.me](https://list.swajp.me) - It has never been easier to find the right projects or designs by inspiring sucessful people.
+- [list.swajp.me](https://list.swajp.me) - It has never been easier to find the right projects or designs by inspiring successful people.
 
 ### Portfolios
 
