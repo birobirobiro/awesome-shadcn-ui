@@ -152,6 +152,18 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [Xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
 
+## Websites and Portfolio Inspirations
+
+### Websites
+
+- [godly](https://godly.website/) - Astronomically good web design inspiration. Only the best of the best.
+- [list.swajp.me](https://list.swajp.me) - It has never been easier to find the right projects or designs by inspiring sucessful people.
+
+### Portfolios
+
+- [birobirobiro.dev](https://birobirobiro.dev/)
+- [swajp.me](https://swajp.me)
+
 ## Platforms
 
 - [anonypost](https://github.com/avalynndev/anonypost) - Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack
@@ -204,18 +216,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
 - [Supabase authentication starter template](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - A fully responsive, fully type safe, secure server actions, user friendly customizable UI with following best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui.
-
-## Websites and Portfolio Inspirations
-
-### Websites
-
-- [godly](https://godly.website/) - Astronomically good web design inspiration. Only the best of the best.
-- [list.swajp.me](https://list.swajp.me) - It has never been easier to find the right projects or designs by inspiring sucessful people.
-
-### Portfolios
-
-- [birobirobiro.dev](https://birobirobiro.dev/)
-- [swajp.me](https://swajp.me)
 
 ## Star History
 
