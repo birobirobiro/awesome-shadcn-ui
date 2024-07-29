@@ -152,7 +152,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [Xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
 
-## Websites and Portfolio Inspirations
+## Websites and Portfolios Inspirations
 
 ### Websites
 
