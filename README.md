@@ -205,7 +205,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
 - [Supabase authentication starter template](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - A fully responsive, fully type safe, secure server actions, user friendly customizable UI with following best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui.
 
-## Project & Portfolio inspiration
+## Creating a Websites and Porfolios
 
 - [godly](https://godly.website/) - Astronomically good web design inspiration. Only the best of the best.
 - [list.swajp.me](https://list.swajp.me) - It has never been easier to find the right projects or designs by inspiring sucessful people.
