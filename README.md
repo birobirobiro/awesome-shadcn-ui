@@ -132,6 +132,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 ### Tools
 
 - [5devs](https://www.5devs.com.br/) - A website to get fake brazilian data for testing purposes.
+- [bento-hub](https://github.com/amittam104/BentoHub) - BentoHub is a application where you can create a bento grid for your GitHub profile readme.
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui.
 - [DownDevDetector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [CV Forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
