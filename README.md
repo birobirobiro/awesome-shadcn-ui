@@ -143,7 +143,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [JobSync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
 - [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
 - [metro-sp](https://github.com/birobirobiro/metro-sp-front) - Receive automatic real-time updates on incidents and changes on the SP Metro, ViaMobilidade and CPTM lines every 5 minutes.
-- [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil! 
+- [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil!
+- [opensearch-ai](https://github.com/supermemoryai/opensearch-ai) - SearchGPT / Perplexity clone, but personalised for you.
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
 - [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
