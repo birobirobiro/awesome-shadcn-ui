@@ -202,6 +202,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Boilerplates / Templates
 
+- [easyui](https://github.com/DarkInventor/easy-ui) - Collection of 50+ Next.js Website Templates built using React, Tailwind CSS, Shadcn/ui, Framer Motion and more. 
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare.
 - [design-system-template](https://github.com/arevalolance/design-system-template) - Turborepo + TailwindCSS + Storybook + shadcn/ui
