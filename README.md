@@ -173,6 +173,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 - [anonypost](https://github.com/avalynndev/anonypost) - Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack
 - [bolhadev](https://bolhadev.chat/) - The quickest path to learn English is speaking it regularly. Just find someone to chat with.
+- [Crept Studio](https://www.crept.studio) - Crept is a free Open Source project, made on top of Next.js, Tailwind CSS and Shadcn UI. You can use it to deliver free Tv shows and Movies.
 - [enjoytown](https://github.com/avalynndev/enjoytown) - A free anime, manga, movie, tv-shows streaming platform. Built with Nextjs, shadcn/ui
 - [Grade Calculator](https://grades.nstr.dev/) - A grade calculator/dashboard for students, aiming to provide a better overview on the academic performance.
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
