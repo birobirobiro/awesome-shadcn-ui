@@ -155,7 +155,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
 - [typelabs](https://github.com/imsandeshpandey/typelabs) - MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core.
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
-- [Xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
+- [xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
 
 ## Websites and Portfolios Inspirations
 
@@ -173,7 +173,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 - [anonypost](https://github.com/avalynndev/anonypost) - Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack
 - [bolhadev](https://bolhadev.chat/) - The quickest path to learn English is speaking it regularly. Just find someone to chat with.
-- [Crept Studio](https://www.crept.studio) - Crept is a free Open Source project, made on top of Next.js, Tailwind CSS and Shadcn UI. You can use it to deliver free Tv shows and Movies.
+- [crept-studio](https://www.crept.studio) - Crept is a free Open Source project, made on top of Next.js, Tailwind CSS and Shadcn UI. You can use it to deliver free Tv shows and Movies.
 - [enjoytown](https://github.com/avalynndev/enjoytown) - A free anime, manga, movie, tv-shows streaming platform. Built with Nextjs, shadcn/ui
 - [Grade Calculator](https://grades.nstr.dev/) - A grade calculator/dashboard for students, aiming to provide a better overview on the academic performance.
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
@@ -214,17 +214,18 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
-- [Onyx](https://github.com/rmourey26/onyx) - Full stack, batteries included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more.
+- [next-wp](https://github.com/9d8dev/next-wp) - Headless Wordpress Starter built with the NextJS App Router and React Server Components
+- [onyx](https://github.com/rmourey26/onyx) - Full stack, batteries included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more.
 - [opendocs](https://opendocs.daltonmenezes.com/) - Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support.
 - [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
 - [shadcn-landing-page](https://github.com/nobruf/shadcn-landing-page) - Project conversion [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to nextjs - Landing page template using Nestjs, shadcn/ui, TypeScript, Tailwind CSS
 - [shadcn-nextjs-free-boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template
 - [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) - Landing page template using Vue, shadcn-vue, TypeScript, Tailwind CSS
+- [supa-next-shad-auth](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - A fully responsive, fully type safe, secure server actions, user friendly customizable UI with following best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui.
 - [t3-app-template](https://github.com/gaofubin/t3-app-template) - This is the admin template for T3 Stack and shadcn/ui
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
-- [Supabase authentication starter template](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - A fully responsive, fully type safe, secure server actions, user friendly customizable UI with following best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui.
 
 ## Star History
 
