@@ -212,6 +212,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [magicui-startup-templates](https://magicui.design/docs/templates/startup) - Magic UI Startup template built using shadcn/ui + tailwindcss + framer-motion
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
+- [Onyx](https://github.com/rmourey26/onyx) - Full stack, batteries included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more.
 - [opendocs](https://opendocs.daltonmenezes.com/) - Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support.
 - [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
 - [shadcn-landing-page](https://github.com/nobruf/shadcn-landing-page) - Project conversion [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to nextjs - Landing page template using Nestjs, shadcn/ui, TypeScript, Tailwind CSS
