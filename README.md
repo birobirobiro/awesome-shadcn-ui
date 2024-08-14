@@ -118,6 +118,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ### Colors and Customizations
 
+- [shadcn theme editor](https://github.com/programming-with-ia/shadcn-theme-editor/) - Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects.
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
 - [dizzy](https://dizzy.systems/) - Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radii, and shadows.
 - [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with shadcn/ui, Radix UI and Tailwind CSS.
