@@ -180,6 +180,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [Grade Calculator](https://grades.nstr.dev/) - A grade calculator/dashboard for students, aiming to provide a better overview on the academic performance.
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
 - [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
+- [memergez](https://github.com/avalynndev/memergez) - Quickly generate memes by entering text or an avatar URL, with support for many meme commands.
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui.
 
 ## Ports
