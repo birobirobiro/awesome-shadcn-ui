@@ -89,6 +89,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - A multi-select component designed with shadcn/ui.
 - [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - Simple and formatted phone input component built with shadcn/ui y libphonenumber-js.
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
+- [shadcn-registry-template](https://github.com/vantezzen/shadcn-registry-template) - Template repository for building a custom component registry for shadcn/ui.
 - [shadcn-stepper](https://github.com/damianricobelli/shadcn-stepper) - A complete stepper component built with shadcn/ui.
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-timeline](https://github.com/timDeHof/shadcn-timeline) - Customizable and re-usable timeline component for you to use in your projects. Built on top of shadcn.
