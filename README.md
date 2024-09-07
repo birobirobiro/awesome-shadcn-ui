@@ -200,6 +200,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [Solid](https://github.com/hngngn/shadcn-solid) - Solid port of shadcn/ui
 - [Svelte](https://github.com/huntabyte/shadcn-svelte) - Svelte port of shadcn/ui
 - [Swift](https://github.com/Mobilecn-UI/swiftcn-ui) - Swift port of shadcn/ui
+- [Sysinfocus simple/ui](https://sysinfocus.github.io/shadcn-inspired/) - Razor component library for Blazor, inspired by shadcn/ui
 - [Vue](https://github.com/radix-vue/shadcn-vue) - Vue port of shadcn/ui
 
 ## Design System
