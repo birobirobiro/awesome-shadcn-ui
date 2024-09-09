@@ -34,7 +34,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [cult-ui](https://www.cult-ui.com/) - A well curated set of animated shadcn-style React components for more specific use-cases.
 - [credenza](https://github.com/redpangilinan/credenza) - Ready-made responsive modal component for shadcn/ui.
 - [crypto-charts](https://github.com/jstnw10/crypto-charts) - Crypto charts made for shadcn/ui using PythNetwork.
-- [Country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - Beautifully Crafted Datetime Picker for your shadNext Project.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
@@ -140,6 +139,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [5devs](https://www.5devs.com.br/) - A website to get fake brazilian data for testing purposes.
 - [bento-hub](https://github.com/amittam104/BentoHub) - BentoHub is a application where you can create a bento grid for your GitHub profile readme.
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui.
+- [Country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
 - [DownDevDetector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [CV Forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
