@@ -172,6 +172,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ### Portfolios
 
+- [andrewsam.xyz](https://www.andrewsam.xyz/) - A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component.
 - [birobirobiro.dev](https://birobirobiro.dev/)
 - [swajp.me](https://swajp.me)
 
