@@ -142,21 +142,21 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [5devs](https://www.5devs.com.br/) - A website to get fake brazilian data for testing purposes.
 - [bento-hub](https://github.com/amittam104/BentoHub) - BentoHub is a application where you can create a bento grid for your GitHub profile readme.
 - [cut-it](https://github.com/mehrabmp/cut-it) - Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso and styled with shadcn/ui.
-- [Country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
-- [DownDevDetector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
-- [CV Forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
+- [country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
+- [down-dev-detector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
+- [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
-- [JobSync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
-- [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
+- [jobsync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
+- [memfree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment. It built using Next.js, Typescript, and shadcn/ui.
 - [metro-sp](https://github.com/birobirobiro/metro-sp-front) - Receive automatic real-time updates on incidents and changes on the SP Metro, ViaMobilidade and CPTM lines every 5 minutes.
 - [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil!
 - [opensearch-ai](https://github.com/supermemoryai/opensearch-ai) - SearchGPT / Perplexity clone, but personalised for you.
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
 - [postgres](https://postgres.new/)- The in-browser Postgres sandbox with AI assistance
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
-- [QuackDB](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
+- [quack-db](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [qualmeuip](https://www.qualmeuip.xyz/) - Find out your IP address and test your internet speed
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [tinte](https://tinte.railly.dev/) - An opinionated VS Code Theme Generator 🎨
@@ -185,7 +185,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [bolhadev](https://bolhadev.chat/) - The quickest path to learn English is speaking it regularly. Just find someone to chat with.
 - [crept-studio](https://www.crept.studio) - Crept is a free Open Source project, made on top of Next.js, Tailwind CSS and Shadcn UI. You can use it to deliver free Tv shows and Movies.
 - [enjoytown](https://github.com/avalynndev/enjoytown) - A free anime, manga, movie, tv-shows streaming platform. Built with Nextjs, shadcn/ui
-- [Grade Calculator](https://grades.nstr.dev/) - A grade calculator/dashboard for students, aiming to provide a better overview on the academic performance.
+- [grade-calculator](https://grades.nstr.dev/) - A grade calculator/dashboard for students, aiming to provide a better overview on the academic performance.
 - [infinitunes](https://github.com/rajput-hemant/infinitunes) - A Simple Music Player Web App built using Next.js, shadcn/ui, Tailwind CSS, DrizzleORM and more...
 - [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
 - [memergez](https://github.com/avalynndev/memergez) - Quickly generate memes by entering text or an avatar URL, with support for many meme commands.
