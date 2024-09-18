@@ -22,6 +22,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Libs and Components
 
+- [BuildBox](https://www.buildbox.site/) - SaasS Next.js and Supabase boilerplate with Tailwind, Shadcn UI, Stripe, and Lemon Squeezy for SaaS and web apps.
 - [aceternity-ui](https://ui.aceternity.com/) - Copy paste the most trending react components without having to worry about styling and animations.
 - [assistant-ui](https://github.com/Yonom/assistant-ui) - React Components for AI Chat.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
