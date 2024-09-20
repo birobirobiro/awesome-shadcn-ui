@@ -94,6 +94,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-stepper](https://github.com/damianricobelli/shadcn-stepper) - A complete stepper component built with shadcn/ui.
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-timeline](https://github.com/timDeHof/shadcn-timeline) - Customizable and re-usable timeline component for you to use in your projects. Built on top of shadcn.
+- [shadcn-tree-view](https://github.com/mrlightful/shadcn-tree-view) - A component for hierarchical lists of data with nested levels that can be expanded and collapsed.
 - [shadcn-ui-blocks](https://shadcn-ui-blocks.vercel.app/) - A collection of Over 10+ fully responsive, UI blocks you can drop into your shadcn/ui projects and customize to your heart's content.
 - [shadcn-ui-expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - A lots of useful components which shadcn/ui does not have out of the box.
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
