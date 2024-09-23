@@ -81,6 +81,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-calendar-component](https://github.com/sersavan/shadcn-calendar-component) - A calendar date picker component designed with shadcn/ui.
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and reusable chat component for you to use in your projects.
 - [shadcn-carousel-testimonials](https://github.com/johanguse/shadcn-carousel-testimonials) - shadcn UI Carousel Testimonials.
+- [shadcn-color-picker](https://shadcn-color-picker.vercel.app/) - A color picker build with react-color and shadcn
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
 - [shadcn-date-picker](https://date-picker.luca-felix.com) - Advanced date picker with range selection, year and month selection, and more.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
