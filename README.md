@@ -101,7 +101,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
-- [template-next](https://template-next-official.vercel.app/) - A clean Next.js template with TypeScript, TailwindCSS, Shadcn/ui, and Prettier.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
@@ -239,6 +238,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [supa-next-shad-auth](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) - A fully responsive, fully type safe, secure server actions, user friendly customizable UI with following best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui.
 - [t3-app-template](https://github.com/gaofubin/t3-app-template) - This is the admin template for T3 Stack and shadcn/ui
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
+- [template-next](https://template-next-official.vercel.app/) - A clean Next.js template with TypeScript, TailwindCSS, Shadcn/ui, and Prettier.
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
 
