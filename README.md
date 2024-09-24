@@ -246,6 +246,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [taxonomy](https://github.com/shadcn/taxonomy) - An open source application built using the new router, server components and everything new in Next.js
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
+- [wordpress-plugin-boilerplate](https://github.com/prappo/wordpress-plugin-boilerplate) - WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, Tailwind CSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR and more.
 
 ## Star History
 
