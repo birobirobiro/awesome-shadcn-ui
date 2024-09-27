@@ -162,6 +162,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
 - [quack-db](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [qualmeuip](https://www.qualmeuip.xyz/) - Find out your IP address and test your internet speed
+- [shadcn-form-builder](https://shadcn-form-build.vercel.app/) - Create forms with Shadcn, react-hooks-form and zod within minutes
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [tinte](https://tinte.railly.dev/) - An opinionated VS Code Theme Generator 🎨
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
