@@ -109,6 +109,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [ui-beats](https://uibeats.com) - Collection of Animated React Components.
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
+- [vaul](https://vaul.emilkowal.ski/) - Drawer component for React.
 - [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - Zoomable Charts on top of shadcn/ui Charts.
 
 ## Apps
