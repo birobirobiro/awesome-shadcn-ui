@@ -76,6 +76,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, dnd-kit, tailwind, and shadcn/ui.
 - [react-highlight-popover](https://react-highlight-popover.omsimos.com) - A headless react component for creating popovers on text selection with zero dependencies.
 - [react-select](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) Implementation of the react-select library with shadcn styling. Support for Select, Async-Select, Multi-Select with many configurable options
+- [recursive-dnd-kanban-board](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) - Recursively-generated drag and drop Accessible kanban board implementing using Next.js, @dnd-kit, tailwind and shadcn/ui.
 - [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
 - [shadcn-address-autocomplete](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) - An address autocomplete component built with Google Places API and shadcn components.
 - [shadcn-blocks](https://ui.shadcn.com/blocks) - Blocks is the official shadcn/ui pre-made but customizable components that can be copied and pasted into your projects.
