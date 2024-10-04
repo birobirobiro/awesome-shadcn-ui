@@ -59,6 +59,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
 - [mixcnui](https://github.com/taqui-786/mixcnui) - Mixui is a collection of animated or re-usable component currently for Nextjs.
+- [motion-number](https://motion-number.barvian.me/) - Transition, format, and localize numbers with a ~3kB Framer Motion component. Accessible and customizable.
 - [mynaui](https://mynaui.com/) - TailwindCSS and shadcn/ui UI Kit for Figma and React.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and shadcn/ui components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
@@ -75,6 +76,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, dnd-kit, tailwind, and shadcn/ui.
 - [react-highlight-popover](https://react-highlight-popover.omsimos.com) - A headless react component for creating popovers on text selection with zero dependencies.
 - [react-select](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) Implementation of the react-select library with shadcn styling. Support for Select, Async-Select, Multi-Select with many configurable options
+- [recursive-dnd-kanban-board](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) - Recursively-generated drag and drop Accessible kanban board implementing using Next.js, @dnd-kit, tailwind and shadcn/ui.
 - [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
 - [shadcn-address-autocomplete](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) - An address autocomplete component built with Google Places API and shadcn components.
 - [shadcn-blocks](https://ui.shadcn.com/blocks) - Blocks is the official shadcn/ui pre-made but customizable components that can be copied and pasted into your projects.
@@ -164,7 +166,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
 - [quack-db](https://github.com/mattf96s/QuackDB) - Open-source in-browser DuckDB SQL editor
 - [qualmeuip](https://www.qualmeuip.xyz/) - Find out your IP address and test your internet speed
+- [shadcn-form-builder](https://shadcn-form-build.vercel.app/) - Create forms with Shadcn, react-hooks-form and zod within minutes
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
+- [shadcn-zod-form](https://github.com/ilyichv/shadcn-zod-form) - CLI tool to generate shadcn/ui forms from zod schemas.
 - [tinte](https://tinte.railly.dev/) - An opinionated VS Code Theme Generator 🎨
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
 - [typelabs](https://github.com/imsandeshpandey/typelabs) - MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core.
@@ -183,6 +187,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 - [andrewsam.xyz](https://www.andrewsam.xyz/) - A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component.
 - [birobirobiro.dev](https://birobirobiro.dev/)
+- [shubhporwal.me](https://www.shubhporwal.me/) - An eye-catching developer Portfolio, built on NextJS, GSAP, Tailwind and React.
 - [swajp.me](https://swajp.me)
 
 ## Platforms
