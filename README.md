@@ -102,6 +102,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-tree-view](https://github.com/mrlightful/shadcn-tree-view) - A component for hierarchical lists of data with nested levels that can be expanded and collapsed.
 - [shadcn-ui-blocks](https://shadcn-ui-blocks.vercel.app/) - A collection of Over 10+ fully responsive, UI blocks you can drop into your shadcn/ui projects and customize to your heart's content.
 - [shadcn-ui-expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - A lots of useful components which shadcn/ui does not have out of the box.
+- [shadcn-ui-kit](https://shadcnuikit.com) - Shadcn UI Kit is a comprehensive collection of ready-to-use admin dashboards, website templates, and customizable components. It goes beyond standard components, offering more functionality and design flexibility.
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
 - [shadcn-ui-templates](https://shadcnui-templates.com) - A collection of Free & Premium templates and resources for shadcn/ui.
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
