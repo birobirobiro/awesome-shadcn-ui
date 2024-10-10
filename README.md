@@ -111,6 +111,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [ui-beats](https://uibeats.com) - Collection of Animated React Components.
+- [ui-builder](https://github.com/olliethedev/ui-builder) - A React component editor that provides a no-code, visual way to create UIs, fully compatible with shadcn/ui and custom components. 
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 - [vaul](https://vaul.emilkowal.ski/) - Drawer component for React.
 - [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - Zoomable Charts on top of shadcn/ui Charts.
