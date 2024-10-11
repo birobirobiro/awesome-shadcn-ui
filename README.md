@@ -114,6 +114,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 - [vaul](https://vaul.emilkowal.ski/) - Drawer component for React.
 - [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - Zoomable Charts on top of shadcn/ui Charts.
+- [Sharable-form-builder](https://github.com/ayoubben18/sharable-form-builder) - A sharable form builder for creating forms and sharing your form link, based on ShadcnUI and Next.js.
 
 ## Apps
 
