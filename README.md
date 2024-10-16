@@ -67,6 +67,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
 - [nextjs-link-pagination](https://shadcn-next-link-pagination.vercel.app) - shadcn paging/pagination that uses Nextjs Links and search params
 - [novel](https://github.com/steven-tey/novel) - Novel is a Notion-style WYSIWYG editor with AI-powered autocompletion. Built with [Tiptap](https://tiptap.dev/) + [Vercel AI SDK](https://sdk.vercel.ai/docs).
+- [numberflow](https://number-flow.barvian.me/) - A React component to transition, localize, and format numbers. Dependency-free. Accessible. Customizable.
 - [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input.
 - [payment-gateways](https://github.com/PremPrakashCodes/payment-gateways) - This repository demonstrates how to integrate popular payment gateways like Stripe, Razorpay, PayPal, and Coinbase into a web application using Next.js 14.
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
