@@ -37,6 +37,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [crypto-charts](https://github.com/jstnw10/crypto-charts) - Crypto charts made for shadcn/ui using PythNetwork.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - Beautifully Crafted Datetime Picker for your shadNext Project.
+- [dnd-dashboard](https://github.com/olliethedev/dnd-dashboard) - A beautiful, performant dashboard with drop-to-swap layouts built using Next.js, shadcn/ui, and swapy
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
 - [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
@@ -79,6 +80,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [recursive-dnd-kanban-board](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) - Recursively-generated drag and drop Accessible kanban board implementing using Next.js, @dnd-kit, tailwind and shadcn/ui.
 - [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
 - [shadcn-address-autocomplete](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) - An address autocomplete component built with Google Places API and shadcn components.
+- [shadcn-admin](https://github.com/satnaing/shadcn-admin) - Admin Dashboard UI built with shadcn/ui and Vite.
 - [shadcn-blocks](https://ui.shadcn.com/blocks) - Blocks is the official shadcn/ui pre-made but customizable components that can be copied and pasted into your projects.
 - [shadcn-cal](https://shadcn-cal-com.vercel.app/?date=2024-04-29) - A copy of the monthly calendar used by Cal.com with shadcn/ui, Radix Colors and React Aria.
 - [shadcn-calendar-heatmap](https://shadcn-calendar-heatmap.vercel.app/) - Modern alternative to primitive react heatmaps built on top of shadcn/ui calendar component.
@@ -132,6 +134,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 - [10000+Themes for shadcn/ui](https://ui.jln.dev/) - 10000+ Themes for shadcn/ui.
 - [dizzy](https://dizzy.systems/) - Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radii, and shadows.
+- [ewgenius/ui](https://ui.ewgenius.me/shadcn-radix-colors) - Create custom themes for shadcn/ui effortlessly using vibrant palettes from [Radix Colors](https://www.radix-ui.com/colors).
 - [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with shadcn/ui, Radix UI and Tailwind CSS.
 - [navnote/rangeen](https://github.com/navnote/rangeen) - Tool that helps you to create a colour palette for your website
 - [shadcn-ui-customizer](https://github.com/Railly/shadcn-ui-customizer) - POC - shadcn/ui themes with color pickers
@@ -169,9 +172,11 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-form-builder](https://shadcn-form-build.vercel.app/) - Create forms with Shadcn, react-hooks-form and zod within minutes
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
 - [shadcn-zod-form](https://github.com/ilyichv/shadcn-zod-form) - CLI tool to generate shadcn/ui forms from zod schemas.
+- [sharable-form-builder](https://github.com/ayoubben18/sharable-form-builder) - A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Next.js.
 - [tinte](https://tinte.railly.dev/) - An opinionated VS Code Theme Generator 🎨
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
 - [typelabs](https://github.com/imsandeshpandey/typelabs) - MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core.
+- [ui-builder](https://github.com/olliethedev/ui-builder) - A React component editor that provides a no-code, visual way to create UIs, fully compatible with shadcn/ui and custom components. 
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [wallhaven-desktop](https://github.com/ErKeLost/wallhaven-desktop) - Wallhaven Wallpaper software desktop. Create a wallhaven api based client , a true wallpaper software. use Farm , Tauri , React19, shadcn/ui.
 - [xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
