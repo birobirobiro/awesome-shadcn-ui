@@ -115,6 +115,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 - [vaul](https://vaul.emilkowal.ski/) - Drawer component for React.
 - [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - Zoomable Charts on top of shadcn/ui Charts.
+- [cooie-consent](https://github.com/r2hu1/shadcn-cookie-consent) - Shadcn Cookie Consent
 
 ## Apps
 
@@ -260,6 +261,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
 - [wordpress-plugin-boilerplate](https://github.com/prappo/wordpress-plugin-boilerplate) - WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, Tailwind CSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR and more.
+- [nextjs-starter-kit](https://github.com/michaelshimeles/nextjs-starter-kit) - The Ultimate Nextjs 14 Starter Kit for quickly building your SaaS, giving you time to focus on what really matters
 
 ## Star History
 
