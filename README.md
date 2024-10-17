@@ -60,7 +60,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
 - [mixcnui](https://github.com/taqui-786/mixcnui) - Mixui is a collection of animated or re-usable component currently for Nextjs.
-- [motion-number](https://motion-number.barvian.me/) - Transition, format, and localize numbers with a ~3kB Framer Motion component. Accessible and customizable.
 - [mynaui](https://mynaui.com/) - TailwindCSS and shadcn/ui UI Kit for Figma and React.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and shadcn/ui components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
