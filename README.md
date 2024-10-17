@@ -89,6 +89,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and reusable chat component for you to use in your projects.
 - [shadcn-carousel-testimonials](https://github.com/johanguse/shadcn-carousel-testimonials) - shadcn UI Carousel Testimonials.
 - [shadcn-color-picker](https://shadcn-color-picker.vercel.app/) - A color picker build with react-color and shadcn
+- [shadcn-cookie-consent](https://github.com/r2hu1/shadcn-cookie-consent) - Beautifully designed, customizable cookie consent for web built on top of shadcn-ui and tailwind-css!
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
 - [shadcn-date-picker](https://date-picker.luca-felix.com) - Advanced date picker with range selection, year and month selection, and more.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
