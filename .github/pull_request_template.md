@@ -1,10 +1,8 @@
 ---
-name: feat: Add new awesome thing
-
-about: Add a new awesome thing related to shadcn/ui
-
-labels: feature
-
+name: "feat: Add new awesome thing"
+about: "Add a new awesome thing related to shadcn/ui"
+labels:
+  - feature
 ---
 
 ## Describe the awesome thing you want to add
