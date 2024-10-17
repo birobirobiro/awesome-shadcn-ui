@@ -37,6 +37,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [crypto-charts](https://github.com/jstnw10/crypto-charts) - Crypto charts made for shadcn/ui using PythNetwork.
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - Beautifully Crafted Datetime Picker for your shadNext Project.
+- [datetime-picker](https://shadcn-datetime-picker-xi.vercel.app) - A powerful datetime picker with support for timezones, minimum and maximum dates, and month/year selection.
 - [dnd-dashboard](https://github.com/olliethedev/dnd-dashboard) - A beautiful, performant dashboard with drop-to-swap layouts built using Next.js, shadcn/ui, and swapy
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
