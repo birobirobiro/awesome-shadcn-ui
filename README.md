@@ -61,13 +61,13 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
 - [mixcnui](https://github.com/taqui-786/mixcnui) - Mixui is a collection of animated or re-usable component currently for Nextjs.
-- [motion-number](https://motion-number.barvian.me/) - Transition, format, and localize numbers with a ~3kB Framer Motion component. Accessible and customizable.
 - [mynaui](https://mynaui.com/) - TailwindCSS and shadcn/ui UI Kit for Figma and React.
 - [neobrutalism-components](https://github.com/ekmas/neobrutalism-components) - Collection of neobrutalism-styled Tailwind React and shadcn/ui components.
 - [nextjs-components](https://components.bridger.to/) - A collection of Next.js components build with TypeScript, React, shadcn/ui, Craft UI, and Tailwind CSS.
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
 - [nextjs-link-pagination](https://shadcn-next-link-pagination.vercel.app) - shadcn paging/pagination that uses Nextjs Links and search params
 - [novel](https://github.com/steven-tey/novel) - Novel is a Notion-style WYSIWYG editor with AI-powered autocompletion. Built with [Tiptap](https://tiptap.dev/) + [Vercel AI SDK](https://sdk.vercel.ai/docs).
+- [number-flow](https://number-flow.barvian.me/) - A React component to transition, localize, and format numbers. Dependency-free. Accessible. Customizable.
 - [password-input](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) - shadcn/ui custom password input.
 - [payment-gateways](https://github.com/PremPrakashCodes/payment-gateways) - This repository demonstrates how to integrate popular payment gateways like Stripe, Razorpay, PayPal, and Coinbase into a web application using Next.js 14.
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
