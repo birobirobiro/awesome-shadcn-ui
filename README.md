@@ -113,6 +113,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
+- [stunning-ui](https://stunningui.design) - Stunning UI is a collection of interactive Tailwind CSS components built for Vue and Nuxt.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [ui-beats](https://uibeats.com) - Collection of Animated React Components.
