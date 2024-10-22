@@ -182,7 +182,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [translate-app](https://github.com/developaul/translate-app) - Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI-SDK/OpenAI, Zod
 - [typelabs](https://github.com/imsandeshpandey/typelabs) - MonkeyType inspired typing test app built with React, shadcn, and Zustand at it's core.
 - [ui-builder](https://github.com/olliethedev/ui-builder) - A React component editor that provides a no-code, visual way to create UIs, fully compatible with shadcn/ui and custom components.
-- [ui-fonts](https://ui-fonts.app) - Test and preview fonts in real-time for all your design needs. Choose the perfect typeface with ease.
+- [ui-fonts](https://www.uifonts.app/) - Test and preview fonts in real-time for all your design needs. Choose the perfect typeface with ease.
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [wallhaven-desktop](https://github.com/ErKeLost/wallhaven-desktop) - Wallhaven Wallpaper software desktop. Create a wallhaven api based client , a true wallpaper software. use Farm , Tauri , React19, shadcn/ui.
 - [xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
