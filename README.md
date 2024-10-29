@@ -241,6 +241,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Boilerplates / Templates
 
+- [browser-extension-starter-plasmo-shadcn-trpc](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) - Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC.
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare.
 - [create-tauri-core](https://github.com/mrlightful/create-tauri-core) - A project template for creating a Tauri app with Vite, React, and Tailwind CSS.
