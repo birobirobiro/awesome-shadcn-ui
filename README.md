@@ -52,6 +52,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [file-uploader](https://github.com/sadmann7/file-uploader) - A file uploader built with shadcn/ui and react-dropzone.
 - [file-vault](https://github.com/ManishBisht777/file-vault) - File upload component for React.
 - [fusion-ui](https://github.com/nyxb-ui/ui) - Fusion UI library combining shadcn/ui and MagicUI.
+- [gluestack-ui](https://gluestack.io) - React & React Native Components & Patterns - copy-paste components & patterns crafted with Tailwind CSS (NativeWind)
 - [ibelick/background-snippet](https://bg.ibelick.com/) - Ready to use collection of modern background snippets.
 - [image-upload-shadcn](https://github.com/kushagrasarathe/image-upload-shadcn) - Image upload component
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
