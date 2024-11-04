@@ -166,7 +166,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [down-dev-detector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
-- [hook-again](https://hook-again.vercel.app/docs/installation) - A collection of shadcn/ui installable React Hooks
+- [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [jobsync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
