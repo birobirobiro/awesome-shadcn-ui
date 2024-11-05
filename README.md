@@ -76,7 +76,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [payment-gateways](https://github.com/PremPrakashCodes/payment-gateways) - This repository demonstrates how to integrate popular payment gateways like Stripe, Razorpay, PayPal, and Coinbase into a web application using Next.js 14.
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
-- [plate](https://github.com/udecode/plate) - The rich-text editor for React.
+- [plate](https://github.com/udecode/plate) - A rich-text editor powered by AI.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable.
 - [progress-button](https://github.com/tomredman/ProgressButton) - An extension of shadcn/ui button component that uses a state machine to drive a progress UX.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, dnd-kit, tailwind, and shadcn/ui.
@@ -92,7 +92,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-calendar-component](https://github.com/sersavan/shadcn-calendar-component) - A calendar date picker component designed with shadcn/ui.
 - [shadcn-chat](https://github.com/jakobhoeg/shadcn-chat) - Customizable and reusable chat component for you to use in your projects.
 - [shadcn-carousel-testimonials](https://github.com/johanguse/shadcn-carousel-testimonials) - shadcn UI Carousel Testimonials.
-- [shadcn-chatbot-kit])(https://shadcn-chatbot-kit.vercel.app/) - Beautifully designed chatbot components based on shadcn/ui. Fully customizable and owned by you.
+- [shadcn-chatbot-kit](https://shadcn-chatbot-kit.vercel.app/) - Beautifully designed chatbot components based on shadcn/ui. Fully customizable and owned by you.
 - [shadcn-color-picker](https://shadcn-color-picker.vercel.app/) - A color picker build with react-color and shadcn
 - [shadcn-cookie-consent](https://github.com/r2hu1/shadcn-cookie-consent) - Beautifully designed, customizable cookie consent for web built on top of shadcn-ui and tailwind-css!
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
@@ -117,6 +117,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-ui-templates](https://shadcnui-templates.com) - A collection of Free & Premium templates and resources for shadcn/ui.
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
+- [spectrum-ui](https://github.com/arihantcodes/spectrum-ui) - Spectrum UI is a collection of re-usable components built using Aceternity UI Magic UI and shadn/ui 
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
 - [stunning-ui](https://stunningui.design) - Stunning UI is a collection of interactive Tailwind CSS components built for Vue and Nuxt.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
@@ -167,7 +168,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [down-dev-detector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
-- [hook-again](https://hook-again.vercel.app/docs/installation) - A collection of shadcn/ui installable React Hooks
+- [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
 - [jobsync](https://github.com/Gsync/jobsync) - JobSync is a job seekers' assistant to manage job search efficiently.
