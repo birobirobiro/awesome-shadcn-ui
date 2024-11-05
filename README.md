@@ -183,6 +183,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [qualmeuip](https://www.qualmeuip.xyz/) - Find out your IP address and test your internet speed
 - [shadcn-form-builder](https://shadcn-form-build.vercel.app/) - Create forms with Shadcn, react-hooks-form and zod within minutes
 - [shadcn-pricing-page-generator](https://shipixen.com/shadcn-pricing-page) - The easiest way to get a React pricing page with shadcn/ui, Radix UI and/or Tailwind CSS.
+- [shadcn-theme-editor](https://shadcnthemeeditor.vercel.app) - Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects
 - [shadcn-zod-form](https://github.com/ilyichv/shadcn-zod-form) - CLI tool to generate shadcn/ui forms from zod schemas.
 - [sharable-form-builder](https://github.com/ayoubben18/sharable-form-builder) - A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Next.js.
 - [tinte](https://tinte.railly.dev/) - An opinionated VS Code Theme Generator 🎨
