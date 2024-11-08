@@ -162,6 +162,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [animata](https://animata.design) - Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste into your project.
 - [magicui.design](https://magicui.design) - Largest collection of open-source react components to build beautiful landing pages.
 - [motionvariants](https://github.com/chrisabdo/motionvariants) - Beautiful Framer Motion Animations.
+- [tailwindcss-motion](https://rombo.co/tailwind/) - A new simple syntax animation library. Batteries included. Infinitely configurable.
 
 ### Tools
 
