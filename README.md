@@ -96,6 +96,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-data-table-advanced-col-opions](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) - Column-resizing option to shadcn/ui DataTable.
 - [shadcn-date-picker](https://date-picker.luca-felix.com) - Advanced date picker with range selection, year and month selection, and more.
 - [shadcn-drag-table](https://github.com/zenoncao/shadcn-drag-table) - A drag-and-drop table component using shadcn/ui and Next.js.
+- [shadcn-editor](https://github.com/htmujahid/shadcn-editor) - Lexical editor using shadcn theme and components.
 - [shadcn-extends](https://github.com/lucioew28/extends) - Intended to be a collection of components built using shadcn/ui.
 - [shadcn-extension](https://github.com/BelkacemYerfa/shadcn-extension) - An open-source component collection that extends your UI library, built using shadcn/ui components.
 - [shadcn-image-cropper](https://github.com/sujjeee/shadcn-image-cropper) - A minimal image cropper UI built with shadcn and the react-image-crop library.
