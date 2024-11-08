@@ -57,6 +57,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [image-upload-shadcn](https://github.com/kushagrasarathe/image-upload-shadcn) - Image upload component
 - [indie-ui](https://github.com/Ali-Hussein-dev/indie-ui) - UI components with variants - [Docs](https://ui.indie-starter.dev)
 - [inspira-ui](https://inspira-ui.com/) - UI components to build stunning animated interfaces in Vue/NuxtJS
+- [kokonut-ui](https://kokonut.dev/) - Free Modern and Customizable components build on top of shadcn for Next.js.
 - [lingua-time](https://github.com/nainglinnkhant/lingua-time) - A smart datetime picker which understands natural language input.
 - [lukacho-ui](https://ui.lukacho.com/components) - Next Generation UI Components
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
