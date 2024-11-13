@@ -132,6 +132,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [uixmat/onborda](https://github.com/uixmat/onborda) - Give your application the onboarding it deserves with Onborda product tour for Next.js
 - [vaul](https://vaul.emilkowal.ski/) - Drawer component for React.
 - [zoom-charts](https://github.com/shelwinsunga/zoom-chart-demo) - Zoomable Charts on top of shadcn/ui Charts.
+- [floating-dragable-card](https://github.com/nishansanjuka/react-drag-card) - Dragable and resizable card over view using shadcn/ui elements
 
 ## Apps
 
