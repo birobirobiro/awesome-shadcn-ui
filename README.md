@@ -83,6 +83,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [plate](https://github.com/udecode/plate) - A rich-text editor powered by AI.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable.
 - [progress-button](https://github.com/tomredman/ProgressButton) - An extension of shadcn/ui button component that uses a state machine to drive a progress UX.
+- [react-cursorify](https://cursorify.github.io/) - A react library for applying custom styles to mouse cursor. Customizable and super-easy to use.
 - [react-dnd-kit-tailwind-shadcn-ui](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) - Drag and drop Accessible kanban board implementing using React, dnd-kit, tailwind, and shadcn/ui.
 - [react-highlight-popover](https://react-highlight-popover.omsimos.com) - A headless react component for creating popovers on text selection with zero dependencies.
 - [react-select](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) Implementation of the react-select library with shadcn styling. Support for Select, Async-Select, Multi-Select with many configurable options
