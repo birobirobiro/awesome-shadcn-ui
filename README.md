@@ -228,6 +228,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [kd](https://github.com/gneiru/kd) - Ad-free Kdrama streaming app. Built with Nextjs, Drizzle ORM, NeonDB and shadcn/ui
 - [memergez](https://github.com/avalynndev/memergez) - Quickly generate memes by entering text or an avatar URL, with support for many meme commands.
 - [plotwist](https://plotwist.app/en-US) - Easy management and reviews of your movies, series and animes using Next.js, Tailwind CSS, Supabase and shadcn/ui.
+- [midday](https://midday.ai) - An all-in-one tool for freelancers, contractors, consultants, and micro businesses to manage their finances, track projects, store files, and send invoices.
 
 ## Ports
 
