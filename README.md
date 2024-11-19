@@ -268,6 +268,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Next.js 14 and shadcn/ui
 - [next-starter](https://github.com/Skolaczk/next-starter) - A Next.js starter template, packed with features like TypeScript, Tailwind CSS, Next-auth, Eslint, Stripe, testing tools and more. Jumpstart your project with efficiency and style.
 - [nextjs-mdx-blog](https://github.com/ChangoMan/nextjs-mdx-blog) - Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS.
+- [next-js-views-template](https://next-js-views-template.vercel.app) - An open-source collection of reusable view components like Calendar, Table,etc built with Next.js and ShadCN. Easily copy and paste these pre-built UI elements into your project for fast, responsive, and customizable layouts.
 - [next-wp](https://github.com/9d8dev/next-wp) - Headless Wordpress Starter built with the NextJS App Router and React Server Components
 - [onyx](https://github.com/rmourey26/onyx) - Full stack, batteries included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more.
 - [opendocs](https://opendocs.daltonmenezes.com/) - Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support.
@@ -284,7 +285,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [turborepo-shadcn-ui-tailwindcss](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) - Turborepo starter with shadcn/ui & Tailwind CSS pre-configured for shared ui components.
 - [turborepo-launchpad](https://github.com/JadRizk/turborepo-launchpad) - A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities.
 - [wordpress-plugin-boilerplate](https://github.com/prappo/wordpress-plugin-boilerplate) - WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, Tailwind CSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR and more.
-- [https://next-js-views-template.vercel.app](https://next-js-views-template.vercel.app) - An open-source collection of reusable view components like Calendar, Table,etc built with Next.js and ShadCN. Easily copy and paste these pre-built UI elements into your project for fast, responsive, and customizable layouts.
 
 ## Star History
 
