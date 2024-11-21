@@ -41,7 +41,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [dnd-dashboard](https://github.com/olliethedev/dnd-dashboard) - A beautiful, performant dashboard with drop-to-swap layouts built using Next.js, shadcn/ui, and swapy.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [drag-to-resize-sidebar](https://github.com/lumpinif/drag-to-resize-sidebar) - A extended shadcn/ui drag-to-resize <Sidebar> component for Next.js applications with persisted state drag-to-resize functionality.
-- [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor base on tiptap and shadcn/ui
+- [druid/ui](https://druidui.com/) - Copy paste UI components & an Intercom inspired AI chatbot - elegant, easy to install, fully responsive and customisable. Built on top of shadcn/ui
+- [echo-editor](https://github.com/Seedsa/echo-editor) - A modern WYSIWYG rich-text editor based on tiptap and shadcn/ui
 - [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
