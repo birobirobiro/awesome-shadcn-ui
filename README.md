@@ -219,6 +219,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [birobirobiro.dev](https://birobirobiro.dev/)
 - [shubhporwal.me](https://www.shubhporwal.me/) - An eye-catching developer Portfolio, built on NextJS, GSAP, Tailwind and React.
 - [swajp.me](https://swajp.me)
+- [Nathan's AI](https://chat.brodin.dev) - An AI Chatbot acting as a Portfolio, built with shadcn/ui components.
 
 ## Platforms
 
