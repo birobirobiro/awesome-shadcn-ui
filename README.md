@@ -87,6 +87,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [react-highlight-popover](https://react-highlight-popover.omsimos.com) - A headless react component for creating popovers on text selection with zero dependencies.
 - [react-select](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) Implementation of the react-select library with shadcn styling. Support for Select, Async-Select, Multi-Select with many configurable options
 - [recursive-dnd-kanban-board](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) - Recursively-generated drag and drop Accessible kanban board implementing using Next.js, @dnd-kit, tailwind and shadcn/ui.
+- [roadmap-ui](https://github.com/haydenbleasel/roadmap-ui) - Composable React components for building interactive roadmaps.
 - [search-address](https://github.com/UretzkyZvi/search-address) - The SearchAddress component provides a flexible and interactive search interface for addresses, utilizing the powerful Nominatim service from OpenStreetMap.
 - [shadcn-address-autocomplete](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) - An address autocomplete component built with Google Places API and shadcn components.
 - [shadcn-admin](https://github.com/satnaing/shadcn-admin) - Admin Dashboard UI built with shadcn/ui and Vite.
