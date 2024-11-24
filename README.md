@@ -74,6 +74,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
 - [nextjs-link-pagination](https://shadcn-next-link-pagination.vercel.app) - shadcn paging/pagination that uses Nextjs Links and search params
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Nextjs 14 and Shadcn UI
+- [next-stepper](https://github.com/ebulku/next-stepper) - A dynamic multi-step form. Built with: [ Next.js | shadcn/ui | zustand | framer-motion ]
 - [novel](https://github.com/steven-tey/novel) - Novel is a Notion-style WYSIWYG editor with AI-powered autocompletion. Built with [Tiptap](https://tiptap.dev/) + [Vercel AI SDK](https://sdk.vercel.ai/docs).
 - [number-flow](https://number-flow.barvian.me/) - A React component to transition, localize, and format numbers. Dependency-free. Accessible. Customizable.
 - [origin-ui](https://originui.com/) - Beautiful UI components built with Tailwind CSS and Next.js.
