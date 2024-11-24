@@ -126,6 +126,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
 - [shadcn-ui-templates](https://shadcnui-templates.com) - A collection of Free & Premium templates and resources for shadcn/ui.
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
+- [solanauth](https://solanauth.vercel.app/) - Responsive Solana wallet authentication and account modal built on top of @solana/web3.js with NextAuth integration and shadcn/ui
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
 - [spectrum-ui](https://github.com/arihantcodes/spectrum-ui) - Spectrum UI is a collection of re-usable components built using Aceternity UI Magic UI and shadn/ui 
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
