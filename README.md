@@ -130,6 +130,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [spectrum-ui](https://github.com/arihantcodes/spectrum-ui) - Spectrum UI is a collection of re-usable components built using Aceternity UI Magic UI and shadn/ui 
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
 - [stunning-ui](https://stunningui.design) - Stunning UI is a collection of interactive Tailwind CSS components built for Vue and Nuxt.
+- [supercharged-shadcn-components](https://github.com/slickwit/supercharged-shadcn-components) - A collection of ready-to-use components specializing in building simpler, type-safe react-hook-form components inspired by Material-UI and other libraries.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [twblocks](https://github.com/tommyjepsen/twblocks) - Website blocks to copy/paste - based on shadcn & Radix using Tailwind and NextJS
