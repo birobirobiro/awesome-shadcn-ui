@@ -46,6 +46,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
+- [extend-ui](https://www.extend-ui.com/) - Reusable components built on shadcn/ui to increase performance when building web applications.
 - [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - The Textarea is inspired by GitHub's PR comment section. The impressive part is the @mention support including hover cards in the preview. The goal is to reproduce it without text editor library.
 - [fancy-box](https://craft.mxkaske.dev/post/fancy-box) - The Combobox is inspired by GitHub's PR label selector and is powered by shadcn/ui. Almost all elements are radix-ui components, styled with tailwindcss.
 - [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
@@ -83,6 +84,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
 - [plate](https://github.com/udecode/plate) - A rich-text editor powered by AI.
+- [plate-select-editor](https://platejs.org/docs/multi-select) - A rich multi-select editor.
 - [pqoqubbw](https://icons.pqoqubbw.dev/) - Open-source collection of smooth crafted animated icons for your projects.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable.
 - [progress-button](https://github.com/tomredman/ProgressButton) - An extension of shadcn/ui button component that uses a state machine to drive a progress UX.
