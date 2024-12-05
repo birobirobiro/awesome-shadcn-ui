@@ -266,7 +266,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Boilerplates / Templates
 
-- [autoflow](https://github.com/pingcap/autoflow) - pingcap/autoflow is a Graph RAG based and conversational knowledge base tool built with TiDB Serverless Vector Storage. Demo: https://tidb.ai
+- [autoflow](https://github.com/pingcap/autoflow) - An open source GraphRAG (Knowledge Graph) built on top of TiDB Vector and LlamaIndex and DSPy. [Demo site](https://tidb.ai)
 - [browser-extension-starter-plasmo-shadcn-trpc](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) - Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC.
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare.
