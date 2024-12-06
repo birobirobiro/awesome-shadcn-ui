@@ -22,6 +22,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Libs and Components
 
+- [21st.dev](https://21st.dev/) – open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own.
 - [aceternity-ui](https://ui.aceternity.com/) - Copy paste the most trending react components without having to worry about styling and animations.
 - [assistant-ui](https://github.com/Yonom/assistant-ui) - React Components for AI Chat.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
