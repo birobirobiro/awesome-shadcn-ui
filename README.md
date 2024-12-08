@@ -22,6 +22,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Libs and Components
 
+- [21st.dev](https://21st.dev/) – open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own.
 - [aceternity-ui](https://ui.aceternity.com/) - Copy paste the most trending react components without having to worry about styling and animations.
 - [assistant-ui](https://github.com/Yonom/assistant-ui) - React Components for AI Chat.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
@@ -38,6 +39,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [date-range-picker-for-shadcn](https://github.com/johnpolacek/date-range-picker-for-shadcn) - Includes multi-month views, text entry, preset ranges, responsive design, and date range comparisons.
 - [date-time-picker-shadcn](https://shadcn-datetime-picker.vercel.app) - Beautifully Crafted Datetime Picker for your shadNext Project.
 - [datetime-picker](https://shadcn-datetime-picker-xi.vercel.app) - A powerful datetime picker with support for timezones, minimum and maximum dates, and month/year selection.
+- [dialog-stack](https://github.com/haydenbleasel/dialog-stack) - Composable stacked dialogs for shadcn/ui
 - [dnd-dashboard](https://github.com/olliethedev/dnd-dashboard) - A beautiful, performant dashboard with drop-to-swap layouts built using Next.js, shadcn/ui, and swapy.
 - [downshift-shadcn-combobox](https://github.com/TheOmer77/downshift-shadcn-combobox) - Combobox/autocomplete component built with shadcn/ui and Downshift.
 - [drag-to-resize-sidebar](https://github.com/lumpinif/drag-to-resize-sidebar) - A extended shadcn/ui drag-to-resize <Sidebar> component for Next.js applications with persisted state drag-to-resize functionality.
@@ -46,6 +48,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [edil-ozi](https://edilozi.pro/) - React components for developers. Gsap + framer motion + tailwind.
 - [emblor](https://github.com/JaleelB/emblor) - A highly customizable, accessible, and fully-featured tag input component built with shadcn/ui.
 - [enhanced-button](https://github.com/jakobhoeg/enhanced-button) - An enhanced version of the default shadcn-button component.
+- [extend-ui](https://www.extend-ui.com/) - Reusable components built on shadcn/ui to increase performance when building web applications.
 - [fancy-area](https://craft.mxkaske.dev/post/fancy-area) - The Textarea is inspired by GitHub's PR comment section. The impressive part is the @mention support including hover cards in the preview. The goal is to reproduce it without text editor library.
 - [fancy-box](https://craft.mxkaske.dev/post/fancy-box) - The Combobox is inspired by GitHub's PR label selector and is powered by shadcn/ui. Almost all elements are radix-ui components, styled with tailwindcss.
 - [fancy-multi-select](https://craft.mxkaske.dev/post/fancy-multi-select) - The Multi Select Component is inspired by campsite.design's and cal.com's settings forms.
@@ -74,6 +77,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [nextjs-dnd](https://github.com/sujjeee/nextjs-dnd) - Sortable Drag and Drop with Next.js, shadcn/ui, and dnd-kit.
 - [nextjs-link-pagination](https://shadcn-next-link-pagination.vercel.app) - shadcn paging/pagination that uses Nextjs Links and search params
 - [next-shadcn-dashboard-starter](https://github.com/Kiranism/next-shadcn-dashboard-starter) - Admin Dashboard Starter with Nextjs 14 and Shadcn UI
+- [next-stepper](https://github.com/ebulku/next-stepper) - A dynamic multi-step form. Built with: [ Next.js | shadcn/ui | zustand | framer-motion ]
 - [novel](https://github.com/steven-tey/novel) - Novel is a Notion-style WYSIWYG editor with AI-powered autocompletion. Built with [Tiptap](https://tiptap.dev/) + [Vercel AI SDK](https://sdk.vercel.ai/docs).
 - [number-flow](https://number-flow.barvian.me/) - A React component to transition, localize, and format numbers. Dependency-free. Accessible. Customizable.
 - [origin-ui](https://originui.com/) - Beautiful UI components built with Tailwind CSS and Next.js.
@@ -82,6 +86,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [phone-input-shadcn-ui](https://www.armand-salle.fr/post/phone-input-shadcn-ui) - Custom phone number component built with shadcn/ui.
 - [planner](https://github.com/UretzkyZvi/planner) - Planner is a highly adaptable scheduling component tailored for React applications.
 - [plate](https://github.com/udecode/plate) - A rich-text editor powered by AI.
+- [plate-select-editor](https://platejs.org/docs/multi-select) - A rich multi-select editor.
 - [pqoqubbw](https://icons.pqoqubbw.dev/) - Open-source collection of smooth crafted animated icons for your projects.
 - [pricing-page-shadcn](https://github.com/m4nute/pricing-page-shadcn) - Pricing Page made with shadcn/ui & Next.js 14. Completely customizable.
 - [progress-button](https://github.com/tomredman/ProgressButton) - An extension of shadcn/ui button component that uses a state machine to drive a progress UX.
@@ -131,6 +136,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [spectrum-ui](https://github.com/arihantcodes/spectrum-ui) - Spectrum UI is a collection of re-usable components built using Aceternity UI Magic UI and shadn/ui 
 - [stocks](https://github.com/aryanvichare/stocks) - Stock Picker using Next.js, React Server Components, and shadcn/ui charts.
 - [stunning-ui](https://stunningui.design) - Stunning UI is a collection of interactive Tailwind CSS components built for Vue and Nuxt.
+- [supercharged-shadcn-components](https://github.com/slickwit/supercharged-shadcn-components) - A collection of ready-to-use components specializing in building simpler, type-safe react-hook-form components inspired by Material-UI and other libraries.
 - [time-picker](https://github.com/openstatusHQ/time-picker) - A simple TimePicker for your shadcn/ui project.
 - [tremor-raw](https://github.com/tremorlabs/tremor-raw) - Copy & paste React components to build modern web applications. Good for building charts.
 - [twblocks](https://github.com/tommyjepsen/twblocks) - Website blocks to copy/paste - based on shadcn & Radix using Tailwind and NextJS
@@ -261,6 +267,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Boilerplates / Templates
 
+- [autoflow](https://github.com/pingcap/autoflow) - An open source GraphRAG (Knowledge Graph) built on top of TiDB Vector and LlamaIndex and DSPy. [Demo site](https://tidb.ai)
 - [browser-extension-starter-plasmo-shadcn-trpc](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) - Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC.
 - [chadnext](https://github.com/moinulmoin/chadnext) - Quick Starter Template includes Next.js 14 App router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization and more.
 - [cloudflare-saas-stack](https://github.com/Dhravya/cloudflare-saas-stack) - An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare.
@@ -279,6 +286,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [next-wp](https://github.com/9d8dev/next-wp) - Headless Wordpress Starter built with the NextJS App Router and React Server Components
 - [onyx](https://github.com/rmourey26/onyx) - Full stack, batteries included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more.
 - [opendocs](https://opendocs.daltonmenezes.com/) - Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support.
+- [react-vite-starter](https://github.com/tejachundru/react-vite-starter) - React starter powered with vite + redux toolkit + rtkquery + react router + shadcn ui and many more.
 - [shadcn-landing-page](https://github.com/leoMirandaa/shadcn-landing-page) - Landing page template using shadcn/ui, React, Typescript and Tailwind CSS
 - [shadcn-landing-page](https://github.com/nobruf/shadcn-landing-page) - Project conversion [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to nextjs - Landing page template using Nestjs, shadcn/ui, TypeScript, Tailwind CSS
 - [shadcn-nextjs-free-boilerplate](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) - Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template
