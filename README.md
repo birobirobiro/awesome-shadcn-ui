@@ -121,6 +121,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
 - [shadcn-spinner](https://github.com/allipiopereira/shadcn-spinner) - Spinner component for shadcn/ui.
 - [shadcn-stepper](https://github.com/damianricobelli/shadcn-stepper) - A complete stepper component built with shadcn/ui.
+- [shadcn-table-maker](https://shadcn-table-maker.vercel.app/) - ShadCN Table Maker is a tool designed to simplify the process of creating dynamic, feature-rich tables in Next.js using the ShadCN design library. It provides a robust scaffold for table-related components and integrates seamlessly with the ShadCN Form Builder for effortless form creation.
 - [shadcn-table-v2](https://github.com/sadmann7/shadcn-table) - shadcn/ui table component with server-side sorting, filtering, and pagination.
 - [shadcn-timeline](https://github.com/timDeHof/shadcn-timeline) - Customizable and re-usable timeline component for you to use in your projects. Built on top of shadcn.
 - [shadcn-timeline-2](https://timeline.rilcy.app) - Shadcn timeline component built with shadcn/ui.
