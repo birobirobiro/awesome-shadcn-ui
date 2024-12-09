@@ -119,6 +119,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-multi-select-component](https://github.com/sersavan/shadcn-multi-select-component) - A multi-select component designed with shadcn/ui.
 - [shadcn-phone-input-2](https://github.com/damianricobelli/shadcn-phone-input) - Simple and formatted phone input component built with shadcn/ui y libphonenumber-js.
 - [shadcn-phone-input](https://github.com/omeralpi/shadcn-phone-input) - Customizable phone input component with proper validation for any country.
+- [shadcn-pricing-page](https://github.com/aymanch-03/shadcn-pricing-page) - Responsive and customizable pricing component built with shadcn/ui. Features payment frequency toggles, tier highlights, and smooth price transitions.
 - [shadcn-spinner](https://github.com/allipiopereira/shadcn-spinner) - Spinner component for shadcn/ui.
 - [shadcn-stepper](https://github.com/damianricobelli/shadcn-stepper) - A complete stepper component built with shadcn/ui.
 - [shadcn-table-maker](https://shadcn-table-maker.vercel.app/) - ShadCN Table Maker is a tool designed to simplify the process of creating dynamic, feature-rich tables in Next.js using the ShadCN design library. It provides a robust scaffold for table-related components and integrates seamlessly with the ShadCN Form Builder for effortless form creation.
