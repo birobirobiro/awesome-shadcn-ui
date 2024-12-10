@@ -188,6 +188,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
 - [down-dev-detector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
+- [excelkits](https://excelkits.com/charts) - Create free downloadable Shadcn themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic design mockups.
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
@@ -215,7 +216,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [v0](https://v0.dev/) - Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. It produces React and HTML code, integration is also possible via v0 CLI command.
 - [wallhaven-desktop](https://github.com/ErKeLost/wallhaven-desktop) - Wallhaven Wallpaper software desktop. Create a wallhaven api based client , a true wallpaper software. use Farm , Tauri , React19, shadcn/ui.
 - [xuneix](https://xuneix.theteleporter.me/) - A link rotation tool for enhanced admin panel security. It includes dynamic URLs, expiring tokens, customizable rotation. Easily setup with shadcn/ui. Integrates with Vercel KV.
-- [Excelkits Charts](https://excelkits.com/charts) - Create free downloadable Shadcn themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic design mockups.
 
 ## Websites and Portfolios Inspirations
 
