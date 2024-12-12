@@ -69,6 +69,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [lukacho-ui](https://ui.lukacho.com/components) - Next Generation UI Components
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
+- [marigold-ui](https://www.marigold-ui.io/) - Marigold is a design system developed by Reservix, providing components and tools that let product teams focus on core challenges while creating unified, accessible applications.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
 - [mixcnui](https://github.com/taqui-786/mixcnui) - Mixui is a collection of animated or re-usable component currently for Nextjs.
 - [mynaui](https://mynaui.com/) - TailwindCSS and shadcn/ui UI Kit for Figma and React.
