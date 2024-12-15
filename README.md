@@ -132,7 +132,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [shadcn-ui-expansions](https://github.com/hsuanyi-chou/shadcn-ui-expansions) - A lots of useful components which shadcn/ui does not have out of the box.
 - [shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) - A stunning, functional and responsive retractable sidebar built on top of shadcn/ui.
 - [shadcn-ui-templates](https://shadcnui-templates.com) - A collection of Free & Premium templates and resources for shadcn/ui.
-- [shaduxe-ui](https://ui.shaduxe.ui) - Beautifully designed, expertly crafted component variants. The perfect extension for your shadcn/ui components.
+- [shaduxe-ui](https://ui.shaduxe.com) - Beautifully designed, expertly crafted component variants. The perfect extension for your shadcn/ui components.
 - [simplekit](https://github.com/vaunblu/SimpleKit) - Responsive connect wallet and account component built on top of Wagmi and shadcn/ui.
 - [solanauth](https://solanauth.vercel.app/) - Responsive Solana wallet authentication and account modal built on top of @solana/web3.js with NextAuth integration and shadcn/ui
 - [sortable](https://github.com/sadmann7/sortable) - A sortable component built with shadcn/ui, radix ui, and dnd-kit.
