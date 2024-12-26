@@ -168,7 +168,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [ewgenius/ui](https://ui.ewgenius.me/shadcn-radix-colors) - Create custom themes for shadcn/ui effortlessly using vibrant palettes from [Radix Colors](https://www.radix-ui.com/colors).
 - [gradient-picker](https://github.com/Illyism/gradient-picker) - Fancy Gradient Picker built with shadcn/ui, Radix UI and Tailwind CSS.
 - [navnote/rangeen](https://github.com/navnote/rangeen) - Tool that helps you to create a colour palette for your website
-- [ShaDesigner.com](https://shadesigner.com) - A Shadcn Palette Generator & Theme Designer with a beautiful interface 
+- [shadesigner.com](https://shadesigner.com) - A shadcn/ui Palette Generator & Theme Designer with a beautiful interface 
 - [shadcn-ui-customizer](https://github.com/Railly/shadcn-ui-customizer) - POC - shadcn/ui themes with color pickers
 - [shadcn theme editor](https://github.com/programming-with-ia/shadcn-theme-editor/) - Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects.
 - [ui-colorgen](https://ui-colorgen.vercel.app/) - An application designed to assist you with color configuration of shadcn/ui.
