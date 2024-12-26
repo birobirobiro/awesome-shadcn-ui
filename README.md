@@ -27,8 +27,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [assistant-ui](https://github.com/Yonom/assistant-ui) - React Components for AI Chat.
 - [autocomplete-select-shadcn-ui](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) - Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske.
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
-- [async-select](https://async.rdsx.dev) - Async Select component built with shadcn/ui with debounce search.
 - [bundui](https://bundui.io) - A collection of reusable animated components built with Tailwind CSS and Framer Motion.
+- [calendar](https://calendar-shadcn.vercel.app/) - Shadcn Full Calendar is a versatile, extensive calendar. It has views for days, week & months as well as built in dialogs to add new events. It is an open source alternative to many paid full calendars, for example the ones seen in tailwind ui.
 - [capture-photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications.
 - [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - Composable components that can be used to build custom UIs on top of Clerk's APIs.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
@@ -68,7 +68,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [launch-ui](https://www.launchuicomponents.com/) - Landing page components built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.
 - [lingua-time](https://github.com/nainglinnkhant/lingua-time) - A smart datetime picker which understands natural language input.
 - [lukacho-ui](https://ui.lukacho.com/components) - Next Generation UI Components
-- [manfromexistence-ui](https://github.com/manfromexistence/ui) - Components to build beautiful designs.
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
@@ -196,7 +195,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [excelkits](https://excelkits.com/charts) - Create free downloadable Shadcn themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic design mockups.
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
-- [form-builder-fast](https://ui.indie-starter.dev/form-builder) - Shadcn Form Builder - Build form in minutes for free
 - [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
