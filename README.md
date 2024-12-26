@@ -194,6 +194,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
 - [excelkits](https://excelkits.com/charts) - Create free downloadable Shadcn themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic design mockups.
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
+- [form-builder-fast](https://ui.indie-starter.dev/form-builder) - Shadcn Form Builder - Build form in minutes for free
 - [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
 - [invoify](https://github.com/aliabb01/invoify) - An invoice generator app built using Next.js, Typescript, and shadcn/ui
