@@ -202,6 +202,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [metro-sp](https://github.com/birobirobiro/metro-sp-front) - Receive automatic real-time updates on incidents and changes on the SP Metro, ViaMobilidade and CPTM lines every 5 minutes.
 - [myinstants](https://www.myinstants.xyz/) - The largest instant sound buttons website in Brazil!
 - [opensearch-ai](https://github.com/supermemoryai/opensearch-ai) - SearchGPT / Perplexity clone, but personalised for you.
+- [pagegen.ai](https://pagegen.ai) - An AI Page Generator with Claude AI, React and shadcn/ui. Generate web pages from text, screenshot and template with one click.
 - [pastecode](https://github.com/Quorin/PasteCode.app) - Pastebin alternative built with Typescript, Next.js, Drizzle, shadcn/ui, RSC
 - [postgres](https://postgres.new/)- The in-browser Postgres sandbox with AI assistance
 - [proxmox-helper-scripts](https://github.com/BramSuurdje/proxmox-helper-scripts) - A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui.
