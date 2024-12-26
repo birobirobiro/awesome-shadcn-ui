@@ -188,6 +188,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [country-data-in-charts](https://globe-graph.vercel.app/) - Globe Graph is a web app that visualizes the countries data like GDP, GDP per capita, and population in different years using many charts.
 - [down-dev-detector](https://github.com/birobirobiro/downdevdetector) - This app lists all the services currently down and uses service Atlassian Status Page and others (soon).
 - [cv-forge](https://cvforge.app) - Resume builder, build with @shadcn/ui, react-hook-form and react-pdf
+- [excelkits](https://excelkits.com/charts) - Create free downloadable Shadcn themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic design mockups.
 - [form-builder](https://github.com/AlandSleman/FormBuilder) - UI based codegen tool to easily create Beautiful and Type safe @shadcn/ui forms.
 - [hook-again](https://github.com/ilyichv/hookagain) - A collection of shadcn/ui installable React Hooks
 - [imgsrc](https://imgsrc.io/) - Generate beautiful Open Graph images with zero effort.
