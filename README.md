@@ -68,6 +68,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [launch-ui](https://www.launchuicomponents.com/) - Landing page components built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.
 - [lingua-time](https://github.com/nainglinnkhant/lingua-time) - A smart datetime picker which understands natural language input.
 - [lukacho-ui](https://ui.lukacho.com/components) - Next Generation UI Components
+- [manfromexistence-ui](https://github.com/manfromexistence/ui) - Components to build beautiful designs.
 - [magicui](https://magicui.design) - React components to build beautiful landing pages using tailwindcss + framer motion + shadcn/ui
 - [maily.to](https://github.com/arikchakma/maily.to) - Craft beautiful emails effortlessly with notion like powerful editor.
 - [minimal-tiptap](https://github.com/Aslam97/shadcn-minimal-tiptap) - A minimal WYSIWYG editor built with shadcn/ui and tiptap.
