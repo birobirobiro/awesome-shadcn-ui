@@ -29,6 +29,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 - [auto-form](https://github.com/vantezzen/auto-form) - A React component that automatically creates a shadcn/ui form based on a zod schema.
 - [async-select](https://async.rdsx.dev) - Async Select component built with shadcn/ui with debounce search.
 - [bundui](https://bundui.io) - A collection of reusable animated components built with Tailwind CSS and Framer Motion.
+- [calendar](https://github.com/charlietlamb/calendar) - React/shadcn full calendar like Google Calendar
 - [capture-photo](https://github.com/UretzkyZvi/capture-photo) - Capture-Photo is a versatile, browser-based React component designed to streamline the integration of camera functionalities directly into your web applications.
 - [clerk-elements](https://clerk.com/docs/elements/examples/shadcn-ui) - Composable components that can be used to build custom UIs on top of Clerk's APIs.
 - [clerk-shadcn-theme](https://github.com/stormynight9/clerk-shadcn-theme) - Easily synchronize your Clerk `<SignIn />` and `<SignUp />` components with your shadcn/ui styles.
