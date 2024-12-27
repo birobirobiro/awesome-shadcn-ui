@@ -169,7 +169,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | vscode-shadcn-ui-snippets               | Easily import and use shadcn-ui components with ease using snippets within VSCode. Just type cn or shadcn in your jsx/tsx file and you will get a list of all the components to choose from. | https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets      |
 | vscode-shadcn-vue                       | Extension for integrating shadcn/ui components into Vue.js projects.                                         | https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-vue     |
 
-### Colors and Customizations
+## Colors and Customizations
 
 | Name                                   | Description                                                                                                  | Link                                                                                 |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
@@ -184,7 +184,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | ui-colorgen                            | An application designed to assist you with color configuration of shadcn/ui.                                 | https://ui-colorgen.vercel.app/                                                      |
 | zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps.                 | https://zippystarter.com/tools/shadcn-ui-theme-generator                             |
 
-### Animations
+## Animations
 
 | Name                  | Description                                                                                       | Link                                                |
 |-----------------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------|
@@ -193,7 +193,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | motionvariants       | Beautiful Framer Motion Animations.                                                               | https://github.com/chrisabdo/motionvariants       |
 | tailwindcss-motion   | A new simple syntax animation library. Batteries included. Infinitely configurable.                | https://rombo.co/tailwind/                        |
 
-### Tools
+## Tools
 
 | Name                                | Description                                                                                                                                           | Link                                                  |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
