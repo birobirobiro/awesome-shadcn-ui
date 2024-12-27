@@ -1,0 +1,40 @@
+name: Validate Markdown Tables
+
+on:
+  pull_request:
+    branches:
+      - main # Run for PRs targeting the main branch
+
+jobs:
+  validate-tables:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository code
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Set up Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16"
+
+      # Install markdownlint for validating Markdown syntax
+      - name: Install Markdownlint
+        run: npm install -g markdownlint-cli
+
+      # Validate all Markdown files in the repository
+      - name: Lint Markdown Files
+        run: markdownlint "**/*.md"
+
+      # Optional: Use a custom script to validate tables
+      - name: Validate Markdown Tables
+        run: |
+          npm install -g markdown-table-checker
+          find . -name "*.md" -exec markdown-table-checker {} \;
+
+      # Display a message if the checks fail
+      - name: Report Issues
+        if: failure()
+        run: echo "Broken Markdown tables detected. Please fix the issues listed above."
