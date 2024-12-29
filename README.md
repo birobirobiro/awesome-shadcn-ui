@@ -198,6 +198,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Name                                | Description                                                                                                                                           | Link                                                  |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | 5devs                               | A website to get fake Brazilian data for testing purposes.                                                                                            | https://www.5devs.com.br/                            |
+| ai-generator-shadcn-theme           | AI Shadcn Theme Generator, The AI Shadcn Theme Generator crafts stunning, consistent themes for your shadcn/ui projects in seconds.                   | https://ipalettes.com/theme/shadcn                   |
 | bento-hub                           | BentoHub is an application where you can create a bento grid for your GitHub profile readme.                                                          | https://github.com/amittam104/BentoHub               |
 | cut-it                              | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui.                                         | https://github.com/mehrabmp/cut-it                   |
 | country-data-in-charts              | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts.               | https://globe-graph.vercel.app/                      |
@@ -234,7 +235,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | v0                                  | Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images.                  | https://v0.dev/                                      |
 | wallhaven-desktop                   | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software.                                               | https://github.com/ErKeLost/wallhaven-desktop        |
 | xuneix                              | A link rotation tool for enhanced admin panel security. Includes dynamic URLs, expiring tokens, customizable rotation.                              | https://xuneix.theteleporter.me/                     |
-| ai-generator-shadcn-theme           | AI Shadcn Theme Generator, The AI Shadcn Theme Generator crafts stunning, consistent themes for your shadcn/ui projects in seconds.                 | https://ipalettes.com/theme/shadcn                     |
 
 ## Websites and Portfolios Inspirations
 
