@@ -234,6 +234,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | v0                                  | Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images.                  | https://v0.dev/                                      |
 | wallhaven-desktop                   | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software.                                               | https://github.com/ErKeLost/wallhaven-desktop        |
 | xuneix                              | A link rotation tool for enhanced admin panel security. Includes dynamic URLs, expiring tokens, customizable rotation.                              | https://xuneix.theteleporter.me/                     |
+| ai-generator-shadcn-theme           | AI Shadcn Theme Generator, The AI Shadcn Theme Generator crafts stunning, consistent themes for your shadcn/ui projects in seconds.                 | https://ipalettes.com/theme/shadcn                     |
 
 ## Websites and Portfolios Inspirations
 
