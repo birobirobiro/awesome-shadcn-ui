@@ -145,6 +145,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | spectrum-ui | Collection using Aceternity UI Magic UI. | https://github.com/arihantcodes/spectrum-ui |
 | stocks | Stock Picker with Next.js charts. | https://github.com/aryanvichare/stocks |
 | stunning-ui | Interactive Tailwind components for Vue. | https://stunningui.design |
+| supabase-shadcn-database-example | supabase + shadcn/ui datatable | https://github.com/thisisfel1x/supabase-shadcn-database-example |
 | supercharged-shadcn-components | Type-safe form components collection. | https://github.com/slickwit/supercharged-shadcn-components |
 | time-picker | Simple TimePicker component. | https://github.com/openstatusHQ/time-picker |
 | tremor-raw | Components for charts and dashboards. | https://github.com/tremorlabs/tremor-raw |
