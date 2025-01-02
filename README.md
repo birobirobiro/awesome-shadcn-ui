@@ -234,6 +234,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | ui-builder                          | A React component editor that provides a no-code, visual way to create UIs, fully compatible with shadcn/ui and custom components.                  | https://github.com/olliethedev/ui-builder            |
 | ui-fonts                            | Test and preview fonts in real-time for all your design needs. Choose the perfect typeface with ease.                                               | https://www.uifonts.app/                             |
 | v0                                  | Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images.                  | https://v0.dev/                                      |
+| vercel-status-tracker                                  | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS.                  | https://vercel-status-tracker.vercel.app                                      |
 | wallhaven-desktop                   | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software.                                               | https://github.com/ErKeLost/wallhaven-desktop        |
 | xuneix                              | A link rotation tool for enhanced admin panel security. Includes dynamic URLs, expiring tokens, customizable rotation.                              | https://xuneix.theteleporter.me/                     |
 
