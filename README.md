@@ -244,6 +244,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 |--------------------------|----------------------------------------------------------------------------------------------------------|---------------------------------------|
 | andrewsam.xyz            | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | https://www.andrewsam.xyz/            |
 | birobirobiro.dev         | A personal developer portfolio.                                                                          | https://birobirobiro.dev/             |
+| dev-quotes               | A website that displays quotes from professional programmers.                                            | https://dev-quotes-six.vercel.app/    |
 | godly                    | Astronomically good web design inspiration. Only the best of the best.                                   | https://godly.website/                |
 | list.swajp.me            | It has never been easier to find the right projects or designs by inspiring successful people.           | https://list.swajp.me                 |
 | Nathan's AI              | An AI Chatbot acting as a portfolio, built with shadcn/ui components.                                    | https://chat.brodin.dev               |
