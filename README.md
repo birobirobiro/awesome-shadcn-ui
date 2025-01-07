@@ -123,6 +123,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-image-cropper | Image cropper with react-image-crop. | https://github.com/sujjeee/shadcn-image-cropper |
 | shadcn-linear-combobox | Linear-style task priority combobox. | https://github.com/damianricobelli/shadcn-linear-combobox |
 | shadcn-multi-select-component | Multi-select component. | https://github.com/sersavan/shadcn-multi-select-component |
+| shadcn-number-scrubber | Draggable numeric input component. | https://github.com/camwebby/shadcn-react-number-scrubber |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | https://github.com/damianricobelli/shadcn-phone-input |
 | shadcn-phone-input | Phone input with country validation. | https://github.com/omeralpi/shadcn-phone-input |
 | shadcn-pricing-page | Responsive pricing component with toggles. | https://github.com/aymanch-03/shadcn-pricing-page |
