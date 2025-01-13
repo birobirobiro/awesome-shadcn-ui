@@ -117,6 +117,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-data-table-advanced-col-opions | DataTable with column resizing. | https://github.com/danielagg/shadcn-data-table-advanced-col-opions |
 | shadcn-date-picker | Advanced date picker with various features. | https://date-picker.luca-felix.com |
 | shadcn-drag-table | Drag-and-drop table component. | https://github.com/zenoncao/shadcn-drag-table |
+| shadcn-dropzone | File upload component using React-Dropzone, built with accessibility in mind. | https://github.com/janglad/shadcn-dropzone |
 | shadcn-editor | Lexical editor with shadcn theme. | https://github.com/htmujahid/shadcn-editor |
 | shadcn-extends | Collection of shadcn/ui components. | https://github.com/lucioew28/extends |
 | shadcn-extension | Open-source component collection. | https://github.com/BelkacemYerfa/shadcn-extension |
