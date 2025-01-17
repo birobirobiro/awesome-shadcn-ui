@@ -76,6 +76,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | maily.to | Notion-like powerful email editor. | https://github.com/arikchakma/maily.to |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | https://github.com/Aslam97/shadcn-minimal-tiptap |
 | mixcnui | Collection of animated components for Nextjs. | https://github.com/taqui-786/mixcnui |
+| MultiSelection | Managing multi-selection functionality with highlighter. | [https://github.com/taqui-786/mixcnui](https://github.com/sherifawad/multi-selection-with-add-remove) |
 | mynaui | TailwindCSS and shadcn/ui UI Kit for Figma and React. | https://mynaui.com/ |
 | neobrutalism-components | Neobrutalism-styled Tailwind React and shadcn/ui components. | https://github.com/ekmas/neobrutalism-components |
 | nextjs-components | Next.js components with TypeScript and shadcn/ui. | https://components.bridger.to/ |
