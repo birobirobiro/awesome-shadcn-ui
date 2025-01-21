@@ -24,6 +24,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 | Name | Description | Link |
 |------|-------------|------|
+
 | 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) |
@@ -73,6 +74,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) |
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) |
+| multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) |
 | maily.to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) |
@@ -141,6 +143,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-ui-sidebar | Retractable responsive sidebar. | [Link](https://github.com/salimi-my/shadcn-ui-sidebar) |
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) |
 | shaduxe-ui | Component variants for shadcn/ui. | [Link](https://ui.shaduxe.com) |
+| simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) |
