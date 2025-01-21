@@ -142,6 +142,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-ui-sidebar | Retractable responsive sidebar. | https://github.com/salimi-my/shadcn-ui-sidebar |
 | shadcn-ui-templates | Free & Premium templates collection. | https://shadcnui-templates.com |
 | shaduxe-ui | Component variants for shadcn/ui. | https://ui.shaduxe.com |
+| simple-ai | Components and blocks to easily build AI apps | https://simple-ai.dev |
 | simplekit | Wallet and account component for Wagmi. | https://github.com/vaunblu/SimpleKit |
 | solanauth | Solana wallet authentication modal. | https://solanauth.vercel.app/ |
 | sortable | Sortable component with dnd-kit. | https://github.com/sadmann7/sortable |
