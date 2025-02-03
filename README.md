@@ -144,6 +144,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shaduxe-ui | Component variants for shadcn/ui. | [Link](https://ui.shaduxe.com) |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) |
+| skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) |
