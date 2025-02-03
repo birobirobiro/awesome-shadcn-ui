@@ -154,7 +154,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | supabase-shadcn-database-example | supabase + shadcn/ui datatable | [Link](https://github.com/thisisfel1x/supabase-shadcn-database-example) |
 | supercharged-shadcn-components | Type-safe form components collection. | [Link](https://github.com/slickwit/supercharged-shadcn-components) |
 | time-picker | Simple TimePicker component. | [Link](https://github.com/openstatusHQ/time-picker) |
-| tremor-raw | Components for charts and dashboards. | [Link](https://github.com/tremorlabs/tremor-raw) |
+| tremor | Components for charts and dashboards. | [Link](https://github.com/tremorlabs/tremor) |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) |
 | tweet-to-code | Twitter design recreations as code. | [Link](https://tweet-to-code.vercel.app/) |
 | ui-beats | Animated React Components collection. | [Link](https://uibeats.com) |
