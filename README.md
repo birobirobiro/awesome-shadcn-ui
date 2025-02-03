@@ -71,6 +71,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | kokonut-ui | Free Modern and Customizable components for Next.js. | [Link](https://kokonut.dev/) |
 | launch-ui | Landing page components with React, Shadcn/ui and Tailwind. | [Link](https://www.launchuicomponents.com/) |
 | lingua-time | Smart datetime picker with natural language input. | [Link](https://github.com/nainglinnkhant/lingua-time) |
+| linked-chart | Chart component linked with data-table. | [Link](https://github.com/ardasisbot/linked-chart) |
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) |
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) |
