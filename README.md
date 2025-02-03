@@ -117,6 +117,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-country-dropdown | ISO 3166 country selector dropdown. | [Link](https://shadcn-country-dropdown.vercel.app/) |
 | shadcn-data-table-advanced-col-opions | DataTable with column resizing. | [Link](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) |
 | shadcn-date-picker | Advanced date picker with various features. | [Link](https://date-picker.luca-felix.com) |
+| shadcn-drag-and-drop-sort | Drag-and-drop sortable list of pills of different widths using dnd-kit. | [Link](https://github.com/crystaltai/shadcn-drag-and-drop) |
 | shadcn-drag-table | Drag-and-drop table component. | [Link](https://github.com/zenoncao/shadcn-drag-table) |
 | shadcn-dropzone | File upload component using React-Dropzone, built with accessibility in mind. | [Link](https://github.com/janglad/shadcn-dropzone) |
 | shadcn-editor | Lexical editor with shadcn theme. | [Link](https://github.com/htmujahid/shadcn-editor) |
