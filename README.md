@@ -115,6 +115,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-carousel-testimonials | Carousel Testimonials component. | [Link](https://github.com/johanguse/shadcn-carousel-testimonials) |
 | shadcn-chatbot-kit | Customizable chatbot components. | [Link](https://shadcn-chatbot-kit.vercel.app/) |
 | shadcn-color-picker | Color picker with react-color. | [Link](https://shadcn-color-picker.vercel.app/) |
+| shadcn-cookies | Sleek and flexible cookie consent component, designed with shadcn/ui | [Link](https://shadcn-cookies.vercel.app/) |
 | shadcn-cookie-consent | Customizable cookie consent component. | [Link](https://github.com/r2hu1/shadcn-cookie-consent) |
 | shadcn-country-dropdown | ISO 3166 country selector dropdown. | [Link](https://shadcn-country-dropdown.vercel.app/) |
 | shadcn-data-table-advanced-col-opions | DataTable with column resizing. | [Link](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) |
