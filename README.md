@@ -163,7 +163,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | ui-beats | Animated React Components collection. | [Link](https://uibeats.com) |
 | uixmat/onborda | Product tour for Next.js applications. | [Link](https://github.com/uixmat/onborda) |
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) |
-| zoom-charts | Zoomable Charts with shadcn/ui. | [Link](<https://github.com/shelwinsunga/zoom-chart-demo>) |
+| zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) |
 
 ## Plugins and Extensions
 
