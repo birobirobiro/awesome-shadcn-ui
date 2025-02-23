@@ -61,6 +61,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | farmui | Styled and animated component library with npm package support. | [Link](https://farmui.com) |
 | file-uploader | File uploader with shadcn/ui and react-dropzone. | [Link](https://github.com/sadmann7/file-uploader) |
 | file-vault | File upload component for React. | [Link](https://github.com/ManishBisht777/file-vault) |
+| nextjs-multi-image-upload | Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). | [Link](https://github.com/jacksonkasi0/nextjs-multi-image-upload) |
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) |
 | gluestack-ui | React & React Native Components with Tailwind CSS. | [Link](https://gluestack.io) |
