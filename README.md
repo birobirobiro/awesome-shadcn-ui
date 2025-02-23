@@ -85,6 +85,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | nextjs-components | Next.js components with TypeScript and shadcn/ui. | [Link](https://components.bridger.to/) |
 | nextjs-dnd | Sortable Drag and Drop with Next.js and dnd-kit. | [Link](https://github.com/sujjeee/nextjs-dnd) |
 | nextjs-link-pagination | Pagination using Nextjs Links and search params. | [Link](https://shadcn-next-link-pagination.vercel.app) |
+| nextjs-multi-image-upload | Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). | [Link](https://github.com/jacksonkasi0/nextjs-multi-image-upload) |
 | next-shadcn-dashboard-starter | Admin Dashboard Starter with Nextjs 14 and Shadcn UI. | [Link](https://github.com/Kiranism/next-shadcn-dashboard-starter) |
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) |
