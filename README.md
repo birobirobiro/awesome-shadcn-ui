@@ -134,6 +134,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-linear-combobox | Linear-style task priority combobox. | [Link](https://github.com/damianricobelli/shadcn-linear-combobox)|
 | shadcn-multi-select-component | Multi-select component. | [Link](https://github.com/sersavan/shadcn-multi-select-component) |
 | shadcn-number-scrubber | Draggable numeric input component. | [Link](https://github.com/camwebby/shadcn-react-number-scrubber) |
+| shadcn-packaged | This is an npm package that exports all shadcn/ui components without the need for a CLI, designed for ease of use. | [Link](https://github.com/anuoua/shadcn-packaged) |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | [Link](https://github.com/damianricobelli/shadcn-phone-input) |
 | shadcn-phone-input | Phone input with country validation. | [Link](https://github.com/omeralpi/shadcn-phone-input) |
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) |
@@ -168,7 +169,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | uixmat/onborda | Product tour for Next.js applications. | [Link](https://github.com/uixmat/onborda) |
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) |
-| shadcn-packaged | This is an npm package that exports all shadcn/ui components without the need for a CLI, designed for ease of use. | [Link](https://github.com/anuoua/shadcn-packaged) |
 
 ## Plugins and Extensions
 
