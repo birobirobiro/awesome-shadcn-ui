@@ -132,7 +132,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-iconpicker | React/shadcn simple icon picker using lucide icons. | [Link](https://icon-picker.alan-courtois.fr/) |
 | shadcn-image-cropper | Image cropper with react-image-crop. | [Link](https://github.com/sujjeee/shadcn-image-cropper) |
 | shadcn-linear-combobox | Linear-style task priority combobox. | [Link](https://github.com/damianricobelli/shadcn-linear-combobox)|
-| shadcn-location-picker | Simple google maps location picker. | [Link](https://github.com/brielov/awesome-shadcn-ui) |
+| shadcn-location-picker | Simple google maps location picker. | [Link](https://github.com/brielov/shadcn-location-picker) |
 | shadcn-multi-select-component | Multi-select component. | [Link](https://github.com/sersavan/shadcn-multi-select-component) |
 | shadcn-number-scrubber | Draggable numeric input component. | [Link](https://github.com/camwebby/shadcn-react-number-scrubber) |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | [Link](https://github.com/damianricobelli/shadcn-phone-input) |
