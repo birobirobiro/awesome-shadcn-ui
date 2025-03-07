@@ -36,7 +36,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) |
-| confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) |
 | country-state-dropdown | Component built with Nextjs, Tailwindcss, shadcn/ui & Zustand. | [Link](https://github.com/Jayprecode/country-state-dropdown) |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) |
 | credenza | Ready-made responsive modal component for shadcn/ui. | [Link](https://github.com/redpangilinan/credenza) |
