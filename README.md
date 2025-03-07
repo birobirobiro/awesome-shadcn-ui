@@ -44,7 +44,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) |
 | datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) |
-| dialog-stack | Composable stacked dialogs for shadcn/ui | [Link](https://github.com/haydenbleasel/dialog-stack) |
 | dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) |
 | downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) |
 | drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) |
