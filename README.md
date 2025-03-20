@@ -22,8 +22,8 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 ## Libs and Components
 
-| Name | Description | Link |
-|------|-------------|------|
+| Name | Description | Link | Date |
+|------|-------------|------|------|
 | 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) |
