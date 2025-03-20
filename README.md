@@ -30,6 +30,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) |
+| big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) |
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) |
 | calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) |
 | capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) |
@@ -45,11 +46,11 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) |
 | date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) |
 | datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) |
-| dialog-stack | Composable stacked dialogs for shadcn/ui | [Link](https://github.com/haydenbleasel/dialog-stack) |
 | dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) |
 | downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) |
 | drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) |
 | druid/ui | Intercom inspired AI chatbot and UI components built on shadcn/ui. | [Link](https://druidui.com/) |
+| dy-comps | shacn/ui & Framer Motion React components — flexible, responsive & easy to drop into any project. | [Link](https://dycomps.oimmi.com/) |
 | echo-editor | Modern WYSIWYG rich-text editor based on tiptap and shadcn/ui. | [Link](https://github.com/Seedsa/echo-editor) |
 | edil-ozi | React components with Gsap, framer motion, and tailwind. | [Link](https://edilozi.pro/) |
 | emblor | Customizable, accessible tag input component with shadcn/ui. | [Link](https://github.com/JaleelB/emblor) |
