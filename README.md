@@ -24,32 +24,32 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 | Name | Description | Link | Date |
 |------|-------------|------|------|
-| 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-06 | 2024-12-06 |
-| aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-06 | 2024-12-06 |
-| assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-09-23 | 2024-09-23 |
-| autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-04-07 | 2024-04-07 |
+| 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-06 |
+| aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-06 |
+| assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-09-23 |
+| autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-04-07 |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-04-29 | 2024-04-29 |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-07-22 | 2024-07-22 |
-| big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08 | 2025-03-08 |
-| bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-09-23 | 2024-09-23 |
-| calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) | 2024-05-03 | 2024-05-03 |
-| capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) | 2024-05-06 | 2024-05-06 |
-| clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-06-07 | 2024-06-07 |
-| clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-06-07 | 2024-06-07 |
-| commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20 | 2025-02-20 |
-| confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) | 2024-07-02 | 2024-07-02 |
-| country-state-dropdown | Component built with Nextjs, Tailwindcss, shadcn/ui & Zustand. | [Link](https://github.com/Jayprecode/country-state-dropdown) | 2024-02-22 | 2024-02-22 |
-| cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-05-29 | 2024-05-29 |
-| credenza | Ready-made responsive modal component for shadcn/ui. | [Link](https://github.com/redpangilinan/credenza) | 2024-06-07 | 2024-06-07 |
-| crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-07-16 | 2024-07-16 |
-| date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-04-29 | 2024-04-29 |
-| date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-07-16 | 2024-07-16 |
-| date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08 | 2025-03-08 |
-| datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) | 2024-07-16 | 2024-07-16 |
-| dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) | 2024-10-17 | 2024-10-17 |
-| downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) | 2024-06-27 | 2024-06-27 |
-| drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) | 2024-11-21 | 2024-11-21 |
-| druid/ui | Intercom inspired AI chatbot and UI components built on shadcn/ui. | [Link](https://druidui.com/) | 2024-11-21 | 2024-11-21 |
+| big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08 |
+| bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-09-23 |
+| calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) | 2024-05-03 |
+| capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) | 2024-05-06 |
+| clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-06-07 |
+| clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-06-07 |
+| commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20 |
+| confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) | 2024-07-02 |
+| country-state-dropdown | Component built with Nextjs, Tailwindcss, shadcn/ui & Zustand. | [Link](https://github.com/Jayprecode/country-state-dropdown) | 2024-02-22 |
+| cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-05-29 |
+| credenza | Ready-made responsive modal component for shadcn/ui. | [Link](https://github.com/redpangilinan/credenza) | 2024-06-07 |
+| crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-07-16 |
+| date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-04-29 |
+| date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-07-16 |
+| date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08 |
+| datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) | 2024-07-16 |
+| dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) | 2024-10-17 |
+| downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) | 2024-06-27 |
+| drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) | 2024-11-21 |
+| druid/ui | Intercom inspired AI chatbot and UI components built on shadcn/ui. | [Link](https://druidui.com/) | 2024-11-21 |
 | dy-comps | shacn/ui & Framer Motion React components — flexible, responsive & easy to drop into any project. | [Link](https://dycomps.oimmi.com/) | 2025-03-08 |
 | echo-editor | Modern WYSIWYG rich-text editor based on tiptap and shadcn/ui. | [Link](https://github.com/Seedsa/echo-editor) | 2024-06-07 |
 | edil-ozi | React components with Gsap, framer motion, and tailwind. | [Link](https://edilozi.pro/) | 2024-06-27 |
