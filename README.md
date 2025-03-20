@@ -164,7 +164,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | stunning-ui | Interactive Tailwind components for Vue. | [Link](https://stunningui.design) | 2024-10-22 |
 | supabase-shadcn-database-example | supabase + shadcn/ui datatable | [Link](https://github.com/thisisfel1x/supabase-shadcn-database-example) | 2024-12-30 |
 | supercharged-shadcn-components | Type-safe form components collection. | [Link](https://github.com/slickwit/supercharged-shadcn-components) | 2024-11-25 |
-| tanstack-ui-table | Customizable table with @tanstack/table and shadcn/ui | 2025-02-27 |
+| tanstack-ui-table | Customizable table with @tanstack/table and shadcn/ui | [Link](https://github.com/drefahl/tanstack-ui-table) |2025-02-27 |
 | time-picker | Simple TimePicker component. | [Link](https://github.com/openstatusHQ/time-picker) | 2024-04-29 |
 | tremor | Components for charts and dashboards. | [Link](https://github.com/tremorlabs/tremor) | 2024-06-15 |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) | 2024-11-25 |
