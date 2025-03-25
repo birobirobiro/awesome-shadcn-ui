@@ -200,9 +200,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadesigner.com                        | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface.                                   | [Link](https://shadesigner.com)                                                            |
 | shadcn-ui-customizer                   | POC - shadcn/ui themes with color pickers.                                                                   | [Link](https://github.com/Railly/shadcn-ui-customizer)                                     |
 | shadcn theme editor                    | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/)                          |
+| tweakcn | powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless Tailwind CSS V4 integration                 | [Link](https://tweakcn.com/)  
 | ui-colorgen                            | An application designed to assist you with color configuration of shadcn/ui.                                 | [Link](https://ui-colorgen.vercel.app/)                                                      |
-| zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps.                 | [Link](https://zippystarter.com/tools/shadcn-ui-theme-generator)                             |
-| tweakcn | powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless Tailwind CSS V4 integration                 | [Link](https://tweakcn.com/)                             |
+| zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps.                 | [Link](https://zippystarter.com/tools/shadcn-ui-theme-generator)                             |                           |
 
 ## Animations
 
