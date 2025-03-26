@@ -155,6 +155,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) |
 | shaduxe-ui | Component variants for shadcn/ui. | [Link](https://ui.shaduxe.com) |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) |
+| simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) |
