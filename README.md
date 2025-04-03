@@ -55,6 +55,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | edil-ozi | React components with Gsap, framer motion, and tailwind. | [Link](https://edilozi.pro/) |
 | emblor | Customizable, accessible tag input component with shadcn/ui. | [Link](https://github.com/JaleelB/emblor) |
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) |
+| event-timeline-roadmap | A pair of customizable, animated event timeline and roadmap components | [Link](https://roadmap.hncore.website/) |
 | extend-ui | Reusable components built on shadcn/ui for web applications. | [Link](https://www.extend-ui.com/) |
 | fancy-area | Textarea with @mention support inspired by GitHub's PR comment section. | [Link](https://craft.mxkaske.dev/post/fancy-area) |
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) |
@@ -108,7 +109,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | react-select | React-select library with shadcn styling. | [Link](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) |
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) |
-| roadmap.hncore.website | A pair of customizable, animated event timeline and roadmap components | [Link](https://github.com/aliezzahn/event-timeline-roadmap) |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) |
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) |
