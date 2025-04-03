@@ -114,6 +114,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) |
 | shadcn-blocks | Official pre-made customizable components. | [Link](https://ui.shadcn.com/blocks) |
 | shadcn-blocks-com | Hundreds of extra blocks built with shadcn/ui. | [Link](https://www.shadcnblocks.com) |
+| shadcn-builder | Create beautiful, responsive forms with our easy-to-use form builder and generate React code using shadcn/ui components. | [Link](https://www.shadcn-builder.com/?ref=awesome-shadcn-ui) |
 | shadcn-cal | Cal.com monthly calendar replica with shadcn/ui. | [Link](https://shadcn-cal-com.vercel.app/?date=2024-04-29) |
 | shadcn-calendar-heatmap | Modern calendar heatmap alternative. | [Link](https://shadcn-calendar-heatmap.vercel.app/) |
 | shadcn-calendar-component | Calendar date picker component. | [Link](https://github.com/sersavan/shadcn-calendar-component) |
