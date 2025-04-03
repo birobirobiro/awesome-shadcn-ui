@@ -56,6 +56,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | emblor | Customizable, accessible tag input component with shadcn/ui. | [Link](https://github.com/JaleelB/emblor) |
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) |
 | eo-n/ui | Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind CSS for a modern and customizable design system. | [Link](https://github.com/aeonzz/eo-n) |
+| event-timeline-roadmap | A pair of customizable, animated event timeline and roadmap components | [Link](https://roadmap.hncore.website/) |
 | extend-ui | Reusable components built on shadcn/ui for web applications. | [Link](https://www.extend-ui.com/) |
 | fancy-area | Textarea with @mention support inspired by GitHub's PR comment section. | [Link](https://craft.mxkaske.dev/post/fancy-area) |
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) |
@@ -72,6 +73,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | indie-ui | UI components with variants. | [Link](https://github.com/Ali-Hussein-dev/indie-ui) |
 | inspira-ui | UI components for animated interfaces in Vue/NuxtJS. | [Link](https://inspira-ui.com/) |
 | junwen-k/ui-x | Additional beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. | [Link](https://ui-x.junwen-k.dev/) |
+| kibo-ui | Kibo UI is designed to be a more comprehensive library of components that can be used to build more complex applications. | [Link](https://www.kibo-ui.com/overview) |
 | kokonut-ui | Free Modern and Customizable components for Next.js. | [Link](https://kokonut.dev/) |
 | launch-ui | Landing page components with React, Shadcn/ui and Tailwind. | [Link](https://www.launchuicomponents.com/) |
 | lingua-time | Smart datetime picker with natural language input. | [Link](https://github.com/nainglinnkhant/lingua-time) |
@@ -114,6 +116,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) |
 | shadcn-blocks | Official pre-made customizable components. | [Link](https://ui.shadcn.com/blocks) |
 | shadcn-blocks-com | Hundreds of extra blocks built with shadcn/ui. | [Link](https://www.shadcnblocks.com) |
+| shadcn-builder | Create beautiful, responsive forms with our easy-to-use form builder and generate React code using shadcn/ui components. | [Link](https://www.shadcn-builder.com/?ref=awesome-shadcn-ui) |
 | shadcn-cal | Cal.com monthly calendar replica with shadcn/ui. | [Link](https://shadcn-cal-com.vercel.app/?date=2024-04-29) |
 | shadcn-calendar-heatmap | Modern calendar heatmap alternative. | [Link](https://shadcn-calendar-heatmap.vercel.app/) |
 | shadcn-calendar-component | Calendar date picker component. | [Link](https://github.com/sersavan/shadcn-calendar-component) |
@@ -155,7 +158,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-ui-sidebar | Retractable responsive sidebar. | [Link](https://github.com/salimi-my/shadcn-ui-sidebar) |
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) |
 | shaduxe-ui | Component variants for shadcn/ui. | [Link](https://ui.shaduxe.com) |
+| shsfui | Motion-first React components built with Tailwind CSS + Framer Motion. | [Link](https://www.shsfui.com) |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) |
+| simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) |
@@ -201,8 +206,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadesigner.com                        | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface.                                   | [Link](https://shadesigner.com)                                                            |
 | shadcn-ui-customizer                   | POC - shadcn/ui themes with color pickers.                                                                   | [Link](https://github.com/Railly/shadcn-ui-customizer)                                     |
 | shadcn theme editor                    | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/)                          |
+| tweakcn | powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless Tailwind CSS V4 integration                 | [Link](https://tweakcn.com/)  
 | ui-colorgen                            | An application designed to assist you with color configuration of shadcn/ui.                                 | [Link](https://ui-colorgen.vercel.app/)                                                      |
-| zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps.                 | [Link](https://zippystarter.com/tools/shadcn-ui-theme-generator)                             |
+| zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps.                 | [Link](https://zippystarter.com/tools/shadcn-ui-theme-generator)                             |                           |
 
 ## Animations
 
