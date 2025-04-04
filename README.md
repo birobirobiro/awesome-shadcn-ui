@@ -24,6 +24,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 
 | Name | Description | Link | Date |
 |------|-------------|------|------|
+| 1test | This is a test pr to test the new action. This should get a dated auto added by github actions. | [Link](https://awesome-shadcn-ui.vercel.app/) |
 | 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-06 |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-06 |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-09-23 |
