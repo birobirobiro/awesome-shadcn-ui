@@ -57,7 +57,8 @@ for (let i = 0; i < lines.length; i++) {
       if (!dateValue || dateValue === '') {
         // This row needs a date
         parts[dateColumnIndex] = ` ${currentDate} `;
-        const newLine = parts.join('|');
+        let newLine = parts.join('|').trimEnd();
+        if (!newLine.endsWith('|')) newLine += ' |';
         updatedLines.push(newLine);
         changesCount++;
         console.log(`Added date to row: ${parts[1].trim()}`);
