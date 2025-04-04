@@ -42,7 +42,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-05-29 |
 | credenza | Ready-made responsive modal component for shadcn/ui. | [Link](https://github.com/redpangilinan/credenza) | 2024-06-07 |
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-07-16 |
-| -range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-04-29 |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-07-16 |
 | date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08 |
 | datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) | 2024-07-16 |
@@ -105,6 +104,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-11-21 |
 | pricing-page-shadcn | Customizable pricing page with Next.js 14. | [Link](https://github.com/m4nute/pricing-page-shadcn) | 2024-04-07 |
 | progress-button | Extended button component with progress UX. | [Link](https://github.com/tomredman/ProgressButton) | 2024-07-10 |
+| range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-04-29 |
 | react-dnd-kit-tailwind-shadcn-ui | Accessible kanban board with dnd-kit. | [Link](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) | 2024-03-27 |
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-10-03 |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-26 |
