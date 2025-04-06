@@ -31,6 +31,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-04-29 | 2024-04-29 |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-07-22 | 2024-07-22 |
 | big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08 |
+| BuouUI | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com)/)
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-09-23 |
 | calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) | 2024-05-03 |
 | capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) | 2024-05-06 |
@@ -218,8 +219,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | magicui.design | Largest collection of open-source react components to build beautiful landing pages. | [Link](https://magicui.design) | 2024-04-25 |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-03-08 |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-11-13 |
-| BuouUI | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com)/) | 2024-10-13 |
-
 
 ## Tools
 
