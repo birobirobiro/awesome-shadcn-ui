@@ -1,10 +1,22 @@
 const fs = require('fs');
 
+// Helper function to format a date into YYYY-MM-DD format
+function formatDate(date) {
+  const d = new Date(date);
+  if (isNaN(d)) {
+    return null; // Invalid date
+  }
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${year}-${month}-${day}`;
+}
+
 const path = 'README.md';
 const content = fs.readFileSync(path, 'utf8');
 const lines = content.split('\n');
 
-const currentDate = new Date().toISOString().split('T')[0]; // e.g., 2023-10-15
+const currentDate = formatDate(new Date()); // Get current date in YYYY-MM-DD format
 const updatedLines = [];
 let changesCount = 0;
 
@@ -41,7 +53,7 @@ for (let i = 0; i < lines.length; i++) {
       headerLineCount++;
     }
     
-    const parts = line.split('|');
+    const parts = line.split('|').map(part => part.trim());
     
     // Skip header and separator rows
     if (headerLineCount <= 2) {
@@ -51,8 +63,14 @@ for (let i = 0; i < lines.length; i++) {
     
     // Handle data rows
     if (tableHasDateColumn && dateColumnIndex > 0) {
-      // Check if this row needs a date
-      const dateValue = parts[dateColumnIndex].trim();
+      // Ensure the row has enough columns
+      if (parts.length <= dateColumnIndex) {
+        console.warn(`Skipping malformed row (not enough columns): ${line}`);
+        updatedLines.push(line); // Skipping malformed row
+        continue;
+      }
+
+      let dateValue = parts[dateColumnIndex].trim();
       
       if (!dateValue || dateValue === '') {
         // This row needs a date
@@ -63,8 +81,20 @@ for (let i = 0; i < lines.length; i++) {
         changesCount++;
         console.log(`Added date to row: ${parts[1].trim()}`);
       } else {
-        // Row already has a date
-        updatedLines.push(line);
+        // Check if the existing date is valid and in the correct format
+        const formattedDate = formatDate(dateValue);
+        if (formattedDate !== dateValue) {
+          // The date is not in the correct format, so we update it
+          parts[dateColumnIndex] = ` ${formattedDate} `;
+          let newLine = parts.join('|').trimEnd();
+          if (!newLine.endsWith('|')) newLine += ' |';
+          updatedLines.push(newLine);
+          changesCount++;
+          console.log(`Updated date for row: ${parts[1].trim()} to ${formattedDate}`);
+        } else {
+          // Row already has a valid date
+          updatedLines.push(line);
+        }
       }
     } else {
       // No date column in this table
