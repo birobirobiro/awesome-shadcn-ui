@@ -1,8 +1,9 @@
 name: Add Dates to New Resources
 
 on:
-  pull_request:
-    types: [opened, synchronize]
+  push:
+    branches:
+      - main
     paths:
       - 'README.md'
 
@@ -10,10 +11,8 @@ jobs:
   add-dates:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout main
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -23,7 +22,7 @@ jobs:
       - name: Add dates to new resources
         run: node scripts/add-dates.js
 
-      - name: Commit changes
+      - name: Commit changes (if any)
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
