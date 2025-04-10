@@ -114,7 +114,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-10-03 |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-26 |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-05-07 |
-| serp-ui-blocks | 1000+ meticulously crafted, theme-ready blocks. Built for Shadcn UI and Tailwind, optimized for NextJS. | [Link](https://serp.ly/serp-blocks) | 
+|serp-ui-blocks|1000+ meticulously crafted, theme-ready blocks. Built for Shadcn UI and Tailwind, optimized for NextJS.|[Link](https://serp.ly/serp-blocks)| 2025-04-10 |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-07-10 |
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) | 2024-12-27 |
 | shadcn-blocks | Official pre-made customizable components. | [Link](https://ui.shadcn.com/blocks) | 2024-03-27 |
