@@ -25,6 +25,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Name | Description | Link | Date |
 |------|-------------|------|------|
 | 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-06 |
+| 8bitcn.com  | A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code.| [Link](https://www.8bitcn.com/) | 2025-04-12 |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-06 |
 | animated-tabs | Vercel-like animated tabs. | [Link](https://github.com/mehrdadrafiee/animated-tabs) | 2025-04-06 |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-09-23 |
