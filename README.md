@@ -85,7 +85,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-26 |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) | 2024-04-25 |
 | maily.to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) | 2024-06-15 |
-| matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) |
+|matsu-theme|Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki|[Link](https://matsu-theme.vercel.app/)| 2025-04-23 |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-06-22 |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-07-07 |
 | multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) | 2025-01-21 |
