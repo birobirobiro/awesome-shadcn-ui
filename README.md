@@ -99,7 +99,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) | 2024-11-25 |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-06-11 |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-10-17 |
-| omi3 | Open-source project focused on building audio processing and playback capabilities for web applications, including UI components. | [Link](https://omi3.ouestlabs.com/) | 2025-05-01 |
+| omi3/ui | UI components for the Omi3 audio project, distributed via a shadcn/ui registry. | [Link](https://omi3.ouestlabs.com/) | 2025-05-01 |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-10-28 |
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-03-28 |
 | payment-gateways | Integration of payment gateways with Next.js 14. | [Link](https://github.com/PremPrakashCodes/payment-gateways) | 2024-08-05 |
