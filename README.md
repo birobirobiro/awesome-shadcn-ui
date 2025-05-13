@@ -115,6 +115,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-26 |
 | react-select | React-select library with shadcn styling. | [Link](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) | 2024-07-22 |
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-10-03 |
+| retro-ui | An open source component library, inspred by neo brutalism design system |[Link](https://retroui.dev) |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-26 |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-05-07 |
 |serp-ui-blocks|1000+ meticulously crafted, theme-ready blocks. Built for Shadcn UI and Tailwind, optimized for NextJS.|[Link](https://serp.ly/serp-blocks)| 2025-04-10 |
