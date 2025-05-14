@@ -90,6 +90,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-06-22 |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-07-07 |
 | multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) | 2025-01-21 |
+| mvpblocks | Copy-paste beautiful, responsive components without worrying about styling or animations. Build faster, launch sooner. | [Link](https://blocks.mvp-subha.me) | 2025-05-14 |
 | mynaui | TailwindCSS and shadcn/ui UI Kit for Figma and React. | [Link](https://mynaui.com/) | 2024-06-22 |
 | neobrutalism-components | Neobrutalism-styled Tailwind React and shadcn/ui components. | [Link](https://github.com/ekmas/neobrutalism-components) | 2024-04-07 |
 | nextjs-components | Next.js components with TypeScript and shadcn/ui. | [Link](https://components.bridger.to/) | 2024-06-07 |
