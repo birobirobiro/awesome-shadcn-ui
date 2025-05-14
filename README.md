@@ -244,7 +244,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | down-dev-detector | This app lists all the services currently down and uses Atlassian Status Page and others (soon). | [Link](https://github.com/birobirobiro/downdevdetector) | 2024-11-04 |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-11-04 |
 | excelkits | Create free downloadable Shadcn-themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic designs. | [Link](https://excelkits.com/charts) | 2024-12-26 |
-| focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://focusbrew.vercel.app) |
+|focus-brew|A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday.|[Link](https://focusbrew.vercel.app)| 2025-05-14 |
 | form-builder | UI-based codegen tool to easily create beautiful and type-safe @shadcn/ui forms. | [Link](https://github.com/AlandSleman/FormBuilder) | 2024-06-07 |
 | form-builder-fast | Shadcn Form Builder - Build forms in minutes for free. | [Link](https://ui.indie-starter.dev/form-builder) | 2024-12-26 |
 | hook-again | A collection of shadcn/ui installable React Hooks. | [Link](https://github.com/ilyichv/hookagain) | 2024-11-04 |
