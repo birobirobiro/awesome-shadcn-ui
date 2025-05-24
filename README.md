@@ -53,7 +53,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) | 2024-06-27 |
 | drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) | 2024-11-21 |
 |drop-drawer|A dropdown menu on desktop and a drawer on mobile devices.|[Link](https://github.com/jiaweing/DropDrawer)| 2025-05-13 |
-| druid/ui | Intercom inspired AI chatbot and UI components built on shadcn/ui. | [Link](https://druidui.com/) | 2024-11-21 |
 | dy-comps | shacn/ui & Framer Motion React components — flexible, responsive & easy to drop into any project. | [Link](https://dycomps.oimmi.com/) | 2025-03-08 |
 | echo-editor | Modern WYSIWYG rich-text editor based on tiptap and shadcn/ui. | [Link](https://github.com/Seedsa/echo-editor) | 2024-06-07 |
 | edil-ozi | React components with Gsap, framer motion, and tailwind. | [Link](https://edilozi.pro/) | 2024-06-27 |
@@ -206,7 +205,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn/ui Components Manager | A plugin for Jetbrain products. It allows you to manage your shadcn/ui components across Svelte, React, Vue, and Solid frameworks with this plugin. Simplify tasks like adding, removing, and updating components. | [Link](https://plugins.jetbrains.com/plugin/23479-shadcn-ui-components-manager ) | 2024-03-28 |
 | vscode-shadcn-svelte | VS Code extension for shadcn/ui components in Svelte projects. | [Link](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-svelte&ssr=false#overview) | 2024-03-28 |
 | vscode-shadcn-ui-snippets | Easily import and use shadcn-ui components with ease using snippets within VSCode. Just type cn or shadcn in your jsx/tsx file and you will get a list of all the components to choose from. | [Link](https://marketplace.visualstudio.com/items?itemName=VeroXyle.shadcn-ui-snippets  ) | 2024-06-05 |
-| vscode-shadcn-vue | Extension for integrating shadcn/ui components into Vue.js projects. | [Link](https://marketplace.visualstudio.com/items?itemName=Selemondev.vscode-shadcn-vue) | 2024-03-28 |
+| vscode-shadcn-vue | Extension for integrating shadcn/ui components into Vue.js projects. | [Link](https://marketplace.visualstudio.com/items?itemName=Selemondev.shadcn-vue) | 2024-03-28 |
 
 ## Colors and Customizations
 
@@ -238,7 +237,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Name                                | Description                                                                                                                                           | Link                                                  | Date |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------| ------- |
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/ ) | 2024-05-31 |
-| ai-generator-shadcn-theme | AI Shadcn Theme Generator, The AI Shadcn Theme Generator crafts stunning, consistent themes for your shadcn/ui projects in seconds. | [Link](https://ipalettes.com/theme/shadcn) | 2024-12-30 |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-09-09 |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-06-07 |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-09-09 |
@@ -254,11 +252,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | invoify | An invoice generator app built using Next.js, TypeScript, and shadcn/ui. | [Link](https://github.com/aliabb01/invoify) | 2024-03-27 |
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-07-17 |
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-07-22 |
-| myinstants | The largest instant sound buttons website in Brazil! | [Link](https://www.myinstants.xyz/) | 2024-07-22 |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-26 |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-26 |
 | pastecode | Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. | [Link](https://github.com/Quorin/PasteCode.app) | 2024-06-07 |
-| postgres | The in-browser Postgres sandbox with AI assistance. | [Link](https://postgres.new/) | 2024-08-13 |
 | proxmox-helper-scripts | A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui. | [Link](https://github.com/BramSuurdje/proxmox-helper-scripts) | 2024-07-16 |
 | quack-db | Open-source in-browser DuckDB SQL editor. | [Link](https://github.com/mattf96s/QuackDB) | 2024-10-03 |
 | shadcn-form-builder | Create forms with Shadcn, react-hook-form, and Zod within minutes. | [Link](https://shadcn-form-build.vercel.app/) | 2024-10-03 |
@@ -275,7 +271,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | v0 | Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. | [Link](https://v0.dev/ ) | 2024-03-27 |
 | vercel-status-tracker | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. | [Link](https://vercel-status-tracker.vercel.app) | 2025-01-02 |
 | wallhaven-desktop | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software. | [Link](https://github.com/ErKeLost/wallhaven-desktop) | 2024-10-23 |
-| xuneix | A link rotation tool for enhanced admin panel security. Includes dynamic URLs, expiring tokens, customizable rotation. | [Link](https://xuneix.theteleporter.me/) | 2024-07-08 |
 
 ## Websites and Portfolios Inspirations
 
