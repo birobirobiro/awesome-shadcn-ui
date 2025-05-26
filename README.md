@@ -80,6 +80,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | junwen-k/ui-x | Additional beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. | [Link](https://ui-x.junwen-k.dev/) | 2025-02-03 |
 | kibo-ui | Kibo UI is designed to be a more comprehensive library of components that can be used to build more complex applications. | [Link](https://www.kibo-ui.com/overview) | 2025-04-04 |
 | kokonut-ui | Free Modern and Customizable components for Next.js. | [Link](https://kokonutui.com/) | 2024-11-08 |
+| ktui | Open-source collection of customizable UI components for Tailwind CSS and vanilla JavaScript | [Link](https://github.com/keenthemes/ktui) |
 | launch-ui | Landing page components with React, Shadcn/ui and Tailwind. | [Link](https://www.launchuicomponents.com/) | 2024-11-12 |
 | lingua-time | Smart datetime picker with natural language input. | [Link](https://github.com/nainglinnkhant/lingua-time) | 2024-10-22 |
 | linked-chart | Chart component linked with data-table. | [Link](https://github.com/ardasisbot/linked-chart) | 2025-02-03 |
