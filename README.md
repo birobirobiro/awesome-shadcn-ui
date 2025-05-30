@@ -172,6 +172,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) | 2024-09-18 |
 | shaduxe-ui | Component variants for shadcn/ui. | [Link](https://ui.shaduxe.com) | 2024-12-27 |
 | shsfui | Motion-first React components built with Tailwind CSS + Framer Motion. | [Link](https://www.shsfui.com) | 2025-03-12 |
+| shuip | Ship fast with sh(ui)p, a collection of components and blocks for your Next.js project. | [Link](https://shuip.xyz/docs) | 2025-05-30 |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) | 2025-01-21 |
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-03-25 |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-09-18 |
