@@ -289,6 +289,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-10-03 |
 | swajp.me | A visually appealing portfolio and resource hub. | [Link](https://swajp.me) | 2024-07-29 |
 | Windows 11 (clone) | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-02-20 |
+| hritu.art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) | 2025-05-31 |
 
 ## Platforms
 
