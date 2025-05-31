@@ -8,11 +8,12 @@ labels:
 ## Describe the awesome resource you want to add
 
 **What is it?**  
-> Briefly explain what this resource is and why it’s awesome...
--
+> Atas/ui is a component library of open-source animated components built with React, TypeScript, Tailwind CSS, and Framer Motion. It provides 100% open-source, customizable UI pieces—perfect for anyone looking to quickly scaffold a modern, animated interface.
 
-## **Which section does it belong to?**  
-- [ ] Libs and Components  
+---
+
+## Which section does it belong to?  
+- [x] Libs and Components  
 - [ ] Plugins and Extensions  
 - [ ] Colors and Customizations  
 - [ ] Animations  
@@ -24,26 +25,21 @@ labels:
 - [ ] Boilerplates / Templates  
 
 **Additional details (optional)**  
-> Include screenshots, demos, or any other useful context...
--
+> Live demo & documentation: [https://ui.atastech.com](https://ui.atastech.com)  
+> All components are MIT-licensed, fully accessible, and designed for rapid theming with Tailwind CSS.
 
-## **Checklist**
-- [ ] I verified that the resource is listed in alphabetical order within its section.
-- [ ] I checked that the resource is not already listed.
-- [ ] I provided a clear and concise description of the resource.
-- [ ] I included a valid and working link to the resource.
-- [ ] I assigned the correct section to the resource.
+---
 
-**Important Notes:**  
-1. If you are introducing a new section, you must also add it to the `README.md` file and update the table of contents accordingly.  
-2. This repository focuses on open-source and freely accessible projects. Paid or fully commercial resources will not be accepted.  
+## Checklist
+- [x] I verified that the resource is listed in alphabetical order within the “Libs and Components” section.  
+- [x] I checked that the resource is not already listed.  
+- [x] I provided a clear and concise description of the resource.  
+- [x] I included a valid and working link to the resource.  
+- [x] I assigned the correct section to the resource.  
 
-Just a heads-up: no need to add a date — our system takes care of that automatically!
+---
 
-**Format your entry like this:**
+### Entry to insert into `README.md` under the “Libs and Components” section:
 
 ```markdown
-| Name | Description | [Link](Your_Link_Here) |
-```
-
-Thank you for contributing to the awesome-shadcn/ui repository!
+| Atas/ui | Open-source animated components built with React, TypeScript, Tailwind CSS, and Framer Motion. Fully customizable. | [https://ui.atastech.com](https://ui.atastech.com) |
