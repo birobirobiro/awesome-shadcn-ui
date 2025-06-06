@@ -343,6 +343,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | cloudflare-saas-stack | An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare. | [Link](https://github.com/Dhravya/cloudflare-saas-stack) | 2024-07-24 |
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-09-23 |
 | design-system-template | Turborepo + TailwindCSS + Storybook + shadcn/ui. | [Link](https://github.com/arevalolance/design-system-template) | 2024-06-06 |
+| full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) |
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-08-06 |
 | electron-shadcn | Electron app template with shadcn/ui and a bunch of other libs and tools ready to use. | [Link](https://github.com/LuanRoger/electron-shadcn) | 2024-06-17 |
 | horizon-ai-nextjs-shadcn-boilerplate | Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth. | [Link](https://horizon-ui.com/boilerplate-shadcn) | 2024-05-24 |
