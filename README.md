@@ -286,7 +286,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | andrewsam.xyz | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | [Link](https://www.andrewsam.xyz/) | 2024-09-18 |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-07-29 |
 | godly | Astronomically good web design inspiration. Only the best of the best. | [Link](https://godly.website/) | 2024-07-29 |
-| hritu.art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) |
+|hritu.art|A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email.|[Link](https://github.com/suraj-xd/design-portfolio)| 2025-06-10 |
 | list.swajp.me | It has never been easier to find the right projects or designs by inspiring successful people. | [Link](https://list.swajp.me) | 2024-07-29 |
 | nathans-ai | An AI Chatbot acting as a portfolio, built with shadcn/ui components. | [Link](https://chat.brodin.dev) | 2024-11-21 |
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-10-03 |
