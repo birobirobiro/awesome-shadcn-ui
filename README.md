@@ -143,8 +143,9 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-date-picker | Advanced date picker with various features. | [Link](https://date-picker.luca-felix.com) | 2024-07-25 |
 | shadcn-drag-and-drop-sort | Drag-and-drop sortable list of pills of different widths using dnd-kit. | [Link](https://github.com/crystaltai/shadcn-drag-and-drop) | 2025-02-03 |
 | shadcn-drag-table | Drag-and-drop table component. | [Link](https://github.com/zenoncao/shadcn-drag-table) | 2024-02-22 |
-| shadcn-dropzone | File upload component using React-Dropzone, built with accessibility in mind. | [Link](https://github.com/janglad/shadcn-dropzone) | 2025-01-13 |
+| shadcn-dropzone | File upload component using React-Dropzone, built with accessibility in mind. | [Link](https://github.com/janglad/shadcn-dropzone) | 2025-01-13 | 
 | shadcn-editor | Lexical editor with shadcn theme. | [Link](https://github.com/htmujahid/shadcn-editor) | 2024-11-08 |
+| shadcn-examples | Dozens of advanced shadcn/ui examples. Easily integrate sample applications and components into your project. | [Link](https://github.com/shadcn-examples/shadcn-examples) | 2025-06-04 |
 | shadcn-extends | Collection of shadcn/ui components. | [Link](https://github.com/lucioew28/extends) | 2024-06-07 |
 | shadcn-extension | Open-source component collection. | [Link](https://github.com/BelkacemYerfa/shadcn-extension) | 2024-06-07 |
 | shadcn-font-picker|Font picker using shadcn/ui components and google font API.|[Link](https://shadcn-font-picker.vercel.app)| 2025-04-22 |
