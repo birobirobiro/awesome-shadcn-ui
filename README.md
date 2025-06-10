@@ -32,7 +32,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-04-07 |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-04-29 | 2024-04-29 |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-07-22 | 2024-07-22 |
-| berlix | Animated components library built using Tailwind CSS and Motion | [Link](https://berlix.vercel.app) | 2025-06-04 |
+| berlix | Animated components library built using Tailwind CSS and Motion | [Link](https://berlix.vercel.app) |
 | big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08 |
 | buouui | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com) | 2025-04-06 |
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-09-23 |
