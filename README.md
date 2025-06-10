@@ -72,7 +72,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | file-vault | File upload component for React. | [Link](https://github.com/ManishBisht777/file-vault) | 2024-06-07 |
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) | 2024-11-13 |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-07-02 |
-| glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) |
+|glasscn-ui|shadcn/ui component library with glassmorphism variants, and many additional components.|[Link](https://github.com/itsjavi/glasscn-ui)| 2025-06-10 |
 | gluestack-ui | React & React Native Components with Tailwind CSS. | [Link](https://gluestack.io) | 2024-11-08 |
 | hexta-ui|Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them.|[Link](https://hextaui.com)| 2025-05-14 |
 | ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://bg.ibelick.com/) | 2024-06-09 |
