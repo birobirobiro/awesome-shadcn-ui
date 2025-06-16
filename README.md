@@ -307,7 +307,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | memergez          | Quickly generate memes by entering text or an avatar URL, with support for many meme commands.                       | [Link](https://github.com/avalynndev/memergez)            | 2024-08-26 |
 | midday-components | A collection of open-source components based on Midday features.                                                     | [Link](https://midday.ai/components)                      | 2024-11-21 |
 | plotwist          | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US)                        | 2024-05-31 |
-| youropinion.is    | Free survey platform which supports importing your exisitng shadcn/ui theme                                          | [Link](https://youropinion.is/news/202505-match-my-style) |
+|youropinion.is|Free survey platform which supports importing your exisitng shadcn/ui theme|[Link](https://youropinion.is/news/202505-match-my-style)| 2025-06-16 |
 
 ## Ports
 
