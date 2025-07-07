@@ -314,6 +314,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Name | Description | Link | Date |
 |------|-------------|------|------|
 | Angular                    | Angular port of shadcn/ui.                                                                                                                               | [Link](https://github.com/goetzrobin/spartan)                  | 2024-03-21 |
+| Basecoat                    | Vanilla HTML, CSS and JS port of shadcn/ui.                                                                                                             | [Link](https://basecoatui.com)                                 |
 | Flutter                    | Flutter port of shadcn/ui.                                                                                                                               | [Link](https://github.com/nank1ro/shadcn-ui)                   | 2024-06-07 |
 | Franken UI                 | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/)                            | 2024-06-07 |
 | JollyUI                    | shadcn/ui compatible react aria components.                                                                                                              | [Link](https://github.com/jolbol1/jolly-ui)                    | 2024-06-07 |
