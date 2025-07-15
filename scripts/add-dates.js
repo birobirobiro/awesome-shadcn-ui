@@ -1,103 +1,126 @@
 const fs = require('fs');
 
-// Helper function to format a date into YYYY-MM-DD format
-function formatDate(date) {
-  const d = new Date(date);
-  if (isNaN(d)) {
-    return null; // Invalid date
-  }
-  const year = d.getFullYear();
-  const month = String(d.getMonth() + 1).padStart(2, '0');
-  const day = String(d.getDate()).padStart(2, '0');
-  return `${year}-${month}-${day}`;
-}
-
 const path = 'README.md';
-const content = fs.readFileSync(path, 'utf8');
+let content;
+try {
+  content = fs.readFileSync(path, 'utf8');
+} catch (error) {
+  console.error(`Error reading README.md: ${error.message}`);
+  process.exit(1);
+}
 const lines = content.split('\n');
 
-const currentDate = formatDate(new Date()); // Get current date in YYYY-MM-DD format
+const currentDate = new Date().toISOString().split('T')[0]; // e.g., 2025-07-02
 const updatedLines = [];
 let changesCount = 0;
+let malformedRows = 0;
 
 console.log(`Processing README.md with ${lines.length} lines`);
+
+// Function to validate ISO date format (YYYY-MM-DD)
+function isValidDate(dateString) {
+  const regex = /^\d{4}-\d{2}-\d{2}$/;
+  if (!regex.test(dateString)) return false;
+  const date = new Date(dateString);
+  return date instanceof Date && !isNaN(date);
+}
 
 let inTable = false;
 let tableHasDateColumn = false;
 let headerLineCount = 0;
 let dateColumnIndex = -1;
+let expectedColumnCount = -1;
 
 for (let i = 0; i < lines.length; i++) {
   const line = lines[i];
-  
+
   // Reset table state when hitting a new section
   if (line.startsWith('## ')) {
     inTable = false;
     tableHasDateColumn = false;
     headerLineCount = 0;
     dateColumnIndex = -1;
+    expectedColumnCount = -1;
   }
-  
+
   if (line.startsWith('|')) {
     if (!inTable) {
       // First line of a new table (header)
       inTable = true;
       headerLineCount = 1;
-      
+
       // Check if the table header has a date column and find its index
       const parts = line.split('|').map(part => part.trim());
       dateColumnIndex = parts.findIndex(part => part === 'Date');
       tableHasDateColumn = dateColumnIndex > -1;
-      console.log(`Found table, has date column: ${tableHasDateColumn}, at index: ${dateColumnIndex}`);
+      expectedColumnCount = parts.length - 2; // Exclude leading/trailing empty parts
+      updatedLines.push(line);
+      continue;
     } else {
       headerLineCount++;
     }
-    
-    const parts = line.split('|').map(part => part.trim());
-    
+
     // Skip header and separator rows
     if (headerLineCount <= 2) {
       updatedLines.push(line);
       continue;
     }
-    
-    // Handle data rows
-    if (tableHasDateColumn && dateColumnIndex > 0) {
-      // Ensure the row has enough columns
-      if (parts.length <= dateColumnIndex) {
-        console.warn(`Skipping malformed row (not enough columns): ${line}`);
-        updatedLines.push(line); // Skipping malformed row
-        continue;
-      }
 
-      let dateValue = parts[dateColumnIndex].trim();
-      
-      if (!dateValue || dateValue === '') {
-        // This row needs a date
-        parts[dateColumnIndex] = ` ${currentDate} `;
-        let newLine = parts.join('|').trimEnd();
-        if (!newLine.endsWith('|')) newLine += ' |';
+    // Split the line while preserving whitespace
+    let parts = line.match(/\|[^|]*/g)?.map(part => part.slice(1)) || [];
+    
+    // Handle rows missing the final '|' or with fewer columns
+    if (parts.length - 1 < expectedColumnCount) {
+      if (parts.length >= dateColumnIndex) {
+        // Row has enough columns up to date column; append date
+        if (parts.length === dateColumnIndex) {
+          parts.push(`  ${currentDate}  `); // Add date column
+          changesCount++;
+        } else {
+          const dateValue = parts[dateColumnIndex].trim();
+          if (!dateValue || dateValue === '' || !isValidDate(dateValue)) {
+            parts[dateColumnIndex] = `  ${currentDate}  `;
+            changesCount++;
+          } else {
+            parts[dateColumnIndex] = `  ${dateValue}  `;
+            if (parts[dateColumnIndex] !== `  ${dateValue}  `) {
+              changesCount++;
+            }
+          }
+        }
+        // Ensure the row ends with a '|'
+        const newLine = `|${parts.join('|')}|`;
+        updatedLines.push(newLine);
+      } else {
+        console.warn(`Skipping malformed row at line ${i + 1}: ${line}`);
+        malformedRows++;
+        updatedLines.push(line);
+      }
+      continue;
+    }
+
+    // Handle data rows with correct column count
+    if (tableHasDateColumn && dateColumnIndex > 0 && dateColumnIndex < parts.length) {
+      const dateValue = parts[dateColumnIndex].trim();
+
+      if (!dateValue || dateValue === '' || !isValidDate(dateValue)) {
+        // Empty, whitespace, or invalid date: use current date with 2 spaces
+        parts[dateColumnIndex] = `  ${currentDate}  `;
+        const newLine = `|${parts.join('|')}`;
         updatedLines.push(newLine);
         changesCount++;
-        console.log(`Added date to row: ${parts[1].trim()}`);
       } else {
-        // Check if the existing date is valid and in the correct format
-        const formattedDate = formatDate(dateValue);
-        if (formattedDate !== dateValue) {
-          // The date is not in the correct format, so we update it
-          parts[dateColumnIndex] = ` ${formattedDate} `;
-          let newLine = parts.join('|').trimEnd();
-          if (!newLine.endsWith('|')) newLine += ' |';
-          updatedLines.push(newLine);
+        // Valid date: ensure 2 spaces on each side
+        parts[dateColumnIndex] = `  ${dateValue}  `;
+        const newLine = `|${parts.join('|')}`;
+        updatedLines.push(newLine);
+        if (parts[dateColumnIndex] !== `  ${dateValue}  `) {
           changesCount++;
-          console.log(`Updated date for row: ${parts[1].trim()} to ${formattedDate}`);
-        } else {
-          // Row already has a valid date
-          updatedLines.push(line);
         }
       }
     } else {
-      // No date column in this table
+      console.warn(`Skipping row at line ${i + 1}: No date column or misaligned`);
+      malformedRows++;
       updatedLines.push(line);
     }
   } else {
@@ -106,11 +129,20 @@ for (let i = 0; i < lines.length; i++) {
   }
 }
 
-console.log(`Made ${changesCount} changes to README.md`);
+// Log summary
+console.log(`Completed processing. Made ${changesCount} changes to date columns.`);
+if (malformedRows > 0) {
+  console.warn(`Encountered ${malformedRows} malformed or misaligned rows.`);
+}
 
 if (changesCount > 0) {
-  fs.writeFileSync(path, updatedLines.join('\n'));
-  console.log('Changes written to README.md');
+  try {
+    fs.writeFileSync(path, updatedLines.join('\n'));
+    console.log('Changes written to README.md');
+  } catch (error) {
+    console.error(`Error writing to README.md: ${error.message}`);
+    process.exit(1);
+  }
 } else {
   console.log('No changes needed, file not modified');
 }
