@@ -123,7 +123,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-11-21 |
 | pricing-page-shadcn | Customizable pricing page with Next.js 14. | [Link](https://github.com/m4nute/pricing-page-shadcn) | 2024-04-07 |
 | progress-button | Extended button component with progress UX. | [Link](https://github.com/tomredman/ProgressButton) | 2024-07-10 |
-| re-ui | Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui | [Link](https://reui.io/) |
+| re-ui | Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui | [Link](https://reui.io/) | 2025-09-06 |
 | react-dnd-kit-tailwind-shadcn-ui | Accessible kanban board with dnd-kit. | [Link](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) | 2024-03-27 |
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-10-03 |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-26 |
