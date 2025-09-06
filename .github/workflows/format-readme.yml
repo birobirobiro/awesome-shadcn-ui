@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "README.md"
-  workflow_dispatch: # allows manual trigger
+  workflow_dispatch: # permite trigger manual
 
 jobs:
   format-readme:
@@ -13,14 +13,13 @@ jobs:
     steps:
       - name: Checkout PR
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # necessário para push correto em PRs
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Format README
         run: node scripts/format-readme.js
@@ -31,4 +30,5 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "Format README.md"
-          git push
+          # Empurra para a branch do PR
+          git push origin HEAD:${{ github.head_ref }}
