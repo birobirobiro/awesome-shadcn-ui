@@ -172,7 +172,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-packaged | This is an npm package that exports all shadcn/ui components without the need for a CLI, designed for ease of use. | [Link](https://github.com/anuoua/shadcn-packaged) | 2025-02-27 |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | [Link](https://github.com/damianricobelli/shadcn-phone-input) | 2024-06-07 |
 | shadcn-phone-input | Phone input with country validation. | [Link](https://github.com/omeralpi/shadcn-phone-input) | 2024-03-27 |
-| shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles || 2025-09-06 |
+| shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles |  | 2025-09-06 |
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-03-08 |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-09 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-04-25 |
