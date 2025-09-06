@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "README.md"
-  workflow_dispatch: # permite trigger manual
+  workflow_dispatch:
 
 jobs:
   format-readme:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout PR
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # necessário para push correto em PRs
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
