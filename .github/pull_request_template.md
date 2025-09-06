@@ -38,7 +38,9 @@ labels:
 1. If you are introducing a new section, you must also add it to the `README.md` file and update the table of contents accordingly.  
 2. This repository focuses on open-source and freely accessible projects. Paid or fully commercial resources will not be accepted.  
 
-Just a heads-up: no need to add a date — our system takes care of that automatically!
+Just a heads-up: no need to add a date — our system takes care of that automatically!  
+
+**Also:** Don't worry about formatting — our GitHub Action will automatically format the table and make sure everything stays in a single line per entry.
 
 **Format your entry like this:**
 
