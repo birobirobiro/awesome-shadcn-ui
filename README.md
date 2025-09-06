@@ -123,6 +123,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-11-21 |
 | pricing-page-shadcn | Customizable pricing page with Next.js 14. | [Link](https://github.com/m4nute/pricing-page-shadcn) | 2024-04-07 |
 | progress-button | Extended button component with progress UX. | [Link](https://github.com/tomredman/ProgressButton) | 2024-07-10 |
+| re-ui | Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui | [Link](https://reui.io/) |
 | react-dnd-kit-tailwind-shadcn-ui | Accessible kanban board with dnd-kit. | [Link](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) | 2024-03-27 |
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-10-03 |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-26 |
@@ -171,7 +172,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-packaged | This is an npm package that exports all shadcn/ui components without the need for a CLI, designed for ease of use. | [Link](https://github.com/anuoua/shadcn-packaged) | 2025-02-27 |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | [Link](https://github.com/damianricobelli/shadcn-phone-input) | 2024-06-07 |
 | shadcn-phone-input | Phone input with country validation. | [Link](https://github.com/omeralpi/shadcn-phone-input) | 2024-03-27 |
-| shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles || 2025-09-06 |
+| shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles |  | 2025-09-06 |
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-03-08 |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-09 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-04-25 |
