@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - "README.md"
-  workflow_dispatch: # allows manual trigger
+  workflow_dispatch: # permite trigger manual
 
 jobs:
   format-readme:
@@ -18,9 +18,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Format README
         run: node scripts/format-readme.js
