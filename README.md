@@ -379,6 +379,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-06-11 |
 | magicui-startup-templates | Magic UI Startup template built using shadcn/ui + TailwindCSS + Framer Motion. | [Link](https://magicui.design/docs/templates/startup) | 2024-04-25 |
 | nextMotion | Webdev portfolio template with Nodemailer integrated for easy contact form setup. Uses shadcn/ui + TailwindCSS + Framer Motion. | [Link](https://github.com/yoyocharlie/nextMotion) | 2024-09-23 |
+| next-js-boilerplate | Quickly set up a Next.js project with TypeScript, NextAuth.js, PostgreSQL (Prisma), Sentry, Tailwind CSS v4, shadcn/ui, Zod, Zustand, nuqs, ESLint, Husky, and Prettier. [Demo site](https://next-js-boilerplate-sage-nine.vercel.app/). | [Link](https://github.com/AbhishekSharma55/next-js-boilerplate) |
 | next-shadcn-dashboard-starter | Admin Dashboard Starter with Nextjs 14 and shadcn/ui. | [Link](https://github.com/Kiranism/next-shadcn-dashboard-starter) | 2024-06-06 |
 | next-starter | A Next.js starter template packed with features like TypeScript, TailwindCSS, Next-auth, Eslint, Stripe, testing tools, and more. Jumpstart your project with efficiency and style. | [Link](https://github.com/Skolaczk/next-starter) | 2024-09-23 |
 | nextjs-mdx-blog | Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS. | [Link](https://github.com/ChangoMan/nextjs-mdx-blog) | 2024-04-25 |
