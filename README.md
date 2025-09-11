@@ -217,6 +217,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-15 |
 | wds registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-07-16 |
+| react-wheel-picker | iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. | [Link](https://react-wheel-picker.chanhdai.com) | 2025-09-11 |
 
 ## Plugins and Extensions
 
@@ -313,6 +314,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-10-03 |
 | swajp.me | A visually appealing portfolio and resource hub. | [Link](https://swajp.me) | 2024-07-29 |
 | windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-02-20 |
+| chanhdai.com | A minimal portfolio, component registry, and blog. | [Link](https://chanhdai.com) | 2025-09-11 |
 
 ## Platforms
 
