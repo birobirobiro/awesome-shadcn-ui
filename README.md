@@ -49,7 +49,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-07-16 |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-05-29 |
 | custom-admin-dashboard | A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Includes products, products creation and details page, order, customer, and settings pages. | [Link](https://github.com/S5SAJID/custom-ecom) | 2025-09-06 |
-| data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://data-command.davidsling.in) | 2025-09-06 |
+| data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://shadcn.davidsling.in/components/data-command) | 2025-09-06 |
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-04-29 |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-07-16 |
 | date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08 |
