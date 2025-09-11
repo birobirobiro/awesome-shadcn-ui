@@ -128,7 +128,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-10-03 |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-26 |
 | react-select | React-select library with shadcn styling. | [Link](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) | 2024-07-22 |
-| react-whell-picker | iOS-like Wheel Picker for React. | [Link](https://react-wheel-picker.chanhdai.com/) | 2024-07-22 |
+| react-wheel-picker | iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. | [Link](https://react-wheel-picker.chanhdai.com) | 2025-09-11 |
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-10-03 |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13 |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-26 |
@@ -305,6 +305,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ---------- |
 | andrewsam.xyz | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | [Link](https://www.andrewsam.xyz/) | 2024-09-18 |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-07-29 |
+| chanhdai.com | A minimal portfolio, component registry, and blog. | [Link](https://chanhdai.com) | 2025-09-11 |
 | godly | Astronomically good web design inspiration. Only the best of the best. | [Link](https://godly.website/) | 2024-07-29 |
 | hritu.art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) | 2025-06-10 |
 | kinhdev24 | Developer portfolio built with Next.js, shadcn/ui, Aceternity, and Magic UI | [Link](https://kinhdev.id.vn/) | 2025-07-08 |
