@@ -405,6 +405,13 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | turborepo-launchpad | A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities. | [Link](https://github.com/JadRizk/turborepo-launchpad) | 2024-06-10 |
 | wordpress-plugin-boilerplate | WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, TailwindCSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR, and more. | [Link](https://github.com/prappo/wordpress-plugin-boilerplate) | 2024-09-24 |
 
+## Registries
+
+| Name | Description | Link | Date |
+| -------------------------------- | ------------------------------------------------------------------------------- | ------------------------------- | ---------- |
+| registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
+
+
 ## Star History
 
 <picture>
