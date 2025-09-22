@@ -298,6 +298,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | v0 | Vercel's generative UI system, built on shadcn/ui and TailwindCSS, allows effortless UI generation from text prompts and/or images. | [Link](https://v0.dev/) | 2024-03-27 |
 | vercel-status-tracker | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. | [Link](https://vercel-status-tracker.vercel.app) | 2025-01-02 |
 | wallhaven-desktop | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software. | [Link](https://github.com/ErKeLost/wallhaven-desktop) | 2024-10-23 |
+| Shadcn Cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-22 |
 
 ## Websites and Portfolios Inspirations
 
