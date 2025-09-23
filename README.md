@@ -176,7 +176,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-03-08 |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-09 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-04-25 |
-| shadcn-store | Ready-to-Use Shadcn Blocks for Faster, Smarter Builds. | [Link](https://shadcnstore.com/) | 2025-09-22 |
 | shadcn-studio | Open Source Registry of Shadcn components and blocks. | [Link](https://shadcnstudio.com/) | 2025-04-24 |
 | shadcn-table-maker | Tool for creating dynamic tables. | [Link](https://shadcn-table-maker.vercel.app/) | 2024-12-09 |
 | shadcn-table-v2 | Table with server-side features. | [Link](https://github.com/sadmann7/shadcn-table) | 2024-03-27 |
