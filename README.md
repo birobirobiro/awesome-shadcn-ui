@@ -219,6 +219,12 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | wds registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-07-16 |
 
+## Registries
+
+| Name | Description | Link | Date |
+| -------------------------------- | ------------------------------------------------------------------------------- | ------------------------------- | ---------- |
+| registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
+
 ## Plugins and Extensions
 
 | Name | Description | Link | Date |
