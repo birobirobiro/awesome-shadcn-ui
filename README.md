@@ -362,6 +362,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Swift                      | Swift port of shadcn/ui.                                                                                                                                 | [Link](https://github.com/Mobilecn-UI/swiftcn-ui)              | 2024-06-07 |
 | Sysinfocus simple/ui       | Razor component library for Blazor, inspired by shadcn/ui.                                                                                               | [Link](https://sysinfocus.github.io/shadcn-inspired/)          | 2024-09-09 |
 | Vue                        | Vue port of shadcn/ui.                                                                                                                                   | [Link](https://github.com/radix-vue/shadcn-vue)                | 2024-02-22 |
+| ShadUI                   | Avalonia port of shadcn/ui. Based on SukiUI                                                                                                                        | [Link](https://github.com/accntech/shad-ui/)                | 2024-02-22 |
 
 ## Design System
 
