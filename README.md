@@ -353,6 +353,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | JollyUI                    | shadcn/ui compatible react aria components.                                                                                                              | [Link](https://github.com/jolbol1/jolly-ui)                    | 2024-06-07 |
 | Kotlin                     | Kotlin port of shadcn/ui.                                                                                                                                | [Link](https://github.com/dead8309/shadcn-kotlin)              | 2024-06-07 |
 | mkdocs-shadcn              | MkDocs port of shadcn/ui.                                                                                                                                | [Link](https://github.com/asiffer/mkdocs-shadcn)               | 2025-07-07 |
+| .NET (ShadUI)                   | Avalonia port of shadcn/ui. Based on SukiUI                                                                                                                        | [Link](https://github.com/accntech/shad-ui/)                | 2024-02-22 |
 | Phoenix Liveview           | Phoenix Liveview port of shadcn/ui.                                                                                                                      | [Link](https://github.com/bluzky/salad_ui)                     | 2024-06-07 |
 | React Native               | React Native port of shadcn/ui.                                                                                                                          | [Link](https://github.com/Mobilecn-UI/nativecn-ui)             | 2024-06-07 |
 | React Native (recommended) | React Native port of shadcn/ui (recommended).                                                                                                            | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27 |
@@ -362,7 +363,6 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | Swift                      | Swift port of shadcn/ui.                                                                                                                                 | [Link](https://github.com/Mobilecn-UI/swiftcn-ui)              | 2024-06-07 |
 | Sysinfocus simple/ui       | Razor component library for Blazor, inspired by shadcn/ui.                                                                                               | [Link](https://sysinfocus.github.io/shadcn-inspired/)          | 2024-09-09 |
 | Vue                        | Vue port of shadcn/ui.                                                                                                                                   | [Link](https://github.com/radix-vue/shadcn-vue)                | 2024-02-22 |
-| ShadUI                   | Avalonia port of shadcn/ui. Based on SukiUI                                                                                                                        | [Link](https://github.com/accntech/shad-ui/)                | 2024-02-22 |
 
 ## Design System
 
