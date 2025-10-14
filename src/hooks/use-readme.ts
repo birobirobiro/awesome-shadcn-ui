@@ -1,10 +1,13 @@
 import { GITHUB_CONFIG } from "@/lib/config";
+import { titleToSlug } from "@/lib/slugs";
 import { Octokit } from "@octokit/rest";
 
 const octokit = new Octokit();
 
+const EXCLUDED_CATEGORIES = ["Star History", "Contributors"];
+
 export interface Resource {
-  id: number;
+  id: string;
   name: string;
   url: string;
   description: string;
@@ -38,8 +41,6 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
 
     const resources: Resource[] = [];
     let currentCategory = "";
-    let id = 1;
-
     const lines = content.split("\n");
 
     for (const line of lines) {
@@ -54,6 +55,21 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
         if (parts.length >= 4) {
           let url = parts[3];
           let date = "Unknown";
+          const name = parts[1];
+
+          // Skip separator rows and header rows
+          if (
+            name === "Name" ||
+            name === "-------------------------------------" ||
+            name.includes("---") ||
+            name.trim() === "" ||
+            parts[2] === "Description" ||
+            parts[2].includes("---") ||
+            url === "Link" ||
+            url.includes("---")
+          ) {
+            continue;
+          }
 
           // Extract URL from markdown link format [Link](url)
           const markdownMatch = url.match(/\[(.*?)\]\((.*?)\)/);
@@ -69,9 +85,25 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
             date = parts[4];
           }
 
+          // Skip if URL is empty or invalid
+          if (!url || url.trim() === "" || url === "Link") {
+            continue;
+          }
+
+          // Generate unique ID based on title slug
+          const baseSlug = titleToSlug(name);
+          let uniqueId = baseSlug;
+          let counter = 1;
+
+          // Ensure uniqueness by adding counter if needed
+          while (resources.some((r) => r.id === uniqueId)) {
+            uniqueId = `${baseSlug}-${counter}`;
+            counter++;
+          }
+
           resources.push({
-            id: id++,
-            name: parts[1],
+            id: uniqueId,
+            name: name,
             description: parts[2],
             url: url,
             category: currentCategory,
@@ -83,12 +115,13 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
 
     const filteredResources = resources.filter(
       (resource) =>
-        resource.name !== "Name" &&
-        resource.description !== "Description" &&
-        resource.url !== "Link" &&
-        resource.url !== "" &&
-        resource.date !== "Added: ----------" &&
-        !resource.date.includes("----------"),
+        resource.name &&
+        resource.name.trim() !== "" &&
+        resource.description &&
+        resource.description.trim() !== "" &&
+        resource.url &&
+        resource.url.trim() !== "" &&
+        !EXCLUDED_CATEGORIES.includes(resource.category),
     );
 
     cachedData = filteredResources;

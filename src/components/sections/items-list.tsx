@@ -1,17 +1,9 @@
 "use client";
 
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
 import { isValid, parseISO } from "date-fns";
-import { AnimatePresence, motion } from "framer-motion";
-import { Grid2X2, Grid3X3, List } from "lucide-react";
+import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
-import { ToggleGroup, ToggleGroupItem } from "../ui/toggle-group";
 
 import { SortOption } from "@/components/sort";
 import { useBookmarks } from "@/hooks/use-bookmark";
@@ -34,21 +26,17 @@ interface ItemListProps {
   categories: Category[];
 }
 
-// Define layout types
-type LayoutType = "compact" | "grid" | "row";
-
 export default function ItemList({
   items: initialItems,
   categories,
 }: ItemListProps) {
-  const [filteredItems, setFilteredItems] = useState<Resource[]>([]);
+  const [filteredItems, setFilteredItems] = useState<Resource[]>(initialItems);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(ITEMS_PER_PAGE_OPTIONS[0]);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [sortOption, setSortOption] = useState<SortOption>("date-desc");
   const [isLoading, setIsLoading] = useState(true);
-  const [layoutType, setLayoutType] = useState<LayoutType>("grid");
 
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
   const {
@@ -126,6 +114,12 @@ export default function ItemList({
     setCurrentPage(1);
   }, [initialItems, debouncedSearchQuery, selectedCategories, sortItems]);
 
+  // Update filteredItems when initialItems change
+  useEffect(() => {
+    setFilteredItems(initialItems);
+    setCurrentPage(1);
+  }, [initialItems]);
+
   useEffect(() => {
     filterAndSortItems();
   }, [filterAndSortItems]);
@@ -137,6 +131,13 @@ export default function ItemList({
     }, 100);
     return () => clearTimeout(timer);
   }, []);
+
+  // Set loading to false when initialItems are available
+  useEffect(() => {
+    if (initialItems.length > 0) {
+      setIsLoading(false);
+    }
+  }, [initialItems]);
 
   const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
   const indexOfLastItem = currentPage * itemsPerPage;
@@ -182,40 +183,15 @@ export default function ItemList({
     [filteredItems, sortItems, selectedCategories, debouncedSearchQuery],
   );
 
-  // Layout switching handler
-  const handleLayoutChange = useCallback((value: string) => {
-    if (value) {
-      setLayoutType(value as LayoutType);
-    }
+  // Get grid column classes
+  const getGridClasses = useCallback(() => {
+    return "sm:grid-cols-2 lg:grid-cols-3";
   }, []);
 
-  // Get grid column classes based on layout type
-  const getGridClasses = useCallback(() => {
-    switch (layoutType) {
-      case "compact":
-        return "grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5";
-      case "grid":
-        return "sm:grid-cols-2 lg:grid-cols-3";
-      case "row":
-        return "grid-cols-1";
-      default:
-        return "sm:grid-cols-2 lg:grid-cols-3";
-    }
-  }, [layoutType]);
-
-  // Get item card height based on layout type
+  // Get item card height
   const getCardHeightClass = useCallback(() => {
-    switch (layoutType) {
-      case "compact":
-        return "min-h-[200px]";
-      case "grid":
-        return "min-h-[250px]";
-      case "row":
-        return "min-h-[150px] md:min-h-[130px]";
-      default:
-        return "min-h-[250px]";
-    }
-  }, [layoutType]);
+    return "min-h-[250px]";
+  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -250,102 +226,13 @@ export default function ItemList({
             sortOption={sortOption}
             onSortChange={handleSortChange}
           />
-
-          <div className="flex items-center justify-end w-full sm:w-auto mt-4 sm:mt-0">
-            <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.4, type: "spring" }}
-            >
-              <TooltipProvider delayDuration={300}>
-                <ToggleGroup
-                  type="single"
-                  value={layoutType}
-                  onValueChange={handleLayoutChange}
-                  className="relative border rounded-md bg-background/50 backdrop-blur-sm shadow-sm"
-                >
-                  <motion.div
-                    layoutId="activeLayoutIndicator"
-                    className="absolute bottom-0 h-[3px] bg-primary z-10 transition-all duration-300"
-                    style={{
-                      width: "24px",
-                      left:
-                        layoutType === "compact"
-                          ? "6px"
-                          : layoutType === "grid"
-                            ? "46px"
-                            : "86px",
-                    }}
-                    transition={{ type: "spring", stiffness: 500, damping: 30 }}
-                  />
-
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <ToggleGroupItem
-                        value="compact"
-                        aria-label="Compact Grid View"
-                        className="relative z-20 data-[state=on]:bg-primary/10 data-[state=on]:text-primary hover:bg-muted/70 transition-all"
-                      >
-                        <Grid3X3 className="h-4 w-4" />
-                      </ToggleGroupItem>
-                    </TooltipTrigger>
-                    <TooltipContent
-                      side="bottom"
-                      align="center"
-                      className="font-medium"
-                    >
-                      Compact Grid
-                    </TooltipContent>
-                  </Tooltip>
-
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <ToggleGroupItem
-                        value="grid"
-                        aria-label="Grid View"
-                        className="relative z-20 data-[state=on]:bg-primary/10 data-[state=on]:text-primary hover:bg-muted/70 transition-all"
-                      >
-                        <Grid2X2 className="h-4 w-4" />
-                      </ToggleGroupItem>
-                    </TooltipTrigger>
-                    <TooltipContent
-                      side="bottom"
-                      align="center"
-                      className="font-medium"
-                    >
-                      Standard Grid
-                    </TooltipContent>
-                  </Tooltip>
-
-                  <Tooltip>
-                    <TooltipTrigger asChild>
-                      <ToggleGroupItem
-                        value="row"
-                        aria-label="Row View"
-                        className="relative z-20 data-[state=on]:bg-primary/10 data-[state=on]:text-primary hover:bg-muted/70 transition-all"
-                      >
-                        <List className="h-4 w-4" />
-                      </ToggleGroupItem>
-                    </TooltipTrigger>
-                    <TooltipContent
-                      side="bottom"
-                      align="center"
-                      className="font-medium"
-                    >
-                      List View
-                    </TooltipContent>
-                  </Tooltip>
-                </ToggleGroup>
-              </TooltipProvider>
-            </motion.div>
-          </div>
         </div>
       </motion.div>
 
       <motion.div variants={itemVariants}>
         <AnimatePresence mode="wait">
           <motion.div
-            key={`${isLoading ? "loading" : "loaded"}-${layoutType}`}
+            key={`${isLoading ? "loading" : "loaded"}`}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
@@ -380,7 +267,6 @@ export default function ItemList({
                 items={currentItems}
                 bookmarkedItems={bookmarkedItems}
                 onBookmark={toggleBookmark}
-                layoutType={layoutType}
                 isBookmarkLoading={isBookmarkLoading}
               />
             )}
@@ -388,16 +274,18 @@ export default function ItemList({
         </AnimatePresence>
       </motion.div>
 
-      <motion.div variants={itemVariants}>
-        <PaginationControls
-          currentPage={currentPage}
-          totalPages={totalPages}
-          itemsPerPage={itemsPerPage}
-          handlePageChange={handlePageChange}
-          handleItemsPerPageChange={handleItemsPerPageChange}
-          itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
-        />
-      </motion.div>
+      {filteredItems.length > 0 && (
+        <motion.div variants={itemVariants}>
+          <PaginationControls
+            currentPage={currentPage}
+            totalPages={totalPages}
+            itemsPerPage={itemsPerPage}
+            handlePageChange={handlePageChange}
+            handleItemsPerPageChange={handleItemsPerPageChange}
+            itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
+          />
+        </motion.div>
+      )}
 
       <motion.div
         variants={itemVariants}
