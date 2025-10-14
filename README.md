@@ -325,6 +325,7 @@ A curated list of awesome things related to <a href='https://ui.shadcn.com/' tar
 | nathans-ai       | An AI Chatbot acting as a portfolio, built with shadcn/ui components.                                                                                                    | [Link](https://chat.brodin.dev)                      | 2024-11-21 |
 | shubhporwal.me   | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React.                                                                                         | [Link](https://www.shubhporwal.me/)                  | 2024-10-03 |
 | swajp.me         | A visually appealing portfolio and resource hub.                                                                                                                         | [Link](https://swajp.me)                             | 2024-07-29 |
+| Testing Site Submittion | This is sent from the site | [Link](https://github.com/birobirobiro/awesome-shadcn-ui-site/pull/10) | 2025-10-13 |
 | windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/)                     | 2025-02-20 |
 
 ## Platforms
