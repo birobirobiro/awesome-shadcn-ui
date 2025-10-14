@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 // Orchestrates the entire hero section animation
 const heroContainerVariants = {
@@ -9,23 +9,30 @@ const heroContainerVariants = {
     opacity: 1,
     transition: {
       // Stagger the logo and the text block
-      staggerChildren: 0.6,
+      staggerChildren: 2.0,
     },
   },
 };
 
-// Animation for the logo: starts large, scales down
+// Animation for the logo: starts large and lower, scales down and moves up
 const logoVariants = {
-  hidden: { opacity: 0, scale: 1.5, y: 50 },
+  hidden: {
+    opacity: 0,
+    scale: 3,
+    y: 100,
+    x: 0,
+  },
   visible: {
     opacity: 1,
     scale: 1,
     y: 0,
+    x: 0,
     transition: {
-      type: "spring",
-      stiffness: 100,
-      damping: 15,
+      type: "spring" as const,
+      stiffness: 60,
+      damping: 25,
       mass: 1,
+      duration: 1.5,
     },
   },
 };
@@ -50,7 +57,7 @@ const textItemVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: "easeOut",
+      ease: "easeOut" as const,
     },
   },
 };

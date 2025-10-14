@@ -1,10 +1,11 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { AlertTriangle, RefreshCw } from "lucide-react";
+import { AlertTriangle, Home, RefreshCw } from "lucide-react";
+import Link from "next/link";
 import { useEffect } from "react";
 
-export default function Error({
+export default function CategoriesError({
   error,
   reset,
 }: {
@@ -12,7 +13,7 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error("Homepage error:", error);
+    console.error("Categories error:", error);
   }, [error]);
 
   return (
@@ -24,11 +25,11 @@ export default function Error({
 
         <div className="space-y-2">
           <h1 className="text-2xl sm:text-3xl font-bold text-foreground">
-            Something went wrong
+            Failed to load categories
           </h1>
           <p className="text-sm sm:text-base text-muted-foreground max-w-md">
-            We encountered an error while loading the homepage. This might be a
-            temporary issue.
+            We couldn't load the categories page. This might be a temporary
+            issue with our data source.
           </p>
         </div>
 
@@ -37,11 +38,11 @@ export default function Error({
             <RefreshCw className="h-4 w-4" />
             Try again
           </Button>
-          <Button
-            variant="outline"
-            onClick={() => (window.location.href = "/")}
-          >
-            Go to homepage
+          <Button variant="outline" asChild>
+            <Link href="/" className="flex items-center gap-2">
+              <Home className="h-4 w-4" />
+              Go to homepage
+            </Link>
           </Button>
         </div>
 

@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export function useBookmarks() {
-  const [bookmarkedItems, setBookmarkedItems] = useState<number[]>([]);
+  const [bookmarkedItems, setBookmarkedItems] = useState<string[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const lastClickedRef = useRef<{ id: number; timestamp: number } | null>(null);
+  const lastClickedRef = useRef<{ id: string; timestamp: number } | null>(null);
 
   useEffect(() => {
     try {
@@ -13,7 +13,7 @@ export function useBookmarks() {
         const parsed = JSON.parse(storedBookmarks);
         if (
           Array.isArray(parsed) &&
-          parsed.every((item) => typeof item === "number")
+          parsed.every((item) => typeof item === "string")
         ) {
           setBookmarkedItems(parsed);
         }
@@ -26,7 +26,7 @@ export function useBookmarks() {
   }, []);
 
   const toggleBookmark = useCallback(
-    (id: number) => {
+    (id: string) => {
       if (isLoading) return;
 
       const now = Date.now();
@@ -69,7 +69,7 @@ export function useBookmarks() {
   }, []);
 
   const isBookmarked = useCallback(
-    (id: number) => {
+    (id: string) => {
       return bookmarkedItems.includes(id);
     },
     [bookmarkedItems],
