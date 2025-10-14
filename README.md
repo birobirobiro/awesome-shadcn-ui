@@ -1,23 +1,24 @@
 <p align="center">
-  <br>
-  <img width="400" src="https://raw.githubusercontent.com/birobirobiro/awesome-shadcn-ui/64729b2c178e3fdcb42c0c7bf341bcde7ae502ea/assets/logo.svg" alt="logo of awesome-shadcn/ui repository">
-  <br>
-  <br>
+  <a href="https://awesome-shadcn-ui.vercel.app" target="_blank">
+  <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
+  </a>
 </p>
 
-<h2 align='center'>awesome-shadcn/ui</h2>
+<h1 align="center">awesome-shadcn/ui</h1>
 
-<p align='center'>
-A curated list of awesome things related to <a href='https://ui.shadcn.com/' target="_blank">shadcn/ui</a>
-<br><br>
+<p align="center">
+  A curated list of awesome things related to <a href="https://ui.shadcn.com/" target="_blank">shadcn/ui</a>
+</p>
 
-<p align='center'>
-<i>Created by: <a href='https://birobirobiro.dev/' target="_blank">birobirobiro.dev</a></i>
-<br><br>
+<p align="center">
+  <i>Created by <a href="https://birobirobiro.dev/" target="_blank">birobirobiro.dev</a></i><br>
+  <i>Site by <a href="https://bankkroll.xyz/" target="_blank">bankkroll.xyz</a></i>
+</p>
 
-<a href='https://github.com/birobirobiro/awesome-shadcn-ui/' target="_blank">
-<img src='https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg' alt='Awesome'>
-</a>
+<p align="center">
+  <a href="https://awesome-shadcn-ui.vercel.app/" target="_blank">
+    <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
+  </a>
 </p>
 
 ## Libs and Components
@@ -437,3 +438,18 @@ Thanks goes to all these wonderful people:
 <a href="https://github.com/birobirobiro/awesome-shadcn-ui/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=birobirobiro/awesome-shadcn-ui" />
 </a>
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Development & Contributing
+
+### For the Website
+- **Development Guide**: See [DEVELOPMENT.md](DEVELOPMENT.md) for setup, architecture, and configuration
+- **Contributing**: Fork the repository, create a feature branch, and submit a PR
+
+### For the Awesome List
+- **Via Website**: Use the built-in submission form at [awesome-shadcn-ui.vercel.app](https://awesome-shadcn-ui.vercel.app/)
+- **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
+- **Guidelines**: Ensure resources are shadcn/ui related, well-documented, and actively maintained
