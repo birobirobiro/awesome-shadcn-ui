@@ -36,6 +36,7 @@ import { toast } from "sonner";
 
 const CATEGORIES = [
   "Libs and Components",
+  "Registries",
   "Plugins and Extensions",
   "Colors and Customizations",
   "Animations",
@@ -329,6 +330,28 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
 
       <div className="space-y-4">
         <div>
+          <Label htmlFor="category">Category</Label>
+          <Select
+            value={formData.category}
+            onValueChange={(value) =>
+              setFormData((prev) => ({ ...prev, category: value }))
+            }
+            disabled={isSubmitting}
+          >
+            <SelectTrigger className="mt-1">
+              <SelectValue placeholder="Select a category" />
+            </SelectTrigger>
+            <SelectContent>
+              {CATEGORIES.map((category) => (
+                <SelectItem key={category} value={category}>
+                  {category}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div>
           <Label htmlFor="name">Resource Name</Label>
           <Input
             id="name"
@@ -369,28 +392,6 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             className="mt-1"
             disabled={isSubmitting}
           />
-        </div>
-
-        <div>
-          <Label htmlFor="category">Category</Label>
-          <Select
-            value={formData.category}
-            onValueChange={(value) =>
-              setFormData((prev) => ({ ...prev, category: value }))
-            }
-            disabled={isSubmitting}
-          >
-            <SelectTrigger className="mt-1">
-              <SelectValue placeholder="Select a category" />
-            </SelectTrigger>
-            <SelectContent>
-              {CATEGORIES.map((category) => (
-                <SelectItem key={category} value={category}>
-                  {category}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
         </div>
 
         {submissionError && (

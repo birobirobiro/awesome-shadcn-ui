@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Donation() {
@@ -17,11 +16,11 @@ export default function Donation() {
           bg-[#ffe433]/90 hover:bg-[#ffe433] 
           text-black font-semibold 
           transition-all duration-300 ease-in-out
-          hover:scale-105 hover:shadow-lg
+          hover:shadow-lg
           focus:outline-none focus:ring-2 focus:ring-[#ffe433] focus:ring-opacity-50
         "
       >
-        <Image
+        <img
           src="/BuyMyACoffee.svg"
           alt="Buy me a coffee"
           width={30}
