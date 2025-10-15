@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent } from "@/components/ui/card";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView } from "motion/react";
 import { ArrowRight, Github } from "lucide-react";
 
 import { PRSubmissionDialog } from "@/components/pr-submission-dialog";

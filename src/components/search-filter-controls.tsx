@@ -1,7 +1,7 @@
 import Sort, { SortOption } from "@/components/sort";
 import { Input } from "@/components/ui/input";
 import { MultiSelect } from "@/components/ui/multi-select";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import type React from "react";
 import { useCallback } from "react";
 
@@ -49,7 +49,7 @@ export function SearchFilterControls({
         placeholder="Search items..."
         value={searchQuery}
         onChange={handleSearchChange}
-        className="w-full sm:w-64"
+        className="w-full sm:w-[200px]"
       />
       <div className="w-full sm:w-auto flex flex-row items-center gap-4">
         <MultiSelect
@@ -57,7 +57,7 @@ export function SearchFilterControls({
           value={selectedCategories}
           onValueChange={setSelectedCategories}
           placeholder="Filter by category"
-          className="w-full sm:w-64"
+          className=" w-[160px] sm:w-[200px]"
         />
         <Sort sortOption={sortOption} onSortChange={onSortChange} />
       </div>

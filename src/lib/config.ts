@@ -43,6 +43,7 @@ export const PR_TEMPLATE = {
 
   CATEGORIES: [
     "Libs and Components",
+    "Registries",
     "Plugins and Extensions",
     "Colors and Customizations",
     "Animations",
@@ -59,6 +60,8 @@ export const PR_TEMPLATE = {
       "Resource is automatically sorted alphabetically within its section.",
       "Duplicate checking is performed automatically.",
       "Table formatting is handled automatically.",
+      "Includes a valid and working link to the resource.",
+      "Automatically assigned the correct section to the resource.",
     ],
   },
 } as const;
