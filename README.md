@@ -265,7 +265,7 @@
 | Name               | Description                                                                                                        | Link                                                | Date       |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------- | ---------- |
 | animata            | Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste into your project. | [Link](https://animata.design)                      | 2024-08-26 |
-| Animate UI | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15 |
+| animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15 |
 | magicui.design     | Largest collection of open-source react components to build beautiful landing pages.                               | [Link](https://magicui.design)                      | 2024-04-25 |
 | motionvariants     | Beautiful Framer Motion Animations.                                                                                | [Link](https://github.com/chrisabdo/motionvariants) | 2024-03-08 |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable.                                | [Link](https://rombo.co/tailwind/)                  | 2024-11-13 |
