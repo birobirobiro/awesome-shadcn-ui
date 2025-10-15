@@ -270,6 +270,7 @@
 | magicui.design | Largest collection of open-source react components to build beautiful landing pages. | [Link](https://magicui.design) | 2024-04-25 |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-03-08 |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15 |
+| scroll-x-ui | ScrollX UI is an open-source component library that provides beautifully designed, accessible, and AI-ready components. It works seamlessly with your favorite frameworks, making UI development faster and more efficient.| [Link](https://www.scrollxui.dev/) |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-11-13 |
 
 ## Tools
