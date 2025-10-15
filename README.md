@@ -268,6 +268,7 @@
 | animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15 |
 | magicui.design     | Largest collection of open-source react components to build beautiful landing pages.                               | [Link](https://magicui.design)                      | 2024-04-25 |
 | motionvariants     | Beautiful Framer Motion Animations.                                                                                | [Link](https://github.com/chrisabdo/motionvariants) | 2024-03-08 |
+| smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable.                                | [Link](https://rombo.co/tailwind/)                  | 2024-11-13 |
 
 ## Tools
