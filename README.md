@@ -322,6 +322,7 @@
 | andrewsam.xyz | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | [Link](https://www.andrewsam.xyz/) | 2024-09-18 |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-07-29 |
 | chanhdai.com | A minimal portfolio, component registry, and blog. | [Link](https://chanhdai.com) | 2025-09-11 |
+| Devfolios | Find best portfolio inspiration from all over the internet | [Link](https://devfolios-one.vercel.app/) |
 | godly | Astronomically good web design inspiration. Only the best of the best. | [Link](https://godly.website/) | 2024-07-29 |
 | hritu.art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) | 2025-06-10 |
 | kinhdev24 | Developer portfolio built with Next.js, shadcn/ui, Aceternity, and Magic UI | [Link](https://kinhdev.id.vn/) | 2025-07-08 |
