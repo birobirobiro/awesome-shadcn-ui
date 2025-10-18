@@ -5,10 +5,17 @@ labels:
   - feature
 ---
 
+## Submission Options
+
+You can submit resources in two ways:
+
+1. **Via Website**: Use the [awesome-shadcn-ui.vercel.app](https://awesome-shadcn-ui.vercel.app/) submission form for a guided experience
+2. **Via GitHub PR**: Use this template to create a pull request directly
+
 ## Describe the awesome resource you want to add
 
 **What is it?**  
-> Briefly explain what this resource is and why it’s awesome...
+> Briefly explain what this resource is and why it's awesome...
 -
 
 ## **Which section does it belong to?**  
@@ -38,14 +45,24 @@ labels:
 1. If you are introducing a new section, you must also add it to the `README.md` file and update the table of contents accordingly.  
 2. This repository focuses on open-source and freely accessible projects. Paid or fully commercial resources will not be accepted.  
 
-Just a heads-up: no need to add a date — our system takes care of that automatically!  
+## Required Table Format
 
-**Also:** Don't worry about formatting — our GitHub Action will automatically format the table and make sure everything stays in a single line per entry.
-
-**Format your entry like this:**
+**Format your entry exactly like this:**
 
 ```markdown
 | Name | Description | [Link](Your_Link_Here) |
 ```
+
+**Table Structure:**
+- **Name**: The resource name (keep it concise)
+- **Description**: Brief description of what the resource does
+- **Link**: Working link to the resource
+- **Date**: Leave empty - our system adds this automatically when merged
+
+**Formatting Rules:**
+- Each entry must be on a single line
+- Use proper markdown table syntax with `|` separators
+- Don't add dates manually - the system handles this
+- Ensure your link is working and accessible
 
 Thank you for contributing to the awesome-shadcn/ui repository!
