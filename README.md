@@ -327,7 +327,7 @@
 | kinhdev24 | Developer portfolio built with Next.js, shadcn/ui, Aceternity, and Magic UI | [Link](https://kinhdev.id.vn/) | 2025-07-08 |
 | list.swajp.me | It has never been easier to find the right projects or designs by inspiring successful people. | [Link](https://list.swajp.me) | 2024-07-29 |
 | nathans-ai | An AI Chatbot acting as a portfolio, built with shadcn/ui components. | [Link](https://chat.brodin.dev) | 2024-11-21 |
-| Portfolio | Portfolio made with Next.js, shadcn/ui (with magic ui ) and Email.js | [Link](https://ifte-13.vercel.app/) |
+| ifte-13 | Portfolio made with Next.js, shadcn/ui (with magic ui ) and Email.js | [Link](https://ifte-13.vercel.app/) |
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-10-03 |
 | swajp.me | A visually appealing portfolio and resource hub. | [Link](https://swajp.me) | 2024-07-29 |
 | windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-02-20 |
