@@ -335,7 +335,8 @@
 | ifte-13 | Portfolio made with Next.js, shadcn/ui (with magic ui ) and Email.js | [Link](https://ifte-13.vercel.app/) | 2025-10-25 |
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-10-03 |
 | swajp.me | A visually appealing portfolio and resource hub. | [Link](https://swajp.me) | 2024-07-29 |
-| windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-02-20 |
+| windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-02-20 | 
+| MPakravan | Portfolio website using React, Next.js, Tailwind CSS, ShadCN, and GSAP, modern design system. | [Link](https://mpakravan.com/en) | 2025-09-20 | 
 
 ## Platforms
 
