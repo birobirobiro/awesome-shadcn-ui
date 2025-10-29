@@ -105,6 +105,7 @@
 | matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) | 2025-04-23 |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-06-22 |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-07-07 |
+| modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-10-29 |
 | moleculeui | A modern React component library focused on intuitive interactions and seamless user experiences. | [Link](https://www.moleculeui.design/) | 2025-09-06 |
 | multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) | 2025-01-21 |
 | mvpblocks | Copy-paste beautiful, responsive components without worrying about styling or animations. Build faster, launch sooner. | [Link](https://blocks.mvp-subha.me) | 2025-05-14 |
