@@ -311,7 +311,7 @@
 | shadcn-zod-form | CLI tool to generate shadcn/ui forms from Zod schemas. | [Link](https://github.com/ilyichv/shadcn-zod-form) | 2024-10-03 |
 | sharable-form-builder | A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Next.js. | [Link](https://github.com/ayoubben18/sharable-form-builder) | 2024-10-12 |
 | someday | Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail users. | [Link](https://github.com/rbbydotdev/someday) | 2024-12-26 |
-| sweep | Sweep is a modern, open-source gradient generator built for designers and developers. Create beautiful linear and radial gradients with real-time preview, noise/blur effects, and export to CSS, Tailwind, SVG, or JPG. Free forever. No sign-up required. | [Link](https://github.com/Johuniq/sweep) |
+| sweep | Sweep is a modern, open-source gradient generator built for designers and developers. Create beautiful linear and radial gradients with real-time preview, noise/blur effects, and export to CSS, Tailwind, SVG, or JPG. Free forever. No sign-up required. | [Link](https://github.com/Johuniq/sweep) | 2025-11-11 |
 | tancn | Build powerful forms and tables with ease using TanStack technologies | [Link](https://tancn.dev/) | 2025-11-02 |
 | tinte | An opinionated VS Code Theme Generator 🎨. | [Link](https://tinte.railly.dev/) | 2024-10-03 |
 | translate-app | Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. | [Link](https://github.com/developaul/translate-app) | 2024-07-08 |
