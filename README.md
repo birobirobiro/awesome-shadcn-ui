@@ -31,6 +31,7 @@
 | animated-header | Vercel-like animated header. | [Link](https://github.com/mehrdadrafiee/animated-header) | 2025-10-20 |
 | animated-tabs | Vercel-like animated tabs. | [Link](https://github.com/mehrdadrafiee/animated-tabs) | 2025-04-06 |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-09-23 |
+| audio/ui | A set of accessible and composable Audio UI React components. Built on top of shadcn/ui, it's designed for you to copy, paste, and own. | [Link](https://github.com/ouestlabs/audio-ui) | 2025-05-01 |
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-04-07 |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-04-29 |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-07-22 |
@@ -119,7 +120,6 @@
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) | 2024-11-25 |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-06-11 |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-10-17 |
-| audio/ui | A set of accessible and composable Audio UI React components. Built on top of shadcn/ui, it's designed for you to copy, paste, and own. | [Link](https://github.com/ouestlabs/audio-ui) | 2025-05-01 |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-10-28 |
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-03-28 |
 | payment-gateways | Integration of payment gateways with Next.js 14. | [Link](https://github.com/PremPrakashCodes/payment-gateways) | 2024-08-05 |
