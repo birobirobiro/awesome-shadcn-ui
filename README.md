@@ -424,6 +424,7 @@
 | shadcn-landing-page (Vue) | Project conversion [shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to Next.js - Landing page template using Nestjs, shadcn/ui, TypeScript, and Tailwind CSS. | [Link](https://github.com/nobruf/shadcn-landing-page) | 2024-12-27 |
 | shadcn-nextjs-free-boilerplate | Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template. | [Link](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) | 2024-05-24 |
 | shadcn-nextjs-dashboard | Admin Dashboard UI built with Shadcn and NextJS. Free and Open-source. | [Link](https://github.com/NaveenDA/shadcn-nextjs-dashboard) | 2025-06-22 |
+| shadcn-portfolio | A portfolio template, which uses shadcn-ui and Next.JS. | [Link](https://github.com/techwithanirudh/shadcn-portfolio) |
 | shadcn-registry-template | Template repository for building a custom component registry for shadcn/ui. | [Link](https://github.com/vantezzen/shadcn-registry-template) | 2024-09-05 |
 | shadcn-ui-dashboard | Multipurpose and powerful admin dashboard template compatible with shadcn/ui. | [Link](https://shadcnuidashboard.com) | 2025-09-21 |
 | shadcn-vue-landing-page | Landing page template using Vue, shadcn-vue, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-vue-landing-page) | 2024-06-06 |
