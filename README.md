@@ -404,7 +404,7 @@
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-08-06 |
 | ecommerce-kit | Next.js starter kit with the tools you need to quickly launch your e-commerce site. | [Link](https://ecommercekit.dev) | 2025-09-06 |
 | electron-shadcn | Electron app template with shadcn/ui and a bunch of other libs and tools ready to use. | [Link](https://github.com/LuanRoger/electron-shadcn) | 2024-06-17 |
-| Forjnot | Modern Project Starter Kit | Launch your next project faster with Forjnot - A professional, customizable and clean starting point featuring modern tech stack and best practices | [Link](https://github.com/aman-sharma-dev/forjnot) |
+| forjnot | Modern Project Starter Kit | Launch your next project faster with Forjnot - A professional, customizable and clean starting point featuring modern tech stack and best practices | [Link](https://github.com/aman-sharma-dev/forjnot) |
 | full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) | 2025-06-10 |
 | horizon-ai-nextjs-shadcn-boilerplate | Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth. | [Link](https://horizon-ui.com/boilerplate-shadcn) | 2024-05-24 |
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-06-11 |
