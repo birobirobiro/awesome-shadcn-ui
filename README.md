@@ -232,6 +232,7 @@
 
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------- | ---------- |
+| neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
 
 ## Plugins and Extensions
