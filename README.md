@@ -234,6 +234,7 @@
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------- | ---------- |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
+| undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) |
 
 ## Plugins and Extensions
 
