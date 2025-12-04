@@ -139,7 +139,7 @@
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-10-03 |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13 |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-26 |
-| Ruixen UI | Ruixen UI: Lightweight & Customizable React Library | [Link](https://github.com/ruixenui/ruixen.com) |
+| ruixen-ui | Ruixen UI: Lightweight & Customizable React Library | [Link](https://github.com/ruixenui/ruixen.com) |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-05-07 |
 | shadboard | An admin dashboard template built with Next.js 15, React 19, Tailwind CSS v4, and Shadcn/UI components, featuring starter and full kits for scalable, user-friendly web apps. | [Link](https://github.com/Qualiora/shadboard) | 2025-04-22 |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-07-10 |
