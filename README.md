@@ -236,6 +236,7 @@
 | ------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------- | ---------- |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04 |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
+| shadcraft | Open Source registry of components & blocks | [Link](https://shadcraft.com) |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04 |
 
 ## Plugins and Extensions
