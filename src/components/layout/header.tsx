@@ -21,7 +21,7 @@ import {
 } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { useCategories } from "@/hooks/use-categories";
-import { ArrowRight, ExternalLink, Github, Menu } from "lucide-react";
+import { ArrowRight, Bookmark, ExternalLink, Github, Menu } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useState } from "react";
@@ -111,6 +111,16 @@ export function Header() {
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild>
+                    <Link
+                      href="/bookmarks"
+                      className="bg-transparent hover:bg-accent font-medium"
+                    >
+                      Bookmarks
+                    </Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
           </div>
@@ -165,6 +175,29 @@ export function Header() {
                       />
                     </motion.div>
 
+                    {/* Bookmarks Link */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.3, delay: 0.05 }}
+                    >
+                      <Link
+                        href="/bookmarks"
+                        className="group block rounded-xl border-2 border-dashed border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 p-3 transition-all hover:border-primary/50 hover:shadow-lg hover:from-primary/10 hover:to-primary/15"
+                        onClick={() => setIsOpen(false)}
+                      >
+                        <div className="flex items-center justify-between gap-3">
+                          <div className="flex items-center gap-2">
+                            <Bookmark className="h-4 w-4 text-primary" />
+                            <h3 className="font-semibold text-base text-primary group-hover:text-primary/80 transition-colors">
+                              Bookmarks
+                            </h3>
+                          </div>
+                          <ArrowRight className="h-4 w-4 text-primary group-hover:text-primary/80 group-hover:translate-x-1 transition-all flex-shrink-0" />
+                        </div>
+                      </Link>
+                    </motion.div>
+
                     {isLoading ? (
                       <div className="text-center py-12">
                         <div className="animate-pulse text-muted-foreground">
@@ -181,7 +214,7 @@ export function Header() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{
                               duration: 0.3,
-                              delay: (index + 1) * 0.05,
+                              delay: (index + 2) * 0.05,
                             }}
                           >
                             <Link
@@ -204,7 +237,7 @@ export function Header() {
                           animate={{ opacity: 1, y: 0 }}
                           transition={{
                             duration: 0.3,
-                            delay: (categories.length + 1) * 0.05,
+                            delay: (categories.length + 2) * 0.05,
                           }}
                         >
                           <Link
