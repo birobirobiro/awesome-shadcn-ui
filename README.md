@@ -102,6 +102,7 @@
 | linked-chart | Chart component linked with data-table. | [Link](https://github.com/ardasisbot/linked-chart) | 2025-02-03 |
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) | 2024-07-02 |
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-26 |
+| manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-23 |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) | 2024-04-25 |
 | maily.to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) | 2024-06-15 |
 | matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) | 2025-04-23 |
