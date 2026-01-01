@@ -363,6 +363,7 @@
 | midday-components | A collection of open-source components based on Midday features. | [Link](https://midday.ai/components) | 2024-11-21 |
 | multiboard | Minimal Kanban platform. Built with Better-Auth, Next.js, ZenStack, Prisma, and shadcn/ui. | [Link](https://github.com/olliethedev/multiboard) | 2025-07-15 |
 | plotwist | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US) | 2024-05-31 |
+| xeramail | Temporary email address service built with Next.js and shadcn/ui, offering fast inbox access, modern UI, and better control over disposable emails. | [Link](https://xeramail.com) | 2026-01-01 |
 | youropinion.is | Free survey platform which supports importing your exisitng shadcn/ui theme | [Link](https://youropinion.is/news/202505-match-my-style) | 2025-06-16 |
 
 ## Ports
