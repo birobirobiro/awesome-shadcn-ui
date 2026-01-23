@@ -304,7 +304,7 @@
 | form-builder-fast | Shadcn Form Builder - Build forms in minutes for free. | [Link](https://ui.indie-starter.dev/form-builder) | 2024-12-26 |
 | graphitup | Create free downloadable Shadcn-themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic designs. | [Link](https://graphitup.com/tools) | 2025-12-26 |
 | hook-again | A collection of shadcn/ui installable React Hooks. | [Link](https://github.com/ilyichv/hookagain) | 2024-11-04 |
-| Img2m3 | A developer tool that automates the process of creating cohesive, accessible design systems. It bridges the gap between Google's Material Design 3 algorithms and the modern Tailwind CSS v4 ecosystem.| [Link](https://img2m3.vercel.app/studio) |
+| Img2m3 | A developer tool that automates the process of creating cohesive, accessible design systems. It bridges the gap between Google's Material Design 3 algorithms and the modern Tailwind CSS v4 ecosystem.| [Link](https://img2m3.vercel.app/studio) | 2026-01-23 |
 | imgsrc | Generate beautiful Open Graph images with zero effort. | [Link](https://imgsrc.io/) | 2024-05-31 |
 | invoify | An invoice generator app built using Next.js, TypeScript, and shadcn/ui. | [Link](https://github.com/aliabb01/invoify) | 2024-03-27 |
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-07-17 |
