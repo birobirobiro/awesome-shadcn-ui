@@ -87,7 +87,7 @@
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-07-02 |
 | glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) | 2025-06-10 |
 | gluestack-ui | React & React Native Components with Tailwind CSS. | [Link](https://gluestack.io) | 2024-11-08 |
-| heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) |
+| heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23 |
 | hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14 |
 | ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://bg.ibelick.com/) | 2024-06-09 |
 | image-crop-field | Image crop field with shadcn/ui. This component is a wrapper around the react-easy-crop component. | [Link](https://github.com/JsCodeDevlopment/upload-crop-image) | 2025-10-01 |
