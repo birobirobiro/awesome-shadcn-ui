@@ -457,6 +457,7 @@
 | turborepo-nextjs-wxt-shadcn-boilerplate | Turborepo boilerplate featuring web and web-extension apps with shadcn/ui for shared ui components and unified Typescript, ESLint, Tailwind CSS, and Prettier configs. | [Link](https://github.com/Aniket-508/turborepo-nextjs-wxt-shadcn-boilerplate) | 2025-04-24 |
 | turborepo-shadcn-ui-tailwindcss | Turborepo starter with shadcn/ui & TailwindCSS pre-configured for shared UI components. | [Link](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) | 2024-06-06 |
 | turborepo-launchpad | A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities. | [Link](https://github.com/JadRizk/turborepo-launchpad) | 2024-06-10 |
+| waitly | A simple and useful waitlist Next.js and Shadcn UI template. | [Link](https://shadcnuikit.com/template/waitly-free-waitlist-template) | 2025-12-19 |
 | wordpress-plugin-boilerplate | WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, TailwindCSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR, and more. | [Link](https://github.com/prappo/wordpress-plugin-boilerplate) | 2024-09-24 |
 
 ## Star History
