@@ -264,7 +264,6 @@
 | dizzy | Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radii, and shadows. | [Link](https://dizzy.systems) | 2024-06-05 |
 | ewgenius/ui | Create custom themes for shadcn/ui effortlessly using vibrant palettes from Radix Colors. | [Link](https://ui.ewgenius.me/shadcn-radix-colors) | 2024-10-11 |
 | gradient-picker | Fancy Gradient Picker built with shadcn/ui, Radix UI, and Tailwind CSS. | [Link](https://github.com/Illyism/gradient-picker) | 2024-03-08 |
-| img to material UI color scheme | Img2m3 is a developer tool that automates the process of creating cohesive, accessible design systems. It bridges the gap between Google's Material Design 3 algorithms and the modern Tailwind CSS v4 ecosystem. How it works: Simply drag and drop an image. The app uses material-color-utilities (the official Google library) to extract the HCT color space and generates a complete tonal palette. Why it's different: Most generators just give you raw hex codes. Img2m3 applies custom semantic mapping to translate Material 3 roles into the specific variables required by shadcn/ui (like --card, --muted, --popover, and --border). | [Link](https://img2m3.vercel.app/studio) |
 | navnote/rangeen | Tool that helps you to create a colour palette for your website. | [Link](https://github.com/navnote/rangeen) | 2024-06-05 |
 | shadesigner.com | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface. | [Link](https://shadesigner.com) | 2024-12-26 |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-03-08 |
@@ -301,6 +300,7 @@
 | form-builder-fast | Shadcn Form Builder - Build forms in minutes for free. | [Link](https://ui.indie-starter.dev/form-builder) | 2024-12-26 |
 | graphitup | Create free downloadable Shadcn-themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic designs. | [Link](https://graphitup.com/tools) | 2025-12-26 |
 | hook-again | A collection of shadcn/ui installable React Hooks. | [Link](https://github.com/ilyichv/hookagain) | 2024-11-04 |
+| Img2m3 | A developer tool that automates the process of creating cohesive, accessible design systems. It bridges the gap between Google's Material Design 3 algorithms and the modern Tailwind CSS v4 ecosystem.| [Link](https://img2m3.vercel.app/studio) |
 | imgsrc | Generate beautiful Open Graph images with zero effort. | [Link](https://imgsrc.io/) | 2024-05-31 |
 | invoify | An invoice generator app built using Next.js, TypeScript, and shadcn/ui. | [Link](https://github.com/aliabb01/invoify) | 2024-03-27 |
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-07-17 |
