@@ -129,7 +129,7 @@
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-03-28 |
 | payment-gateways | Integration of payment gateways with Next.js 14. | [Link](https://github.com/PremPrakashCodes/payment-gateways) | 2024-08-05 |
 | phone-input-shadcn-ui | Custom phone number component with shadcn/ui. | [Link](https://www.armand-salle.fr/post/phone-input-shadcn-ui) | 2024-06-07 |
-| Pittaya UI | A fully open-source UI library for React, powered by TypeScript and Tailwind CSS. Fast, composable, and ready for production. | [Link](https://github.com/pittaya-ui/ui-kit) |
+| pittaya-ui | A fully open-source UI library for React, powered by TypeScript and Tailwind CSS. Fast, composable, and ready for production. | [Link](https://github.com/pittaya-ui/ui-kit) |
 | planner | Adaptable scheduling component for React. | [Link](https://github.com/UretzkyZvi/planner) | 2024-04-29 |
 | plate | AI-powered rich-text editor. | [Link](https://github.com/udecode/plate) | 2024-03-21 |
 | plate-select-editor | Rich multi-select editor. | [Link](https://platejs.org/docs/multi-select) | 2024-11-28 |
