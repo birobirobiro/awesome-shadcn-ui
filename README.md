@@ -109,6 +109,7 @@
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-26 |
 | manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-23 |
 | matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) | 2025-04-23 |
+| mindmapcn | Beautiful mind maps, works seamlessly with shadcn/ui. | [Link](https://github.com/SSShooter/mindmapcn) | 2026-01-27 |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-06-22 |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-07-07 |
 | modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-11-02 |
