@@ -8,10 +8,15 @@
     "start": "next start",
     "format": "prettier --write ./src",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",
+    "@opennextjs/cloudflare": "^1.16.0",
     "@radix-ui/react-avatar": "1.1.9",
     "@radix-ui/react-dialog": "1.1.13",
     "@radix-ui/react-dropdown-menu": "2.1.14",
@@ -48,6 +53,7 @@
     "tailwind-merge": "^2.6.0",
     "tailwindcss": "^4.1.11",
     "tw-animate-css": "^1.3.4",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "wrangler": "^4.61.0"
   }
 }
