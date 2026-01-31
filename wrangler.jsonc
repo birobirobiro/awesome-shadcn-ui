@@ -3,7 +3,10 @@
 	"main": ".open-next/worker.js",
 	"name": "awesome-shadcn-ui",
 	"compatibility_date": "2026-01-31",
-	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
 	"assets": {
 		"directory": ".open-next/assets",
 		"binding": "ASSETS"
