@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start",
-    "format": "prettier --write ./src",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",
@@ -42,12 +40,14 @@
     "sonner": "^1.7.4"
   },
   "devDependencies": {
+    "@opennextjs/cloudflare": "^1.16.1",
     "@types/node": "24.0.10",
     "@types/react": "^19",
     "prettier": "^3",
     "tailwind-merge": "^2.6.0",
     "tailwindcss": "^4.1.11",
     "tw-animate-css": "^1.3.4",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "wrangler": "^4.61.1"
   }
 }
