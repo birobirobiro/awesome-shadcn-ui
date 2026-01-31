@@ -5,10 +5,6 @@
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
-    "start": "next start",
-    "format": "prettier --write ./src",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
