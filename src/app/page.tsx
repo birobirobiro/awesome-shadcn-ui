@@ -3,6 +3,7 @@
 import { SubmitCTA } from "@/components/sections/cta-submit";
 import Hero from "@/components/sections/hero";
 import ItemList from "@/components/sections/items-list";
+import { Sponsorship } from "@/components/sections/sponsorship";
 import { Resource, fetchAndParseReadme } from "@/hooks/use-readme";
 import { isValid, parseISO } from "date-fns";
 import { motion } from "motion/react";
@@ -68,7 +69,7 @@ export default function Home() {
 
   return (
     <motion.div
-      className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8"
+      className="container mx-auto max-w-7xl px-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.3 }}
@@ -76,10 +77,10 @@ export default function Home() {
       <Hero />
 
       <motion.div
-        className="my-8 sm:my-12"
-        initial={{ opacity: 0, y: 20 }}
+        className="mt-12 mb-8"
+        initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5, delay: 2.5 }}
+        transition={{ duration: 0.3, delay: 0.4 }}
       >
         <ItemList
           key={filteredItems.length}
@@ -87,6 +88,8 @@ export default function Home() {
           categories={categories}
         />
       </motion.div>
+
+      <Sponsorship />
 
       <SubmitCTA />
     </motion.div>

@@ -49,6 +49,7 @@
     "@types/node": "24.0.10",
     "@types/react": "^19",
     "prettier": "^3",
+    "shadcn": "^3.8.1",
     "tailwind-merge": "^2.6.0",
     "tailwindcss": "^4.1.11",
     "tw-animate-css": "^1.3.4",

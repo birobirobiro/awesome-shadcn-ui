@@ -9,5 +9,11 @@
   "assets": {
     "directory": ".open-next/assets",
     "binding": "ASSETS"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "awesomeshadcn.dev/*",
+      "custom_domain": true
+    },
+  ]
 }

@@ -3,295 +3,150 @@
 import { PRSubmissionDialog } from "@/components/pr-submission-dialog";
 import { Button } from "@/components/ui/button";
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import {
   Sheet,
   SheetContent,
-  SheetFooter,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { ThemeToggle } from "@/components/ui/theme-toggle";
-import { useCategories } from "@/hooks/use-categories";
-import { ArrowRight, Bookmark, ExternalLink, Github, Menu } from "lucide-react";
-import { motion } from "motion/react";
+import { Github, Menu } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
 export function Header() {
-  const { categories, isLoading } = useCategories();
-  const [isOpen, setIsOpen] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b backdrop-blur px-2 sm:px-4">
-      <div className="w-full flex items-center justify-between">
-        <div className="w-full flex items-center max-sm:justify-between py-2 sm:py-4 gap-4">
-          <Link href="/" className="flex items-center gap-x-2.5">
-            <img src="/logo.svg" alt="logo" className="block h-10 w-auto" />
-            <p className="font-bold">awesome-shadcn/ui</p>
+    <header className="sticky top-0 z-50 border-b backdrop-blur bg-background/80">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-14">
+          {/* Left: Logo */}
+          <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+            <img src="/logo.svg" alt="logo" className="h-8 w-auto" />
+            <span className="font-bold text-sm hidden sm:inline">awesome-shadcn/ui</span>
           </Link>
-          <div className="hidden lg:block">
-            <NavigationMenu>
-              <NavigationMenuList>
-                <NavigationMenuItem>
-                  <NavigationMenuTrigger className="bg-transparent hover:bg-accent">
-                    Categories
-                  </NavigationMenuTrigger>
-                  <NavigationMenuContent>
-                    <div className="w-[800px] p-2">
-                      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
-                        {isLoading ? (
-                          <div className="col-span-full text-center py-8">
-                            <div className="animate-pulse text-muted-foreground">
-                              Loading categories...
-                            </div>
-                          </div>
-                        ) : (
-                          <>
-                            {categories.map((category) => (
-                              <motion.div
-                                key={category.title}
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.2 }}
-                              >
-                                <NavigationMenuLink asChild>
-                                  <Link
-                                    href={`/categories/${category.slug}`}
-                                    className="group block rounded-lg border border-dashed border-primary/20 bg-card p-4 transition-all hover:border-border hover:shadow-md h-full"
-                                  >
-                                    <div className="flex items-start justify-between gap-2 mb-2">
-                                      <h3 className="font-semibold text-sm group-hover:text-primary transition-colors">
-                                        {category.title}
-                                      </h3>
-                                      <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                                    </div>
-                                    <p className="text-xs text-muted-foreground mb-3 line-clamp-2">
-                                      {category.description}
-                                    </p>
-                                  </Link>
-                                </NavigationMenuLink>
-                              </motion.div>
-                            ))}
-                            <motion.div
-                              initial={{ opacity: 0, y: 10 }}
-                              animate={{ opacity: 1, y: 0 }}
-                              transition={{ duration: 0.2 }}
-                              className="md:col-span-2 lg:col-span-3"
-                            >
-                              <NavigationMenuLink asChild>
-                                <Link
-                                  href="/categories"
-                                  className="group block rounded-lg border border-dashed border-primary/20 bg-card p-4 transition-all hover:border-primary/40 hover:shadow-md h-full"
-                                >
-                                  <div className="flex items-start justify-between gap-2 mb-2">
-                                    <h3 className="font-semibold text-sm group-hover:text-primary transition-colors">
-                                      View All Categories
-                                    </h3>
-                                    <ExternalLink className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all" />
-                                  </div>
-                                  <p className="text-xs text-muted-foreground mb-3 line-clamp-2">
-                                    Browse all categories and discover more
-                                    resources
-                                  </p>
-                                </Link>
-                              </NavigationMenuLink>
-                            </motion.div>
-                          </>
-                        )}
-                      </div>
-                    </div>
-                  </NavigationMenuContent>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="/bookmarks"
-                      className="bg-transparent hover:bg-accent font-medium"
-                    >
-                      Bookmarks
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-          </div>
 
-          <div className="lg:hidden flex items-center gap-2">
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
-                <button className="flex items-center gap-2 px-3 py-2 rounded-md text-sm font-medium hover:bg-accent transition-colors">
+          {/* Center: Navigation - Desktop */}
+          <nav className="hidden md:flex items-center gap-6">
+            <Link
+              href="/categories"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Categories
+            </Link>
+            <Link
+              href="/bookmarks"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Bookmarks
+            </Link>
+          </nav>
+
+          {/* Right: Actions */}
+          <div className="flex items-center gap-3">
+            {/* Sponsorship - Desktop */}
+            <a
+              href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=header"
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="hidden lg:flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <svg viewBox="0 0 36 36" className="size-4 shrink-0">
+                <path
+                  fill="currentColor"
+                  d="M36 18c0-9.94-8.06-18-18-18S0 8.06 0 18s8.06 18 18 18 18-8.06 18-18"
+                />
+                <path
+                  fill="var(--background)"
+                  d="M17.19 22.422a5.05 5.05 0 0 1 5.049-5.049h6.453v2.194h-6.453a2.854 2.854 0 0 0-2.853 2.855v6.634H17.19zm-2.298-.42.771.78-4.54 4.488-.77-.782-.772-.78 4.539-4.484.772.776zm11.97 3.708-1.552 1.551-4.514-4.514.776-.775.777-.78 4.511 4.518zm-9.847-11.19V7.88h2.194v6.637a5.05 5.05 0 0 1-5.047 5.049H7.708v-2.194h6.452a2.856 2.856 0 0 0 2.853-2.855zm9.894-2.949-4.544 4.488-1.542-1.56 4.542-4.488zm-11.46 2.693-1.553 1.55-4.514-4.513 1.553-1.551z"
+                />
+              </svg>
+              <span className="hidden xl:inline">shadcnstudio.com</span>
+            </a>
+
+            {/* Submit Button - Desktop */}
+            <div className="hidden md:block">
+              <PRSubmissionDialog
+                trigger={
+                  <Button variant="outline" size="sm" className="h-8">
+                    <Github className="mr-1.5 h-3.5 w-3.5" />
+                    Submit
+                  </Button>
+                }
+              />
+            </div>
+
+            <ThemeToggle />
+
+            {/* Mobile Menu */}
+            <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
+              <SheetTrigger asChild className="md:hidden">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
                   <Menu className="h-4 w-4" />
-                  <span className="hidden sm:inline">Categories</span>
-                </button>
+                  <span className="sr-only">Toggle menu</span>
+                </Button>
               </SheetTrigger>
-              <SheetContent
-                side="right"
-                className="w-[95%] sm:w-[420px] p-0 flex flex-col"
-              >
-                <SheetHeader className="border-b">
-                  <SheetTitle className="flex items-center gap-2 text-xl">
-                    <Link href="/" className="flex items-center gap-x-2.5">
-                      <img
-                        src="/logo.svg"
-                        alt="logo"
-                        className="block h-10 w-auto"
-                      />
-                      <p className="font-bold">awesome-shadcn/ui</p>
-                    </Link>{" "}
+              <SheetContent side="right" className="w-full sm:w-[400px]">
+                <SheetHeader className="border-b pb-4 -mx-6 px-6">
+                  <SheetTitle asChild>
+                    <Link href="/" onClick={() => setMobileMenuOpen(false)} className="flex items-center gap-2 text-sm font-bold">
+                      <img src="/logo.svg" alt="logo" className="h-6 w-auto" />
+                      <span>awesome-shadcn/ui</span>
+                    </Link>
                   </SheetTitle>
                 </SheetHeader>
 
-                <ScrollArea className="flex-1 px-3">
-                  <div className="space-y-2">
-                    {/* Submit Button - First item in mobile sheet */}
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.3 }}
-                    >
-                      <PRSubmissionDialog
-                        trigger={
-                          <button className="group block w-full rounded-xl border-2 border-dashed border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 p-3 transition-all hover:border-primary/50 hover:shadow-lg hover:from-primary/10 hover:to-primary/15">
-                            <div className="flex items-center justify-between gap-3">
-                              <div className="flex items-center gap-2">
-                                <Github className="h-4 w-4 text-primary" />
-                                <h3 className="font-semibold text-base text-primary group-hover:text-primary/80 transition-colors">
-                                  Submit Resource
-                                </h3>
-                              </div>
-                              <ArrowRight className="h-4 w-4 text-primary group-hover:text-primary/80 group-hover:translate-x-1 transition-all flex-shrink-0" />
-                            </div>
-                          </button>
-                        }
+                {/* Navigation Links */}
+                <nav className="flex flex-col gap-1 mt-6">
+                  <Link
+                    href="/categories"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-sm py-3 text-foreground hover:text-muted-foreground transition-colors"
+                  >
+                    Categories
+                  </Link>
+                  <Link
+                    href="/bookmarks"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="text-sm py-3 text-foreground hover:text-muted-foreground transition-colors"
+                  >
+                    Bookmarks
+                  </Link>
+                </nav>
+
+                {/* Actions */}
+                <div className="space-y-3 mt-6">
+                  <PRSubmissionDialog
+                    trigger={
+                      <Button variant="outline" className="w-full justify-center">
+                        <Github className="mr-2 h-4 w-4" />
+                        Submit Resource
+                      </Button>
+                    }
+                  />
+
+                  <a
+                    href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=mobile"
+                    target="_blank"
+                    rel="noopener noreferrer sponsored"
+                    className="flex items-center justify-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors py-2"
+                  >
+                    <svg viewBox="0 0 36 36" className="size-3.5 shrink-0">
+                      <path
+                        fill="currentColor"
+                        d="M36 18c0-9.94-8.06-18-18-18S0 8.06 0 18s8.06 18 18 18 18-8.06 18-18"
                       />
-                    </motion.div>
-
-                    {/* Bookmarks Link */}
-                    <motion.div
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.3, delay: 0.05 }}
-                    >
-                      <Link
-                        href="/bookmarks"
-                        className="group block rounded-xl border-2 border-dashed border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 p-3 transition-all hover:border-primary/50 hover:shadow-lg hover:from-primary/10 hover:to-primary/15"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        <div className="flex items-center justify-between gap-3">
-                          <div className="flex items-center gap-2">
-                            <Bookmark className="h-4 w-4 text-primary" />
-                            <h3 className="font-semibold text-base text-primary group-hover:text-primary/80 transition-colors">
-                              Bookmarks
-                            </h3>
-                          </div>
-                          <ArrowRight className="h-4 w-4 text-primary group-hover:text-primary/80 group-hover:translate-x-1 transition-all flex-shrink-0" />
-                        </div>
-                      </Link>
-                    </motion.div>
-
-                    {isLoading ? (
-                      <div className="text-center py-12">
-                        <div className="animate-pulse text-muted-foreground">
-                          <div className="h-4 bg-muted rounded w-32 mx-auto mb-2"></div>
-                          <div className="h-3 bg-muted rounded w-24 mx-auto"></div>
-                        </div>
-                      </div>
-                    ) : (
-                      <>
-                        {categories.map((category, index) => (
-                          <motion.div
-                            key={category.title}
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{
-                              duration: 0.3,
-                              delay: (index + 2) * 0.05,
-                            }}
-                          >
-                            <Link
-                              href={`/categories/${category.slug}`}
-                              className="group block rounded-xl border border-dashed border-primary/20 bg-card/50 backdrop-blur-sm p-2 transition-all hover:border-primary/40 hover:shadow-lg hover:bg-card/80"
-                              onClick={() => setIsOpen(false)}
-                            >
-                              <div className="flex items-center justify-between gap-3">
-                                <h3 className="font-semibold text-base group-hover:text-primary transition-colors line-clamp-1">
-                                  {category.title}
-                                </h3>
-                                <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
-                              </div>
-                            </Link>
-                          </motion.div>
-                        ))}
-
-                        <motion.div
-                          initial={{ opacity: 0, y: 20 }}
-                          animate={{ opacity: 1, y: 0 }}
-                          transition={{
-                            duration: 0.3,
-                            delay: (categories.length + 2) * 0.05,
-                          }}
-                        >
-                          <Link
-                            href="/categories"
-                            className="group block rounded-xl border-2 border-dashed border-primary/30 bg-gradient-to-r from-primary/5 to-primary/10 p-2 transition-all hover:border-primary/50 hover:shadow-lg hover:from-primary/10 hover:to-primary/15"
-                            onClick={() => setIsOpen(false)}
-                          >
-                            <div className="flex items-center justify-between gap-3">
-                              <h3 className="font-semibold text-base text-primary group-hover:text-primary/80 transition-colors">
-                                View All Categories
-                              </h3>
-                              <ExternalLink className="h-4 w-4 text-primary group-hover:text-primary/80 group-hover:translate-x-1 transition-all flex-shrink-0" />
-                            </div>
-                          </Link>
-                        </motion.div>
-                      </>
-                    )}
-                  </div>
-                </ScrollArea>
-
-                <SheetFooter className="px-6 py-4 border-t bg-muted/30">
-                  <div className="flex items-center justify-between w-full">
-                    <div className="flex items-center gap-4">
-                      <a
-                        href="https://github.com/birobirobiro/awesome-shadcn-ui"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
-                      >
-                        <Github className="h-4 w-4" />
-                        <span className="hidden sm:inline">GitHub</span>
-                      </a>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <ThemeToggle />
-                    </div>
-                  </div>
-                </SheetFooter>
+                      <path
+                        fill="var(--background)"
+                        d="M17.19 22.422a5.05 5.05 0 0 1 5.049-5.049h6.453v2.194h-6.453a2.854 2.854 0 0 0-2.853 2.855v6.634H17.19zm-2.298-.42.771.78-4.54 4.488-.77-.782-.772-.78 4.539-4.484.772.776zm11.97 3.708-1.552 1.551-4.514-4.514.776-.775.777-.78 4.511 4.518zm-9.847-11.19V7.88h2.194v6.637a5.05 5.05 0 0 1-5.047 5.049H7.708v-2.194h6.452a2.856 2.856 0 0 0 2.853-2.855zm9.894-2.949-4.544 4.488-1.542-1.56 4.542-4.488zm-11.46 2.693-1.553 1.55-4.514-4.513 1.553-1.551z"
+                      />
+                    </svg>
+                    <span>Sponsored by shadcnstudio.com</span>
+                  </a>
+                </div>
               </SheetContent>
             </Sheet>
-          </div>
-        </div>
-
-        <div className="hidden lg:flex items-center gap-4">
-          <PRSubmissionDialog
-            trigger={
-              <Button variant="default">
-                <Github className="mr-1 h-3 w-3" />
-                Submit
-              </Button>
-            }
-          />
-          <div className="hidden lg:block">
-            <ThemeToggle />
           </div>
         </div>
       </div>

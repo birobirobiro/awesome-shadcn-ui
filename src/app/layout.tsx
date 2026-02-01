@@ -10,7 +10,7 @@ import { Suspense } from "react";
 import { cn } from "@/lib/utils";
 
 import "@/app/globals.css";
-import { Geist } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://awesome-shadcn-ui.vercel.app"),
@@ -74,6 +74,11 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const geistMono = Geist_Mono({
+  variable: "--font-mono",
+  subsets: ["latin"],
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -85,6 +90,7 @@ export default function RootLayout({
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
           geistSans.variable,
+          geistMono.variable,
         )}
       >
         <Script

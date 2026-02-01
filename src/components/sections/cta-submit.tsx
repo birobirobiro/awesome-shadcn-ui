@@ -13,25 +13,25 @@ export function SubmitCTA() {
   const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   const containerVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 10 },
     visible: {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
-        staggerChildren: 0.2,
+        duration: 0.3,
+        staggerChildren: 0.1,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: { opacity: 0, y: 10 },
     visible: { opacity: 1, y: 0 },
   };
 
   return (
-    <Card className="w-full overflow-hidden my-12">
-      <CardContent className="p-4 sm:p-6 md:p-8">
+    <Card className="w-full overflow-hidden my-16">
+      <CardContent className="p-6 sm:p-8 md:p-10">
         <motion.div
           ref={ref}
           variants={containerVariants}

@@ -49,16 +49,16 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t bg-gradient-to-b from-background to-muted/20">
+    <footer className="border-t bg-background">
       <motion.div
         ref={ref}
         variants={containerVariants}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
-        className="container mx-auto px-4 py-8 md:py-12"
+        className="container mx-auto px-4 py-6 md:py-8"
       >
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
           {/* Brand Section */}
           <motion.div variants={itemVariants} className="lg:col-span-1">
             <Link href="/" className="flex items-center space-x-2 mb-4 group">
@@ -171,14 +171,14 @@ export function Footer() {
           variants={itemVariants}
           className="flex flex-col md:flex-row justify-between items-center gap-4"
         >
-          <div className="flex flex-col md:flex-row items-center gap-4 text-sm text-muted-foreground">
+          <div className="flex flex-col md:flex-row items-center gap-4 text-xs text-muted-foreground font-mono">
             <p>
               © {new Date().getFullYear()} awesome-shadcn/ui. All rights
               reserved.
             </p>
           </div>
 
-          <div className="flex items-center gap-4 text-xs text-muted-foreground">
+          <div className="flex items-center gap-4 text-xs text-muted-foreground font-mono">
             <span>Built with Next.js & shadcn/ui</span>
             <span>•</span>
             <span>Powered by GitHub & Vercel</span>
