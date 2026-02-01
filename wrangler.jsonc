@@ -12,7 +12,7 @@
   },
   "routes": [
     {
-      "pattern": "awesomeshadcn.dev/*",
+      "pattern": "awesomeshadcn.dev",
       "custom_domain": true
     },
   ]
