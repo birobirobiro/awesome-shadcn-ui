@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://awesome-shadcn-ui.birobirobiro-dev.workers.dev/$1",
+      "destination": "https://awesomeshadcn.dev/$1",
       "permanent": true
     }
   ]

@@ -1,0 +1,7 @@
+.agents
+.next
+node_modules
+.claude
+next-end.d.ts
+.mcp.json
+*.ts
