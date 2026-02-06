@@ -87,7 +87,7 @@
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) | 2024-11-13 |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-07-02 |
 | glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) | 2025-06-10 |
-| glitchcn-ui | A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders, and monospace typography. | [Link](https://glitchcn-ui.vercel.app/) |
+| glitchcn-ui | A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders, and monospace typography. | [Link](https://glitchcn-ui.vercel.app/) | 2026-02-06 |
 | gluestack-ui | React & React Native Components with Tailwind CSS. | [Link](https://gluestack.io) | 2024-11-08 |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23 |
 | hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14 |
@@ -225,7 +225,7 @@
 | supercharged-shadcn-components | Type-safe form components collection. | [Link](https://github.com/slickwit/supercharged-shadcn-components) | 2024-11-25 |
 | svelte-image-uploader | Svelte image uploader with dnd, validation and previews. | [Link](https://svelte-image-uploader.vercel.app/) | 2025-06-10 |
 | tanstack-ui-table | Customizable table with @tanstack/table and shadcn/ui | [Link](https://github.com/drefahl/tanstack-ui-table) | 2025-02-27 |
-| the-gridcn | Tron inspired shadcn/ui theme | [Link](https://thegridcn.com/) |
+| the-gridcn | Tron inspired shadcn/ui theme | [Link](https://thegridcn.com/) | 2026-02-06 |
 | time-picker | Simple TimePicker component. | [Link](https://github.com/openstatusHQ/time-picker) | 2024-04-29 |
 | tnks-data-table | Advanced data table component built with shadcn/ui and TanStack Table featuring server-side operations, row selection, filtering, column customization, and export functionality. Fully TypeScript compatible with comprehensive documentation. | [Link](https://github.com/jacksonkasi1/tnks-data-table) | 2025-04-19 |
 | tool-ui | Beautiful, ready-to-use UI components for AI tool calls and MCP UI. | [Link](https://www.tool-ui.com/) | 2025-12-10 |
@@ -239,7 +239,7 @@
 | uselayouts | Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS. Modern, ready-to-use motion components for high-converting websites. | [Link](https://uselayouts.com) | 2026-01-23 |
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) | 2024-06-07 |
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-15 |
-| warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) |
+| warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06 |
 | wds registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-07-16 |
 
