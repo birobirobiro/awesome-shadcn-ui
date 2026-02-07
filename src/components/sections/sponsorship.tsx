@@ -4,43 +4,92 @@ import { motion } from "motion/react";
 
 export function Sponsorship() {
   return (
-    <motion.section
-      className="my-8 sm:my-10 flex justify-center"
+    <motion.div
       initial={{ opacity: 0, y: 10 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.2 }}
     >
-      <div className="flex flex-col items-center gap-2">
-        <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono">
-          Sponsored by
-        </span>
-        <a
-          href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=homepage"
-          target="_blank"
-          rel="noopener noreferrer sponsored"
-          className="flex items-center gap-2.5 rounded-md bg-muted/30 px-3 py-2 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
+      <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono block text-center mb-2">
+        Sponsored by
+      </span>
+      <a
+        href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
+        target="_blank"
+        rel="noopener noreferrer sponsored"
+        className="flex items-center justify-center gap-2 rounded-md bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50 max-sm:px-2 max-sm:py-2"
+      >
+        <svg
+          viewBox="0 0 328 328"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-5 h-5 shrink-0"
         >
-          <svg viewBox="0 0 36 36" className="size-6 shrink-0 sm:size-7">
-            <path
-              fill="var(--foreground)"
-              d="M36 18c0-9.94-8.06-18-18-18S0 8.06 0 18s8.06 18 18 18 18-8.06 18-18"
-            />
-            <path
-              fill="var(--background)"
-              d="M17.19 22.422a5.05 5.05 0 0 1 5.049-5.049h6.453v2.194h-6.453a2.854 2.854 0 0 0-2.853 2.855v6.634H17.19zm-2.298-.42.771.78-4.54 4.488-.77-.782-.772-.78 4.539-4.484.772.776zm11.97 3.708-1.552 1.551-4.514-4.514.776-.775.777-.78 4.511 4.518zm-9.847-11.19V7.88h2.194v6.637a5.05 5.05 0 0 1-5.047 5.049H7.708v-2.194h6.452a2.856 2.856 0 0 0 2.853-2.855zm9.894-2.949-4.544 4.488-1.542-1.56 4.542-4.488zm-11.46 2.693-1.553 1.55-4.514-4.513 1.553-1.551z"
-            />
-          </svg>
-          <div className="flex flex-col gap-0.5">
-            <span className="text-sm leading-tight font-medium text-foreground whitespace-nowrap">
-              shadcnstudio.com
-            </span>
-            <span className="text-xs leading-tight text-muted-foreground whitespace-nowrap">
-              shadcn blocks &amp; templates
-            </span>
-          </div>
-        </a>
-      </div>
-    </motion.section>
+          <rect
+            width="328"
+            height="328"
+            rx="164"
+            fill="black"
+            className="dark:fill-white"
+          />
+          <path
+            d="M165.018 72.3008V132.771C165.018 152.653 148.9 168.771 129.018 168.771H70.2288"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+          <path
+            d="M166.627 265.241L166.627 204.771C166.627 184.889 182.744 168.771 202.627 168.771L261.416 168.771"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+          <line
+            x1="238.136"
+            y1="98.8184"
+            x2="196.76"
+            y2="139.707"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+          <line
+            x1="135.688"
+            y1="200.957"
+            x2="94.3128"
+            y2="241.845"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+          <line
+            x1="133.689"
+            y1="137.524"
+            x2="92.5566"
+            y2="96.3914"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+          <line
+            x1="237.679"
+            y1="241.803"
+            x2="196.547"
+            y2="200.671"
+            stroke="white"
+            strokeWidth="20"
+            className="dark:stroke-black"
+          />
+        </svg>
+
+        <div className="flex flex-col max-sm:hidden">
+          <span className="text-sm font-medium text-foreground">
+            shadcnstudio.com
+          </span>
+          <span className="text-xs text-muted-foreground">
+            shadcn blocks & templates
+          </span>
+        </div>
+      </a>
+    </motion.div>
   );
 }

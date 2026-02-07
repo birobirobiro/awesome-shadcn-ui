@@ -1,5 +1,6 @@
 "use client";
 
+import { Sponsorship } from "./sponsorship";
 import { motion } from "motion/react";
 
 const fadeIn = {
@@ -28,18 +29,14 @@ const containerVariants = {
 export default function Hero() {
   return (
     <motion.div
-      className="flex flex-col items-center text-center max-w-3xl mx-auto py-16 sm:py-20 px-4"
+      className="flex flex-col items-center text-center max-w-3xl mx-auto pt-8 sm:pt-12 pb-8 px-4"
       variants={containerVariants}
       initial="hidden"
       animate="visible"
     >
       {/* Logo */}
       <motion.div variants={fadeIn} className="mb-8">
-        <img
-          src="/logo.svg"
-          alt="awesome-shadcn/ui"
-          className="h-24 w-auto"
-        />
+        <img src="/logo.svg" alt="awesome-shadcn/ui" className="h-24 w-auto" />
       </motion.div>
 
       {/* Title */}
@@ -67,7 +64,10 @@ export default function Hero() {
       </motion.p>
 
       {/* Credits */}
-      <motion.div variants={fadeIn} className="flex flex-col sm:flex-row items-center gap-2 text-sm text-muted-foreground">
+      <motion.div
+        variants={fadeIn}
+        className="flex flex-col sm:flex-row items-center gap-2 text-sm text-muted-foreground"
+      >
         <span>
           Created by{" "}
           <a
@@ -91,6 +91,11 @@ export default function Hero() {
             bankkroll.xyz
           </a>
         </span>
+      </motion.div>
+
+      {/* Sponsorship */}
+      <motion.div variants={fadeIn} className="mt-4">
+        <Sponsorship />
       </motion.div>
     </motion.div>
   );

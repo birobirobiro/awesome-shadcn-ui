@@ -193,12 +193,13 @@ export default function CategoryPage({ params }: CategoryPageProps) {
               <span className="hidden sm:inline">•</span>
               <span className="hidden sm:inline">Category</span>
             </div>
-            <div className="w-full p-2 max-w-md">
+            <div className="w-full max-w-md">
               <Input
                 type="text"
                 placeholder="Search within this category..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
+                className="h-10"
               />
             </div>
           </div>

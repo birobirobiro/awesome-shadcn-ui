@@ -3,7 +3,6 @@
 import { SubmitCTA } from "@/components/sections/cta-submit";
 import Hero from "@/components/sections/hero";
 import ItemList from "@/components/sections/items-list";
-import { Sponsorship } from "@/components/sections/sponsorship";
 import { Resource, fetchAndParseReadme } from "@/hooks/use-readme";
 import { isValid, parseISO } from "date-fns";
 import { motion } from "motion/react";
@@ -88,8 +87,6 @@ export default function Home() {
           categories={categories}
         />
       </motion.div>
-
-      <Sponsorship />
 
       <SubmitCTA />
     </motion.div>

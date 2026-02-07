@@ -6,9 +6,17 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { fetchAndParseReadme, Resource } from "@/hooks/use-readme";
+import { useWebsitePreview } from "@/hooks/use-website-preview";
 import { categoryNameToSlug, slugToCategoryName } from "@/lib/slugs";
 import { format, isValid, parseISO } from "date-fns";
-import { Calendar, ExternalLink, Github, Globe, Tag } from "lucide-react";
+import {
+  Calendar,
+  ExternalLink,
+  Github,
+  Globe,
+  Tag,
+  Image,
+} from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { use, useEffect, useState } from "react";
@@ -177,6 +185,104 @@ export default function ItemPage({ params }: ItemPageProps) {
     return null;
   }
 
+  // Component to render preview based on state
+  const WebsitePreview = () => {
+    const { previewState, screenshotUrl } = useWebsitePreview({
+      url: item.url,
+      name: item.name,
+    });
+
+    if (previewState === "loading") {
+      return (
+        <div className="w-full h-full flex items-center justify-center bg-muted">
+          <div className="flex flex-col items-center gap-3">
+            <div className="w-8 h-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin" />
+            <p className="text-sm text-muted-foreground">Loading preview...</p>
+          </div>
+        </div>
+      );
+    }
+
+    if (previewState === "iframe") {
+      return (
+        <>
+          <iframe
+            src={item.url}
+            className="w-full h-full border-0"
+            title={`Preview of ${item.name}`}
+            sandbox="allow-scripts allow-same-origin"
+          />
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 bg-transparent cursor-pointer z-10"
+            title={`Visit ${item.name} - Opens in new tab`}
+            aria-label={`Visit ${item.name} website`}
+          >
+            <span className="sr-only">Visit {item.name} website</span>
+          </a>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-all duration-300 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
+            <ExternalLink className="h-8 w-8 text-white mb-2" />
+            <p className="text-lg font-medium text-white">Visit website</p>
+            <p className="text-sm text-white/80 mt-1">Click to open</p>
+          </div>
+        </>
+      );
+    }
+
+    if (previewState === "screenshot" && screenshotUrl) {
+      return (
+        <>
+          <img
+            src={screenshotUrl}
+            alt={`${item.name} preview`}
+            className="w-full h-full object-cover object-top"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-all duration-300 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
+            <ExternalLink className="h-8 w-8 text-white mb-2" />
+            <p className="text-lg font-medium text-white">Visit website</p>
+            <p className="text-sm text-white/80 mt-1">Screenshot preview</p>
+          </div>
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="absolute inset-0 bg-transparent cursor-pointer z-10"
+            title={`Visit ${item.name} - Opens in new tab`}
+            aria-label={`Visit ${item.name} website`}
+          >
+            <span className="sr-only">Visit {item.name} website</span>
+          </a>
+        </>
+      );
+    }
+
+    // Fallback state
+    return (
+      <div className="absolute inset-0 bg-muted flex flex-col items-center justify-center text-center p-6">
+        <Image className="h-12 w-12 text-muted-foreground mb-3" />
+        <p className="text-sm text-muted-foreground mb-2">
+          Preview not available
+        </p>
+        <p className="text-xs text-muted-foreground/70 mb-4 max-w-xs">
+          This website blocks embedding. Click below to visit directly.
+        </p>
+        <Button asChild size="sm">
+          <a
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
+            <ExternalLink className="h-4 w-4" />
+            Visit Website
+          </a>
+        </Button>
+      </div>
+    );
+  };
+
   return (
     <motion.div
       className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8"
@@ -232,38 +338,15 @@ export default function ItemPage({ params }: ItemPageProps) {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <Card>
-            <CardHeader className="p-4">
+            <CardHeader className="p-4 pb-3">
               <CardTitle className="flex items-center gap-2 text-base sm:text-lg">
                 <Globe className="h-4 w-4 sm:h-5 sm:w-5" />
                 Preview
               </CardTitle>
             </CardHeader>
             <CardContent className="p-4 pt-0">
-              <div className="relative h-96 sm:h-[44rem] rounded-lg overflow-hidden border group">
-                <iframe
-                  src={item.url}
-                  className="w-full h-full border-0 pointer-events-none"
-                  title={`Preview of ${item.name}`}
-                  sandbox="allow-scripts allow-same-origin"
-                  loading="lazy"
-                />
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="absolute inset-0 bg-transparent cursor-pointer z-10"
-                  title={`Visit ${item.name} - Opens in new tab`}
-                  aria-label={`Visit ${item.name} website`}
-                >
-                  <span className="sr-only">Visit {item.name} website</span>
-                </a>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent group-hover:from-black/80 group-hover:via-black/40 group-hover:to-black/10 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
-                  <div className="flex items-center gap-2">
-                    <p className="text-lg font-medium text-card-foreground">
-                      Visit website
-                    </p>
-                  </div>
-                </div>
+              <div className="relative h-[300px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden border group">
+                <WebsitePreview />
               </div>
             </CardContent>
           </Card>

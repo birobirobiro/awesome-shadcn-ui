@@ -17,6 +17,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useBookmarks } from "@/hooks/use-bookmark";
 import { useDebounce } from "@/hooks/use-debounce";
 import { fetchAndParseReadme, Resource } from "@/hooks/use-readme";
+import { Bookmark, Search } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
@@ -47,7 +48,7 @@ export default function BookmarksPage() {
         const fetchedResources = await fetchAndParseReadme();
 
         const bookmarkedResources = fetchedResources.filter((item) =>
-          bookmarkedItems.includes(item.id)
+          bookmarkedItems.includes(item.id),
         );
 
         setItems(bookmarkedResources);
@@ -73,7 +74,7 @@ export default function BookmarksPage() {
             .includes(debouncedSearchQuery.toLowerCase()) ||
           item.description
             ?.toLowerCase()
-            .includes(debouncedSearchQuery.toLowerCase())
+            .includes(debouncedSearchQuery.toLowerCase()),
       );
       setFilteredItems(filtered);
     } else {
@@ -175,12 +176,13 @@ export default function BookmarksPage() {
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full">
-              <div className="w-full sm:flex-1 p-2 max-w-md">
+              <div className="w-full sm:flex-1 max-w-md">
                 <Input
                   type="text"
                   placeholder="Search your bookmarks..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
+                  className="h-10"
                 />
               </div>
               {items.length > 0 && (
@@ -199,16 +201,45 @@ export default function BookmarksPage() {
         }
       />
 
-      <div className="min-h-screen mb-6 sm:mb-8">
-        <ItemGrid
-          items={currentItems}
-          bookmarkedItems={bookmarkedItems}
-          onBookmark={toggleBookmark}
-          isBookmarkLoading={isBookmarkLoading}
-        />
+      <div className="min-h-[400px] mb-6 sm:mb-8">
+        {items.length === 0 ? (
+          <div className="flex flex-col items-center justify-center h-[400px] text-center px-4">
+            <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
+              <Bookmark className="h-8 w-8 text-muted-foreground" />
+            </div>
+            <h3 className="text-lg font-semibold mb-2">No bookmarks yet</h3>
+            <p className="text-sm text-muted-foreground mb-6 max-w-md">
+              Start saving your favorite shadcn/ui resources by clicking the
+              bookmark icon on any item.
+            </p>
+            <Button asChild>
+              <Link href="/">Browse resources</Link>
+            </Button>
+          </div>
+        ) : filteredItems.length === 0 && debouncedSearchQuery ? (
+          <div className="flex flex-col items-center justify-center h-[400px] text-center px-4">
+            <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
+              <Search className="h-8 w-8 text-muted-foreground" />
+            </div>
+            <h3 className="text-lg font-semibold mb-2">No results found</h3>
+            <p className="text-sm text-muted-foreground mb-6">
+              No bookmarks match your search for "{debouncedSearchQuery}"
+            </p>
+            <Button variant="outline" onClick={() => setSearchQuery("")}>
+              Clear search
+            </Button>
+          </div>
+        ) : (
+          <ItemGrid
+            items={currentItems}
+            bookmarkedItems={bookmarkedItems}
+            onBookmark={toggleBookmark}
+            isBookmarkLoading={isBookmarkLoading}
+          />
+        )}
       </div>
 
-      {filteredItems.length > 0 && (
+      {filteredItems.length > 0 && items.length > 0 && (
         <div>
           <PaginationControls
             currentPage={currentPage}
@@ -221,11 +252,14 @@ export default function BookmarksPage() {
         </div>
       )}
 
-      <div className="text-xs sm:text-sm text-muted-foreground text-center mt-4 sm:mt-6">
-        Showing {indexOfFirstItem + 1} -{" "}
-        {Math.min(indexOfLastItem, filteredItems.length)} of{" "}
-        {filteredItems.length} items
-      </div>
+      {items.length > 0 && (
+        <div className="text-xs sm:text-sm text-muted-foreground text-center mt-4 sm:mt-6">
+          Showing {indexOfFirstItem + 1} -{" "}
+          {Math.min(indexOfLastItem, filteredItems.length)} of{" "}
+          {filteredItems.length}{" "}
+          {filteredItems.length === 1 ? "bookmark" : "bookmarks"}
+        </div>
+      )}
 
       <Dialog open={showClearDialog} onOpenChange={setShowClearDialog}>
         <DialogContent>

@@ -142,23 +142,23 @@ export default function CategoriesPage() {
         {categories.map((category) => (
           <div key={category.title}>
             <Link href={`/categories/${categoryNameToSlug(category.title)}`}>
-              <Card className="h-full hover:shadow-lg transition-all duration-300 group cursor-pointer relative overflow-hidden hover:border-primary/20">
+              <Card className="h-[200px] hover:shadow-lg transition-all duration-300 group cursor-pointer relative overflow-hidden hover:border-primary/20">
                 <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none">
                   <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent dark:from-primary/10" />
                 </div>
                 <div className="relative z-10 flex flex-col h-full">
                   <CardHeader className="pb-3 sm:pb-4 p-4 sm:p-6">
                     <div className="flex items-start sm:items-center justify-between gap-2">
-                      <CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors leading-tight break-words flex-1 min-w-0">
+                      <CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors leading-tight break-words flex-1 min-w-0 line-clamp-1">
                         {category.title}
                       </CardTitle>
                       <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
                     </div>
-                    <CardDescription className="text-xs sm:text-sm leading-relaxed break-words">
+                    <CardDescription className="text-xs sm:text-sm leading-relaxed break-words line-clamp-2 mt-2">
                       {category.description}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent className="pt-0 p-4 sm:p-6">
+                  <CardContent className="pt-0 p-4 sm:p-6 mt-auto">
                     <div className="flex items-center justify-between gap-2">
                       <Badge
                         variant="secondary"

@@ -50,38 +50,38 @@ const ItemCard: React.FC<ItemCardProps> = ({
   return (
     <motion.div layout {...standardAnimations}>
       <Card
-        className="min-h-[240px] group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col"
+        className="h-[280px] group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col"
         onClick={handleCardClick}
       >
-        <CardHeader className="p-3 pb-2">
-          <div className="flex items-start justify-between gap-2 mb-1">
-            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-1.5 py-0.5 rounded">
+        <CardHeader className="p-4 pb-3">
+          <div className="flex items-start justify-between gap-2 mb-2">
+            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5 rounded">
               [{category}]
             </span>
-            <ArrowRight className="h-3.5 w-3.5 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+            <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
           </div>
-          <CardTitle className="text-base font-bold group-hover:text-primary transition-colors duration-200 line-clamp-2 leading-tight">
+          <CardTitle className="text-base font-bold group-hover:text-primary transition-colors duration-200 line-clamp-2 leading-snug">
             {title}
           </CardTitle>
         </CardHeader>
 
-        <div className="h-px bg-border mx-3" />
+        <div className="h-px bg-border mx-4" />
 
-        <CardContent className="px-3 py-2 flex-1 flex flex-col gap-2">
-          <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed">
+        <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3">
+          <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed overflow-hidden">
             {description}
           </p>
 
           {date && (
-            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground">
+            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground/70">
               <span>Added: {date}</span>
             </div>
           )}
         </CardContent>
 
-        <div className="h-px bg-border mx-3" />
+        <div className="h-px bg-border mx-4" />
 
-        <CardFooter className="flex gap-2 items-center p-3 pt-2">
+        <CardFooter className="flex gap-3 items-center p-4 pt-3">
           {/* Bookmark Button */}
           <Button
             variant={isBookmarked ? "default" : "ghost"}
