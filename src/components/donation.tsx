@@ -10,14 +10,14 @@ export default function Donation() {
     >
       <Button
         className="
-          fixed bottom-4 right-4 z-50 
-          flex items-center gap-2 
-          rounded-full p-4 
-          bg-[#ffe433]/90 hover:bg-[#ffe433] 
-          text-black font-semibold 
+          fixed bottom-4 right-4 z-50
+          flex items-center gap-2
+          rounded-full p-4
+          bg-donation-bg/90 hover:bg-donation-bg-hover
+          text-donation-text font-semibold
           transition-all duration-300 ease-in-out
           hover:shadow-lg
-          focus:outline-none focus:ring-2 focus:ring-[#ffe433] focus:ring-opacity-50
+          focus:outline-none focus:ring-2 focus:ring-donation-bg focus:ring-opacity-50
         "
       >
         <img
