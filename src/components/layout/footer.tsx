@@ -180,8 +180,6 @@ export function Footer() {
 
           <div className="flex items-center gap-4 text-xs text-muted-foreground font-mono">
             <span>Built with Next.js & shadcn/ui</span>
-            <span>•</span>
-            <span>Powered by GitHub & Vercel</span>
           </div>
         </motion.div>
       </motion.div>
