@@ -212,7 +212,7 @@
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16 |
 | shsfui | Motion-first React components built with Tailwind CSS + Framer Motion. | [Link](https://www.shsfui.com) | 2025-03-12 |
 | shuip | Provides ready-to-use, business-focused components that help you ship faster. | [Link](https://shuip.plvo.dev/docs) | 2025-10-09 |
-| siddz-ui | A curated collection of modern, reusable React components. Built with performance and accessibility in mind. Copy, paste, and customize. | [Link](https://siddz.com/components) |
+| siddz-ui | A curated collection of modern, reusable React components. Built with performance and accessibility in mind. Copy, paste, and customize. | [Link](https://siddz.com/components) | 2026-02-13 |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) | 2025-01-21 |
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-03-25 |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-09-18 |
