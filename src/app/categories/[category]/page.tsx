@@ -38,7 +38,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Starter templates and boilerplates for quick project setup",
 };
 
-const ITEMS_PER_PAGE_OPTIONS = [18, 27, 36, 45];
+const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
 export default function CategoryPage({ params }: CategoryPageProps) {
   const resolvedParams = use(params);

@@ -14,7 +14,7 @@ import { PaginationControls } from "../pagination-controls";
 import { SearchFilterControls } from "../search-filter-controls";
 import { Skeleton } from "../ui/skeleton";
 
-const ITEMS_PER_PAGE_OPTIONS = [18, 27, 36, 45];
+const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
 interface Category {
   title: string;

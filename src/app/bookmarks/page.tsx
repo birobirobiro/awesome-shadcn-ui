@@ -22,7 +22,7 @@ import { motion } from "motion/react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
-const ITEMS_PER_PAGE_OPTIONS = [18, 27, 36, 45];
+const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
 export default function BookmarksPage() {
   const [items, setItems] = useState<Resource[]>([]);
