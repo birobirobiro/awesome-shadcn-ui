@@ -15,7 +15,7 @@
   <i>Site by <a href="https://bankkroll.xyz/" target="_blank">bankkroll.xyz</a></i><br>
   <i>Sponsored by</i><br>
   <a href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github" target="_blank">
-    <img src="sponsors/shadcnstudio.svg" alt="shadcnstudio.com" width="32">
+    <img src="public/sponsors/shadcnstudio.svg" alt="shadcnstudio.com" width="32">
   </a>
 </p>
 
