@@ -245,6 +245,7 @@
 | uixmat-onborda | Product tour for Next.js applications. | [Link](https://github.com/uixmat/onborda) | 2024-06-07 |
 | uselayouts | Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS. Modern, ready-to-use motion components for high-converting websites. | [Link](https://uselayouts.com) | 2026-01-23 |
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) | 2024-06-07 |
+| vengence-ui | A modern, animated UI component library designed to help developers build beautiful landing pages and interfaces faster. | [Link](https://www.vengenceui.com/) |
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-15 |
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06 |
 | wds registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06 |
