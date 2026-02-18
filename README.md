@@ -288,6 +288,7 @@
 | shadesigner.com | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface. | [Link](https://shadesigner.com) | 2024-12-26 |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-03-08 |
 | shadcn theme editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/) | 2024-08-19 |
+| SMUI | Nord-inspired terminal theme for shadcn/ui with monospace typography, zero border radius, and frost-blue accents. | [Link](https://smui.statico.io) | 2026-02-18 |
 | tweakcn | powerful theme editor for shadcn/ui components, offering beautifully designed themes and seamless Tailwind CSS V4 integration | [Link](https://tweakcn.com/) | 2025-03-25 |
 | ui-colorgen | An application designed to assist you with color configuration of shadcn/ui. | [Link](https://ui-colorgen.vercel.app/) | 2024-02-22 |
 | zippy starter's shadcn/ui theme generator | Easily create custom themes from a single colour that you can copy and paste into your apps. | [Link](https://zippystarter.com/tools/shadcn-ui-theme-generator) | 2024-03-13 |
