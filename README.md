@@ -156,6 +156,7 @@
 | ruixen-ui | Ruixen UI: Lightweight & Customizable React Library | [Link](https://github.com/ruixenui/ruixen.com) | 2025-12-04 |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-05-07 |
 | shadboard | An admin dashboard template built with Next.js 15, React 19, Tailwind CSS v4, and Shadcn/UI components, featuring starter and full kits for scalable, user-friendly web apps. | [Link](https://github.com/Qualiora/shadboard) | 2025-04-22 |
+| Shadcn Space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-07-10 |
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) | 2024-12-27 |
 | shadcn-admin-kit | Powerful open-source shadcn components to build beautiful internal tools, admin panels, and dashboards with React | [Link](https://github.com/marmelab/shadcn-admin-kit) | 2025-07-07 |
