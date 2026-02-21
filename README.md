@@ -333,7 +333,7 @@
 | quack-db | Open-source in-browser DuckDB SQL editor. | [Link](https://github.com/mattf96s/QuackDB) | 2024-10-03 |
 | shadcn-easy-install | Install all shadcn components easily. One-click to install all selected components. | [Link](https://shadcn-easy-install.vercel.app/) | 2025-06-10 |
 | shadcn-form-builder | Create forms with Shadcn, react-hook-form, and Zod within minutes. | [Link](https://shadcn-form-build.vercel.app/) | 2024-10-03 |
-| shadcn-hooks | A comprehensive React Hooks Collection built with Shadcn. | [Link](https://shadcn-hooks.vercel.app/) | 2025-10-13 |
+| shadcn-hooks | A comprehensive React Hooks Collection built with Shadcn. | [Link](https://shadcn-hooks.com/) | 2025-10-13 |
 | shadcn-play | A playground for building and previewing shadcn/ui components with a live editor. | [Link](https://github.com/ephraimduncan/shadcn-play) | 2026-02-13 |
 | shadcn-pricing-page-generator | The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. | [Link](https://shipixen.com/shadcn-pricing-page) | 2024-03-08 |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://shadcnthemeeditor.vercel.app) | 2024-08-19 |
