@@ -358,6 +358,7 @@
 | Name | Description | Link | Date |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ---------- |
 | andrewsam.xyz | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | [Link](https://www.andrewsam.xyz/) | 2024-09-18 |
+| anishshobithps.com | Personal portfolio of a software developer, grid-styled design . | [Link](https://anishshobithps.com/) |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-07-29 |
 | bucharitesh.in | A minimal portfolio with awesome craft's registry. | [Link](https://bucharitesh.in) | 2025-12-25 |
 | chanhdai.com | A minimal portfolio, component registry, and blog. | [Link](https://chanhdai.com) | 2025-09-11 |
