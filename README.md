@@ -463,6 +463,7 @@
 | shadcn-nextjs-free-boilerplate | Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template. | [Link](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) | 2024-05-24 |
 | shadcn-nextjs-dashboard | Admin Dashboard UI built with Shadcn and NextJS. Free and Open-source. | [Link](https://github.com/NaveenDA/shadcn-nextjs-dashboard) | 2025-06-22 |
 | shadcn-portfolio | A portfolio template, which uses shadcn-ui and Next.JS. | [Link](https://github.com/techwithanirudh/shadcn-portfolio) | 2025-11-20 |
+| shadcn-portfolio-wip | professional portfolio | [Link](https://github.com/Zoex2304/shadcn-portfolio-wip) |
 | shadcn-registry-template | Template repository for building a custom component registry for shadcn/ui. | [Link](https://github.com/vantezzen/shadcn-registry-template) | 2024-09-05 |
 | shadcn-saas-landing | A full-fledged SaaS Landing template built using Next.JS, shadcn/ui, and fumadocs. | [Link](https://github.com/techwithanirudh/shadcn-saas-landing) | 2025-11-20 |
 | shadcn-ui-dashboard | Multipurpose and powerful admin dashboard template compatible with shadcn/ui. | [Link](https://shadcnuidashboard.com) | 2025-09-21 |
