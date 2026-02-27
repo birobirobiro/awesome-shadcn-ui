@@ -197,7 +197,7 @@
 | shadcn-phone-input | Phone input with country validation. | [Link](https://github.com/omeralpi/shadcn-phone-input) | 2024-03-27 |
 | shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles |  | 2025-09-06 |
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-03-08 |
-| shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) |
+| shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27 |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-09 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-04-25 |
 | shadcn-studio | Open Source Registry of Shadcn components and blocks. | [Link](https://shadcnstudio.com/) | 2025-04-24 |
