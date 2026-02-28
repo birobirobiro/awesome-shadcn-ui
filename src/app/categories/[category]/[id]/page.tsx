@@ -133,7 +133,7 @@ export default function ItemPage({ params }: ItemPageProps) {
                   </div>
                 </CardHeader>
                 <CardContent className="p-4 pt-0">
-                  <div className="h-96 sm:h-[44rem] w-full rounded-lg bg-muted/50 flex items-center justify-center">
+                  <div className="h-96 sm:h-[44rem] w-full bg-muted/50 flex items-center justify-center">
                     <div className="text-center">
                       <Globe className="h-8 w-8 mx-auto mb-2 text-muted-foreground/50" />
                       <Skeleton className="h-4 w-24 mx-auto" />
@@ -167,7 +167,7 @@ export default function ItemPage({ params }: ItemPageProps) {
                 </CardHeader>
                 <CardContent className="p-4 pt-0 space-y-3">
                   {[...Array(6)].map((_, i) => (
-                    <div key={i} className="p-3 rounded-lg border space-y-2">
+                    <div key={i} className="p-3 border space-y-2">
                       <Skeleton className="h-3 w-3/4 sm:h-4" />
                       <Skeleton className="h-3 w-full" />
                     </div>
@@ -298,11 +298,11 @@ export default function ItemPage({ params }: ItemPageProps) {
             <img
               src={faviconUrl}
               alt={`${item.name} favicon`}
-              className="h-6 w-6 sm:h-8 sm:w-8 rounded-md flex-shrink-0"
+              className="h-6 w-6 sm:h-8 sm:w-8 flex-shrink-0"
               onError={() => setFaviconUrl(null)}
             />
           ) : (
-            <div className="h-6 w-6 sm:h-8 sm:w-8 rounded-md bg-muted flex items-center justify-center flex-shrink-0">
+            <div className="h-6 w-6 sm:h-8 sm:w-8 bg-muted flex items-center justify-center flex-shrink-0">
               <Globe className="h-3 w-3 sm:h-4 sm:w-4 text-muted-foreground" />
             </div>
           )
@@ -345,7 +345,7 @@ export default function ItemPage({ params }: ItemPageProps) {
               </CardTitle>
             </CardHeader>
             <CardContent className="p-4 pt-0">
-              <div className="relative h-[300px] sm:h-[500px] lg:h-[600px] rounded-lg overflow-hidden border group">
+              <div className="relative h-[300px] sm:h-[500px] lg:h-[600px] overflow-hidden border group">
                 <WebsitePreview />
               </div>
             </CardContent>
@@ -416,7 +416,7 @@ export default function ItemPage({ params }: ItemPageProps) {
                     href={`/categories/${categoryNameToSlug(item.category)}/${relatedItem.id}`}
                     className="block group"
                   >
-                    <div className="relative overflow-hidden flex items-center justify-between p-3 rounded-lg border hover:bg-muted/50 hover:border-primary/20 transition-all duration-200 cursor-pointer group-hover:shadow-sm">
+                    <div className="relative overflow-hidden flex items-center justify-between p-3 border hover:bg-muted/50 hover:border-primary/20 transition-all duration-200 cursor-pointer group-hover:shadow-sm">
                       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none">
                         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent dark:from-primary/10" />
                       </div>
