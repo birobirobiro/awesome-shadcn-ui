@@ -55,7 +55,7 @@ const ItemCard: React.FC<ItemCardProps> = ({
       >
         <CardHeader className="p-4 pb-3 shrink-0">
           <div className="flex items-start justify-between gap-2 mb-2">
-            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5 rounded">
+            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5">
               [{category}]
             </span>
             <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
