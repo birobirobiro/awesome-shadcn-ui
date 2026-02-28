@@ -46,7 +46,7 @@ export default function CategoryPage({ params }: CategoryPageProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredItems, setFilteredItems] = useState<Resource[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(ITEMS_PER_PAGE_OPTIONS[0]);
+  const [itemsPerPage, setItemsPerPage] = useState(ITEMS_PER_PAGE_OPTIONS[1]);
   const [isLoading, setIsLoading] = useState(true);
   const {
     bookmarkedItems,
