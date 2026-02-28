@@ -1,7 +1,7 @@
 "use client";
 
 import { Separator } from "@/components/ui/separator";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
+import { ThemeSwitcher } from "@/components/kibo-ui/theme-switcher";
 import { useCategories } from "@/hooks/use-categories";
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import { motion, useInView } from "motion/react";
@@ -157,7 +157,7 @@ export function Footer() {
               </div>
 
               <div className="flex items-center gap-2">
-                <ThemeToggle />
+                <ThemeSwitcher />
                 <span className="text-xs text-muted-foreground">Theme</span>
               </div>
             </div>

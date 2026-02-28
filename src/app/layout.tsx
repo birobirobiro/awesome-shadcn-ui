@@ -69,7 +69,6 @@ export const viewport: Viewport = {
   maximumScale: 1,
   userScalable: false,
 };
-
 const geistSans = Geist({
   variable: "--font-sans",
   subsets: ["latin"],
