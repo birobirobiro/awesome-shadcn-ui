@@ -119,10 +119,7 @@ export default function BookmarksPage() {
 
           <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             {[...Array(6)].map((_, i) => (
-              <div
-                key={i}
-                className="border rounded-lg p-4 sm:p-6 space-y-3 sm:space-y-4"
-              >
+              <div key={i} className="border p-4 sm:p-6 space-y-3 sm:space-y-4">
                 <div className="space-y-2">
                   <Skeleton className="h-5 sm:h-6 w-3/4" />
                   <Skeleton className="h-4 sm:h-5 w-20" />
@@ -132,8 +129,8 @@ export default function BookmarksPage() {
                   <Skeleton className="h-3 sm:h-4 w-5/6" />
                 </div>
                 <div className="flex justify-between items-center">
-                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9 rounded-md" />
-                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9 rounded-md" />
+                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9" />
+                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9" />
                 </div>
               </div>
             ))}

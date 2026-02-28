@@ -55,9 +55,9 @@ export default function Sort({ sortOption, onSortChange }: SortProps) {
       defaultValue="date-desc"
       onValueChange={handleSortChange}
     >
-      <SelectTrigger className="flex h-10 w-[160px] sm:w-[200px] items-center justify-between rounded-md border border-input bg-transparent px-3 py-2 text-sm font-medium ring-offset-background transition-colors hover:bg-accent hover:text-accent-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50">
+      <SelectTrigger className="w-[160px] sm:w-[200px]">
         <SelectValue>
-          <span className="flex items-center text-muted-foreground">
+          <span className="flex items-center">
             {selectedOption.icon}
             <span className="truncate">{selectedOption.label}</span>
             {selectedOption.directionIcon}

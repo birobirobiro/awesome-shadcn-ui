@@ -48,14 +48,14 @@ const ItemCard: React.FC<ItemCardProps> = ({
   };
 
   return (
-    <motion.div layout {...standardAnimations}>
+    <motion.div layout {...standardAnimations} className="h-full">
       <Card
-        className="h-[280px] group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col"
+        className="h-full group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col gap-0 py-0"
         onClick={handleCardClick}
       >
-        <CardHeader className="p-4 pb-3">
+        <CardHeader className="p-4 pb-3 shrink-0">
           <div className="flex items-start justify-between gap-2 mb-2">
-            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5 rounded">
+            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5">
               [{category}]
             </span>
             <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
@@ -65,9 +65,9 @@ const ItemCard: React.FC<ItemCardProps> = ({
           </CardTitle>
         </CardHeader>
 
-        <div className="h-px bg-border mx-4" />
+        <div className="h-px bg-border mx-4 shrink-0" />
 
-        <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3">
+        <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3 min-h-0">
           <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed overflow-hidden">
             {description}
           </p>
@@ -79,9 +79,9 @@ const ItemCard: React.FC<ItemCardProps> = ({
           )}
         </CardContent>
 
-        <div className="h-px bg-border mx-4" />
+        <div className="h-px bg-border mx-4 shrink-0" />
 
-        <CardFooter className="flex gap-3 items-center p-4 pt-3">
+        <CardFooter className="flex gap-3 items-center p-4 pt-3 shrink-0">
           {/* Bookmark Button */}
           <Button
             variant={isBookmarked ? "default" : "ghost"}

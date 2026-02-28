@@ -55,7 +55,7 @@ export function Header() {
               href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
               target="_blank"
               rel="noopener noreferrer sponsored"
-              className="hidden lg:flex items-center gap-2 rounded-md bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
+              className="hidden lg:flex items-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
             >
               <svg
                 viewBox="0 0 328 328"
@@ -173,14 +173,14 @@ export function Header() {
                       <Link
                         href="/categories"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-lg bg-muted/50 hover:bg-muted transition-colors"
+                        className="flex items-center gap-3 px-4 py-3 text-sm font-medium bg-muted/50 hover:bg-muted transition-colors"
                       >
                         <span className="flex-1">Categories</span>
                       </Link>
                       <Link
                         href="/bookmarks"
                         onClick={() => setMobileMenuOpen(false)}
-                        className="flex items-center gap-3 px-4 py-3 text-sm font-medium rounded-lg bg-muted/50 hover:bg-muted transition-colors"
+                        className="flex items-center gap-3 px-4 py-3 text-sm font-medium bg-muted/50 hover:bg-muted transition-colors"
                       >
                         <span className="flex-1">Bookmarks</span>
                       </Link>
@@ -207,7 +207,7 @@ export function Header() {
                       href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
                       target="_blank"
                       rel="noopener noreferrer sponsored"
-                      className="flex items-center justify-center rounded-lg bg-background px-4 py-3 transition-all duration-200 hover:shadow-md border"
+                      className="flex items-center justify-center bg-background px-4 py-3 transition-all duration-200 hover:shadow-md border"
                     >
                       <svg
                         viewBox="0 0 328 328"

@@ -21,13 +21,13 @@ export function ItemGrid({
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.2 }}
-        className="text-center py-12 rounded-md border border-dashed border-border bg-muted/30"
+        className="text-center py-12 border border-dashed border-border bg-muted/30"
       >
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.2 }}
-          className="inline-flex justify-center items-center w-16 h-16 rounded-md bg-muted mb-4"
+          className="inline-flex justify-center items-center w-16 h-16 bg-muted mb-4"
         >
           <svg
             className="w-8 h-8 text-muted-foreground"

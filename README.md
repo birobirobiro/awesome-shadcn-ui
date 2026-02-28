@@ -357,10 +357,10 @@
 | vercel-status-tracker | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. | [Link](https://vercel-status-tracker.vercel.app) | 2025-01-02 |
 | wallhaven-desktop | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software. | [Link](https://github.com/ErKeLost/wallhaven-desktop) | 2024-10-23 |
 
-## Websites and Portfolios Inspirations
+## Websites and Portfolios
 
 | Name | Description | Link | Date |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ---------- |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------- | ---------- |
 | andrewsam.xyz | A revamped version of the popular tailwind-nextjs-starter-blog using shadcn/ui, along with a resume section and experience timeline component. | [Link](https://www.andrewsam.xyz/) | 2024-09-18 |
 | anishshobithps.com | Personal portfolio of a software developer, grid-styled design . | [Link](https://anishshobithps.com/) | 2026-02-27 |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-07-29 |

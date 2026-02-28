@@ -48,7 +48,7 @@ export const PR_TEMPLATE = {
     "Colors and Customizations",
     "Animations",
     "Tools",
-    "Websites and Portfolios Inspirations",
+    "Websites and Portfolios",
     "Platforms",
     "Ports",
     "Design System",

@@ -46,7 +46,7 @@ export default function Error({
         </div>
 
         {process.env.NODE_ENV === "development" && (
-          <details className="mt-6 p-4 bg-muted rounded-lg text-left max-w-2xl w-full">
+          <details className="mt-6 p-4 bg-muted text-left max-w-2xl w-full">
             <summary className="cursor-pointer text-sm font-medium">
               Error Details (Development)
             </summary>
