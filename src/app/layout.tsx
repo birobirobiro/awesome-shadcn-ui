@@ -1,4 +1,3 @@
-import Donation from "@/components/donation";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { Providers } from "@/providers/providers";
@@ -102,7 +101,6 @@ export default function RootLayout({
               <main className="flex-1">{children}</main>
               <Footer />
             </div>
-            <Donation />
           </Suspense>
         </Providers>
       </body>
