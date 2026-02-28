@@ -19,7 +19,7 @@ export function Sponsorship() {
           href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
           target="_blank"
           rel="noopener noreferrer sponsored"
-          className="flex items-center justify-center gap-2 rounded-md bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50 max-sm:px-2 max-sm:py-2"
+          className="flex items-center justify-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50 max-sm:px-2 max-sm:py-2"
         >
           <svg
             viewBox="0 0 328 328"
@@ -94,7 +94,7 @@ export function Sponsorship() {
           </div>
         </a>
 
-        <Button variant="outline" size="sm" className="h-auto py-1.5" asChild>
+        <Button variant="outline" size="sm" className="h-8" asChild>
           <a
             href="https://buy.stripe.com/28E28s6sUb3hbD4gPm0Jq03"
             target="_blank"

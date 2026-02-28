@@ -187,7 +187,7 @@ export const MultiSelect = React.forwardRef<
             {...props}
             onClick={handleTogglePopover}
             variant="outline"
-            className="max-w-96 h-auto"
+            className="max-w-96 h-8"
           >
             {selectedValues.length > 0 ? (
               <div className="flex justify-between items-center w-full">
