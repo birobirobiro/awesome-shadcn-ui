@@ -1,6 +1,7 @@
 "use client";
 
 import { PRSubmissionDialog } from "@/components/pr-submission-dialog";
+import { ThemeSwitcher } from "@/components/kibo-ui/theme-switcher";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -9,7 +10,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 import { Github, Menu } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -67,29 +67,25 @@ export function Header() {
                   width="328"
                   height="328"
                   rx="164"
-                  fill="black"
-                  className="dark:fill-white"
+                  className="fill-foreground"
                 />
                 <path
                   d="M165.018 72.3008V132.771C165.018 152.653 148.9 168.771 129.018 168.771H70.2288"
-                  stroke="white"
                   strokeWidth="20"
-                  className="dark:stroke-black"
+                  className="stroke-background"
                 />
                 <path
                   d="M166.627 265.241L166.627 204.771C166.627 184.889 182.744 168.771 202.627 168.771L261.416 168.771"
-                  stroke="white"
                   strokeWidth="20"
-                  className="dark:stroke-black"
+                  className="stroke-background"
                 />
                 <line
                   x1="238.136"
                   y1="98.8184"
                   x2="196.76"
                   y2="139.707"
-                  stroke="white"
                   strokeWidth="20"
-                  className="dark:stroke-black"
+                  className="stroke-background"
                 />
                 <line
                   x1="135.688"
@@ -139,7 +135,7 @@ export function Header() {
               />
             </div>
 
-            <ThemeToggle />
+            <ThemeSwitcher />
 
             {/* Mobile Menu */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>

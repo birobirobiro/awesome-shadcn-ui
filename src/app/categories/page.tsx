@@ -6,6 +6,7 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -138,38 +139,39 @@ export default function CategoriesPage() {
         breadcrumbs={[{ label: "Categories", href: "/categories" }]}
       />
 
-      <div className="min-h-screen grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="min-h-screen grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
           <div key={category.title}>
             <Link href={`/categories/${categoryNameToSlug(category.title)}`}>
-              <Card className="h-[200px] hover:shadow-lg transition-all duration-300 group cursor-pointer relative overflow-hidden hover:border-primary/20">
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent dark:from-primary/10" />
-                </div>
-                <div className="relative z-10 flex flex-col h-full">
-                  <CardHeader className="pb-3 sm:pb-4 p-4 sm:p-6">
-                    <div className="flex items-start sm:items-center justify-between gap-2">
-                      <CardTitle className="text-lg sm:text-xl group-hover:text-primary transition-colors leading-tight break-words flex-1 min-w-0 line-clamp-1">
-                        {category.title}
-                      </CardTitle>
-                      <ArrowRight className="h-4 w-4 sm:h-5 sm:w-5 text-muted-foreground group-hover:text-primary group-hover:translate-x-1 transition-all flex-shrink-0" />
-                    </div>
-                    <CardDescription className="text-xs sm:text-sm leading-relaxed break-words line-clamp-2 mt-2">
-                      {category.description}
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="pt-0 p-4 sm:p-6 mt-auto">
-                    <div className="flex items-center justify-between gap-2">
-                      <Badge
-                        variant="secondary"
-                        className="text-xs flex-shrink-0"
-                      >
-                        {category.items.length}{" "}
-                        {category.items.length === 1 ? "item" : "items"}
-                      </Badge>
-                    </div>
-                  </CardContent>
-                </div>
+              <Card className="h-[280px] group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col">
+                <CardHeader className="p-4 pb-3">
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5 rounded">
+                      [{category.title}]
+                    </span>
+                    <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+                  </div>
+                  <CardTitle className="text-base font-bold group-hover:text-primary transition-colors duration-200 line-clamp-2 leading-snug">
+                    {category.title}
+                  </CardTitle>
+                </CardHeader>
+
+                <div className="h-px bg-border mx-4" />
+
+                <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3">
+                  <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed overflow-hidden">
+                    {category.description}
+                  </p>
+                </CardContent>
+
+                <div className="h-px bg-border mx-4" />
+
+                <CardFooter className="flex gap-3 items-center p-4 pt-3">
+                  <Badge variant="secondary" className="text-xs flex-shrink-0">
+                    {category.items.length}{" "}
+                    {category.items.length === 1 ? "item" : "items"}
+                  </Badge>
+                </CardFooter>
               </Card>
             </Link>
           </div>
