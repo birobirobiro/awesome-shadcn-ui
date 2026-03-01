@@ -5,6 +5,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { cn } from "@/lib/utils";
 import { Calendar, SortAsc, SortDesc, Text } from "lucide-react";
 
 export type SortOption = "date-desc" | "date-asc" | "name-asc" | "name-desc";
@@ -12,9 +13,10 @@ export type SortOption = "date-desc" | "date-asc" | "name-asc" | "name-desc";
 interface SortProps {
   sortOption: SortOption;
   onSortChange: (option: SortOption) => void;
+  className?: string;
 }
 
-export default function Sort({ sortOption, onSortChange }: SortProps) {
+export default function Sort({ sortOption, onSortChange, className }: SortProps) {
   const sortOptions = [
     {
       value: "date-desc",
@@ -55,7 +57,7 @@ export default function Sort({ sortOption, onSortChange }: SortProps) {
       defaultValue="date-desc"
       onValueChange={handleSortChange}
     >
-      <SelectTrigger className="w-[160px] sm:w-[200px]">
+      <SelectTrigger className={cn("w-full sm:w-[200px]", className)}>
         <SelectValue>
           <span className="flex items-center">
             {selectedOption.icon}
