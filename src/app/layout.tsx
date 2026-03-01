@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/header";
 import { Providers } from "@/providers/providers";
 import { type Metadata, type Viewport } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 import type React from "react";
@@ -94,6 +95,13 @@ export default function RootLayout({
         )}
       >
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />
+        {process.env.HIMETRICA_API_KEY && (
+          <Script
+            src="https://cdn.himetrica.com/tracker.js"
+            data-api-key={process.env.HIMETRICA_API_KEY}
+            strategy="afterInteractive"
+          />
+        )}
         <Providers>
           <TooltipProvider>
             <Suspense>
