@@ -26,7 +26,7 @@ export function Sponsorship() {
             key={sponsor.name}
             href={sponsor.url}
             target="_blank"
-            rel="noopener noreferrer sponsored"
+            rel="noopener sponsored"
             className="flex items-center justify-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50 max-sm:px-2 max-sm:py-2"
           >
             {sponsor.LogoComponent}
@@ -48,7 +48,7 @@ export function Sponsorship() {
               <a
                 href="https://buy.stripe.com/28E28s6sUb3hbD4gPm0Jq03"
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener"
               >
                 <Plus className="w-5 h-5" />
               </a>
