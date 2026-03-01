@@ -115,15 +115,15 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
   );
 
   const renderFormStep = () => (
-    <div className="space-y-4">
-      <div className="text-center space-y-2 mb-4">
+    <div className="space-y-3">
+      <div className="text-center space-y-1 mb-2">
         <h3 className="text-lg font-semibold">Submit a New Resource</h3>
         <p className="text-sm text-muted-foreground">
           Add a new entry to the awesome shadcn/ui list
         </p>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         <div>
           <Label htmlFor="category">Category</Label>
           <Select
@@ -133,7 +133,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             }
             disabled={isSubmitting}
           >
-            <SelectTrigger className="mt-1">
+            <SelectTrigger className="mt-1.5 h-9 w-full">
               <SelectValue placeholder="Select a category" />
             </SelectTrigger>
             <SelectContent>
@@ -155,7 +155,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             onChange={(e) =>
               setFormData((prev) => ({ ...prev, name: e.target.value }))
             }
-            className="mt-1"
+            className="mt-1.5 h-9"
             disabled={isSubmitting}
           />
         </div>
@@ -169,7 +169,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             onChange={(e) =>
               setFormData((prev) => ({ ...prev, description: e.target.value }))
             }
-            className="mt-1"
+            className="mt-1.5 h-9"
             disabled={isSubmitting}
           />
         </div>
@@ -184,7 +184,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             onChange={(e) =>
               setFormData((prev) => ({ ...prev, url: e.target.value }))
             }
-            className="mt-1"
+            className="mt-1.5 h-9"
             disabled={isSubmitting}
           />
         </div>
@@ -197,11 +197,11 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
         )}
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 pt-2">
         <Button
           onClick={handleSubmit}
           disabled={isSubmitting}
-          className="flex-1"
+          className="flex-1 h-9"
         >
           {isSubmitting ? (
             <div className="flex items-center justify-center">

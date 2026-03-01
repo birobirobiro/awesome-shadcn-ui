@@ -8,6 +8,7 @@ import { motion, useInView } from "motion/react";
 import Link from "next/link";
 import { useRef } from "react";
 import { Button } from "../ui/button";
+import { GithubStars } from "@/components/github-stars";
 
 export function Footer() {
   const { categories } = useCategories();
@@ -137,7 +138,7 @@ export function Footer() {
           <motion.div variants={itemVariants}>
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="space-y-4">
-              <div className="flex gap-3">
+              <div className="flex gap-3 items-center">
                 {socialLinks.map((social) => (
                   <div key={social.name} className="flex items-center gap-2">
                     <Button variant="outline" size="icon" asChild>
@@ -149,16 +150,13 @@ export function Footer() {
                         <social.icon className="h-5 w-5 text-muted-foreground group-hover:text-foreground transition-colors" />
                       </a>
                     </Button>
-                    <span className="text-xs text-muted-foreground">
-                      {social.name}
-                    </span>
+                    <GithubStars />
                   </div>
                 ))}
               </div>
 
               <div className="flex items-center gap-2">
                 <ThemeSwitcher />
-                <span className="text-xs text-muted-foreground">Theme</span>
               </div>
             </div>
           </motion.div>

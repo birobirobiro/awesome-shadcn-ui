@@ -12,130 +12,93 @@ import {
 } from "@/components/ui/sheet";
 import { Github, Menu } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { sponsors } from "@/components/sponsors/sponsors";
+import { GithubStars } from "@/components/github-stars";
+import { Logo } from "@/components/logo";
+import { ModeToggle } from "@/components/theme-toggle";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-50 border-b backdrop-blur bg-background/80">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-14">
-          {/* Left: Logo */}
-          <Link
-            href="/"
-            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-          >
-            <img src="/logo.svg" alt="logo" className="h-8 w-auto" />
-            <span className="font-bold text-sm hidden sm:inline">
-              awesome-shadcn/ui
-            </span>
-          </Link>
+          {/* Left: Logo + Navigation */}
+          <div className="flex items-center gap-6">
+            <Link
+              href="/"
+              className="flex items-center gap-2 hover:opacity-80 transition-opacity"
+            >
+              <Logo className="h-5 w-auto" />
+            </Link>
 
-          {/* Center: Navigation - Desktop */}
-          <nav className="hidden md:flex items-center gap-6">
-            <Link
-              href="/categories"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Categories
-            </Link>
-            <Link
-              href="/bookmarks"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Bookmarks
-            </Link>
-          </nav>
+            {/* Navigation - Desktop */}
+            <nav className="hidden md:flex items-center gap-6">
+              <Link
+                href="/categories"
+                className={`text-sm transition-colors ${
+                  pathname === "/categories" ||
+                  pathname?.startsWith("/categories")
+                    ? "text-foreground font-medium"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                Categories
+              </Link>
+              <Link
+                href="/bookmarks"
+                className={`text-sm transition-colors ${
+                  pathname === "/bookmarks"
+                    ? "text-foreground font-medium"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                Bookmarks
+              </Link>
+            </nav>
+          </div>
 
           {/* Right: Actions */}
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             {/* Sponsorship - Desktop */}
-            <a
-              href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              className="hidden lg:flex items-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
-            >
-              <svg
-                viewBox="0 0 328 328"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-5 h-5 shrink-0"
+            {sponsors.map((sponsor) => (
+              <a
+                key={sponsor.name}
+                href={sponsor.url}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="hidden lg:flex items-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
               >
-                <rect
-                  width="328"
-                  height="328"
-                  rx="164"
-                  className="fill-foreground"
-                />
-                <path
-                  d="M165.018 72.3008V132.771C165.018 152.653 148.9 168.771 129.018 168.771H70.2288"
-                  strokeWidth="20"
-                  className="stroke-background"
-                />
-                <path
-                  d="M166.627 265.241L166.627 204.771C166.627 184.889 182.744 168.771 202.627 168.771L261.416 168.771"
-                  strokeWidth="20"
-                  className="stroke-background"
-                />
-                <line
-                  x1="238.136"
-                  y1="98.8184"
-                  x2="196.76"
-                  y2="139.707"
-                  strokeWidth="20"
-                  className="stroke-background"
-                />
-                <line
-                  x1="135.688"
-                  y1="200.957"
-                  x2="94.3128"
-                  y2="241.845"
-                  stroke="white"
-                  strokeWidth="20"
-                  className="dark:stroke-black"
-                />
-                <line
-                  x1="133.689"
-                  y1="137.524"
-                  x2="92.5566"
-                  y2="96.3914"
-                  stroke="white"
-                  strokeWidth="20"
-                  className="dark:stroke-black"
-                />
-                <line
-                  x1="237.679"
-                  y1="241.803"
-                  x2="196.547"
-                  y2="200.671"
-                  stroke="white"
-                  strokeWidth="20"
-                  className="dark:stroke-black"
-                />
-              </svg>
-              <span className="text-sm font-medium text-foreground max-xl:hidden">
-                shadcnstudio.com
-              </span>
-              <span className="text-xs text-muted-foreground max-2xl:hidden">
-                (shadcn blocks & templates)
-              </span>
-            </a>
+                {sponsor.LogoComponent}
+                <div className="flex flex-col">
+                  <span className="text-sm font-medium text-foreground leading-none">
+                    {sponsor.name}
+                  </span>
+                  <span className="text-xs text-muted-foreground">
+                    {sponsor.description}
+                  </span>
+                </div>
+              </a>
+            ))}
 
-            {/* Submit Button - Desktop */}
-            <div className="hidden md:block">
-              <PRSubmissionDialog
-                trigger={
-                  <Button variant="outline" size="sm" className="h-8">
-                    <Github className="mr-1.5 h-3.5 w-3.5" />
-                    Submit
-                  </Button>
-                }
-              />
-            </div>
+            {/* Submit Button - Desktop - REMOVED, now in search filters */}
 
-            <ThemeSwitcher />
+            <Button variant="outline" className="h-[34px] gap-1" asChild>
+              <a
+                href="https://github.com/birobirobiro/awesome-shadcn-ui"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-4 w-4" />
+                <GithubStars />
+              </a>
+            </Button>
+
+            <ModeToggle />
 
             {/* Mobile Menu */}
             <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
@@ -155,14 +118,7 @@ export function Header() {
                         onClick={() => setMobileMenuOpen(false)}
                         className="flex items-center gap-3"
                       >
-                        <img
-                          src="/logo.svg"
-                          alt="logo"
-                          className="h-7 w-auto"
-                        />
-                        <span className="text-base font-bold">
-                          awesome-shadcn/ui
-                        </span>
+                        <Logo className="h-5 w-auto" />
                       </Link>
                     </SheetTitle>
                   </SheetHeader>
@@ -203,75 +159,27 @@ export function Header() {
                     <span className="text-[10px] text-muted-foreground uppercase tracking-widest font-mono block text-center mb-3">
                       Sponsored by
                     </span>
-                    <a
-                      href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github"
-                      target="_blank"
-                      rel="noopener noreferrer sponsored"
-                      className="flex items-center justify-center bg-background px-4 py-3 transition-all duration-200 hover:shadow-md border"
-                    >
-                      <svg
-                        viewBox="0 0 328 328"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="w-6 h-6"
-                      >
-                        <rect
-                          width="328"
-                          height="328"
-                          rx="164"
-                          fill="black"
-                          className="dark:fill-white"
-                        />
-                        <path
-                          d="M165.018 72.3008V132.771C165.018 152.653 148.9 168.771 129.018 168.771H70.2288"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                        <path
-                          d="M166.627 265.241L166.627 204.771C166.627 184.889 182.744 168.771 202.627 168.771L261.416 168.771"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                        <line
-                          x1="238.136"
-                          y1="98.8184"
-                          x2="196.76"
-                          y2="139.707"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                        <line
-                          x1="135.688"
-                          y1="200.957"
-                          x2="94.3128"
-                          y2="241.845"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                        <line
-                          x1="133.689"
-                          y1="137.524"
-                          x2="92.5566"
-                          y2="96.3914"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                        <line
-                          x1="237.679"
-                          y1="241.803"
-                          x2="196.547"
-                          y2="200.671"
-                          stroke="white"
-                          strokeWidth="20"
-                          className="dark:stroke-black"
-                        />
-                      </svg>
-                    </a>
+                    <div className="flex flex-col gap-2">
+                      {sponsors.map((sponsor) => (
+                        <a
+                          key={sponsor.name}
+                          href={sponsor.url}
+                          target="_blank"
+                          rel="noopener noreferrer sponsored"
+                          className="flex items-center gap-3 bg-background px-4 py-3 transition-all duration-200 hover:shadow-md border"
+                        >
+                          {sponsor.LogoComponent}
+                          <div className="flex flex-col">
+                            <span className="text-sm font-medium text-foreground">
+                              {sponsor.name}
+                            </span>
+                            <span className="text-xs text-muted-foreground">
+                              {sponsor.description}
+                            </span>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
               </SheetContent>
