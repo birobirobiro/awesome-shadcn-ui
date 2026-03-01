@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/header";
 import { Providers } from "@/providers/providers";
 import { type Metadata, type Viewport } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 import type React from "react";
 import { Suspense } from "react";
@@ -94,13 +95,15 @@ export default function RootLayout({
       >
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />
         <Providers>
-          <Suspense>
-            <div className="relative flex min-h-screen flex-col">
-              <Header />
-              <main className="flex-1">{children}</main>
-              <Footer />
-            </div>
-          </Suspense>
+          <TooltipProvider>
+            <Suspense>
+              <div className="relative flex min-h-screen flex-col">
+                <Header />
+                <main className="flex-1">{children}</main>
+                <Footer />
+              </div>
+            </Suspense>
+          </TooltipProvider>
         </Providers>
       </body>
     </html>

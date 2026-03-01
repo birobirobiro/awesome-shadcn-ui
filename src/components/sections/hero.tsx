@@ -1,5 +1,6 @@
 "use client";
 
+import { HeroLogo } from "@/components/logo";
 import { Sponsorship } from "./sponsorship";
 import { motion } from "motion/react";
 
@@ -35,8 +36,8 @@ export default function Hero() {
       animate="visible"
     >
       {/* Logo */}
-      <motion.div variants={fadeIn} className="mb-8">
-        <img src="/logo.svg" alt="awesome-shadcn/ui" className="h-24 w-auto" />
+      <motion.div variants={fadeIn} className="mb-4">
+        <HeroLogo />
       </motion.div>
 
       {/* Title */}

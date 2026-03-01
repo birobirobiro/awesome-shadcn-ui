@@ -17,6 +17,9 @@
   <a href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github" target="_blank">
     <img src="public/sponsors/shadcnstudio.svg" alt="shadcnstudio.com" width="32">
   </a>
+  <a href="https://www.shadcnblocks.com" target="_blank">
+    <img src="public/sponsors/shadcnblocks.svg" alt="shadcnblocks.com" width="32">
+  </a>
 </p>
 
 <p align="center">
