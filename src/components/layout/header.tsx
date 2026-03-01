@@ -70,7 +70,7 @@ export function Header() {
                 key={sponsor.name}
                 href={sponsor.url}
                 target="_blank"
-                rel="noopener noreferrer sponsored"
+                rel="noopener sponsored"
                 className="hidden lg:flex items-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
               >
                 {sponsor.LogoComponent}
@@ -165,7 +165,7 @@ export function Header() {
                           key={sponsor.name}
                           href={sponsor.url}
                           target="_blank"
-                          rel="noopener noreferrer sponsored"
+                          rel="noopener sponsored"
                           className="flex items-center gap-3 bg-background px-4 py-3 transition-all duration-200 hover:shadow-md border"
                         >
                           {sponsor.LogoComponent}

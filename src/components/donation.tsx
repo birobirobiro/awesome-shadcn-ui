@@ -6,7 +6,7 @@ export default function Donation() {
     <Link
       href="https://buymeacoffee.com/birobirobiro"
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener"
     >
       <Button
         className="
