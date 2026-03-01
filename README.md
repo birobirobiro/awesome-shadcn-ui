@@ -53,7 +53,7 @@
 | capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) | 2024-05-06 |
 | carouselcn | Copy-paste carousel components and examples for your react apps | [Link](https://github.com/mnove/carouselcn) | 2026-01-27 |
 | cascader-shadcn | A cascading dropdown menu component for selecting hierarchical data like locations, categories, or organizational structures. | [Link](https://github.com/Ademking/cascader-shadcn) | 2025-12-04 |
-| chanhdai-components | A collection of reusable components. Trusted registry for shadcn/ui. | [Link](https://chanhdai.com/components) |
+| chanhdai-components | A collection of reusable components. Trusted registry for shadcn/ui. | [Link](https://chanhdai.com/components) | 2026-03-01 |
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-06-07 |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-06-07 |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20 |
