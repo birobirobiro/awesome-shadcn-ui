@@ -436,6 +436,7 @@
 
 | Name | Description | Link | Date |
 | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| agentic-react-nextjs-shadcn | Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessibility-first components, semantic HTML for AI agent testing, and production-ready patterns. | [Link](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) | 2026-03-03 |
 | astro-erudite | An opinionated, unstyled static blogging template—built with Astro, Tailwind, and shadcn/ui. | [Link](https://github.com/jktrn/astro-erudite) | 2025-10-25 |
 | atomic-crm | Open-source React CRM built on top of Supabase [Demo site](https://marmelab.com/atomic-crm-demo) | [Link](https://github.com/marmelab/atomic-crm) | 2025-09-16 |
 | autoflow | An open source GraphRAG (Knowledge Graph) built on top of TiDB Vector, LlamaIndex, and DSPy. [Demo site](https://tidb.ai). | [Link](https://github.com/pingcap/autoflow) | 2024-12-06 |
