@@ -36,7 +36,7 @@ export function SearchFilterControls({
 
   return (
     <motion.div
-      className="flex justify-between items-center gap-4 w-full"
+      className="flex flex-col gap-3 w-full sm:flex-row sm:items-center sm:justify-between sm:gap-4"
       variants={{
         hidden: { opacity: 0 },
         visible: {
@@ -47,26 +47,36 @@ export function SearchFilterControls({
         },
       }}
     >
-      <div className="flex items-center gap-2 sm:gap-4">
+      <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-2">
         <Input
           type="text"
           placeholder="Search items..."
           value={searchQuery}
           onChange={handleSearchChange}
-          className="w-[150px] sm:w-[200px]"
+          className="w-full sm:w-[200px]"
         />
-        <MultiSelect
-          options={categoryOptions}
-          value={selectedCategories}
-          onValueChange={setSelectedCategories}
-          placeholder="Filter by category"
-          className="w-[140px] sm:w-[200px]"
-        />
-        <Sort sortOption={sortOption} onSortChange={onSortChange} />
+        <div className="flex items-center gap-2 w-full sm:w-auto">
+          <MultiSelect
+            options={categoryOptions}
+            value={selectedCategories}
+            onValueChange={setSelectedCategories}
+            placeholder="Filter by category"
+            className="flex-1 sm:flex-none sm:w-[200px]"
+          />
+          <Sort
+            sortOption={sortOption}
+            onSortChange={onSortChange}
+            className="flex-1 sm:flex-none"
+          />
+        </div>
       </div>
       <PRSubmissionDialog
         trigger={
-          <Button variant="outline" size="sm" className="h-9 whitespace-nowrap">
+          <Button
+            variant="outline"
+            size="sm"
+            className="w-full sm:w-auto h-9 whitespace-nowrap"
+          >
             <Github className="mr-1.5 h-3.5 w-3.5" />
             Submit new resource
           </Button>

@@ -216,17 +216,15 @@ export default function ItemList({
       animate="visible"
     >
       <motion.div variants={itemVariants}>
-        <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-          <SearchFilterControls
-            searchQuery={searchQuery}
-            setSearchQuery={setSearchQuery}
-            categoryOptions={categoryOptions}
-            selectedCategories={selectedCategories}
-            setSelectedCategories={setSelectedCategories}
-            sortOption={sortOption}
-            onSortChange={handleSortChange}
-          />
-        </div>
+        <SearchFilterControls
+          searchQuery={searchQuery}
+          setSearchQuery={setSearchQuery}
+          categoryOptions={categoryOptions}
+          selectedCategories={selectedCategories}
+          setSelectedCategories={setSelectedCategories}
+          sortOption={sortOption}
+          onSortChange={handleSortChange}
+        />
       </motion.div>
 
       <motion.div variants={itemVariants}>
