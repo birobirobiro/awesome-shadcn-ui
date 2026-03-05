@@ -46,7 +46,7 @@ export function Sponsorship() {
           <TooltipTrigger asChild>
             <Button variant="outline" size="sm" className="h-8" asChild>
               <a
-                href="https://buy.stripe.com/28E28s6sUb3hbD4gPm0Jq03"
+                href="https://buy.stripe.com/9B6cN6eZq6N136ygPm0Jq02"
                 target="_blank"
                 rel="noopener"
               >
