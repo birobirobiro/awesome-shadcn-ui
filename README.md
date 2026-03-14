@@ -399,6 +399,7 @@
 | memergez | Quickly generate memes by entering text or an avatar URL, with support for many meme commands. | [Link](https://github.com/avalynndev/memergez) | 2024-08-26 |
 | midday-components | A collection of open-source components based on Midday features. | [Link](https://midday.ai/components) | 2024-11-21 |
 | multiboard | Minimal Kanban platform. Built with Better-Auth, Next.js, ZenStack, Prisma, and shadcn/ui. | [Link](https://github.com/olliethedev/multiboard) | 2025-07-15 |
+| openhive | Open-source, self-hosted Slack alternative with channels, DMs, threads, reactions, file uploads, and video/audio calls. Built with Next.js, Supabase, Zustand, and shadcn/ui. | [Link](https://github.com/arseneHuot/openhive) | 2026-03-14 |
 | plotwist | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US) | 2024-05-31 |
 | veritas-kanban | Self-hosted Kanban board with AI agent integration, time tracking, and 1,255 tests. Built with React 19, Vite 6, TanStack Query, dnd-kit, and shadcn/ui. | [Link](https://github.com/BradGroux/veritas-kanban) | 2026-01-29 |
 | xeramail | Temporary email address service built with Next.js and shadcn/ui, offering fast inbox access, modern UI, and better control over disposable emails. | [Link](https://xeramail.com) | 2026-01-01 |
