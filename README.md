@@ -423,6 +423,7 @@
 | Phoenix Liveview | Phoenix Liveview port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-06-07 |
 | React Native | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-06-07 |
 | React Native (recommended) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27 |
+| RnUI | Blazor (.NET) port of shadcn/ui with Tailwind CSS v4. 50+ components, pure C#, multi-target .NET 8/9/10. | [Link](https://github.com/daeha76/RnUI) |  |
 | Ruby | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-06-07 |
 | Solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-03-28 |
 | Svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-02-22 |
