@@ -10,6 +10,11 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 import { Github, Menu } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -66,23 +71,22 @@ export function Header() {
           <div className="flex items-center gap-2">
             {/* Sponsorship - Desktop */}
             {sponsors.map((sponsor) => (
-              <a
-                key={sponsor.name}
-                href={sponsor.url}
-                target="_blank"
-                rel="noopener sponsored"
-                className="hidden lg:flex items-center gap-2 bg-muted/30 px-3 py-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
-              >
-                {sponsor.LogoComponent}
-                <div className="flex flex-col">
-                  <span className="text-sm font-medium text-foreground leading-none">
-                    {sponsor.name}
-                  </span>
-                  <span className="text-xs text-muted-foreground">
-                    {sponsor.description}
-                  </span>
-                </div>
-              </a>
+              <Tooltip key={sponsor.name}>
+                <TooltipTrigger asChild>
+                  <a
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener sponsored"
+                    className="hidden lg:flex items-center justify-center bg-muted/30 p-1.5 transition-colors duration-200 hover:bg-muted/50 border border-border/50"
+                  >
+                    {sponsor.LogoComponent}
+                  </a>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p className="font-medium">{sponsor.name}</p>
+                  <p className="text-muted-foreground text-xs">{sponsor.description}</p>
+                </TooltipContent>
+              </Tooltip>
             ))}
 
             {/* Submit Button - Desktop - REMOVED, now in search filters */}

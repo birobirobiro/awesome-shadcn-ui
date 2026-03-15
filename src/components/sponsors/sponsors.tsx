@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import ShadcnStudioLogo from "./shadcn-studio-logo";
 import ShadcnBlocksLogo from "./shadcn-blocks-logo";
+import ShadcnUiKitLogo from "./shadcn-ui-kit-logo";
 
 export interface Sponsor {
   name: string;
@@ -21,5 +22,11 @@ export const sponsors: Sponsor[] = [
     description: "UI blocks for your next project",
     url: "https://www.shadcnblocks.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
     LogoComponent: <ShadcnBlocksLogo className="w-5 h-5 shrink-0" />,
+  },
+  {
+    name: "shadcnuikit.com",
+    description: "Build faster with pre-built assets",
+    url: "https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
+    LogoComponent: <ShadcnUiKitLogo className="w-5 h-5 shrink-0" />,
   },
 ];

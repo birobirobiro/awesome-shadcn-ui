@@ -20,6 +20,9 @@
   <a href="https://www.shadcnblocks.com" target="_blank">
     <img src="public/sponsors/shadcnblocks.svg" alt="shadcnblocks.com" width="32">
   </a>
+  <a href="https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github" target="_blank">
+    <img src="public/sponsors/shadcnuikit.svg" alt="shadcnuikit.com" width="32">
+  </a>
 </p>
 
 <p align="center">
