@@ -1,6 +1,11 @@
+import React from "react";
 import { Resource } from "@/hooks/use-readme";
 import { AnimatePresence, LayoutGroup, motion } from "motion/react";
 import ItemCard from "./item-card";
+import SponsorCard from "./sponsor-card";
+import { sponsors } from "@/components/sponsors/sponsors";
+
+const SPONSOR_INTERVAL = 8;
 
 interface ItemGridProps {
   items: Resource[];
@@ -53,6 +58,32 @@ export function ItemGrid({
     );
   }
 
+  const gridItems: React.ReactNode[] = [];
+
+  items.forEach((item, index) => {
+    gridItems.push(
+      <ItemCard
+        key={`item-${item.id}`}
+        id={item.id}
+        title={item.name}
+        description={item.description}
+        url={item.url}
+        category={item.category}
+        date={item.date}
+        isBookmarked={bookmarkedItems.includes(item.id)}
+        onBookmark={onBookmark}
+        isBookmarkLoading={isBookmarkLoading}
+      />
+    );
+
+    if (index % SPONSOR_INTERVAL === 0 && sponsors.length > 0) {
+      const sponsor = sponsors[Math.floor(index / SPONSOR_INTERVAL) % sponsors.length];
+      gridItems.push(
+        <SponsorCard key={`sponsor-${index}`} sponsor={sponsor} />
+      );
+    }
+  });
+
   return (
     <LayoutGroup>
       <AnimatePresence mode="wait">
@@ -64,20 +95,7 @@ export function ItemGrid({
           transition={{ duration: 0.2 }}
           layout
         >
-          {items.map((item) => (
-            <ItemCard
-              key={`${item.id}`}
-              id={item.id}
-              title={item.name}
-              description={item.description}
-              url={item.url}
-              category={item.category}
-              date={item.date}
-              isBookmarked={bookmarkedItems.includes(item.id)}
-              onBookmark={onBookmark}
-              isBookmarkLoading={isBookmarkLoading}
-            />
-          ))}
+          {gridItems}
         </motion.div>
       </AnimatePresence>
     </LayoutGroup>
