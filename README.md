@@ -340,7 +340,7 @@
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-07-17 |
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-07-22 |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-26 |
-| open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) |
+| open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20 |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-26 |
 | pastecode | Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. | [Link](https://github.com/Quorin/PasteCode.app) | 2024-06-07 |
 | pictera | Generate Open Graph images without design skills. | [Link](https://pictera.co) | 2025-10-08 |
