@@ -25,7 +25,7 @@ export const sponsors: Sponsor[] = [
   },
   {
     name: "shadcnuikit.com",
-    description: "Build faster with pre-built assets",
+    description: "Dashboards, templates & Blocks",
     url: "https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
     LogoComponent: <ShadcnUiKitLogo className="w-5 h-5 shrink-0" />,
   },
