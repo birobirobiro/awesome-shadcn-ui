@@ -475,6 +475,7 @@
 | next-wp | Headless Wordpress Starter built with the NextJS App Router and React Server Components. | [Link](https://github.com/9d8dev/next-wp) | 2024-11-21 |
 | onyx | Full stack, batteries-included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more. | [Link](https://github.com/rmourey26/onyx) | 2024-08-13 |
 | opendocs | Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support. | [Link](https://opendocs.daltonmenezes.com/) | 2024-07-29 |
+| openui-shadcn-chat | Full-stack generative UI chatbot template using OpenUI Lang with shadcn/ui component library, SSE streaming, and tool calling. | [Link](https://github.com/thesysdev/openui/tree/main/examples/shadcn-chat) | 2026-03-19 |
 | react-starter-kit | An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, React 19, tRPC, Drizzle ORM, and Cloudflare Workers. | [Link](https://github.com/kriasoft/react-starter-kit) | 2025-09-06 |
 | react-vite-starter | React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. | [Link](https://github.com/tejachundru/react-vite-starter) | 2024-12-02 |
 | shadcn-admin | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2025-12-12 |
