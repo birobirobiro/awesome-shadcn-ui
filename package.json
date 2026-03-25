@@ -60,6 +60,7 @@
   "devDependencies": {
     "@types/node": "24.0.10",
     "@types/react": "^19",
+    "baseline-browser-mapping": "^2.10.10",
     "prettier": "^3",
     "shadcn": "^3.8.5",
     "tailwind-merge": "^2.6.0",

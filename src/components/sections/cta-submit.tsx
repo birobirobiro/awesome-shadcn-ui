@@ -61,7 +61,7 @@ export function SubmitCTA() {
             <div className="flex flex-col sm:flex-row gap-2 w-full lg:w-auto">
               <PRSubmissionDialog
                 trigger={
-                  <Button size="lg" className="w-full sm:w-auto text-base">
+                  <Button size="lg" className="w-full sm:w-auto text-base cursor-pointer">
                     <Github className="mr-2 h-5 w-5" />
                     <span>Submit Resource</span>
                     <ArrowRight className="ml-2 h-5 w-5" />

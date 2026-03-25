@@ -1,1 +1,10 @@
-<svg width="1em" height="1em" viewBox="0 0 328 329" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-8.5"><rect y="0.5" width="328" height="328" rx="164" fill="black" class="dark:fill-white"></rect><path d="M165.018 72.3008V132.771C165.018 152.653 148.9 168.771 129.018 168.771H70.2288" stroke="white" stroke-width="20" class="dark:stroke-black"></path><path d="M166.627 265.241L166.627 204.771C166.627 184.889 182.744 168.771 202.627 168.771L261.416 168.771" stroke="white" stroke-width="20" class="dark:stroke-black"></path><line x1="238.136" y1="98.8184" x2="196.76" y2="139.707" stroke="white" stroke-width="20" class="dark:stroke-black"></line><line x1="135.688" y1="200.957" x2="94.3128" y2="241.845" stroke="white" stroke-width="20" class="dark:stroke-black"></line><line x1="133.689" y1="137.524" x2="92.5566" y2="96.3914" stroke="white" stroke-width="20" class="dark:stroke-black"></line><line x1="237.679" y1="241.803" x2="196.547" y2="200.671" stroke="white" stroke-width="20" class="dark:stroke-black"></line></svg>
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="black"/>
+<path d="M275 150C275 80.9644 219.036 25 150 25C80.9644 25 25 80.9644 25 150C25 219.036 80.9644 275 150 275C219.036 275 275 219.036 275 150Z" fill="white"/>
+<path d="M150.776 79.7261V125.816C150.776 140.97 138.491 153.255 123.337 153.255H78.5278" stroke="black" stroke-width="15.3132"/>
+<path d="M152.002 226.784V180.694C152.002 165.54 164.287 153.255 179.441 153.255H224.25" stroke="black" stroke-width="15.3132"/>
+<path d="M206.506 99.9377L174.969 131.103" stroke="black" stroke-width="15.3132"/>
+<path d="M128.421 177.787L96.8848 208.952" stroke="black" stroke-width="15.3132"/>
+<path d="M126.897 129.439L95.5461 98.0879" stroke="black" stroke-width="15.3132"/>
+<path d="M206.158 208.92L174.807 177.569" stroke="black" stroke-width="15.3132"/>
+</svg>

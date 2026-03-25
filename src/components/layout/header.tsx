@@ -20,7 +20,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { sponsors } from "@/components/sponsors/sponsors";
-import { GithubStars } from "@/components/github-stars";
+import { GitHubStars } from "@/components/github-stars";
 import { Logo } from "@/components/logo";
 import { ModeToggle } from "@/components/theme-toggle";
 
@@ -30,7 +30,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b backdrop-blur bg-background/80">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto max-w-7xl px-4">
         <div className="flex items-center justify-between h-14">
           {/* Left: Logo + Navigation */}
           <div className="flex items-center gap-6">
@@ -91,16 +91,7 @@ export function Header() {
 
             {/* Submit Button - Desktop - REMOVED, now in search filters */}
 
-            <Button variant="outline" className="h-[34px] gap-1" asChild>
-              <a
-                href="https://github.com/birobirobiro/awesome-shadcn-ui"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Github className="h-4 w-4" />
-                <GithubStars />
-              </a>
-            </Button>
+            <GitHubStars />
 
             <ModeToggle />
 
@@ -149,7 +140,7 @@ export function Header() {
                     <div className="mt-8">
                       <PRSubmissionDialog
                         trigger={
-                          <Button className="w-full justify-center gap-2">
+                          <Button className="w-full justify-center gap-2 cursor-pointer">
                             <Github className="h-4 w-4" />
                             Submit Resource
                           </Button>
