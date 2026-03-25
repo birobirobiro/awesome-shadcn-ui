@@ -1,14 +1,12 @@
 "use client";
 
 import { Separator } from "@/components/ui/separator";
-import { ThemeSwitcher } from "@/components/kibo-ui/theme-switcher";
+import { GitHubStars } from "@/components/github-stars";
 import { useCategories } from "@/hooks/use-categories";
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { motion, useInView } from "motion/react";
 import Link from "next/link";
 import { useRef } from "react";
-import { Button } from "../ui/button";
-import { GithubStars } from "@/components/github-stars";
 
 export function Footer() {
   const { categories } = useCategories();
@@ -41,14 +39,6 @@ export function Footer() {
     },
   ];
 
-  const socialLinks = [
-    {
-      name: "GitHub",
-      href: "https://github.com/birobirobiro/awesome-shadcn-ui",
-      icon: Github,
-    },
-  ];
-
   return (
     <footer className="border-t bg-background">
       <motion.div
@@ -56,12 +46,12 @@ export function Footer() {
         variants={containerVariants}
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
-        className="container mx-auto px-4 py-6 md:py-8"
+        className="container mx-auto max-w-7xl px-4 py-6 md:py-8"
       >
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
           {/* Brand Section */}
-          <motion.div variants={itemVariants} className="lg:col-span-1">
+          <motion.div variants={itemVariants} className="lg:col-span-2">
             <Link href="/" className="flex items-center space-x-2 mb-4 group">
               <img
                 src="/logo.svg"
@@ -74,6 +64,7 @@ export function Footer() {
               A curated list of awesome things related to shadcn/ui. Discover,
               contribute, and grow the community.
             </p>
+            <GitHubStars />
           </motion.div>
 
           {/* Quick Links */}
@@ -114,51 +105,6 @@ export function Footer() {
                 </li>
               ))}
             </ul>
-          </motion.div>
-
-          {/* Categories Preview */}
-          <motion.div variants={itemVariants}>
-            <h4 className="font-semibold mb-4">Categories</h4>
-            <ul className="space-y-2">
-              {categories.slice(6, 12).map((category) => (
-                <li key={category.title}>
-                  <Link
-                    href={`/categories/${category.slug}`}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 group"
-                  >
-                    {category.title}
-                    <ArrowRight className="h-3 w-3 group-hover:translate-x-0.5 transition-transform" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
-
-          {/* Social & Actions */}
-          <motion.div variants={itemVariants}>
-            <h4 className="font-semibold mb-4">Connect</h4>
-            <div className="space-y-4">
-              <div className="flex gap-3 items-center">
-                {socialLinks.map((social) => (
-                  <div key={social.name} className="flex items-center gap-2">
-                    <Button variant="outline" size="icon" asChild>
-                      <a
-                        href={social.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <social.icon className="h-5 w-5 text-muted-foreground group-hover:text-foreground transition-colors" />
-                      </a>
-                    </Button>
-                    <GithubStars />
-                  </div>
-                ))}
-              </div>
-
-              <div className="flex items-center gap-2">
-                <ThemeSwitcher />
-              </div>
-            </div>
           </motion.div>
         </div>
 
