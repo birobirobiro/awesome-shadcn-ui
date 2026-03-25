@@ -262,7 +262,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogTrigger asChild>
         {trigger || (
-          <Button size="lg" className="w-full lg:w-auto text-base">
+          <Button size="lg" className="w-full lg:w-auto text-base cursor-pointer">
             <Plus className="mr-2 h-5 w-5" />
             Submit Resource
             <ArrowRight className="ml-2 h-5 w-5" />

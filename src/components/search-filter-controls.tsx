@@ -75,7 +75,7 @@ export function SearchFilterControls({
           <Button
             variant="outline"
             size="sm"
-            className="w-full sm:w-auto h-9 whitespace-nowrap"
+            className="w-full sm:w-auto h-9 whitespace-nowrap cursor-pointer"
           >
             <Github className="mr-1.5 h-3.5 w-3.5" />
             Submit new resource
