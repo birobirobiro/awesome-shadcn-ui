@@ -466,7 +466,7 @@
 | chadnext | Quick Starter Template includes Next.js 14 App Router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization, and more. | [Link](https://github.com/moinulmoin/chadnext) | 2024-04-25 |
 | cloudflare-saas-stack | An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare. | [Link](https://github.com/Dhravya/cloudflare-saas-stack) | 2024-07-24 |
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-09-23 |
-| create-tauri-ui | Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. | [Link](https://github.com/agmmnn/tauri-ui) | 2026-03-30 |
+| create-tauri-ui | Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. | [Link](https://github.com/agmmnn/tauri-ui) |
 | design-system-template | Turborepo + TailwindCSS + Storybook + shadcn/ui. | [Link](https://github.com/arevalolance/design-system-template) | 2024-06-06 |
 | devstarter | Devstarter is a bold, one-page developer portfolio template with a distinctive cyberpunk aesthetic. Built with Next.js, shadcn/ui, and Tailwind CSS, it's designed to help developers showcase their work, skills, and personality in a way that stands out. | [Link](https://github.com/zippystarter/template-devstarter) | 2026-01-27 |
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-08-06 |
