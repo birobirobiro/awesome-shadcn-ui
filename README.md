@@ -338,6 +338,7 @@
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-22 |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-06-07 |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-09-09 |
+| devtools | 28 free browser-based developer utilities built with Next.js and shadcn/ui — JSON formatter, regex tester, JWT decoder, hash generator, UUID generator, diff checker, and more. 100% client-side, no signup. | [Link](https://devtools.davrapps.dev) | 2026-03-30 |
 | dev-quotes | A website that displays quotes from professional programmers. | [Link](https://dev-quotes-six.vercel.app/) | 2025-01-07 |
 | down-dev-detector | This app lists all the services currently down and uses Atlassian Status Page and others (soon). | [Link](https://github.com/birobirobiro/downdevdetector) | 2024-11-04 |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-11-04 |
@@ -490,6 +491,7 @@
 | opendocs | Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support. | [Link](https://opendocs.daltonmenezes.com/) | 2024-07-29 |
 | react-starter-kit | An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, React 19, tRPC, Drizzle ORM, and Cloudflare Workers. | [Link](https://github.com/kriasoft/react-starter-kit) | 2025-09-06 |
 | react-vite-starter | React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. | [Link](https://github.com/tejachundru/react-vite-starter) | 2024-12-02 |
+| shipkit | Production-tested full-stack SaaS boilerplate with Next.js 16, Bun, Elysia.js, shadcn/ui, Better Auth, Drizzle ORM, Polar.sh payments, i18n, dark mode, and admin dashboard. Battle-tested across 5 live apps. | [Link](https://shipkit.davrapps.dev) | 2026-03-30 |
 | shadcn-admin | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2025-12-12 |
 | shadcn-landing-page | Landing page template using shadcn/ui, React, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-landing-page) | 2024-06-06 |
 | shadcn-landing-page (Vue) | Project conversion[shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to Next.js - Landing page template using Nestjs, shadcn/ui, TypeScript, and Tailwind CSS. | [Link](https://github.com/nobruf/shadcn-landing-page) | 2024-12-27 |
