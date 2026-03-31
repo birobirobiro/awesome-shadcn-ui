@@ -491,7 +491,6 @@
 | opendocs | Beautifully designed template that you can use for your projects for free. Accessible. Customizable. Open Source with i18n support. | [Link](https://opendocs.daltonmenezes.com/) | 2024-07-29 |
 | react-starter-kit | An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, React 19, tRPC, Drizzle ORM, and Cloudflare Workers. | [Link](https://github.com/kriasoft/react-starter-kit) | 2025-09-06 |
 | react-vite-starter | React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. | [Link](https://github.com/tejachundru/react-vite-starter) | 2024-12-02 |
-| shipkit | Production-tested full-stack SaaS boilerplate with Next.js 16, Bun, Elysia.js, shadcn/ui, Better Auth, Drizzle ORM, Polar.sh payments, i18n, dark mode, and admin dashboard. Battle-tested across 5 live apps. | [Link](https://shipkit.davrapps.dev) | 2026-03-30 |
 | shadcn-admin | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2025-12-12 |
 | shadcn-landing-page | Landing page template using shadcn/ui, React, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-landing-page) | 2024-06-06 |
 | shadcn-landing-page (Vue) | Project conversion[shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to Next.js - Landing page template using Nestjs, shadcn/ui, TypeScript, and Tailwind CSS. | [Link](https://github.com/nobruf/shadcn-landing-page) | 2024-12-27 |
