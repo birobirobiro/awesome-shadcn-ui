@@ -153,6 +153,7 @@
 | nextjs-multi-image-upload | Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). | [Link](https://github.com/jacksonkasi0/nextjs-multi-image-upload) | 2025-02-23 |
 | next-shadcn-dashboard-starter | Admin Dashboard Starter with Nextjs 14 and Shadcn UI. | [Link](https://github.com/Kiranism/next-shadcn-dashboard-starter) | 2024-06-06 |
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) | 2024-11-25 |
+| nexus-ui | Open-source component library of composable, copy-paste primitives for building AI interfaces (chat, voice, agents) | [Link](https://nexus-ui.dev/) |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-06-11 |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-10-17 |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-10-28 |
