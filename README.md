@@ -109,7 +109,7 @@
 | farmui | Styled and animated component library with npm package support. | [Link](https://farmui.com) | 2024-06-08 |
 | file-uploader | File uploader with shadcn/ui and react-dropzone. | [Link](https://github.com/sadmann7/file-uploader) | 2024-06-07 |
 | file-vault | File upload component for React. | [Link](https://github.com/ManishBisht777/file-vault) | 2024-06-07 |
-| flightcn | flightcn is a flight route visualization component set built for the mapcn ecosystem | [Link](https://flightcn.yencheng.dev/) |
+| flightcn | flightcn is a flight route visualization component set built for the mapcn ecosystem | [Link](https://flightcn.yencheng.dev/) | 2026-04-05 |
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) | 2024-11-13 |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-07-02 |
 | glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) | 2025-06-10 |
