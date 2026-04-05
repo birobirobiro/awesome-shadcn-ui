@@ -55,18 +55,18 @@ export function SearchFilterControls({
           onChange={handleSearchChange}
           className="w-full sm:w-[200px]"
         />
-        <div className="flex items-center gap-2 w-full sm:w-auto">
+        <div className="flex flex-col gap-2 w-full sm:flex-row sm:items-center sm:w-auto">
           <MultiSelect
             options={categoryOptions}
             value={selectedCategories}
             onValueChange={setSelectedCategories}
             placeholder="Filter by category"
-            className="flex-1 sm:flex-none sm:w-[200px]"
+            className="w-full sm:flex-none sm:w-[200px]"
           />
           <Sort
             sortOption={sortOption}
             onSortChange={onSortChange}
-            className="flex-1 sm:flex-none"
+            className="w-full sm:flex-none"
           />
         </div>
       </div>
