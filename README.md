@@ -383,6 +383,7 @@
 | vercel-status-tracker | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. | [Link](https://vercel-status-tracker.vercel.app) | 2025-01-02 |
 | wallhaven-desktop | Wallhaven Wallpaper software desktop. Create a Wallhaven API-based client, a true wallpaper software. | [Link](https://github.com/ErKeLost/wallhaven-desktop) | 2024-10-23 |
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=birobirobiro_awesome-shadcn-ui) - Social feed for GitHub. Follow designers and frontend devs, discover trending UI/design repos.
 ## Websites and Portfolios
 
 | Name | Description | Link | Date |
