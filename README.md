@@ -125,6 +125,7 @@
 | indie-ui | UI components with variants. | [Link](https://github.com/Ali-Hussein-dev/indie-ui) | 2024-06-07 |
 | inspira-ui | UI components for animated interfaces in Vue/NuxtJS. | [Link](https://inspira-ui.com/) | 2024-10-22 |
 | jolyui | JolyUI is a modern React component library built with TypeScript, Tailwind CSS and Motion. It offers a wide range of customizable and accessible UI components to help you build stunning web applications quickly and efficiently. | [Link](https://github.com/Johuniq/jolyui) | 2026-01-23 |
+| jalco-ui | Polished, composable React components distributed via a shadcn-compatible registry. Install with one command or copy the source directly. | [Link](https://ui.justinlevine.me) | 2026-04-07 |
 | junwen-k/ui-x | Additional beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. | [Link](https://ui-x.junwen-k.dev/) | 2025-02-03 |
 | kanban-board | A production‑ready Kanban board built on shadcn/ui with React & Tailwind CSS: zero dependencies, drag‑and‑drop, keyboard accessibility and seamless theming. | [Link](https://shadcn-kanban-board.com/) | 2025-07-15 |
 | kibo-ui | Kibo UI is designed to be a more comprehensive library of components that can be used to build more complex applications. | [Link](https://www.kibo-ui.com/overview) | 2025-04-04 |
@@ -286,6 +287,7 @@
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05 |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23 |
+| jalco-ui | Polished, composable React components distributed via a shadcn-compatible registry. Install or copy the source. | [Link](https://ui.justinlevine.me) | 2026-04-07 |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04 |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06 |
