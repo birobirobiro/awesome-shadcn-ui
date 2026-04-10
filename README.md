@@ -66,7 +66,7 @@
 | buouui | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com) | 2025-04-06 |
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-09-23 |
 | calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) | 2024-05-03 |
-| calendar-schedular | A multi-purpose calendar component built on top of date-fn and shadcn-ui | [Link](https://github.com/gluer-space/calendar) |
+| calendar-schedular | A multi-purpose calendar component built on top of date-fn and shadcn-ui | [Link](https://github.com/gluer-space/calendar) | 2026-04-10 |
 | calendar-cn | A beautifully crafted calendar component built with shadcn/ui and Tailwind CSS, inspired by Notion Calendar. Week view, dark mode, and more. | [Link](https://github.com/vmnog/calendarcn) | 2026-03-05 |
 | capture-photo | Browser-based React component for camera functionalities in web applications. | [Link](https://github.com/UretzkyZvi/capture-photo) | 2024-05-06 |
 | carouselcn | Copy-paste carousel components and examples for your react apps | [Link](https://github.com/mnove/carouselcn) | 2026-01-27 |
