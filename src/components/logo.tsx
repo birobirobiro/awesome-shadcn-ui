@@ -1,10 +1,13 @@
 import Image from "next/image";
+import { memo } from "react";
 
 interface LogoProps {
   className?: string;
 }
 
-export function Logo({ className = "h-5 w-auto" }: LogoProps) {
+export const Logo = memo(function Logo({
+  className = "h-5 w-auto",
+}: LogoProps) {
   return (
     <Image
       src="/logo-mobile.svg"
@@ -12,11 +15,14 @@ export function Logo({ className = "h-5 w-auto" }: LogoProps) {
       width={24}
       height={24}
       className={className}
+      priority
     />
   );
-}
+});
 
-export function HeroLogo({ className = "h-40 w-auto" }: LogoProps) {
+export const HeroLogo = memo(function HeroLogo({
+  className = "h-40 w-auto",
+}: LogoProps) {
   return (
     <Image
       src="/logo.svg"
@@ -24,6 +30,7 @@ export function HeroLogo({ className = "h-40 w-auto" }: LogoProps) {
       width={160}
       height={160}
       className={className}
+      priority
     />
   );
-}
+});

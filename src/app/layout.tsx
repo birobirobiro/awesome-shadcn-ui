@@ -4,10 +4,8 @@ import { Providers } from "@/providers/providers";
 import { type Metadata, type Viewport } from "next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
-import { TooltipProvider } from "@/components/ui/tooltip";
 
 import type React from "react";
-import { Suspense } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -103,15 +101,11 @@ export default function RootLayout({
           />
         )}
         <Providers>
-          <TooltipProvider>
-            <Suspense>
-              <div className="relative flex min-h-screen flex-col">
-                <Header />
-                <main className="flex-1">{children}</main>
-                <Footer />
-              </div>
-            </Suspense>
-          </TooltipProvider>
+          <div className="relative flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

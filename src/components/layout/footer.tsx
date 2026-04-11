@@ -2,14 +2,22 @@
 
 import { Separator } from "@/components/ui/separator";
 import { GitHubStars } from "@/components/github-stars";
-import { useCategories } from "@/hooks/use-categories";
 import { ArrowRight, ExternalLink } from "lucide-react";
 import { motion, useInView } from "motion/react";
 import Link from "next/link";
 import { useRef } from "react";
 
+/** Static category links for footer navigation */
+const FOOTER_CATEGORIES = [
+  { title: "Libs and Components", slug: "libs-and-components" },
+  { title: "Boilerplates / Templates", slug: "boilerplates-templates" },
+  { title: "Plugins and Extensions", slug: "plugins-and-extensions" },
+  { title: "Colors and Customizations", slug: "colors-and-customizations" },
+  { title: "Animations", slug: "animations" },
+  { title: "Tools", slug: "tools" },
+];
+
 export function Footer() {
-  const { categories } = useCategories();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
@@ -93,8 +101,8 @@ export function Footer() {
           <motion.div variants={itemVariants}>
             <h4 className="font-semibold mb-4">Categories</h4>
             <ul className="space-y-2">
-              {categories.slice(0, 6).map((category) => (
-                <li key={category.title}>
+              {FOOTER_CATEGORIES.map((category) => (
+                <li key={category.slug}>
                   <Link
                     href={`/categories/${category.slug}`}
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 group"

@@ -73,13 +73,14 @@ export function ItemGrid({
         isBookmarked={bookmarkedItems.includes(item.id)}
         onBookmark={onBookmark}
         isBookmarkLoading={isBookmarkLoading}
-      />
+      />,
     );
 
     if (index % SPONSOR_INTERVAL === 0 && sponsors.length > 0) {
-      const sponsor = sponsors[Math.floor(index / SPONSOR_INTERVAL) % sponsors.length];
+      const sponsor =
+        sponsors[Math.floor(index / SPONSOR_INTERVAL) % sponsors.length];
       gridItems.push(
-        <SponsorCard key={`sponsor-${index}`} sponsor={sponsor} />
+        <SponsorCard key={`sponsor-${index}`} sponsor={sponsor} />,
       );
     }
   });

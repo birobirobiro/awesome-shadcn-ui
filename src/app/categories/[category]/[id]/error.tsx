@@ -19,7 +19,7 @@ export default function ItemError({
   return (
     <div className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8">
       <div className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6">
-        <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-destructive/10 dark:bg-destructive/20">
+        <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 border border-destructive/30 bg-destructive/5">
           <AlertTriangle className="h-8 w-8 sm:h-10 sm:w-10 text-destructive" />
         </div>
 

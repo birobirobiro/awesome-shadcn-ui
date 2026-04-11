@@ -1,12 +1,10 @@
-import { NextRequest, NextResponse } from "next/server";
+import { GITHUB_CONFIG } from "@/lib/config";
 import { Octokit } from "@octokit/rest";
+import { NextRequest, NextResponse } from "next/server";
 
-const GITHUB_CONFIG = {
-  REPO_OWNER: "birobirobiro",
-  REPO_NAME: "awesome-shadcn-ui",
-  BRANCH: "main",
-};
-
+/**
+ * Data submitted when creating a new resource PR.
+ */
 interface SubmissionData {
   name: string;
   description: string;
@@ -14,12 +12,36 @@ interface SubmissionData {
   category: string;
 }
 
+/**
+ * Result of attempting to insert a resource into the README.
+ */
+interface InsertResult {
+  content: string;
+  error?: string;
+}
+
+/**
+ * Inserts a new resource entry into the README markdown content.
+ *
+ * Features:
+ * - Finds the correct category section
+ * - Inserts alphabetically within the section
+ * - Checks for duplicate names and URLs
+ * - Includes today's date in the entry
+ *
+ * @param readmeContent - Current README markdown content
+ * @param submission - Resource data to insert
+ * @returns Updated content or error message
+ */
 function insertResourceIntoReadme(
   readmeContent: string,
   submission: SubmissionData,
-): { content: string; error?: string } {
+): InsertResult {
   const lines = readmeContent.split("\n");
-  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) |`;
+
+  // Format: | Name | Description | Link | Date |
+  const today = new Date().toISOString().split("T")[0];
+  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) | ${today} |`;
 
   let insertIndex = -1;
   let inTargetSection = false;
@@ -28,6 +50,7 @@ function insertResourceIntoReadme(
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
 
+    // Find the target category section
     if (
       line.startsWith("## ") &&
       line.toLowerCase().includes(submission.category.toLowerCase())
@@ -36,6 +59,7 @@ function insertResourceIntoReadme(
       continue;
     }
 
+    // Exit if we've passed the target section
     if (
       inTargetSection &&
       line.startsWith("## ") &&
@@ -44,23 +68,28 @@ function insertResourceIntoReadme(
       break;
     }
 
+    // Find the table header
     if (inTargetSection && line.startsWith("| Name")) {
       inTable = true;
       continue;
     }
 
+    // Skip separator row
     if (inTable && line.match(/^\|[\s-]+\|/)) {
       continue;
     }
 
+    // Process table rows
     if (inTable && line.startsWith("|") && !line.match(/^\|[\s-]+\|/)) {
       const parts = line.split("|").map((part) => part.trim());
       if (parts.length >= 2) {
         const existingName = parts[1];
 
+        // Check for duplicate URL
         const existingUrlMatch = line.match(/\[Link\]\(([^)]+)\)/);
         const existingUrl = existingUrlMatch ? existingUrlMatch[1] : null;
 
+        // Duplicate name check
         if (existingName.toLowerCase() === submission.name.toLowerCase()) {
           return {
             content: "",
@@ -68,16 +97,18 @@ function insertResourceIntoReadme(
           };
         }
 
+        // Duplicate URL check
         if (
           existingUrl &&
           existingUrl.toLowerCase() === submission.url.toLowerCase()
         ) {
           return {
             content: "",
-            error: `This URL already exists in this section.`,
+            error: "This URL already exists in this section.",
           };
         }
 
+        // Find alphabetical insertion point
         if (existingName.toLowerCase() > submission.name.toLowerCase()) {
           insertIndex = i;
           break;
@@ -85,6 +116,7 @@ function insertResourceIntoReadme(
       }
     }
 
+    // End of table - insert at the end
     if (inTable && (!line.startsWith("|") || line.trim() === "")) {
       if (insertIndex === -1) {
         insertIndex = i;
@@ -104,6 +136,9 @@ function insertResourceIntoReadme(
   return { content: lines.join("\n") };
 }
 
+/**
+ * Generates the PR body with formatted description and checklist.
+ */
 function generatePRBody(submission: SubmissionData): string {
   return `---
 name: "feat: Add new awesome resource"
@@ -114,10 +149,10 @@ labels:
 
 ## Describe the awesome resource you want to add
 
-**What is it?**  
+**What is it?**
 ${submission.description}
 
-## **Which section does it belong to?**  
+## **Which section does it belong to?**
 - [x] ${submission.category}
 
 ## **Additional details (optional)**
@@ -132,10 +167,27 @@ Resource URL: ${submission.url}
 `;
 }
 
+/**
+ * POST /api/submit-resource
+ *
+ * Creates a pull request to add a new resource to the awesome-shadcn-ui list.
+ *
+ * Flow:
+ * 1. Validates submission data
+ * 2. Fetches current README from GitHub
+ * 3. Inserts new entry (alphabetically sorted, with duplicate checking)
+ * 4. Creates a new branch
+ * 5. Commits the updated README
+ * 6. Creates a pull request
+ *
+ * @returns { success, prNumber, prUrl } on success
+ * @returns { error } on failure
+ */
 export async function POST(request: NextRequest) {
   try {
     const submission: SubmissionData = await request.json();
 
+    // Validate required fields
     if (
       !submission.name ||
       !submission.description ||
@@ -144,6 +196,16 @@ export async function POST(request: NextRequest) {
     ) {
       return NextResponse.json(
         { error: "All fields are required" },
+        { status: 400 },
+      );
+    }
+
+    // Validate URL format
+    try {
+      new URL(submission.url);
+    } catch {
+      return NextResponse.json(
+        { error: "Invalid URL format" },
         { status: 400 },
       );
     }
@@ -159,6 +221,7 @@ export async function POST(request: NextRequest) {
 
     const octokit = new Octokit({ auth: githubToken });
 
+    // Step 1: Fetch current README
     const { data: readmeData } = await octokit.repos.getContent({
       owner: GITHUB_CONFIG.REPO_OWNER,
       repo: GITHUB_CONFIG.REPO_NAME,
@@ -178,6 +241,7 @@ export async function POST(request: NextRequest) {
 
     const currentContent = Buffer.from(readmeData.content, "base64").toString();
 
+    // Step 2: Insert resource into README
     const insertResult = insertResourceIntoReadme(currentContent, submission);
 
     if (insertResult.error) {
@@ -187,12 +251,14 @@ export async function POST(request: NextRequest) {
     const updatedContent = insertResult.content;
     const branchName = `add-${submission.name.toLowerCase().replace(/[^a-z0-9]/g, "-")}-${Date.now()}`;
 
+    // Step 3: Get main branch reference
     const { data: ref } = await octokit.git.getRef({
       owner: GITHUB_CONFIG.REPO_OWNER,
       repo: GITHUB_CONFIG.REPO_NAME,
       ref: "heads/main",
     });
 
+    // Step 4: Create new branch
     await octokit.git.createRef({
       owner: GITHUB_CONFIG.REPO_OWNER,
       repo: GITHUB_CONFIG.REPO_NAME,
@@ -200,6 +266,7 @@ export async function POST(request: NextRequest) {
       sha: ref.object.sha,
     });
 
+    // Step 5: Commit updated README
     await octokit.repos.createOrUpdateFileContents({
       owner: GITHUB_CONFIG.REPO_OWNER,
       repo: GITHUB_CONFIG.REPO_NAME,
@@ -210,6 +277,7 @@ export async function POST(request: NextRequest) {
       branch: branchName,
     });
 
+    // Step 6: Create pull request
     const prBody = generatePRBody(submission);
 
     const { data: pr } = await octokit.pulls.create({
@@ -226,11 +294,10 @@ export async function POST(request: NextRequest) {
       prNumber: pr.number,
       prUrl: pr.html_url,
     });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error creating PR:", error);
-    return NextResponse.json(
-      { error: error.message || "Failed to create pull request" },
-      { status: 500 },
-    );
+    const message =
+      error instanceof Error ? error.message : "Failed to create pull request";
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }

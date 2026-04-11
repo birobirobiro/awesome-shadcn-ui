@@ -21,7 +21,9 @@ export default function GlobalError({
         <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 py-20 text-center">
           <div className="relative z-10 mx-auto max-w-xl">
             <div className="mb-6 flex justify-center">
-              <AlertOctagon className="size-20 text-destructive" />
+              <div className="flex items-center justify-center w-20 h-20 border border-destructive/30 bg-destructive/5">
+                <AlertOctagon className="size-10 text-destructive" />
+              </div>
             </div>
             <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-5xl">
               Critical Error

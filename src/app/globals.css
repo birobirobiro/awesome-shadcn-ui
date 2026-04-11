@@ -199,58 +199,64 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
-  --animate-marquee-left: marquee-left var(--marquee-duration) linear var(--marquee-loop-count);
-  --animate-marquee-right: marquee-right var(--marquee-duration) linear var(--marquee-loop-count);
-  --animate-marquee-left-rtl: marquee-left-rtl var(--marquee-duration) linear var(--marquee-loop-count);
-  --animate-marquee-right-rtl: marquee-right-rtl var(--marquee-duration) linear var(--marquee-loop-count);
-  --animate-marquee-up: marquee-up var(--marquee-duration) linear var(--marquee-loop-count);
-  --animate-marquee-down: marquee-down var(--marquee-duration) linear var(--marquee-loop-count);
+  --animate-marquee-left: marquee-left var(--marquee-duration) linear
+    var(--marquee-loop-count);
+  --animate-marquee-right: marquee-right var(--marquee-duration) linear
+    var(--marquee-loop-count);
+  --animate-marquee-left-rtl: marquee-left-rtl var(--marquee-duration) linear
+    var(--marquee-loop-count);
+  --animate-marquee-right-rtl: marquee-right-rtl var(--marquee-duration) linear
+    var(--marquee-loop-count);
+  --animate-marquee-up: marquee-up var(--marquee-duration) linear
+    var(--marquee-loop-count);
+  --animate-marquee-down: marquee-down var(--marquee-duration) linear
+    var(--marquee-loop-count);
   @keyframes marquee-left {
-  0% {
-    transform: translateX(0%);
+    0% {
+      transform: translateX(0%);
     }
-  100% {
-    transform: translateX(calc(-100% - var(--marquee-gap)));
+    100% {
+      transform: translateX(calc(-100% - var(--marquee-gap)));
     }
   }
   @keyframes marquee-right {
-  0% {
-    transform: translateX(calc(-100% - var(--marquee-gap)));
+    0% {
+      transform: translateX(calc(-100% - var(--marquee-gap)));
     }
-  100% {
-    transform: translateX(0%);
+    100% {
+      transform: translateX(0%);
     }
   }
   @keyframes marquee-up {
-  0% {
-    transform: translateY(0%);
+    0% {
+      transform: translateY(0%);
     }
-  100% {
-    transform: translateY(calc(-100% - var(--marquee-gap)));
+    100% {
+      transform: translateY(calc(-100% - var(--marquee-gap)));
     }
   }
   @keyframes marquee-down {
-  0% {
-    transform: translateY(calc(-100% - var(--marquee-gap)));
+    0% {
+      transform: translateY(calc(-100% - var(--marquee-gap)));
     }
-  100% {
-    transform: translateY(0%);
+    100% {
+      transform: translateY(0%);
     }
   }
   @keyframes marquee-left-rtl {
-  0% {
-    transform: translateX(0%);
+    0% {
+      transform: translateX(0%);
     }
-  100% {
-    transform: translateX(calc(100% + var(--marquee-gap)));
+    100% {
+      transform: translateX(calc(100% + var(--marquee-gap)));
     }
   }
   @keyframes marquee-right-rtl {
-  0% {
-    transform: translateX(calc(100% + var(--marquee-gap)));
+    0% {
+      transform: translateX(calc(100% + var(--marquee-gap)));
     }
-  100% {
-    transform: translateX(0%);
+    100% {
+      transform: translateX(0%);
     }
   }
 }
@@ -269,6 +275,21 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* View Transitions for theme toggle */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 9999;
 }
 
 @layer utilities {
