@@ -16,11 +16,33 @@ import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useBookmarks } from "@/hooks/use-bookmark";
 import { useDebounce } from "@/hooks/use-debounce";
-import { fetchAndParseReadme, Resource } from "@/hooks/use-readme";
+import { fetchAndParseReadme, type Resource } from "@/hooks/use-readme";
 import { Bookmark, Search } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
+
+const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 10 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.3,
+      ease: [0.22, 1, 0.36, 1] as const,
+    },
+  },
+};
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
@@ -157,48 +179,53 @@ export default function BookmarksPage() {
   return (
     <motion.div
       className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.3 }}
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
     >
-      <PageHeader
-        title="Bookmarks"
-        description="Your saved shadcn/ui resources"
-        breadcrumbs={[{ label: "Bookmarks", href: "/bookmarks" }]}
-        actions={
-          <div className="space-y-3 sm:space-y-4 w-full">
-            <div className="flex items-center gap-2 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
-              <span>
-                {items.length} {items.length === 1 ? "bookmark" : "bookmarks"}
-              </span>
-            </div>
-            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full">
-              <div className="w-full sm:flex-1 max-w-md">
-                <Input
-                  type="text"
-                  placeholder="Search your bookmarks..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="h-10"
-                />
+      <motion.div variants={itemVariants}>
+        <PageHeader
+          title="Bookmarks"
+          description="Your saved shadcn/ui resources"
+          breadcrumbs={[{ label: "Bookmarks", href: "/bookmarks" }]}
+          actions={
+            <div className="space-y-3 sm:space-y-4 w-full">
+              <div className="flex items-center gap-2 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
+                <span>
+                  {items.length} {items.length === 1 ? "bookmark" : "bookmarks"}
+                </span>
               </div>
-              {items.length > 0 && (
-                <div className="p-2">
-                  <Button
-                    variant="outline"
-                    onClick={() => setShowClearDialog(true)}
-                    className="w-full sm:w-auto text-sm sm:text-base"
-                  >
-                    Clear All
-                  </Button>
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full">
+                <div className="w-full sm:flex-1 max-w-md">
+                  <Input
+                    type="text"
+                    placeholder="Search your bookmarks..."
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="h-10"
+                  />
                 </div>
-              )}
+                {items.length > 0 && (
+                  <div className="p-2">
+                    <Button
+                      variant="outline"
+                      onClick={() => setShowClearDialog(true)}
+                      className="w-full sm:w-auto text-sm sm:text-base"
+                    >
+                      Clear All
+                    </Button>
+                  </div>
+                )}
+              </div>
             </div>
-          </div>
-        }
-      />
+          }
+        />
+      </motion.div>
 
-      <div className="min-h-[400px] mb-6 sm:mb-8">
+      <motion.div
+        variants={itemVariants}
+        className="min-h-[400px] mb-6 sm:mb-8"
+      >
         {items.length === 0 ? (
           <div className="flex flex-col items-center justify-center h-[400px] text-center px-4">
             <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
@@ -234,10 +261,10 @@ export default function BookmarksPage() {
             isBookmarkLoading={isBookmarkLoading}
           />
         )}
-      </div>
+      </motion.div>
 
       {filteredItems.length > 0 && items.length > 0 && (
-        <div>
+        <motion.div variants={itemVariants}>
           <PaginationControls
             currentPage={currentPage}
             totalPages={totalPages}
@@ -246,16 +273,19 @@ export default function BookmarksPage() {
             handleItemsPerPageChange={handleItemsPerPageChange}
             itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
           />
-        </div>
+        </motion.div>
       )}
 
       {items.length > 0 && (
-        <div className="text-xs sm:text-sm text-muted-foreground text-center mt-4 sm:mt-6">
+        <motion.div
+          variants={itemVariants}
+          className="text-xs sm:text-sm text-muted-foreground text-center mt-4 sm:mt-6"
+        >
           Showing {indexOfFirstItem + 1} -{" "}
           {Math.min(indexOfLastItem, filteredItems.length)} of{" "}
           {filteredItems.length}{" "}
           {filteredItems.length === 1 ? "bookmark" : "bookmarks"}
-        </div>
+        </motion.div>
       )}
 
       <Dialog open={showClearDialog} onOpenChange={setShowClearDialog}>

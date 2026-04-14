@@ -1,5 +1,6 @@
 "use client";
 
+import { memo, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
@@ -7,29 +8,35 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { Octokit } from "@octokit/rest";
-import { useEffect, useState } from "react";
 
 const REPO_OWNER = "birobirobiro";
 const REPO_NAME = "awesome-shadcn-ui";
 
+// Cache stars globally to prevent re-fetching
+let cachedStars: number | null = null;
+
 async function getStars() {
+  if (cachedStars !== null) return cachedStars;
+
   const octokit = new Octokit();
   const { data } = await octokit.repos.get({
     owner: REPO_OWNER,
     repo: REPO_NAME,
   });
-  return data.stargazers_count;
+  cachedStars = data.stargazers_count;
+  return cachedStars;
 }
 
-export function GitHubStars() {
-  const [stars, setStars] = useState<number | null>(null);
+export const GitHubStars = memo(function GitHubStars() {
+  const [stars, setStars] = useState<number | null>(cachedStars);
 
   useEffect(() => {
-    getStars().then(setStars);
-  }, []);
+    if (stars === null) {
+      getStars().then(setStars);
+    }
+  }, [stars]);
 
-  if (stars === null) return null;
-
+  // Always render the button - never return null to prevent flash
   return (
     <Tooltip>
       <TooltipTrigger asChild>
@@ -45,21 +52,27 @@ export function GitHubStars() {
                 fill="currentColor"
               />
             </svg>
-            <span className="text-[0.8125rem] text-muted-foreground tabular-nums">
-              {new Intl.NumberFormat("en-US", {
-                notation: "compact",
-                compactDisplay: "short",
-              })
-                .format(stars)
-                .toLowerCase()}
-            </span>
+            {stars !== null ? (
+              <span className="text-[0.8125rem] text-muted-foreground tabular-nums">
+                {new Intl.NumberFormat("en-US", {
+                  notation: "compact",
+                  compactDisplay: "short",
+                })
+                  .format(stars)
+                  .toLowerCase()}
+              </span>
+            ) : (
+              <span className="h-3 w-6 bg-muted animate-pulse rounded" />
+            )}
           </a>
         </Button>
       </TooltipTrigger>
 
       <TooltipContent className="font-sans">
-        {new Intl.NumberFormat("en-US").format(stars)} stars
+        {stars !== null
+          ? `${new Intl.NumberFormat("en-US").format(stars)} stars`
+          : "View on GitHub"}
       </TooltipContent>
     </Tooltip>
   );
-}
+});

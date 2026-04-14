@@ -21,7 +21,8 @@ export function slugToCategoryName(slug: string): string {
     "colors-and-customizations": "Colors and Customizations",
     animations: "Animations",
     tools: "Tools",
-    "websites-and-portfolios": "Websites and Portfolios",
+    "websites-and-portfolios-inspirations":
+      "Websites and Portfolios Inspirations",
     platforms: "Platforms",
     ports: "Ports",
     "design-system": "Design System",

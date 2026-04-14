@@ -1,11 +1,11 @@
 "use client";
 
+import { ArrowRight, Github } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { motion, useInView } from "motion/react";
-import { ArrowRight, Github } from "lucide-react";
 
-import { PRSubmissionDialog } from "@/components/pr-submission-dialog";
 import { Button } from "@/components/ui/button";
+import { PRSubmissionDialog } from "@/components/pr-submission-dialog";
 import { useRef } from "react";
 
 export function SubmitCTA() {
@@ -61,7 +61,10 @@ export function SubmitCTA() {
             <div className="flex flex-col sm:flex-row gap-2 w-full lg:w-auto">
               <PRSubmissionDialog
                 trigger={
-                  <Button size="lg" className="w-full sm:w-auto text-base cursor-pointer">
+                  <Button
+                    size="lg"
+                    className="w-full sm:w-auto text-base cursor-pointer"
+                  >
                     <Github className="mr-2 h-5 w-5" />
                     <span>Submit Resource</span>
                     <ArrowRight className="ml-2 h-5 w-5" />

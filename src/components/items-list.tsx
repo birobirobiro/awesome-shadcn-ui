@@ -3,16 +3,16 @@
 import { isValid, parseISO } from "date-fns";
 import { AnimatePresence, motion } from "motion/react";
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
+import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
 
 import { SortOption } from "@/components/sort";
 import { useBookmarks } from "@/hooks/use-bookmark";
 import { useDebounce } from "@/hooks/use-debounce";
 import { Resource } from "@/hooks/use-readme";
-import { ItemGrid } from "../item-grid";
-import { PaginationControls } from "../pagination-controls";
-import { SearchFilterControls } from "../search-filter-controls";
-import { Skeleton } from "../ui/skeleton";
+import { ItemGrid } from "./item-grid";
+import { PaginationControls } from "./pagination-controls";
+import { SearchFilterControls } from "./search-filter-controls";
+import { Skeleton } from "./ui/skeleton";
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 

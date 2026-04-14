@@ -16,7 +16,11 @@ interface SortProps {
   className?: string;
 }
 
-export default function Sort({ sortOption, onSortChange, className }: SortProps) {
+export default function Sort({
+  sortOption,
+  onSortChange,
+  className,
+}: SortProps) {
   const sortOptions = [
     {
       value: "date-desc",
