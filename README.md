@@ -107,6 +107,7 @@
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) | 2024-07-11 |
 | fancy-multi-select | Multi Select Component inspired by campsite.design and cal.com. | [Link](https://craft.mxkaske.dev/post/fancy-multi-select) | 2024-04-29 |
 | fancy-switch | Fancy switch component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-fancy-switch) | 2024-07-11 |
+| fluid-functionalism | Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight transitions. Every animation serves a functional purpose. | [Link](https://fluid-functionalism.vercel.app) |  |
 | farmui | Styled and animated component library with npm package support. | [Link](https://farmui.com) | 2024-06-08 |
 | file-uploader | File uploader with shadcn/ui and react-dropzone. | [Link](https://github.com/sadmann7/file-uploader) | 2024-06-07 |
 | file-vault | File upload component for React. | [Link](https://github.com/ManishBisht777/file-vault) | 2024-06-07 |
