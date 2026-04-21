@@ -188,7 +188,7 @@
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) | 2024-12-27 |
 | shadcn-admin-kit | Powerful open-source shadcn components to build beautiful internal tools, admin panels, and dashboards with React | [Link](https://github.com/marmelab/shadcn-admin-kit) | 2025-07-07 |
 | shadcn-blocks | Official pre-made customizable components. | [Link](https://ui.shadcn.com/blocks) | 2024-03-27 |
-| shadcn-blocks-com | Hundreds of extra blocks built with shadcn/ui. | [Link](https://www.shadcnblocks.com) | 2025-02-23 |
+| shadcn-blocks-com | Premium shadcn/ui registry with 1429 blocks, 1189 component variants, 14 templates, Figma kit, themes, and admin dashboard resources. | [Link](https://www.shadcnblocks.com) | 2025-02-23 |
 | shadcn-builder | Create beautiful, responsive forms with the easy-to-use form builder and generate React code using shadcn/ui components. | [Link](https://www.shadcn-builder.com/?utm_source=github&utm_content=awesome-shadcn-ui) | 2025-03-31 |
 | shadcn-cal | Cal.com monthly calendar replica with shadcn/ui. | [Link](https://shadcn-cal-com.vercel.app/?date=2024-04-29) | 2024-05-03 |
 | shadcn-calendar-heatmap | Modern calendar heatmap alternative. | [Link](https://shadcn-calendar-heatmap.vercel.app/) | 2024-07-02 |
