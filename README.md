@@ -409,6 +409,7 @@
 | Name | Description | Link | Date |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------- |
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-07-17 |
+| auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) |  |
 | bolhadev | The quickest path to learn English is speaking it regularly. Just find someone to chat with. | [Link](https://bolhadev.chat/) | 2024-06-04 |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03 |
 | enjoytown | A free anime, manga, movie, and TV-shows streaming platform. Built with Next.js, shadcn/ui. | [Link](https://github.com/avalynndev/enjoytown) | 2024-06-04 |
@@ -423,7 +424,6 @@
 | snapimg | Fast, privacy-focused image compression tool supporting PNG, JPEG, WebP, AVIF. Built with React 19, Vite, Tailwind CSS, and shadcn/ui. | [Link](https://github.com/Moresl/snapimg) | 2025-12-15 |
 | veritas-kanban | Self-hosted Kanban board with AI agent integration, time tracking, and 1,255 tests. Built with React 19, Vite 6, TanStack Query, dnd-kit, and shadcn/ui. | [Link](https://github.com/BradGroux/veritas-kanban) | 2026-01-29 |
 | xeramail | Temporary email address service built with Next.js and shadcn/ui, offering fast inbox access, modern UI, and better control over disposable emails. | [Link](https://xeramail.com) | 2026-01-01 |
-| auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-07 |
 | youropinion.is | Free survey platform which supports importing your exisitng shadcn/ui theme | [Link](https://youropinion.is/news/202505-match-my-style) | 2025-06-16 |
 
 ## Ports
