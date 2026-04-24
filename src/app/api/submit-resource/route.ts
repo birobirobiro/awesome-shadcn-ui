@@ -21,12 +21,57 @@ interface InsertResult {
 }
 
 /**
+ * Scans the entire README and returns a duplicate error if the submission's
+ * name or URL already appears in any section. Checking globally (not just in
+ * the target section) prevents the same resource from being listed twice
+ * under different categories.
+ */
+function findGlobalDuplicate(
+  lines: string[],
+  submission: SubmissionData,
+): string | null {
+  const submittedName = submission.name.toLowerCase();
+  const submittedUrl = submission.url.toLowerCase();
+  let currentSection = "";
+
+  for (const line of lines) {
+    if (line.startsWith("## ")) {
+      currentSection = line.replace(/^##\s+/, "").trim();
+      continue;
+    }
+
+    if (!line.startsWith("|") || line.match(/^\|[\s-]+\|/)) {
+      continue;
+    }
+
+    const parts = line.split("|").map((part) => part.trim());
+    if (parts.length < 2) continue;
+
+    const existingName = parts[1];
+    // Skip header rows ("Name") and empty rows
+    if (!existingName || existingName.toLowerCase() === "name") continue;
+
+    if (existingName.toLowerCase() === submittedName) {
+      return `Resource "${submission.name}" already exists in "${currentSection}".`;
+    }
+
+    const existingUrlMatch = line.match(/\[Link\]\(([^)]+)\)/);
+    const existingUrl = existingUrlMatch ? existingUrlMatch[1].toLowerCase() : null;
+    if (existingUrl && existingUrl === submittedUrl) {
+      return `URL "${submission.url}" is already listed as "${existingName}" in "${currentSection}".`;
+    }
+  }
+
+  return null;
+}
+
+/**
  * Inserts a new resource entry into the README markdown content.
  *
  * Features:
+ * - Rejects duplicates (name or URL) found anywhere in the README
  * - Finds the correct category section
- * - Inserts alphabetically within the section
- * - Checks for duplicate names and URLs
+ * - Inserts alphabetically within that section
  * - Includes today's date in the entry
  *
  * @param readmeContent - Current README markdown content
@@ -38,6 +83,11 @@ function insertResourceIntoReadme(
   submission: SubmissionData,
 ): InsertResult {
   const lines = readmeContent.split("\n");
+
+  const duplicateError = findGlobalDuplicate(lines, submission);
+  if (duplicateError) {
+    return { content: "", error: duplicateError };
+  }
 
   // Format: | Name | Description | Link | Date |
   const today = new Date().toISOString().split("T")[0];
@@ -84,29 +134,6 @@ function insertResourceIntoReadme(
       const parts = line.split("|").map((part) => part.trim());
       if (parts.length >= 2) {
         const existingName = parts[1];
-
-        // Check for duplicate URL
-        const existingUrlMatch = line.match(/\[Link\]\(([^)]+)\)/);
-        const existingUrl = existingUrlMatch ? existingUrlMatch[1] : null;
-
-        // Duplicate name check
-        if (existingName.toLowerCase() === submission.name.toLowerCase()) {
-          return {
-            content: "",
-            error: `Resource "${submission.name}" already exists in this section.`,
-          };
-        }
-
-        // Duplicate URL check
-        if (
-          existingUrl &&
-          existingUrl.toLowerCase() === submission.url.toLowerCase()
-        ) {
-          return {
-            content: "",
-            error: "This URL already exists in this section.",
-          };
-        }
 
         // Find alphabetical insertion point
         if (existingName.toLowerCase() > submission.name.toLowerCase()) {
