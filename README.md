@@ -409,7 +409,7 @@
 | Name | Description | Link | Date |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------- |
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-07-17 |
-| auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) |  |
+| auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) |
 | bolhadev | The quickest path to learn English is speaking it regularly. Just find someone to chat with. | [Link](https://bolhadev.chat/) | 2024-06-04 |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03 |
 | enjoytown | A free anime, manga, movie, and TV-shows streaming platform. Built with Next.js, shadcn/ui. | [Link](https://github.com/avalynndev/enjoytown) | 2024-06-04 |
