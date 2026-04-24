@@ -262,6 +262,7 @@
 | tnks-data-table | Advanced data table component built with shadcn/ui and TanStack Table featuring server-side operations, row selection, filtering, column customization, and export functionality. Fully TypeScript compatible with comprehensive documentation. | [Link](https://github.com/jacksonkasi1/tnks-data-table) | 2025-04-19 |
 | tool-ui | Beautiful, ready-to-use UI components for AI tool calls and MCP UI. | [Link](https://www.tool-ui.com/) | 2025-12-10 |
 | tour | A component for building onboarding tours. Designed to integrate with shadcn/ui. | [Link](https://onboarding-tour.vercel.app) | 2025-12-04 |
+| trees | @pierre/trees is an open source file tree rendering library. It's built for performance and flexibility, is super customizable, and comes packed with features. Made with love by The Pierre Computer Company. | [Link](https://trees.software/) | 2026-04-24 |
 | tremor | Components for charts and dashboards. | [Link](https://github.com/tremorlabs/tremor) | 2024-06-15 |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) | 2024-11-25 |
 | tweet-to-code | Twitter design recreations as code. | [Link](https://tweet-to-code.vercel.app/) | 2024-12-26 |
