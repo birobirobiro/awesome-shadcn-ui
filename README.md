@@ -283,7 +283,7 @@
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) | 2024-06-07 |
 | vengence-ui | A modern, animated UI component library designed to help developers build beautiful landing pages and interfaces faster. | [Link](https://www.vengenceui.com/) | 2026-02-17 |
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-15 |
-| w3-kit | A comprehensive library of accessible React components for building high-quality Web3 applications and dApps | [Link](https://github.com/w3-kit/ui) |
+| w3-kit | A comprehensive library of accessible React components for building high-quality Web3 applications and dApps | [Link](https://github.com/w3-kit/ui) | 2026-04-24 |
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06 |
 | wds registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-07-16 |
