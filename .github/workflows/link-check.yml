@@ -1,0 +1,53 @@
+name: Link Check
+
+on:
+  schedule:
+    # Every Monday at 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    name: Check all links in README
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore lychee cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --cache
+            --max-cache-age 1d
+            --no-progress
+            --accept '200..=299,401,403,429'
+            --max-concurrency 20
+            --timeout 30
+            README.md
+          fail: false
+
+      - name: Update or create tracking issue
+        if: steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create broken-links --color CC0000 --description "Automated link check found broken URLs" 2>/dev/null || true
+          existing=$(gh issue list --label broken-links --state open --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file lychee/out.md
+            gh issue comment "$existing" --body "Link check re-ran on $(date -u +%Y-%m-%d). Report in issue body updated."
+          else
+            gh issue create --title "Broken links found in README" --label broken-links --body-file lychee/out.md
+          fi
