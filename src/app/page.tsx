@@ -45,7 +45,10 @@ export default async function Home() {
     if (!isValid(dateA)) return 1;
     if (!isValid(dateB)) return -1;
 
-    return dateB.getTime() - dateA.getTime();
+    const dateDiff = dateB.getTime() - dateA.getTime();
+    if (dateDiff !== 0) return dateDiff;
+
+    return b.order - a.order;
   });
 
   return <HomeContent categories={categories} items={sortedItems} />;

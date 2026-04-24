@@ -9,12 +9,20 @@ import { SortOption } from "@/components/sort";
 import { useBookmarks } from "@/hooks/use-bookmark";
 import { useDebounce } from "@/hooks/use-debounce";
 import { Resource } from "@/hooks/use-readme";
-import { ItemGrid } from "./item-grid";
+import { ItemGrid, SPONSOR_INTERVAL } from "./item-grid";
 import { PaginationControls } from "./pagination-controls";
 import { SearchFilterControls } from "./search-filter-controls";
 import { Skeleton } from "./ui/skeleton";
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
+
+// Each page renders `itemsPerPage` cards total. Sponsors appear at item index
+// 0, SPONSOR_INTERVAL, 2*SPONSOR_INTERVAL, ... so each full block of
+// SPONSOR_INTERVAL+1 slots contains 1 sponsor + SPONSOR_INTERVAL items.
+function itemSlotsFor(itemsPerPage: number) {
+  const sponsorsPerPage = Math.ceil(itemsPerPage / (SPONSOR_INTERVAL + 1));
+  return itemsPerPage - sponsorsPerPage;
+}
 
 interface Category {
   title: string;
@@ -81,9 +89,13 @@ export default function ItemList({
           if (!isValid(dateA)) return direction === "asc" ? -1 : 1;
           if (!isValid(dateB)) return direction === "asc" ? 1 : -1;
 
-          return direction === "asc"
-            ? dateA.getTime() - dateB.getTime()
-            : dateB.getTime() - dateA.getTime();
+          const dateDiff =
+            direction === "asc"
+              ? dateA.getTime() - dateB.getTime()
+              : dateB.getTime() - dateA.getTime();
+          if (dateDiff !== 0) return dateDiff;
+
+          return direction === "asc" ? a.order - b.order : b.order - a.order;
         }
       });
     },
@@ -139,9 +151,10 @@ export default function ItemList({
     }
   }, [initialItems]);
 
-  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const itemsPerPageActual = itemSlotsFor(itemsPerPage);
+  const totalPages = Math.ceil(filteredItems.length / itemsPerPageActual);
+  const indexOfLastItem = currentPage * itemsPerPageActual;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPageActual;
   const currentItems = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
 
   const handlePageChange = useCallback((pageNumber: number) => {
