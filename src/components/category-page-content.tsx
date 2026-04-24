@@ -121,7 +121,7 @@ export function CategoryPageContent({
         }
       />
 
-      <div className="min-h-screen mb-6 sm:mb-8">
+      <div className="mb-6 sm:mb-8">
         <ItemGrid
           items={currentItems}
           bookmarkedItems={bookmarkedItems}
