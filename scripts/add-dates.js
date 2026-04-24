@@ -10,18 +10,20 @@ try {
 }
 const lines = content.split('\n');
 
-const currentDate = new Date().toISOString().split('T')[0]; // e.g., 2025-07-02
+const currentDate = new Date().toISOString(); // e.g., 2026-04-24T18:30:00.000Z
 const updatedLines = [];
 let changesCount = 0;
 
 console.log(`Processing README.md with ${lines.length} lines`);
 
-// Function to validate ISO date format (YYYY-MM-DD)
+// Accepts YYYY-MM-DD or any ISO 8601 timestamp parseable by Date (e.g. with
+// Z suffix or timezone offset like -03:00). Both formats coexist so we don't
+// clobber legacy day-only dates or backfilled timestamps from git history.
 function isValidDate(dateString) {
-  const regex = /^\d{4}-\d{2}-\d{2}$/;
-  if (!regex.test(dateString)) return false;
+  if (!dateString || typeof dateString !== 'string') return false;
+  if (!/^\d{4}-\d{2}-\d{2}/.test(dateString)) return false;
   const date = new Date(dateString);
-  return date instanceof Date && !isNaN(date);
+  return !isNaN(date.getTime());
 }
 
 let inTable = false;

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Resource } from "@/hooks/use-readme";
 import { categoryNameToSlug } from "@/lib/slugs";
-import { format, isValid, parseISO } from "date-fns";
+import { formatResourceDate } from "@/lib/utils";
 import { Calendar, ExternalLink, Github, Globe, Tag } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
@@ -50,12 +50,6 @@ export function ItemPageContent({
     return `https://icons.duckduckgo.com/ip3/${domain}.ico`;
   });
 
-  const formatDate = (dateString: string) => {
-    if (dateString === "Unknown") return "Unknown";
-    const date = parseISO(dateString);
-    return isValid(date) ? format(date, "MMMM d, yyyy") : "Unknown";
-  };
-
   const isGitHubUrl = (url: string) => {
     return url.includes("github.com");
   };
@@ -96,7 +90,9 @@ export function ItemPageContent({
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
               <Calendar className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
-              <span className="break-words">Added {formatDate(item.date)}</span>
+              <span className="break-words">
+                Added {formatResourceDate(item.date)}
+              </span>
             </div>
             <span className="hidden sm:inline">•</span>
             <div className="flex items-center gap-2">

@@ -9,7 +9,7 @@ import { ArrowRight, Bookmark, ExternalLink } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { categoryNameToSlug } from "@/lib/slugs";
-import { cn } from "@/lib/utils";
+import { cn, formatResourceDate } from "@/lib/utils";
 import { motion } from "motion/react";
 import React from "react";
 
@@ -74,7 +74,7 @@ const ItemCard: React.FC<ItemCardProps> = ({
 
           {date && (
             <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground/70">
-              <span>Added: {date}</span>
+              <span>Added: {formatResourceDate(date)}</span>
             </div>
           )}
         </CardContent>

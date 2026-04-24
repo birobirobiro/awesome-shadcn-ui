@@ -14,19 +14,19 @@ export const sponsors: Sponsor[] = [
   {
     name: "shadcnstudio.com",
     description: "shadcn blocks & templates",
-    url: "https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
+    url: "https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=site&utm_campaign=github",
     LogoComponent: <ShadcnStudioLogo className="w-5 h-5 shrink-0" />,
   },
   {
     name: "shadcnblocks.com",
     description: "UI blocks for your next project",
-    url: "https://www.shadcnblocks.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
+    url: "https://www.shadcnblocks.com/?utm_source=awesome-shadcn-ui&utm_medium=site&utm_campaign=github",
     LogoComponent: <ShadcnBlocksLogo className="w-5 h-5 shrink-0" />,
   },
   {
     name: "shadcnuikit.com",
     description: "Dashboards, templates & Blocks",
-    url: "https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=banner&utm_campaign=github",
+    url: "https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=site&utm_campaign=github",
     LogoComponent: <ShadcnUiKitLogo className="w-5 h-5 shrink-0" />,
   },
 ];

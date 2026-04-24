@@ -1,6 +1,6 @@
 "use client";
 
-import { ItemGrid } from "@/components/item-grid";
+import { ItemGrid, SPONSOR_INTERVAL } from "@/components/item-grid";
 import { PageHeader } from "@/components/layout/page-header";
 import { PaginationControls } from "@/components/pagination-controls";
 import { Button } from "@/components/ui/button";
@@ -30,6 +30,11 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
 };
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
+
+function itemSlotsFor(itemsPerPage: number) {
+  const sponsorsPerPage = Math.ceil(itemsPerPage / (SPONSOR_INTERVAL + 1));
+  return itemsPerPage - sponsorsPerPage;
+}
 
 interface CategoryPageContentProps {
   items: Resource[];
@@ -72,9 +77,10 @@ export function CategoryPageContent({
     setCurrentPage(1);
   }, [debouncedSearchQuery, items]);
 
-  const totalPages = Math.ceil(filteredItems.length / itemsPerPage);
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const itemsPerPageActual = itemSlotsFor(itemsPerPage);
+  const totalPages = Math.ceil(filteredItems.length / itemsPerPageActual);
+  const indexOfLastItem = currentPage * itemsPerPageActual;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPageActual;
   const currentItems = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
 
   const handlePageChange = useCallback((pageNumber: number) => {
