@@ -474,6 +474,8 @@
 | browser-extension-starter-plasmo-shadcn-trpc | Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC. | [Link](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) | 2024-10-29 |
 | chadnext | Quick Starter Template includes Next.js 14 App Router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization, and more. | [Link](https://github.com/moinulmoin/chadnext) | 2024-04-25 |
 | cloudflare-saas-stack | An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare. | [Link](https://github.com/Dhravya/cloudflare-saas-stack) | 2024-07-24 |
+| create-next-shadcn-kit | CLI to scaffold a production-ready Next.js app with shadcn/ui, Tailwind CSS, optional state management (Redux Toolkit/Zustand), and preconfigured tooling like Husky. | [Link](https://github.com/NikunjSonigara/create-next-shadcn-kit) |
+| create-react-shadcn-kit | CLI to scaffold a production-ready React (Vite) app with shadcn/ui, Tailwind CSS v4, optional Redux Toolkit/Zustand, and preconfigured tooling like Husky and TypeScript. | [Link](https://github.com/NikunjSonigara/create-react-shadcn-kit) |
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-09-23 |
 | create-tauri-ui | Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. | [Link](https://github.com/agmmnn/tauri-ui) | 2026-03-31 |
 | design-system-template | Turborepo + TailwindCSS + Storybook + shadcn/ui. | [Link](https://github.com/arevalolance/design-system-template) | 2024-06-06 |
