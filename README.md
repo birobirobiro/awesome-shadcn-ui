@@ -212,7 +212,7 @@
 | shadcn-examples | Dozens of advanced shadcn/ui examples. Easily integrate sample applications and components into your project. | [Link](https://shadcnexamples.com) | 2025-06-04 |
 | shadcn-extends | Collection of shadcn/ui components. | [Link](https://github.com/lucioew28/extends) | 2024-06-07 |
 | shadcn-extension | Open-source component collection. | [Link](https://github.com/BelkacemYerfa/shadcn-extension) | 2024-06-07 |
-| shadcn-fintech | Premium fintech dashboard with 10 pages — drag-and-drop layout, 3D credit cards, live investment ticker, spending heatmap, actionable notifications, and dark mode. Built with Next.js 16, shadcn/ui, and Tailwind CSS v4. | [Link](https://github.com/abderrahimghazali/shadcn-fintech) |
+| shadcn-fintech | Premium fintech dashboard with 10 pages — drag-and-drop layout, 3D credit cards, live investment ticker, spending heatmap, actionable notifications, and dark mode. Built with Next.js 16, shadcn/ui, and Tailwind CSS v4. | [Link](https://github.com/abderrahimghazali/shadcn-fintech) | 2026-04-24 |
 | shadcn-font-picker | Font picker using shadcn/ui components and google font API. | [Link](https://shadcn-font-picker.vercel.app) | 2025-04-22 |
 | shadcn-full-calendar | A feature-rich calendar application built with React, TypeScript, and ShadCN UI components. This project provides a customizable and interactive calendar experience with multiple views, event management, and a modern UI. | [Link](https://github.com/yassir-jeraidi/full-calendar) | 2025-07-07 |
 | shadcn-iconpicker | React/shadcn simple icon picker using lucide icons. | [Link](https://icon-picker.alan-courtois.fr/) | 2025-02-20 |
