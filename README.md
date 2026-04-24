@@ -353,7 +353,7 @@
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-06-07 |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-09-09 |
 | dev-quotes | A website that displays quotes from professional programmers. | [Link](https://dev-quotes-six.vercel.app/) | 2025-01-07 |
-| devtools | 28 free browser-based developer utilities built with Next.js and shadcn/ui — JSON formatter, regex tester, JWT decoder, hash generator, UUID generator, diff checker, and more. 100% client-side, no signup. | [Link](https://devtools.davrapps.dev) |
+| devtools | 28 free browser-based developer utilities built with Next.js and shadcn/ui — JSON formatter, regex tester, JWT decoder, hash generator, UUID generator, diff checker, and more. 100% client-side, no signup. | [Link](https://devtools.davrapps.dev) | 2026-04-24 |
 | down-dev-detector | This app lists all the services currently down and uses Atlassian Status Page and others (soon). | [Link](https://github.com/birobirobiro/downdevdetector) | 2024-11-04 |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-11-04 |
 | focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://focusbrew.vercel.app) | 2025-05-14 |
