@@ -5,7 +5,7 @@ import ItemCard from "./item-card";
 import SponsorCard from "./sponsor-card";
 import { sponsors } from "@/components/sponsors/sponsors";
 
-const SPONSOR_INTERVAL = 8;
+export const SPONSOR_INTERVAL = 8;
 
 interface ItemGridProps {
   items: Resource[];

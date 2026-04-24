@@ -27,6 +27,8 @@ export interface Resource {
   category: string;
   /** Date the resource was added (or "Unknown") */
   date: string;
+  /** Sequential position in the README (used as date tie-breaker) */
+  order: number;
 }
 
 /** Cached resource data */
@@ -45,7 +47,7 @@ let cacheTimestamp = 0;
 function parseTableRow(
   parts: string[],
   category: string,
-): Omit<Resource, "id"> | null {
+): Omit<Resource, "id" | "order"> | null {
   const name = parts[1];
   let url = parts[3];
   let date = "Unknown";
@@ -173,7 +175,7 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
       if (!parsed) continue;
 
       const id = generateUniqueId(parsed.name, existingIds);
-      resources.push({ id, ...parsed });
+      resources.push({ id, order: resources.length, ...parsed });
     }
 
     // Filter out invalid entries and excluded categories
