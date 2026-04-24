@@ -150,7 +150,6 @@
 | nextjs-dnd | Sortable Drag and Drop with Next.js and dnd-kit. | [Link](https://github.com/sujjeee/nextjs-dnd) | 2024-04-09 |
 | nextjs-link-pagination | Pagination using Nextjs Links and search params. | [Link](https://shadcn-next-link-pagination.vercel.app) | 2024-07-30 |
 | nextjs-multi-image-upload | Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). | [Link](https://github.com/jacksonkasi0/nextjs-multi-image-upload) | 2025-02-23 |
-| next-shadcn-dashboard-starter | Admin Dashboard Starter with Nextjs 14 and Shadcn UI. | [Link](https://github.com/Kiranism/next-shadcn-dashboard-starter) | 2024-06-06 |
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) | 2024-11-25 |
 | nexus-ui | Open-source component library of composable, copy-paste primitives for building AI interfaces (chat, voice, agents) | [Link](https://nexus-ui.dev/) | 2026-04-05 |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-06-11 |
@@ -286,7 +285,6 @@
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05 |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23 |
-| jalco-ui | Polished, composable React components distributed via a shadcn-compatible registry. Install or copy the source. | [Link](https://ui.justinlevine.me) | 2026-04-07 |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04 |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-20 |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06 |
@@ -329,7 +327,6 @@
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------- |
 | animata | Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste into your project. | [Link](https://animata.design) | 2024-08-26 |
 | animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15 |
-| magicui.design | Largest collection of open-source react components to build beautiful landing pages. | [Link](https://magicui.design) | 2024-04-25 |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-03-08 |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15 |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-11-13 |
@@ -496,7 +493,6 @@
 | openui-shadcn-chat | Full-stack generative UI chatbot template using OpenUI Lang with shadcn/ui component library, SSE streaming, and tool calling. | [Link](https://github.com/thesysdev/openui/tree/main/examples/shadcn-chat) | 2026-03-19 |
 | react-starter-kit | An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, React 19, tRPC, Drizzle ORM, and Cloudflare Workers. | [Link](https://github.com/kriasoft/react-starter-kit) | 2025-09-06 |
 | react-vite-starter | React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. | [Link](https://github.com/tejachundru/react-vite-starter) | 2024-12-02 |
-| shadcn-admin | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2025-12-12 |
 | shadcn-landing-page | Landing page template using shadcn/ui, React, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-landing-page) | 2024-06-06 |
 | shadcn-landing-page (Vue) | Project conversion[shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to Next.js - Landing page template using Nestjs, shadcn/ui, TypeScript, and Tailwind CSS. | [Link](https://github.com/nobruf/shadcn-landing-page) | 2024-12-27 |
 | shadcn-nextjs-free-boilerplate | Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template. | [Link](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) | 2024-05-24 |
@@ -507,6 +503,7 @@
 | saas-blocks-kit | 10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui, Tailwind CSS v4 and TypeScript. Dark mode by default. | [Link](https://github.com/SekmenAhmet/saas-blocks-kit) | 2026-03-31 |
 | shadcn-ui-dashboard | Multipurpose and powerful admin dashboard template compatible with shadcn/ui. | [Link](https://shadcnuidashboard.com) | 2025-09-21 |
 | shadcn-vue-landing-page | Landing page template using Vue, shadcn-vue, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-vue-landing-page) | 2024-06-06 |
+| shadcn-admin-template | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2025-12-12 |
 | shadcn-next-workflows | Interactive workflow builder using React Flows, Next.js, and Shadcn/ui. Create, connect, and validate custom nodes easily. | [Link](https://github.com/nobruf/shadcn-next-workflows) | 2024-10-29 |
 | supa-next-shad-auth | A fully responsive, fully type-safe, secure server actions, user-friendly customizable UI with best practices. Tech used: NextJS + Supabase + TypeScript + Server Actions + Zod + shadcn/ui. | [Link](https://github.com/Sahil-Sharma-23/supa-next-shad-auth) | 2024-07-02 |
 | sveltekit-shadcn-starter-kit | Production ready open-source generic app template featuring database abstraction (Drizzle & Postgres), server utilities, tests, authentication (better-auth), i18n + RTL/LTR support, mdsvex, predefined pages and content (policies, legal, etc.), App Shell component, base and custom components built with shadcn/ui, Cookies management (compliance), SEO managemnt support, CLI tooling and more.[Demo](https://ssv5.templates.guylahav.com) | [Link](https://github.com/GantonL/templates/tree/main/sveltekit-shadcn-v5) | 2025-09-23 |
