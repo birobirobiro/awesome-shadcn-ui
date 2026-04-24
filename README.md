@@ -113,6 +113,7 @@
 | file-vault | File upload component for React. | [Link](https://github.com/ManishBisht777/file-vault) | 2024-06-07 |
 | flightcn | flightcn is a flight route visualization component set built for the mapcn ecosystem | [Link](https://flightcn.yencheng.dev/) | 2026-04-05 |
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) | 2024-11-13 |
+| fluid-functionalism | Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight transitions. Every animation serves a functional purpose. | [Link](https://fluid-functionalism.vercel.app) |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-07-02 |
 | glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) | 2025-06-10 |
 | glitchcn-ui | A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders, and monospace typography. | [Link](https://glitchcn-ui.vercel.app/) | 2026-02-06 |
