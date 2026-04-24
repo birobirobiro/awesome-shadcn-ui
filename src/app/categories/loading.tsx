@@ -26,7 +26,7 @@ export default function CategoriesLoading() {
       </div>
 
       {/* Grid */}
-      <div className="min-h-screen grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {[...Array(12)].map((_, i) => (
           <Card key={i} className="h-[280px] flex flex-col">
             <CardHeader className="p-4 pb-3">

@@ -42,7 +42,7 @@ export default function Loading() {
       </div>
 
       {/* Content grid */}
-      <div className="min-h-screen grid gap-6 sm:gap-8 grid-cols-1 lg:grid-cols-3">
+      <div className="grid gap-6 sm:gap-8 grid-cols-1 lg:grid-cols-3">
         {/* Left column - Preview */}
         <div className="lg:col-span-2 space-y-6 sm:space-y-8">
           <Card>

@@ -109,6 +109,7 @@ export function CategoryPageContent({
             </div>
             <div className="w-full max-w-md">
               <Input
+                autoFocus
                 type="text"
                 placeholder="Search within this category..."
                 value={searchQuery}
@@ -120,7 +121,7 @@ export function CategoryPageContent({
         }
       />
 
-      <div className="min-h-screen mb-6 sm:mb-8">
+      <div className="mb-6 sm:mb-8">
         <ItemGrid
           items={currentItems}
           bookmarkedItems={bookmarkedItems}

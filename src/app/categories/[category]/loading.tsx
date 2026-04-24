@@ -32,7 +32,7 @@ export default function CategoryLoading() {
       </div>
 
       {/* ItemGrid skeleton - matches ItemCard structure */}
-      <div className="min-h-screen mb-6 sm:mb-8">
+      <div className="mb-6 sm:mb-8">
         <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {[...Array(12)].map((_, i) => (
             <div key={i} className="border p-4 space-y-0 flex flex-col h-full">

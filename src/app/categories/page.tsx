@@ -73,7 +73,7 @@ export default async function CategoriesPage() {
         breadcrumbs={[{ label: "Categories", href: "/categories" }]}
       />
 
-      <div className="min-h-screen grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
           <Link
             key={category.title}
