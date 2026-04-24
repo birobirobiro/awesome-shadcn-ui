@@ -109,6 +109,7 @@ export function CategoryPageContent({
             </div>
             <div className="w-full max-w-md">
               <Input
+                autoFocus
                 type="text"
                 placeholder="Search within this category..."
                 value={searchQuery}
