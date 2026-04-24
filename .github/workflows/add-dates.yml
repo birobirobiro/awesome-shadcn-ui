@@ -27,5 +27,18 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "Add dates to new resources"
-          git push
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No date changes to commit."
+            exit 0
+          fi
+          git commit -m "Add dates to new resources"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt). Rebasing on latest main and retrying..."
+            git pull --rebase origin main
+          done
+          echo "Push still failing after 5 attempts."
+          exit 1
