@@ -88,6 +88,7 @@
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-07-16 |
 | date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08 |
 | datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) | 2024-07-16 |
+| diffs | @pierre/diffs is an open source diff and code rendering library. It's built on Shiki for syntax highlighting and theming, is super customizable, and comes packed with features. Made with love by The Pierre Computer Company. | [Link](https://diffs.com/) | 2026-04-24 |
 | dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) | 2024-10-17 |
 | downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) | 2024-06-27 |
 | drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) | 2024-11-21 |
