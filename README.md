@@ -259,7 +259,7 @@
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-11-25 |
 | stateful-button | A shadcn/ui button component that provides clear visual feedback with full accessibility support for loading/progress, success, and error states during asynchronous operations. | [Link](https://github.com/nanyx95/Stateful-Button-React) | 2025-09-06 |
 | stocks | Stock Picker with Next.js charts. | [Link](https://github.com/aryanvichare/stocks) | 2024-07-07 |
-| styleseed | Design engine with 48 shadcn-style components and swappable brand skins. | [Link](https://github.com/bitjaru/styleseed) |
+| styleseed | Design engine with 48 shadcn-style components and swappable brand skins. | [Link](https://github.com/bitjaru/styleseed) | 2026-04-24 |
 | supabase-shadcn-database-example | supabase + shadcn/ui datatable | [Link](https://github.com/thisisfel1x/supabase-shadcn-database-example) | 2024-12-30 |
 | supercharged-shadcn-components | Type-safe form components collection. | [Link](https://github.com/slickwit/supercharged-shadcn-components) | 2024-11-25 |
 | svelte-image-uploader | Svelte image uploader with dnd, validation and previews. | [Link](https://svelte-image-uploader.vercel.app/) | 2025-06-10 |
