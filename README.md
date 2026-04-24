@@ -481,6 +481,7 @@
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-09-23 |
 | create-tauri-ui | Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. | [Link](https://github.com/agmmnn/tauri-ui) | 2026-03-31 |
 | design-system-template | Turborepo + TailwindCSS + Storybook + shadcn/ui. | [Link](https://github.com/arevalolance/design-system-template) | 2024-06-06 |
+| deska-dashboard-template | A dashboard template built with Nuxt, Tailwind and Shadcn. | [Link](https://github.com/yaminncco/deska-dashboard-template) |
 | devstarter | Devstarter is a bold, one-page developer portfolio template with a distinctive cyberpunk aesthetic. Built with Next.js, shadcn/ui, and Tailwind CSS, it's designed to help developers showcase their work, skills, and personality in a way that stands out. | [Link](https://github.com/zippystarter/template-devstarter) | 2026-01-27 |
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-08-06 |
 | ecommerce-kit | Next.js starter kit with the tools you need to quickly launch your e-commerce site. | [Link](https://ecommercekit.dev) | 2025-09-06 |
