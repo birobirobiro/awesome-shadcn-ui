@@ -238,6 +238,7 @@
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) | 2024-12-27T12:56:05.000Z |
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16T12:35:38.000Z |
+| shieldcn | Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supports npm, GitHub, Discord, Reddit badges with dark/light mode, 6 variants, and 40k+ icons. | [Link](https://shieldcn.dev) | 2026-04-25T00:00:00.000Z |
 | shsfui | Motion-first React components built with Tailwind CSS + Framer Motion. | [Link](https://www.shsfui.com) | 2025-04-03T20:04:21.000Z |
 | shuip | Provides ready-to-use, business-focused components that help you ship faster. | [Link](https://shuip.plvo.dev/docs) | 2025-06-10T16:48:32.000Z |
 | siddz-ui | A curated collection of modern, reusable React components. Built with performance and accessibility in mind. Copy, paste, and customize. | [Link](https://siddz.com/components) | 2026-02-13T02:00:37.000Z |
