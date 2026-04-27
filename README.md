@@ -274,6 +274,7 @@
 | ui-nference-sh | a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai agent interfaces. | [Link](https://ui.inference.sh/) | 2026-02-13T17:47:21.000Z |
 | uixmat-onborda | Product tour for Next.js applications. | [Link](https://github.com/uixmat/onborda) | 2025-07-16T12:35:38.000Z |
 | uselayouts | Free premium animated React components and micro-interactions built with Framer Motion and Tailwind CSS. Modern, ready-to-use motion components for high-converting websites. | [Link](https://uselayouts.com) | 2026-01-23T21:16:05.000Z |
+| user-tour-kit | MIT-licensed headless onboarding suite — tours, hints, checklists, microsurveys, and announcements. Built on Radix UI, shadcn/ui-friendly defaults. | [Link](https://github.com/domidex01/tour-kit) |
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) | 2024-12-27T12:56:05.000Z |
 | vengence-ui | A modern, animated UI component library designed to help developers build beautiful landing pages and interfaces faster. | [Link](https://www.vengenceui.com/) | 2026-02-17T21:47:02.000Z |
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-16T12:35:38.000Z |
