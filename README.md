@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/birobirobiro-awesome-shadcn-ui-badge.png)](https://mseep.ai/app/birobirobiro-awesome-shadcn-ui)
+
 <p align="center">
   <a href="https://awesome-shadcn-ui.vercel.app" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
