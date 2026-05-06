@@ -257,6 +257,7 @@
 | supercharged-shadcn-components | Type-safe form components collection. | [Link](https://github.com/slickwit/supercharged-shadcn-components) | 2024-12-27T12:56:05.000Z |
 | svelte-image-uploader | Svelte image uploader with dnd, validation and previews. | [Link](https://svelte-image-uploader.vercel.app/) | 2025-06-10T16:53:40.000Z |
 | termcn | Beautiful terminal UIs, made simple. Ready to use, customizable terminal UI components for React. | [Link](https://termcn.vercel.app/) | 2026-04-10T13:55:24.000Z |
+| teul | An opinionated grid system for React and Tailwind | [Link](https://teul.joohyun.dev) | 2026-05-06 |
 | trable-craft | Drizzle ORM-powered table engine that auto-generates tables from your schema. Built on TanStack Table with server-side filtering, sorting, pagination, search, export, and URL state sync. | [Link](https://github.com/jacksonkasi1/TableCraft) | 2026-02-27T22:15:10.000Z |
 | tanstack-ui-table | Customizable table with @tanstack/table and shadcn/ui | [Link](https://github.com/drefahl/tanstack-ui-table) | 2025-02-27T01:56:00.000Z |
 | the-gridcn | Tron inspired shadcn/ui theme | [Link](https://thegridcn.com/) | 2026-02-06T17:57:20.000Z |
