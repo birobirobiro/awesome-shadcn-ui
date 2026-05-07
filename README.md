@@ -124,6 +124,7 @@
 | jolyui | JolyUI is a modern React component library built with TypeScript, Tailwind CSS and Motion. It offers a wide range of customizable and accessible UI components to help you build stunning web applications quickly and efficiently. | [Link](https://github.com/Johuniq/jolyui) | 2026-01-23T21:22:27.000Z |
 | jalco-ui | Polished, composable React components distributed via a shadcn-compatible registry. Install with one command or copy the source directly. | [Link](https://ui.justinlevine.me) | 2026-04-10T13:56:52.000Z |
 | junwen-k/ui-x | Additional beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source. | [Link](https://ui-x.junwen-k.dev/) | 2025-02-03T19:03:51.000Z |
+| kalyx | Headless React DatePicker family — single / range / time / date+time / month / year / week pickers behind one composition API. ISO 8601 UTC values, IANA timezone-safe, ~13.6 KB gzip. v1.0 RC. | [Link](https://github.com/jiji-hoon96/kalyx) |
 | kanban-board | A production‑ready Kanban board built on shadcn/ui with React & Tailwind CSS: zero dependencies, drag‑and‑drop, keyboard accessibility and seamless theming. | [Link](https://shadcn-kanban-board.com/) | 2025-07-15T17:19:11.000Z |
 | kibo-ui | Kibo UI is designed to be a more comprehensive library of components that can be used to build more complex applications. | [Link](https://www.kibo-ui.com/overview) | 2025-04-03T20:05:04.000Z |
 | kokonut-ui | Free Modern and Customizable components for Next.js. | [Link](https://kokonutui.com/) | 2024-12-27T12:56:05.000Z |
