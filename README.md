@@ -168,6 +168,7 @@
 | pricing-page-shadcn | Customizable pricing page with Next.js 14. | [Link](https://github.com/m4nute/pricing-page-shadcn) | 2024-12-27T12:56:05.000Z |
 | progress-button | Extended button component with progress UX. | [Link](https://github.com/tomredman/ProgressButton) | 2024-12-27T12:56:05.000Z |
 | re-ui | Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui | [Link](https://reui.io/) | 2025-09-06T21:36:24.000Z |
+| react-datatable | Datatable on TanStack Table with shadcn-style UI and Tailwind; filters, saved views, virtualization, client or server pagination and infinite loading; copy-in source. | [Link](https://react-datatable.com/docs?utm_source=github&utm_medium=repository&utm_campaign=3rdcom265) | 2026-05-09T12:00:00.000Z |
 | react-dnd-kit-tailwind-shadcn-ui | Accessible kanban board with dnd-kit. | [Link](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-12-27T12:56:05.000Z |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-27T12:56:05.000Z |
