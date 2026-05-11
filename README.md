@@ -109,6 +109,7 @@
 | flightcn | flightcn is a flight route visualization component set built for the mapcn ecosystem | [Link](https://flightcn.yencheng.dev/) | 2026-04-05T17:00:07.000Z |
 | floating-dragable-card | Dragable and resizable card using shadcn/ui elements. | [Link](https://github.com/nishansanjuka/react-drag-card) | 2024-12-27T12:56:05.000Z |
 | fluid-functionalism | Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight transitions. Every animation serves a functional purpose. | [Link](https://fluid-functionalism.vercel.app) | 2026-04-24T19:38:06.000Z |
+| framecn | Beautiful videos, made simple. Ready to use, customizable video components for React. | [Link](https://github.com/shadcn-labs/framecn) | 2026-05-11 |
 | fusion-ui | Library combining shadcn/ui and MagicUI. | [Link](https://github.com/nyxb-ui/ui) | 2024-12-27T12:56:05.000Z |
 | glasscn-ui | shadcn/ui component library with glassmorphism variants, and many additional components. | [Link](https://github.com/itsjavi/glasscn-ui) | 2025-06-10T17:19:42.000Z |
 | glitchcn-ui | A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders, and monospace typography. | [Link](https://glitchcn-ui.vercel.app/) | 2026-02-06T17:57:31.000Z |
