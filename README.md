@@ -252,6 +252,7 @@
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
+| srb/ui | Beautiful, production-ready UI blocks and components built with shadcn/ui, Tailwind CSS and Framer Motion. | [Link](https://ui.srb.codes) |
 | stateful-button | A shadcn/ui button component that provides clear visual feedback with full accessibility support for loading/progress, success, and error states during asynchronous operations. | [Link](https://github.com/nanyx95/Stateful-Button-React) | 2025-09-06T21:28:00.000Z |
 | stocks | Stock Picker with Next.js charts. | [Link](https://github.com/aryanvichare/stocks) | 2024-12-27T12:56:05.000Z |
 | styleseed | Design engine with 48 shadcn-style components and swappable brand skins. | [Link](https://github.com/bitjaru/styleseed) | 2026-04-24T19:40:34.000Z |
