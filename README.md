@@ -158,6 +158,7 @@
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-12-27T12:56:05.000Z |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-12-27T12:56:05.000Z |
+| otf-ui | 215+ accessible, shadcn-CLI-compatible components for web (Radix + Tailwind v4) and Expo mobile (Tamagui) sharing one parity API. MIT. | [Link](https://otf-kit.dev/components) | 2026-05-13T08:10:00.000Z |
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-12-27T12:56:05.000Z |
 | payment-gateways | Integration of payment gateways with Next.js 14. | [Link](https://github.com/PremPrakashCodes/payment-gateways) | 2024-12-27T12:56:05.000Z |
 | pdfx | shadcn/ui-style PDF component library for React. Copy-paste components built on @react-pdf/renderer run pdfx add invoice and own the code. | [Link](https://github.com/akii09/pdfx) | 2026-02-28T15:25:37.000Z |
