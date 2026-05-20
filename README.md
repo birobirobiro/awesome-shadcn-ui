@@ -269,6 +269,7 @@
 | tour | A component for building onboarding tours. Designed to integrate with shadcn/ui. | [Link](https://onboarding-tour.vercel.app) | 2025-12-04T15:19:42.000Z |
 | trees | @pierre/trees is an open source file tree rendering library. It's built for performance and flexibility, is super customizable, and comes packed with features. Made with love by The Pierre Computer Company. | [Link](https://trees.software/) | 2026-04-24T22:08:41.000Z |
 | tremor | Components for charts and dashboards. | [Link](https://github.com/tremorlabs/tremor) | 2025-02-03T19:04:21.000Z |
+| trophy-ui | Open-source gamification UI components for streaks, achievements, leaderboards, points, and more. Built on shadcn/ui and Tailwind CSS. | [Link](https://ui.trophy.so) | 2026-05-20T08:24:00.000Z |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) | 2024-12-27T12:56:05.000Z |
 | tweet-to-code | Twitter design recreations as code. | [Link](https://tweet-to-code.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | ui-beats | Animated React Components collection. | [Link](https://uibeats.com) | 2024-12-27T12:56:05.000Z |
