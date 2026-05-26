@@ -212,6 +212,7 @@
 | shadcn-fintech | Premium fintech dashboard with 10 pages — drag-and-drop layout, 3D credit cards, live investment ticker, spending heatmap, actionable notifications, and dark mode. Built with Next.js 16, shadcn/ui, and Tailwind CSS v4. | [Link](https://github.com/abderrahimghazali/shadcn-fintech) | 2026-04-24T19:39:37.000Z |
 | shadcn-font-picker | Font picker using shadcn/ui components and google font API. | [Link](https://shadcn-font-picker.vercel.app) | 2025-04-15T11:37:11.000Z |
 | shadcn-full-calendar | A feature-rich calendar application built with React, TypeScript, and ShadCN UI components. This project provides a customizable and interactive calendar experience with multiple views, event management, and a modern UI. | [Link](https://github.com/yassir-jeraidi/full-calendar) | 2025-07-07T12:25:07.000Z |
+| shadcn-google-maps | Google Places address autocomplete for shadcn/ui using AutocompleteSuggestion (Places API New), with session tokens and typed place results. | [Link](https://shadcn-google-maps.vercel.app/) | 2026-05-18T12:00:00.000Z |
 | shadcn-iconpicker | React/shadcn simple icon picker using lucide icons. | [Link](https://icon-picker.alan-courtois.fr/) | 2025-02-20T17:49:20.000Z |
 | shadcn-image-cropper | Image cropper with react-image-crop. | [Link](https://github.com/sujjeee/shadcn-image-cropper) | 2024-12-27T12:56:05.000Z |
 | shadcn-io | Advanced Shadcn/UI components. | [Link](https://shadcn.io) | 2025-09-06T21:28:00.000Z |
