@@ -431,6 +431,7 @@
 | xeramail | Temporary email address service built with Next.js and shadcn/ui, offering fast inbox access, modern UI, and better control over disposable emails. | [Link](https://xeramail.com) | 2026-01-23T21:22:14.000Z |
 | xquik | All-in-one X automation platform with 40+ tools, REST API, MCP server, and HMAC webhooks. Built with Next.js, shadcn/ui, and Tailwind CSS. | [Link](https://xquik.com) | 2026-04-24T19:44:11.000Z |
 | youropinion.is | Free survey platform which supports importing your exisitng shadcn/ui theme | [Link](https://youropinion.is/news/202505-match-my-style) | 2025-05-22T13:44:23.000Z |
+| pdfmavericks | 40+ free browser-based PDF tools (compress, merge, split, sign, watermark, redact, OCR, convert) with client-side processing — files never leave the device. Built with Next.js 15 App Router, shadcn/ui, and Tailwind CSS. | [Link](https://pdfmavericks.com/) | 2026-05-20T12:30:00.000Z |
 
 ## Ports
 
