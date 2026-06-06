@@ -494,7 +494,7 @@
 | full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) | 2025-06-10T16:56:50.000Z |
 | fumadocs-starter | A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you need to build your next docs site. | [Link](https://github.com/techwithanirudh/fumadocs-starter) | 2025-11-20T13:33:22.000Z |
 | horizon-ai-nextjs-shadcn-boilerplate | Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth. | [Link](https://horizon-ui.com/boilerplate-shadcn) | 2024-12-27T12:56:05.000Z |
-| Kairo Ui | Free landing page templates for Next.js 16. | [Link](https://www.kairoui.online/) | 2026-06-01 |
+| kairo-ui | Free landing page templates for Next.js 16. | [Link](https://www.kairoui.online/) |
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-12-27T12:56:05.000Z |
 | login-auth | A login authentication web app built with Vite + React, Tailwind CSS, and Shadcn UI. It uses Firebase for Google sign-in, email sign-up, and password reset. | [Link](https://shadcn-login-auth.vercel.app/) | 2026-03-15T08:16:31.000Z |
 | magicui-startup-templates | Magic UI Startup template built using shadcn/ui + TailwindCSS + Framer Motion. | [Link](https://magicui.design/docs/templates/startup) | 2024-12-27T12:56:05.000Z |
