@@ -156,6 +156,7 @@
 | nexus-ui | Open-source component library of composable, copy-paste primitives for building AI interfaces (chat, voice, agents) | [Link](https://nexus-ui.dev/) | 2026-04-05T17:01:04.000Z |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-12-27T12:56:05.000Z |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
+| ogimagecn | Beautiful OG images, made simple. Ready to use, customizable Open Graph image components for React. | [Link](https://github.com/shadcn-labs/ogimagecn) | 2026-06-15 |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-12-27T12:56:05.000Z |
 | otf-ui | 215+ cross-platform components for Next.js (Radix + Tailwind v4) and Expo (Tamagui) with one shared API. MIT. | [Link](https://otf-kit.dev/components) | 2026-05-14T00:00:00.000Z |
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-12-27T12:56:05.000Z |
