@@ -59,7 +59,6 @@
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-12-27T12:56:05.000Z |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-12-27T12:56:05.000Z |
-| berlix | Animated components library built using Tailwind CSS and Motion | [Link](https://berlix.vercel.app) | 2025-06-10T16:55:29.000Z |
 | big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08T12:16:18.000Z |
 | billingsdk | Modern, type-safe billing and subscription management components for React, built with TypeScript and Tailwind CSS. Designed to work seamlessly alongside shadcn/ui by[Dodo Payments](https://dodopayments.com/). [GitHub](https://github.com/dodopayments/billingsdk) | [Link](https://billingsdk.com/) | 2025-09-06T21:28:00.000Z |
 | billui | Open source billing components for React built with Shadcn. Pricing cards, payment methods, invoice history and more. | [Link](https://github.com/commet-labs/billui) | 2025-12-25T13:27:40.000Z |
@@ -180,7 +179,6 @@
 | remocn | Build product demos, changelogs, and launch videos in React. Open source and delightfully easy | [Link](https://www.remocn.dev/) | 2026-04-14T02:06:56.000Z |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-27T12:56:05.000Z |
-| ruixen-ui | Ruixen UI: Lightweight & Customizable React Library | [Link](https://github.com/ruixenui/ruixen.com) | 2025-12-04T15:14:36.000Z |
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
 | shadboard | An admin dashboard template built with Next.js 15, React 19, Tailwind CSS v4, and Shadcn/UI components, featuring starter and full kits for scalable, user-friendly web apps. | [Link](https://github.com/Qualiora/shadboard) | 2025-04-19T15:50:59.000Z |
@@ -244,7 +242,6 @@
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16T12:35:38.000Z |
 | shieldcn | Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supports npm, GitHub, Discord, Reddit badges with dark/light mode, 6 variants, and 40k+ icons. | [Link](https://shieldcn.dev) | 2026-04-25T00:00:00.000Z |
-| shsfui | Motion-first React components built with Tailwind CSS + Framer Motion. | [Link](https://www.shsfui.com) | 2025-04-03T20:04:21.000Z |
 | shuip | Provides ready-to-use, business-focused components that help you ship faster. | [Link](https://shuip.plvo.dev/docs) | 2025-06-10T16:48:32.000Z |
 | siddz-ui | A curated collection of modern, reusable React components. Built with performance and accessibility in mind. Copy, paste, and customize. | [Link](https://siddz.com/components) | 2026-02-13T02:00:37.000Z |
 | simple-ai | Components and blocks to easily build AI apps | [Link](https://simple-ai.dev) | 2025-01-21T12:42:27.000Z |
@@ -350,7 +347,6 @@
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-23T23:27:50.000Z |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-12-27T12:56:05.000Z |
-| devtools | 28 free browser-based developer utilities built with Next.js and shadcn/ui — JSON formatter, regex tester, JWT decoder, hash generator, UUID generator, diff checker, and more. 100% client-side, no signup. | [Link](https://devtools.davrapps.dev) | 2026-04-24T19:43:00.000Z |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-12-27T12:56:05.000Z |
 | dialectcn | A living catalog of shadcn presets — brand-inspired, community-submitted, and occasionally random. Pick one, copy the code, ship the UI. | [Link](https://dialectcn.xyz/) | 2026-04-24T20:07:56.000Z |
 | focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://focusbrew.vercel.app) | 2025-05-14T13:31:07.000Z |
@@ -365,7 +361,7 @@
 | keyzen | KeyZen is a small side project: a clean, browser-based typing speed test built for practice and fun. It is open source and free to use or fork. | [Link](https://keyzen.theshiva.xyz/) | 2026-04-24T20:24:48.000Z |
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | memoire | MCP server and CLI for shadcn-native Design CI: diagnose UI debt, extract Tailwind tokens, export shadcn registries, and plan safe UI fixes. | [Link](https://github.com/sarveshsea/m-moire) | 2026-04-26T17:55:21.000Z |
-| MixCN | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
+| mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
