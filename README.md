@@ -50,6 +50,7 @@
 | 21st.dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-27T12:56:05.000Z |
 | 21st.dev-agent-elements | Open-source registry of agent UI primitives — chat shell, tool-call cards (Bash, Edit, Search, Todo, Plan), clarifying questions, input bar, streaming markdown. Built on React 19, Tailwind v4, and the Vercel AI SDK. | [Link](https://agent-elements.21st.dev) | 2026-04-24T19:36:48.000Z |
 | 8bitcn.com | A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code. | [Link](https://www.8bitcn.com/) | 2025-04-14T16:25:49.000Z |
+| 8starlabs-ui | A set of beautifully designed components designed for developers who want niche, high-utility UI elements that you won't find in standard libraries. | [Link](https://ui.8starlabs.com) | 2026-06-23 |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-27T12:56:05.000Z |
 | agents-ui | Agents UI is LiveKit’s open source component library built with React and shadcn for designing voice agent interfaces. Start with production-ready defaults, then customize every detail to match your brand. | [Link](https://livekit.io/ui) | 2026-03-03T17:54:22.000Z |
 | agentcn | Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve and Flue. | [Link](https://agentcn.vercel.app) | 2026-06-21T12:00:00.000Z |
