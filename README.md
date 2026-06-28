@@ -470,6 +470,7 @@
 | shadcn-ui-components | Every component recreated in Figma. | [Link](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-storybook (JheanAntunes) | All shadcn/ui components registered in the storybook by JheanAntunes. | [Link](https://65711ecf32bae758b457ae34-uryqbzvojc.chromatic.com/) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-storybook (fellipeutaka) | All shadcn/ui components registered in the storybook by fellipeutaka. | [Link](https://fellipeutaka-ui.vercel.app/?path=/docs/components-accordion--docs) | 2024-12-27T12:56:05.000Z |
+| zepa ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
 
 ## Boilerplates / Templates
 
