@@ -349,6 +349,7 @@
 | Name | Description | Link | Date |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/) | 2024-12-27T12:56:05.000Z |
+| _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-02 |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-12-27T12:56:05.000Z |
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-23T23:27:50.000Z |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
