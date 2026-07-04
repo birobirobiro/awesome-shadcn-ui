@@ -460,6 +460,7 @@
 | Svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
 | Swift | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
 | Sysinfocus simple/ui | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
+| tetra-ui | Delightful components for a clean, accessible and modern component library for React Native. | [Link](https://github.com/Liamandrew/tetra-ui) | 2026-06-22 |
 | Vue | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
 
 ## Design System
