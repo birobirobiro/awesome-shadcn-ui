@@ -477,7 +477,7 @@
 
 | Name | Description | Link | Date |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) |
+| _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-04T01:28:12.279Z |
 | a11y-starter-kit | Free WCAG 2.1 AA starter kit with accessible components, custom a11y hooks, and dark mode. Built with Next.js 16, Tailwind CSS v4, and shadcn/ui. | [Link](https://github.com/thefrontkit/a11y-starter-kit-code) | 2026-04-10T13:58:09.000Z |
 | agentic-react-nextjs-shadcn | Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessibility-first components, semantic HTML for AI agent testing, and production-ready patterns. | [Link](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) | 2026-03-03T22:35:00.000Z |
 | astro-erudite | An opinionated, unstyled static blogging template—built with Astro, Tailwind, and shadcn/ui. | [Link](https://github.com/jktrn/astro-erudite) | 2025-10-25T16:15:21.000Z |
