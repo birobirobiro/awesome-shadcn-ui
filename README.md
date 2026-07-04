@@ -349,7 +349,6 @@
 | Name | Description | Link | Date |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ---------- |
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/) | 2024-12-27T12:56:05.000Z |
-| _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-02 |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-12-27T12:56:05.000Z |
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-23T23:27:50.000Z |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
@@ -476,6 +475,7 @@
 
 | Name | Description | Link | Date |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) |
 | a11y-starter-kit | Free WCAG 2.1 AA starter kit with accessible components, custom a11y hooks, and dark mode. Built with Next.js 16, Tailwind CSS v4, and shadcn/ui. | [Link](https://github.com/thefrontkit/a11y-starter-kit-code) | 2026-04-10T13:58:09.000Z |
 | agentic-react-nextjs-shadcn | Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessibility-first components, semantic HTML for AI agent testing, and production-ready patterns. | [Link](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) | 2026-03-03T22:35:00.000Z |
 | astro-erudite | An opinionated, unstyled static blogging template—built with Astro, Tailwind, and shadcn/ui. | [Link](https://github.com/jktrn/astro-erudite) | 2025-10-25T16:15:21.000Z |
