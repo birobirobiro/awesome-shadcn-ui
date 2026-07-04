@@ -200,7 +200,6 @@
 | shadcn-carousel-testimonials | Carousel Testimonials component. | [Link](https://github.com/johanguse/shadcn-carousel-testimonials) | 2024-12-27T12:56:05.000Z |
 | shadcn-chatbot-kit | Customizable chatbot components. | [Link](https://shadcn-chatbot-kit.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | shadcn-color-picker | Color picker with react-color. | [Link](https://shadcn-color-picker.vercel.app/) | 2024-12-27T12:56:05.000Z |
-| shadcn-cookies | Sleek and flexible cookie consent component, designed with shadcn/ui | [Link](https://shadcn-cookies.vercel.app/) | 2025-02-06T21:17:07.000Z |
 | shadcn-cookie-consent | Customizable cookie consent component. | [Link](https://github.com/r2hu1/shadcn-cookie-consent) | 2024-12-27T12:56:05.000Z |
 | shadcn-components-blocks | The ultimate blocks and components for Shadcn UI & Tailwind CSS. | [Link](https://shadcncomponents.dev/) | 2025-09-06T21:28:00.000Z |
 | shadcn-country-dropdown | ISO 3166 country selector dropdown. | [Link](https://shadcn-country-dropdown.vercel.app/) | 2024-12-27T12:56:05.000Z |
