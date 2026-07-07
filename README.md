@@ -456,6 +456,7 @@
 | React Native | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-12-27T12:56:05.000Z |
 | React Native (recommended) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27T12:56:05.000Z |
 | Ruby | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-12-27T12:56:05.000Z |
+| Rust (egui) | Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that fail the build on raw values. Live wasm storybook. | [Link](https://github.com/Type-zero-labs/ouroboros-ui) | 2026-07-07 |
 | Solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
 | Svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
 | Swift | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
