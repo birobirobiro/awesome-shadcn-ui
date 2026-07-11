@@ -52,6 +52,7 @@
 | 8bitcn.com | A set of retro-designed, accessible components and a code distribution platform. Open Source. Open Code. | [Link](https://www.8bitcn.com/) | 2025-04-14T16:25:49.000Z |
 | 8starlabs-ui | A set of beautifully designed components designed for developers who want niche, high-utility UI elements that you won't find in standard libraries. | [Link](https://ui.8starlabs.com) | 2026-06-23 |
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-27T12:56:05.000Z |
+| adapttable | Data table for shadcn/ui in one import — URL-synced state, declarative filters with chips, column management and virtualization. Unstyled core pre-wired with the shadcn class preset. | [Link](https://github.com/orwa-mahmoud/adapttable) | 2026-07-11 |
 | agents-ui | Agents UI is LiveKit’s open source component library built with React and shadcn for designing voice agent interfaces. Start with production-ready defaults, then customize every detail to match your brand. | [Link](https://livekit.io/ui) | 2026-03-03T17:54:22.000Z |
 | agentcn | Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve and Flue. | [Link](https://agentcn.vercel.app) | 2026-06-21T12:00:00.000Z |
 | animated-header | Vercel-like animated header. | [Link](https://github.com/mehrdadrafiee/animated-header) | 2025-10-25T16:09:52.000Z |
