@@ -389,6 +389,7 @@
 | someday | Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail users. | [Link](https://github.com/rbbydotdev/someday) | 2024-12-27T12:56:05.000Z |
 | sweep | Sweep is a modern, open-source gradient generator built for designers and developers. Create beautiful linear and radial gradients with real-time preview, noise/blur effects, and export to CSS, Tailwind, SVG, or JPG. Free forever. No sign-up required. | [Link](https://github.com/Johuniq/sweep) | 2025-11-11T22:24:32.000Z |
 | tancn | Build powerful forms and tables with ease using TanStack technologies | [Link](https://tancn.dev/) | 2025-11-02T20:24:53.000Z |
+| Test | test | [Link](https://example.com) | 2026-07-15 |
 | tinte | An opinionated VS Code Theme Generator 🎨. | [Link](https://tinte.railly.dev/) | 2024-12-27T12:56:05.000Z |
 | translate-app | Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. | [Link](https://github.com/developaul/translate-app) | 2024-12-27T12:56:05.000Z |
 | typelabs | MonkeyType-inspired typing test app built with React, shadcn, and Zustand at its core. | [Link](https://github.com/imsandeshpandey/typelabs) | 2024-12-27T12:56:05.000Z |
