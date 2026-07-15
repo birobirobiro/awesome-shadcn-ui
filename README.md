@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://awesome-shadcn-ui.vercel.app" target="_blank">
+  <a href="https://awesomeshadcn.dev" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
   </a>
 </p>
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://awesome-shadcn-ui.vercel.app/" target="_blank">
+  <a href="https://awesomeshadcn.dev/" target="_blank">
     <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome">
   </a>
   <a href="https://github.com/birobirobiro/awesome-shadcn-ui/stargazers" target="_blank">
@@ -276,7 +276,6 @@
 | trophy-ui | Open-source gamification UI components for streaks, achievements, leaderboards, points, and more. Built on shadcn/ui and Tailwind CSS. | [Link](https://ui.trophy.so) | 2026-05-26T13:47:13.714Z |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) | 2024-12-27T12:56:05.000Z |
 | tweet-to-code | Twitter design recreations as code. | [Link](https://tweet-to-code.vercel.app/) | 2024-12-27T12:56:05.000Z |
-| ui-beats | Animated React Components collection. | [Link](https://uibeats.com) | 2024-12-27T12:56:05.000Z |
 | ui-flexnative | A collection of customizable UI blocks with interactive live previews | [Link](https://ui.flexnative.com) | 2026-04-24T19:36:31.000Z |
 | ui-layouts | UI Layouts isn’t just a library. It’s a complete toolkit with components, effects, design tools, and ready-to-use blocks, everything you need to build modern interfaces, faster. | [Link](https://www.ui-layouts.com/) | 2025-10-15T16:30:14.000Z |
 | ui-nference-sh | a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai agent interfaces. | [Link](https://ui.inference.sh/) | 2026-02-13T17:47:21.000Z |
@@ -413,7 +412,6 @@
 | hritu.art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) | 2025-06-10T16:50:50.000Z |
 | list.swajp.me | It has never been easier to find the right projects or designs by inspiring successful people. | [Link](https://list.swajp.me) | 2024-12-27T12:56:05.000Z |
 | nathans-ai | An AI Chatbot acting as a portfolio, built with shadcn/ui components. | [Link](https://chat.brodin.dev) | 2025-06-10T16:50:50.000Z |
-| ifte-13 | Portfolio made with Next.js, shadcn/ui (with magic ui ) and Email.js | [Link](https://ifte-13.vercel.app/) | 2025-10-25T16:09:10.000Z |
 | shubhporwal.me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-12-27T12:56:05.000Z |
 | swajp.me | A visually appealing portfolio and resource hub. | [Link](https://swajp.me) | 2024-12-27T12:56:05.000Z |
 | windows-11-clone | A sleek Windows 11 clone built with React, Next.js, Tailwind CSS, ShadCN, and Framer-Motion, featuring smooth animations, draggable windows, and a modern design system. | [Link](https://win11.oimmi.com/) | 2025-06-10T16:50:50.000Z |
@@ -571,6 +569,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### For the Awesome List
 
-- **Via Website**: Use the built-in submission form at [awesome-shadcn-ui.vercel.app](https://awesome-shadcn-ui.vercel.app/)
+- **Via Website**: Use the built-in submission form at [awesomeshadcn.dev](https://awesomeshadcn.dev/)
 - **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
 - **Guidelines**: Ensure resources are shadcn/ui related, well-documented, and actively maintained

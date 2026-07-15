@@ -1,0 +1,6 @@
+# False positives for the weekly link check (lychee reads this file automatically).
+# GitHub serves 404 for /stargazers pages to non-browser clients (anti-scraping);
+# the link works fine in real browsers.
+https://github.com/.*/stargazers
+# star-history.com's SVG API frequently returns transient 503s to bots.
+https://api.star-history.com/.*
