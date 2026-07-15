@@ -187,6 +187,7 @@
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
 | shadboard | An admin dashboard template built with Next.js 15, React 19, Tailwind CSS v4, and Shadcn/UI components, featuring starter and full kits for scalable, user-friendly web apps. | [Link](https://github.com/Qualiora/shadboard) | 2025-04-19T15:50:59.000Z |
+| ShadcnStore | An open-source growing collection of shadcn/ui components, blocks, and templates for building modern web apps based on Base UI. | [Link](https://shadcnstore.com) | 2026-07-15T22:29:50.000Z |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-12-27T12:56:05.000Z |
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) | 2024-12-27T12:56:05.000Z |
 | shadcn-admin-kit | Powerful open-source shadcn components to build beautiful internal tools, admin panels, and dashboards with React | [Link](https://github.com/marmelab/shadcn-admin-kit) | 2025-07-07T12:23:13.000Z |
