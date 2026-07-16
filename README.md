@@ -249,6 +249,7 @@
 | shadcn-ui-expansions | Additional useful components. | [Link](https://github.com/hsuanyi-chou/shadcn-ui-expansions) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-sidebar | Retractable responsive sidebar. | [Link](https://github.com/salimi-my/shadcn-ui-sidebar) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) | 2024-12-27T12:56:05.000Z |
+| shadcncraft | Ship faster with a production-ready shadcn/ui design system. Get a fully matched Figma UI kit, React components, and hundreds of UI blocks built for real products. | [Link]([https://shadcncraft.com](https://shadcncraft.com/components?filter=free)) | 2026-05-28T00:00:00.000Z |
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16T12:35:38.000Z |
 | shieldcn | Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supports npm, GitHub, Discord, Reddit badges with dark/light mode, 6 variants, and 40k+ icons. | [Link](https://shieldcn.dev) | 2026-04-25T00:00:00.000Z |
