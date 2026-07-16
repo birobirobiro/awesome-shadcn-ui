@@ -1,12 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 /** Preview display modes */
 type PreviewState = "loading" | "iframe" | "screenshot" | "fallback";
-
-/** Timeout for iframe loading check (ms) */
-const IFRAME_TIMEOUT = 3000;
 
 /**
  * Return type for the useWebsitePreview hook
@@ -24,8 +21,10 @@ export interface UseWebsitePreviewReturn {
  * Manages website preview state with progressive fallback strategy.
  *
  * Attempts to display website in this order:
- * 1. **iframe** - Direct embedding if the site allows it
- * 2. **screenshot** - Microlink API screenshot if iframe fails/times out
+ * 1. **iframe** - Direct embedding, but only after /api/preview-check confirms
+ *    the site's headers allow framing (blocked frames still fire onload, so
+ *    this can't be detected client-side)
+ * 2. **screenshot** - Microlink API screenshot if the site blocks embedding
  * 3. **fallback** - Generic placeholder if all else fails
  *
  * @param url - The website URL to preview
@@ -52,8 +51,6 @@ export function useWebsitePreview({
   const [previewState, setPreviewState] = useState<PreviewState>("loading");
   const [screenshotUrl, setScreenshotUrl] = useState<string | null>(null);
   const [faviconUrl, setFaviconUrl] = useState<string | null>(null);
-  const iframeRef = useRef<HTMLIFrameElement | null>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     let isMounted = true;
@@ -87,52 +84,32 @@ export function useWebsitePreview({
       }
     };
 
-    const cleanupIframe = () => {
-      if (iframeRef.current && document.body.contains(iframeRef.current)) {
-        document.body.removeChild(iframeRef.current);
-        iframeRef.current = null;
+    const checkEmbeddable = async () => {
+      try {
+        const response = await fetch(
+          `/api/preview-check?url=${encodeURIComponent(url)}`,
+        );
+        const data = await response.json();
+
+        if (!isMounted) return;
+
+        if (data.embeddable) {
+          setPreviewState("iframe");
+        } else {
+          setPreviewState("screenshot");
+          loadScreenshot();
+        }
+      } catch {
+        if (!isMounted) return;
+        setPreviewState("screenshot");
+        loadScreenshot();
       }
     };
 
-    const checkIframe = () => {
-      const iframe = document.createElement("iframe");
-      iframe.style.display = "none";
-      iframe.src = url;
-      iframeRef.current = iframe;
-
-      timeoutRef.current = setTimeout(() => {
-        if (!isMounted) return;
-        setPreviewState("screenshot");
-        loadScreenshot();
-        cleanupIframe();
-      }, IFRAME_TIMEOUT);
-
-      iframe.onload = () => {
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        if (!isMounted) return;
-        setPreviewState("iframe");
-        cleanupIframe();
-      };
-
-      iframe.onerror = () => {
-        if (timeoutRef.current) clearTimeout(timeoutRef.current);
-        if (!isMounted) return;
-        setPreviewState("screenshot");
-        loadScreenshot();
-        cleanupIframe();
-      };
-
-      document.body.appendChild(iframe);
-    };
-
-    checkIframe();
+    checkEmbeddable();
 
     return () => {
       isMounted = false;
-      if (timeoutRef.current) {
-        clearTimeout(timeoutRef.current);
-      }
-      cleanupIframe();
     };
   }, [url]);
 

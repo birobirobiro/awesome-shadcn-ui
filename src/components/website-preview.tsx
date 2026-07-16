@@ -104,7 +104,7 @@ export function WebsitePreview({ url, name }: WebsitePreviewProps) {
       <p className="text-sm font-medium text-foreground mb-1">
         Preview not available
       </p>
-      <p className="text-xs text-muted-foreground mb-4 max-w-xs break-all">
+      <p className="text-xs text-muted-foreground mb-4 max-w-xs break-words">
         We couldn't load a preview for {hostname}. Visit the website to see it
         live.
       </p>
