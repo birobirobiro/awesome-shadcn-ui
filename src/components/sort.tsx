@@ -6,9 +6,14 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
-import { Calendar, SortAsc, SortDesc, Text } from "lucide-react";
+import { Calendar, SortAsc, SortDesc, Star, Text } from "lucide-react";
 
-export type SortOption = "date-desc" | "date-asc" | "name-asc" | "name-desc";
+export type SortOption =
+  | "date-desc"
+  | "date-asc"
+  | "name-asc"
+  | "name-desc"
+  | "stars-desc";
 
 interface SortProps {
   sortOption: SortOption;
@@ -45,6 +50,12 @@ export default function Sort({
       label: "Name (Z-A)",
       icon: <Text className="h-4 w-4 mr-2" />,
       directionIcon: <SortAsc className="h-4 w-4 ml-2 inline" />,
+    },
+    {
+      value: "stars-desc",
+      label: "GitHub Stars",
+      icon: <Star className="h-4 w-4 mr-2" />,
+      directionIcon: <SortDesc className="h-4 w-4 ml-2 inline" />,
     },
   ] as const;
 

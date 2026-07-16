@@ -1,5 +1,9 @@
 import { Octokit } from "@octokit/rest";
-import { useCallback, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+
+// Session-scoped persistence: survives reloads in the same tab, cleared when
+// the tab closes. Deliberately not localStorage to limit token lifetime.
+const TOKEN_STORAGE_KEY = "github-auth-token";
 
 /**
  * Authentication state for GitHub OAuth device flow.
@@ -11,7 +15,7 @@ export interface GitHubAuthState {
   username: string | null;
   /** Avatar URL of authenticated user */
   avatar: string | null;
-  /** OAuth access token (stored in memory only) */
+  /** OAuth access token (persisted in sessionStorage for the tab's lifetime) */
   token: string | null;
   /** Device code during authentication flow */
   deviceCode: string | null;
@@ -110,6 +114,40 @@ export function useGitHubAuth(): UseGitHubAuthReturn {
   const [error, setError] = useState<string | null>(null);
   const pollingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  // Restore a previous session in this tab, discarding the token if it was
+  // revoked or expired since it was stored.
+  useEffect(() => {
+    const token = sessionStorage.getItem(TOKEN_STORAGE_KEY);
+    if (!token) return;
+
+    let cancelled = false;
+
+    const restoreSession = async () => {
+      try {
+        const octokit = new Octokit({ auth: token });
+        const { data: user } = await octokit.rest.users.getAuthenticated();
+
+        if (cancelled) return;
+
+        setAuthState((prev) => ({
+          ...prev,
+          isAuthenticated: true,
+          username: user.login,
+          avatar: user.avatar_url,
+          token,
+        }));
+      } catch {
+        sessionStorage.removeItem(TOKEN_STORAGE_KEY);
+      }
+    };
+
+    restoreSession();
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
   const stopPolling = useCallback(() => {
     if (pollingTimeoutRef.current) {
       clearTimeout(pollingTimeoutRef.current);
@@ -136,6 +174,8 @@ export function useGitHubAuth(): UseGitHubAuthReturn {
         if (data.access_token) {
           const octokit = new Octokit({ auth: data.access_token });
           const { data: user } = await octokit.rest.users.getAuthenticated();
+
+          sessionStorage.setItem(TOKEN_STORAGE_KEY, data.access_token);
 
           setAuthState((prev) => ({
             ...prev,
@@ -223,6 +263,7 @@ export function useGitHubAuth(): UseGitHubAuthReturn {
 
   const logout = useCallback(() => {
     stopPolling();
+    sessionStorage.removeItem(TOKEN_STORAGE_KEY);
 
     setAuthState({
       isAuthenticated: false,

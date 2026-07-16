@@ -2,7 +2,8 @@
 
 import { useWebsitePreview } from "@/hooks/use-website-preview";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Globe, Image } from "lucide-react";
+import { ExternalLink, Globe } from "lucide-react";
+import { useEffect, useState } from "react";
 
 interface WebsitePreviewProps {
   url: string;
@@ -11,8 +12,16 @@ interface WebsitePreviewProps {
 
 export function WebsitePreview({ url, name }: WebsitePreviewProps) {
   const { previewState, screenshotUrl } = useWebsitePreview({ url });
+  const [screenshotFailed, setScreenshotFailed] = useState(false);
 
-  if (previewState === "loading") {
+  useEffect(() => {
+    setScreenshotFailed(false);
+  }, [url]);
+
+  if (
+    previewState === "loading" ||
+    (previewState === "screenshot" && !screenshotUrl && !screenshotFailed)
+  ) {
     return (
       <div className="w-full h-full flex items-center justify-center bg-muted">
         <div className="flex flex-col items-center gap-3">
@@ -51,13 +60,14 @@ export function WebsitePreview({ url, name }: WebsitePreviewProps) {
     );
   }
 
-  if (previewState === "screenshot" && screenshotUrl) {
+  if (previewState === "screenshot" && screenshotUrl && !screenshotFailed) {
     return (
       <>
         <img
           src={screenshotUrl}
           alt={`${name} preview`}
           className="w-full h-full object-cover object-top"
+          onError={() => setScreenshotFailed(true)}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-all duration-300 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
           <ExternalLink className="h-8 w-8 text-white mb-2" />
@@ -79,14 +89,24 @@ export function WebsitePreview({ url, name }: WebsitePreviewProps) {
   }
 
   // Fallback state
+  let hostname = url;
+  try {
+    hostname = new URL(url).hostname;
+  } catch {
+    // keep the raw URL if it can't be parsed
+  }
+
   return (
-    <div className="absolute inset-0 bg-muted flex flex-col items-center justify-center text-center p-6">
-      <Image className="h-12 w-12 text-muted-foreground mb-3" />
-      <p className="text-sm text-muted-foreground mb-2">
+    <div className="absolute inset-0 bg-muted/50 flex flex-col items-center justify-center text-center p-6">
+      <div className="flex h-16 w-16 items-center justify-center border bg-background mb-4">
+        <Globe className="h-7 w-7 text-muted-foreground" />
+      </div>
+      <p className="text-sm font-medium text-foreground mb-1">
         Preview not available
       </p>
-      <p className="text-xs text-muted-foreground/70 mb-4 max-w-xs">
-        This website blocks embedding. Click below to visit directly.
+      <p className="text-xs text-muted-foreground mb-4 max-w-xs break-words">
+        We couldn't load a preview for {hostname}. Visit the website to see it
+        live.
       </p>
       <Button asChild size="sm">
         <a

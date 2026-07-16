@@ -11,3 +11,10 @@ export function formatResourceDate(dateString: string): string {
   const date = parseISO(dateString);
   return isValid(date) ? format(date, "MMMM d, yyyy") : "Unknown";
 }
+
+export function formatStarCount(stars: number): string {
+  return new Intl.NumberFormat("en-US", {
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(stars);
+}

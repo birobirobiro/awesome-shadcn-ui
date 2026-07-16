@@ -5,11 +5,11 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { ArrowRight, Bookmark, ExternalLink } from "lucide-react";
+import { ArrowRight, Bookmark, ExternalLink, Star } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { categoryNameToSlug } from "@/lib/slugs";
-import { cn, formatResourceDate } from "@/lib/utils";
+import { cn, formatResourceDate, formatStarCount } from "@/lib/utils";
 import { motion } from "motion/react";
 import React from "react";
 
@@ -20,6 +20,7 @@ interface ItemCardProps {
   url: string;
   category: string;
   date?: string;
+  stars?: number;
   isBookmarked: boolean;
   onBookmark: (id: string) => void;
   isBookmarkLoading?: boolean;
@@ -39,6 +40,7 @@ const ItemCard: React.FC<ItemCardProps> = ({
   url,
   category,
   date,
+  stars,
   isBookmarked,
   onBookmark,
   isBookmarkLoading = false,
@@ -72,9 +74,15 @@ const ItemCard: React.FC<ItemCardProps> = ({
             {description}
           </p>
 
-          {date && (
-            <div className="flex items-center gap-2 text-xs font-mono text-muted-foreground/70">
-              <span>Added: {formatResourceDate(date)}</span>
+          {(date || stars !== undefined) && (
+            <div className="flex items-center justify-between gap-2 text-xs font-mono text-muted-foreground/70">
+              {date && <span>Added: {formatResourceDate(date)}</span>}
+              {stars !== undefined && (
+                <span className="flex items-center gap-1 flex-shrink-0">
+                  <Star className="h-3 w-3" />
+                  {formatStarCount(stars)}
+                </span>
+              )}
             </div>
           )}
         </CardContent>

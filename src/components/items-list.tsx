@@ -70,9 +70,21 @@ export default function ItemList({
         if (aBookmarked !== bBookmarked) return aBookmarked ? -1 : 1;
 
         const [field, direction] = sortOption.split("-") as [
-          "date" | "name",
+          "date" | "name" | "stars",
           "asc" | "desc",
         ];
+
+        if (field === "stars") {
+          // Resources without a GitHub repo have no star count and sort last
+          const starsA = a.stars ?? -1;
+          const starsB = b.stars ?? -1;
+          if (starsA !== starsB) {
+            return direction === "asc" ? starsA - starsB : starsB - starsA;
+          }
+          return (a.name?.toLowerCase() || "").localeCompare(
+            b.name?.toLowerCase() || "",
+          );
+        }
 
         if (field === "name") {
           const nameA = a.name?.toLowerCase() || "";
