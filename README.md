@@ -281,7 +281,7 @@
 | trophy-ui | Open-source gamification UI components for streaks, achievements, leaderboards, points, and more. Built on shadcn/ui and Tailwind CSS. | [Link](https://ui.trophy.so) | 2026-05-26T13:47:13.714Z |
 | twblocks | Website blocks based on shadcn & Radix. | [Link](https://github.com/tommyjepsen/twblocks) | 2024-12-27T12:56:05.000Z |
 | tweet-to-code | Twitter design recreations as code. | [Link](https://tweet-to-code.vercel.app/) | 2024-12-27T12:56:05.000Z |
-| uiable | UIAble is a free, open-source UI system that extends shadcn/ui with a vivid design system, reusable React components, and complete code ownership. | [Link](https://github.com/codedthemes/uiable) |  |
+| uiable | UIAble is a free, open-source UI system that extends shadcn/ui with a vivid design system, reusable React components, and complete code ownership. | [Link](https://github.com/codedthemes/uiable) | 2026-07-16T01:46:46.956Z |
 | ui-beats | Animated React Components collection. | [Link](https://uibeats.com) | 2024-12-27T12:56:05.000Z |
 | ui-flexnative | A collection of customizable UI blocks with interactive live previews | [Link](https://ui.flexnative.com) | 2026-04-24T19:36:31.000Z |
 | ui-layouts | UI Layouts isn’t just a library. It’s a complete toolkit with components, effects, design tools, and ready-to-use blocks, everything you need to build modern interfaces, faster. | [Link](https://www.ui-layouts.com/) | 2025-10-15T16:30:14.000Z |
