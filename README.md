@@ -57,6 +57,7 @@
 | agentcn | Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve and Flue. | [Link](https://agentcn.vercel.app) | 2026-06-21T12:00:00.000Z |
 | animated-header | Vercel-like animated header. | [Link](https://github.com/mehrdadrafiee/animated-header) | 2025-10-25T16:09:52.000Z |
 | animated-tabs | Vercel-like animated tabs. | [Link](https://github.com/mehrdadrafiee/animated-tabs) | 2025-04-06T14:14:05.000Z |
+| approvals-ui | Approval workflow components for React Flow: quorum gates, amount thresholds, a policy lint (segregation of duties, single approver on high value), and plain-language editing behind a human review gate. Distributed as a shadcn registry. | [Link](https://approvals-ui.vercel.app) | 2026-07-08 |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-12-27T12:56:05.000Z |
 | audio/ui | A set of accessible and composable Audio UI components. Built on top of shadcn/ui, it's designed for you to copy, paste, and own. | [Link](https://github.com/ouestlabs/audio-ui) | 2025-11-20T13:31:44.000Z |
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
