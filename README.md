@@ -143,6 +143,7 @@
 | localmode | Local-first AI UI registry with 107 copy-owned primitives and 36 composed blocks (chat, RAG, Whisper transcription, CLIP image search) that run entirely in the browser, no servers or API keys. Installable via the shadcn CLI. | [Link](https://localmode.ai) | 2026-07-16T01:32:42.992Z |
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) | 2024-12-27T12:56:05.000Z |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) | 2024-12-27T12:56:05.000Z |
+| marmo-ui | React components for Applications combined with MCP Server | [Link](https://github.com/mahmoudilyan/marmoui) | 2026-07-14T12:56:05.000Z |
 | maily.to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) | 2024-12-27T12:56:05.000Z |
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-27T12:56:05.000Z |
 | manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-25T13:29:02.000Z |
