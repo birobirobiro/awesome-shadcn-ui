@@ -79,6 +79,7 @@
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-12-27T12:56:05.000Z |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20T17:48:50.000Z |
+| Componentry | Beautiful Animated UI Components for React Effortlessly add polished, production-ready interactions to your projects, with the styling and animations already handled. Browse components | [Link](https://github.com/harshjdhv/componentry) | 2026-07-16 |
 | confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) | 2024-12-27T12:56:05.000Z |
 | country-state-dropdown | Component built with Nextjs, Tailwindcss, shadcn/ui & Zustand. | [Link](https://github.com/Jayprecode/country-state-dropdown) | 2024-12-27T12:56:05.000Z |
 | creatorem/ui | Missing awesome shadcn components (like Tour, Stepper, QRCode Motion Dialog -> to imitate native behaviour ...) built on top of radix primitives and motion. | [Link](https://github.com/creatorem/ui) | 2025-10-25T16:07:32.000Z |
