@@ -367,7 +367,7 @@
 | keygen | KeyGen is a client-side utility suite that generates secure passwords, API keys, and framework-specific secrets (like Django or Laravel keys) directly in your browser. Because it uses native Web Crypto APIs without server-side processing, it is a secure way to create sensitive credentials for development and infrastructure configuration without exposing them to the network. | [Link](https://keygen-omega.vercel.app/) | 2026-06-16 |
 | keyzen | KeyZen is a small side project: a clean, browser-based typing speed test built for practice and fun. It is open source and free to use or fork. | [Link](https://keyzen.theshiva.xyz/) | 2026-04-24T20:24:48.000Z |
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
-| memoire | MCP server and CLI for shadcn-native Design CI: diagnose UI debt, extract Tailwind tokens, export shadcn registries, and plan safe UI fixes. | [Link](https://github.com/sarveshsea/m-moire) | 2026-04-26T17:55:21.000Z |
+| memi | Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, component scaffolds, accessibility checks, and file-anchored quality gates. | [Link](https://github.com/sarveshsea/memi) | 2026-07-15 |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
