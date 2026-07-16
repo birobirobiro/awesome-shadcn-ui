@@ -38,11 +38,15 @@ export interface UsePRSubmissionReturn {
   error: string | null;
   /** Current status message during submission */
   submissionStatus: string | null;
-  /** Submit a new resource as a PR */
-  submitPR: (submission: SubmissionData) => Promise<PRSubmissionResult>;
+  /** Submit a new resource as a PR (requires a GitHub access token) */
+  submitPR: (
+    submission: SubmissionData,
+    token: string,
+  ) => Promise<PRSubmissionResult>;
   /** Validate submission data before submitting */
   validateSubmission: (
     submission: SubmissionData,
+    token: string,
   ) => Promise<{ valid: boolean; error?: string }>;
 }
 
@@ -74,11 +78,15 @@ export function usePRSubmission(): UsePRSubmissionReturn {
   const validateSubmission = useCallback(
     async (
       submission: SubmissionData,
+      token: string,
     ): Promise<{ valid: boolean; error?: string }> => {
       try {
         const response = await fetch("/api/submit-resource", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
           body: JSON.stringify(submission),
         });
 
@@ -99,7 +107,10 @@ export function usePRSubmission(): UsePRSubmissionReturn {
   );
 
   const submitPR = useCallback(
-    async (submission: SubmissionData): Promise<PRSubmissionResult> => {
+    async (
+      submission: SubmissionData,
+      token: string,
+    ): Promise<PRSubmissionResult> => {
       setIsSubmitting(true);
       setError(null);
       setSubmissionStatus("Submitting your resource...");
@@ -107,7 +118,10 @@ export function usePRSubmission(): UsePRSubmissionReturn {
       try {
         const response = await fetch("/api/submit-resource", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
           body: JSON.stringify(submission),
         });
 
