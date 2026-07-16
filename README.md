@@ -91,6 +91,7 @@
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-12-27T12:56:05.000Z |
 | date-time-range-picker-shadcn | Fully featured date-time range picker with multi-month views, timezone support, preset ranges, and modular components for date and time selection. | [Link](https://date-time-range-picker.vercel.app/) | 2025-03-08T12:16:58.000Z |
 | datetime-picker | Datetime picker with timezone support, min/max dates, and month/year selection. | [Link](https://shadcn-datetime-picker-xi.vercel.app) | 2024-12-27T12:56:05.000Z |
+| dice-ui | Accessible shadcn/ui components built with React, TypeScript, and Tailwind CSS. Copy-paste ready, and customizable. | [Link](https://github.com/sadmann7/diceui) | 2026-07-04 |
 | diffs | @pierre/diffs is an open source diff and code rendering library. It's built on Shiki for syntax highlighting and theming, is super customizable, and comes packed with features. Made with love by The Pierre Computer Company. | [Link](https://diffs.com/) | 2026-04-24T20:08:01.000Z |
 | dnd-dashboard | Dashboard with drop-to-swap layouts using Next.js, shadcn/ui, and swapy. | [Link](https://github.com/olliethedev/dnd-dashboard) | 2024-12-27T12:56:05.000Z |
 | dotmatrix | 55+ free and open-source loaders, built with React, TypeScript, Tailwind CSS, and shadcn. Install one, copy the code, and make it yours. | [Link](https://dotmatrix.zzzzshawn.cloud/) | 2026-06-19 |
