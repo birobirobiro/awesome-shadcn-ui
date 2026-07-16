@@ -7,8 +7,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { type Resource } from "@/hooks/use-readme";
 import { categoryNameToSlug } from "@/lib/slugs";
-import { formatResourceDate } from "@/lib/utils";
-import { Calendar, ExternalLink, Github, Globe, Tag } from "lucide-react";
+import { formatResourceDate, formatStarCount } from "@/lib/utils";
+import {
+  Calendar,
+  ExternalLink,
+  Github,
+  Globe,
+  Star,
+  Tag,
+} from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useState } from "react";
@@ -99,6 +106,15 @@ export function ItemPageContent({
               <Tag className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
               <span className="break-words">{item.category}</span>
             </div>
+            {item.stars !== undefined && (
+              <>
+                <span className="hidden sm:inline">•</span>
+                <div className="flex items-center gap-2">
+                  <Star className="h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0" />
+                  <span>{formatStarCount(item.stars)} stars</span>
+                </div>
+              </>
+            )}
           </div>
         }
       />

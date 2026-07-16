@@ -70,6 +70,7 @@ export function ItemGrid({
         url={item.url}
         category={item.category}
         date={item.date}
+        stars={item.stars}
         isBookmarked={bookmarkedItems.includes(item.id)}
         onBookmark={onBookmark}
         isBookmarkLoading={isBookmarkLoading}

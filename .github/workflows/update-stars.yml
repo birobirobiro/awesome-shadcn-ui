@@ -1,0 +1,47 @@
+name: Update GitHub Star Counts
+
+on:
+  schedule:
+    # Weekly on Mondays at 03:00 UTC
+    - cron: '0 3 * * 1'
+  workflow_dispatch:
+
+jobs:
+  update-stars:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch star counts
+        run: node scripts/update-stars.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit changes (if any)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/stars.json
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No star count changes to commit."
+            exit 0
+          fi
+          git commit -m "Update GitHub star counts"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt). Rebasing on latest main and retrying..."
+            git pull --rebase origin main
+          done
+          echo "Push still failing after 5 attempts."
+          exit 1
