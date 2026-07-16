@@ -163,6 +163,7 @@
 | nextjs-multi-image-upload | Compact, responsive file uploader with shadcn/ui, React Hook Form, and cloud support (S3/R2). | [Link](https://github.com/jacksonkasi0/nextjs-multi-image-upload) | 2025-02-23T14:07:48.000Z |
 | next-stepper | Dynamic multi-step form with Next.js and zustand. | [Link](https://github.com/ebulku/next-stepper) | 2024-12-27T12:56:05.000Z |
 | nexus-ui | Open-source component library of composable, copy-paste primitives for building AI interfaces (chat, voice, agents) | [Link](https://nexus-ui.dev/) | 2026-04-05T17:01:04.000Z |
+| niko-table | Composable data table for shadcn/ui built on TanStack Table. Multi-column sort, AND/OR filters, virtualization for 10k+ rows, column pinning/resizing, row/column drag-and-drop, and CSV export, plus an editable DataGrid variant with inline cell editing. Copy only the registry pieces you need. | [Link](https://niko-table.com/) | 2026-07-15 |
 | novel | Notion-style WYSIWYG editor with AI-powered autocompletion. | [Link](https://github.com/steven-tey/novel) | 2024-12-27T12:56:05.000Z |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
 | ogimagecn | Beautiful OG images, made simple. Ready to use, customizable Open Graph image components for React. | [Link](https://github.com/shadcn-labs/ogimagecn) | 2026-06-15 |
