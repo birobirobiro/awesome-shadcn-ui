@@ -9,7 +9,7 @@ labels:
 
 You can submit resources in two ways:
 
-1. **Via Website**: Use the [awesome-shadcn-ui.vercel.app](https://awesome-shadcn-ui.vercel.app/) submission form for a guided experience
+1. **Via Website**: Use the [awesomeshadcn.dev](https://awesomeshadcn.dev/) submission form for a guided experience
 2. **Via GitHub PR**: Use this template to create a pull request directly
 
 ## Describe the awesome resource you want to add

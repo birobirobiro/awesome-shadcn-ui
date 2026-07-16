@@ -19,8 +19,9 @@ export const GITHUB_CONFIG = {
     "User-Agent": "awesome-shadcn-ui",
   },
 
-  // OAuth Scopes
-  SCOPES: ["repo"],
+  // OAuth Scopes — identity only; submissions are made by the server's own
+  // token, the user token is just used to verify who is submitting
+  SCOPES: ["read:user"],
 
   // Fork Creation Delay (in milliseconds)
   FORK_CREATION_DELAY: 5000,

@@ -13,7 +13,7 @@ import "@/app/globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://awesome-shadcn-ui.vercel.app"),
+  metadataBase: new URL("https://awesomeshadcn.dev"),
   title: {
     default: "awesome-shadcn-ui",
     template: `%s | awesome-shadcn-ui`,
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
     "shadcn ui",
   ],
   alternates: {
-    canonical: "https://awesome-shadcn-ui.vercel.app/",
+    canonical: "https://awesomeshadcn.dev/",
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://awesome-shadcn-ui.vercel.app/",
+    url: "https://awesomeshadcn.dev/",
     siteName: "awesome-shadcn-ui",
     title: "awesome-shadcn-ui",
     description: "A curated list of awesome things related to shadcn/ui",
