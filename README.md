@@ -119,6 +119,7 @@
 | glitchcn-ui | A terminal-styled cyberpunk component library for Next.js with scanline effects, glowing borders, and monospace typography. | [Link](https://glitchcn-ui.vercel.app/) | 2026-02-06T17:57:31.000Z |
 | gluestack-ui | React & React Native Components with Tailwind CSS. | [Link](https://gluestack.io) | 2024-12-27T12:56:05.000Z |
 | goey-toast | Morphing toast notifications for React. Organic blob animations, promise tracking, and full customization out of the box | [Link](https://goey-toast.vercel.app/) | 2026-02-14T22:40:34.000Z |
+| guarahooks | A free, open-source collection of reusable React hooks you can copy and paste into your apps. | [Link](https://github.com/h3rmel/guarahooks) | 2026-07-04 |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
 | hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
 | ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://bg.ibelick.com/) | 2024-12-27T12:56:05.000Z |
