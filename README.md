@@ -319,6 +319,7 @@
 
 | Name | Description | Link | Date |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- | ---------- |
+| AuthKit Core | AuthKit Logo Framework-agnostic authentication engine with email/password, TOTP 2FA, multi-tenant organizations, and OAuth SSO. | [Link](https://github.com/jain12feb/authkit) | 2026-07-21 |
 | chat-with-youtube | A chrome extension is designed to give you the ability to efficiently summarize videos, easily search for specific parts, and enjoy additional useful features. | [Link](https://chat-with-youtube.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | designgui | A Chrome Browser Extension for managing colors in CSS Variables. | [Link](https://www.designgui.io/) | 2024-12-27T12:56:05.000Z |
 | imprompt | A Chrome extension that enhances prompts on AI websites directly, making your AI prompts more effective and productive. | [Link](https://github.com/avalynndev/imprompt) | 2025-09-06T15:13:52.000Z |
