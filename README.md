@@ -241,6 +241,7 @@
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-27T12:56:05.000Z |
 | shadcn-stacked-progress-bar | A composable stacked progress bar for shadcn/ui to display multiple statuses in one track, with optional legend, tooltips, and accessible semantics.  | [Link](https://github.com/JoachimBrasier/shadcn-stacked-progress-bar) | 2026-06-19 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-12-27T12:56:05.000Z |
+| shadcn-store | A growing collection of shadcn/ui components, blocks, and templates for building modern web apps based on Base UI. | [Link](https://shadcnstore.com) |  |
 | shadcn-studio | Open Source Registry of Shadcn components and blocks. | [Link](https://shadcnstudio.com/) | 2025-04-24T12:04:47.000Z |
 | shadcn-table-maker | Tool for creating dynamic tables. | [Link](https://shadcn-table-maker.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | shadcn-table-v2 | Table with server-side features. | [Link](https://github.com/sadmann7/shadcn-table) | 2024-12-27T12:56:05.000Z |
