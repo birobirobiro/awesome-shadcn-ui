@@ -314,6 +314,7 @@
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
+| usva | A React design language in three themes: atmospheric, dense, or light, from one token vocabulary. | [Link](https://usva.build/) | 2026-07-29 |
 
 ## Plugins and Extensions
 
