@@ -63,6 +63,7 @@
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-12-27T12:56:05.000Z |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-12-27T12:56:05.000Z |
+| beste-ui | 1850+ blocks and 1000+ components for shadcn/ui and Tailwind. Install one with a command, or let your editor pull it in over MCP. Either way the code is yours. | [Link](https://ui.beste.co/) | 2026-08-03 |
 | big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08T12:16:18.000Z |
 | billingsdk | Modern, type-safe billing and subscription management components for React, built with TypeScript and Tailwind CSS. Designed to work seamlessly alongside shadcn/ui by[Dodo Payments](https://dodopayments.com/). [GitHub](https://github.com/dodopayments/billingsdk) | [Link](https://billingsdk.com/) | 2025-09-06T21:28:00.000Z |
 | billui | Open source billing components for React built with Shadcn. Pricing cards, payment methods, invoice history and more. | [Link](https://github.com/commet-labs/billui) | 2025-12-25T13:27:40.000Z |
