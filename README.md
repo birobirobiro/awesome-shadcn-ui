@@ -395,6 +395,7 @@
 | shadcn-pricing-page-generator | The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. | [Link](https://shipixen.com/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://shadcnthemeeditor.vercel.app) | 2024-12-27T12:56:05.000Z |
 | shadcn-zod-form | CLI tool to generate shadcn/ui forms from Zod schemas. | [Link](https://github.com/ilyichv/shadcn-zod-form) | 2024-12-27T12:56:05.000Z |
+| shadscan | Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent. Scores accessibility, UI states, navigation, forms, metadata, and production polish with cited evidence and agent-ready fixes. | [Link](https://shadscan.com) | 2026-08-04 |
 | sharable-form-builder | A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Next.js. | [Link](https://github.com/ayoubben18/sharable-form-builder) | 2024-12-27T12:56:05.000Z |
 | shoogle | A shadcn search engine | [Link](https://shoogle.dev/) | 2026-02-13T02:05:41.000Z |
 | slidytabs | A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use or customize the component | [Link](https://slidytabs.dev) | 2026-01-23T21:13:51.000Z |
