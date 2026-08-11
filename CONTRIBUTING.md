@@ -49,15 +49,15 @@ build.
 ## The row format
 
 ```markdown
-| Name | Description | [Link](https://example.com) |  |
+| Name | Description | [Link](https://example.com) |
 ```
 
-Four columns, one line, and that is the whole format.
+Three columns, one line, and that is the whole format.
 
-**Leave the Date column empty.** A workflow stamps the merge date when your
-change lands on `main`. It only fills cells that are empty, so a date you write
-yourself survives the merge and permanently records the wrong day. Don't add
-one.
+**Don't write a Date cell.** The table has a fourth column, but you leave it off
+entirely — no date, and no trailing `|  |` either. A workflow appends it when
+your change lands on `main`, and it only fills cells that are empty, so a date
+you write yourself survives the merge and permanently records the wrong day.
 
 **Keep the section alphabetical.** Comparison ignores case and any leading
 punctuation, so `_cn` sorts under `c` and `.NET` under `n`.
@@ -76,8 +76,8 @@ scan it for their language, not for a product name. So a port is named
 `Language (project)`:
 
 ```markdown
-| Svelte (shadcn-svelte) | Svelte port of shadcn/ui. | [Link](...) |  |
-| React Native (tetra-ui) | ... | [Link](...) |  |
+| Svelte (shadcn-svelte) | Svelte port of shadcn/ui. | [Link](...) |
+| React Native (tetra-ui) | ... | [Link](...) |
 ```
 
 A port that isn't tied to one language — `Basecoat`, `Franken UI` — just uses

@@ -177,12 +177,12 @@ function insertResourceIntoReadme(
     return { content: "", error: duplicateError };
   }
 
-  // Format: | Name | Description | Link | Date |
-  // The Date cell is left empty on purpose: the add-dates workflow stamps it on
-  // push to main, so the README records when an entry was merged rather than
-  // when it was submitted. add-dates only fills empty cells, so a date written
-  // here would survive the merge and win over the real one.
-  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) |  |`;
+  // The row is submitted without a Date cell at all — the add-dates workflow
+  // appends one when the change lands on main, so the README records when an
+  // entry was merged rather than when it was submitted. add-dates only fills
+  // cells that are empty, so a date written here would survive the merge and
+  // win over the real one.
+  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) |`;
 
   let insertIndex = -1;
   let inTargetSection = false;
