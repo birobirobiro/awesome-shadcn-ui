@@ -318,6 +318,7 @@
 | sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.io.vn/) | 2026-07-24T00:00:00.000Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
+| wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-03 |
 
 ## Plugins and Extensions
 
