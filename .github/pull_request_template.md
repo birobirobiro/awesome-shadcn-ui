@@ -5,6 +5,9 @@ labels:
   - feature
 ---
 
+> Read [CONTRIBUTING.md](../CONTRIBUTING.md) before opening this — it has the row
+> format, the naming rules, and what a resource has to clear to be accepted.
+
 ## Submission Options
 
 You can submit resources in two ways:
