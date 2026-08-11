@@ -239,7 +239,7 @@
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-27T12:56:05.000Z |
-| shadcn-stacked-progress-bar | A composable stacked progress bar for shadcn/ui to display multiple statuses in one track, with optional legend, tooltips, and accessible semantics.  | [Link](https://github.com/JoachimBrasier/shadcn-stacked-progress-bar) | 2026-06-19 |
+| shadcn-stacked-progress-bar | A composable stacked progress bar for shadcn/ui to display multiple statuses in one track, with optional legend, tooltips, and accessible semantics. | [Link](https://github.com/JoachimBrasier/shadcn-stacked-progress-bar) | 2026-06-19 |
 | shadcn-stepper | Complete stepper component. | [Link](https://github.com/damianricobelli/stepperize) | 2024-12-27T12:56:05.000Z |
 | shadcn-studio | Open Source Registry of Shadcn components and blocks. | [Link](https://shadcnstudio.com/) | 2025-04-24T12:04:47.000Z |
 | shadcn-table-maker | Tool for creating dynamic tables. | [Link](https://shadcn-table-maker.vercel.app/) | 2024-12-27T12:56:05.000Z |
@@ -454,26 +454,26 @@
 
 | Name | Description | Link | Date |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------- |
-| Angular | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
+| Angular (spartan) | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
 | Basecoat | Vanilla HTML, CSS and JS port of shadcn/ui. | [Link](https://basecoatui.com) | 2025-07-07T12:15:40.000Z |
-| Forui | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
-| Flutter | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
+| Blazor (simple/ui) | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
+| Flutter (Forui) | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
+| Flutter (shadcn_ui) | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | Franken UI | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
-| JollyUI | shadcn/ui compatible react aria components. | [Link](https://github.com/jolbol1/jolly-ui) | 2024-12-27T12:56:05.000Z |
-| Kotlin | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
-| mkdocs-shadcn | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
+| Kotlin (shadcn-kotlin) | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
+| MkDocs (mkdocs-shadcn) | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
 | .NET (ShadUI) | Avalonia port of shadcn/ui. Based on SukiUI | [Link](https://github.com/accntech/shad-ui/) | 2025-10-13T13:42:09.000Z |
-| Phoenix Liveview | Phoenix Liveview port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-12-27T12:56:05.000Z |
-| React Native | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-12-27T12:56:05.000Z |
-| React Native (recommended) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27T12:56:05.000Z |
-| Ruby | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-12-27T12:56:05.000Z |
-| Rust (egui) | Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that fail the build on raw values. Live wasm storybook. | [Link](https://github.com/Type-zero-labs/ouroboros-ui) | 2026-07-07 |
-| Solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
-| Svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
-| Swift | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
-| Sysinfocus simple/ui | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
-| tetra-ui | Delightful components for a clean, accessible and modern component library for React Native. | [Link](https://github.com/Liamandrew/tetra-ui) | 2026-06-22 |
-| Vue | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
+| Phoenix LiveView (salad_ui) | Phoenix LiveView port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-12-27T12:56:05.000Z |
+| React Aria (jolly-ui) | shadcn/ui compatible react aria components. | [Link](https://github.com/jolbol1/jolly-ui) | 2024-12-27T12:56:05.000Z |
+| React Native (nativecn-ui) | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-12-27T12:56:05.000Z |
+| React Native (react-native-reusables) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27T12:56:05.000Z |
+| React Native (tetra-ui) | Delightful components for a clean, accessible and modern component library for React Native. | [Link](https://github.com/Liamandrew/tetra-ui) | 2026-06-22 |
+| Ruby (shadcn-rails) | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-12-27T12:56:05.000Z |
+| Rust (ouroboros-ui) | Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that fail the build on raw values. Live wasm storybook. | [Link](https://github.com/Type-zero-labs/ouroboros-ui) | 2026-07-07 |
+| Solid (shadcn-solid) | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
+| Svelte (shadcn-svelte) | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
+| Swift (swiftcn-ui) | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
+| Vue (shadcn-vue) | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
 
 ## Design System
 
