@@ -372,6 +372,7 @@
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/) | 2024-12-27T12:56:05.000Z |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-12-27T12:56:05.000Z |
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-23T23:27:50.000Z |
+| Compify | Open-source React component workflow. | [Link](https://compify.app) |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-12-27T12:56:05.000Z |
