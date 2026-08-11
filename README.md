@@ -583,6 +583,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### For the Awesome List
 
+Read [CONTRIBUTING.md](CONTRIBUTING.md) first — it has the row format, the naming
+rules, and what a resource has to clear to be accepted.
+
 - **Via Website**: Use the built-in submission form at [awesomeshadcn.dev](https://awesomeshadcn.dev/)
 - **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
-- **Guidelines**: Ensure resources are shadcn/ui related, well-documented, and actively maintained
