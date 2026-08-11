@@ -466,6 +466,7 @@
 | Flutter (Forui) | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
 | Flutter (shadcn_ui) | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | Franken UI | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
+| Go (shadcn-templ) | Go and templ port of shadcn/ui. | [Link](https://github.com/axadrn/shadcn-templ) |
 | Kotlin (shadcn-kotlin) | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
 | MkDocs (mkdocs-shadcn) | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
 | .NET (ShadUI) | Avalonia port of shadcn/ui. Based on SukiUI | [Link](https://github.com/accntech/shad-ui/) | 2025-10-13T13:42:09.000Z |
