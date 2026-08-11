@@ -107,8 +107,10 @@ same pull request.
 Three workflows run on your pull request and on `main`:
 
 - **Format README** normalizes table spacing and fails if any name or URL is
-  duplicated. On pull requests from a fork it can only report — it cannot push
-  the formatting back to your branch, so fix anything it flags yourself.
+  duplicated, or if a row has no usable link — an empty Link cell, or columns
+  shifted so that prose landed in it. On pull requests from a fork it can only
+  report — it cannot push the formatting back to your branch, so fix anything it
+  flags yourself.
 - **Add Dates** stamps the Date column after your change lands on `main`.
 - **Link Check** runs weekly across the whole list and reports broken links in
   an issue. False positives — sites that block bots but work in a browser — go

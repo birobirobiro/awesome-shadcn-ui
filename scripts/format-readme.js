@@ -52,6 +52,22 @@ try {
 // Exits non-zero if any resource name or URL appears in more than one row,
 // which fails the format-readme workflow.
 
+// ---- Missing link check ----
+//
+// The weekly lychee run only checks links that exist, so a row whose Link cell
+// is empty — or whose columns are shifted, pushing prose into it — passes every
+// check silently and ships a resource nobody can open.
+
+const malformed = findMalformedRows(updatedLines);
+if (malformed.length > 0) {
+  console.error('\nRows without a usable link in README.md:');
+  for (const row of malformed) {
+    console.error(`  - ${row.section} → "${row.name}": ${row.reason}`);
+  }
+  console.error('\nEvery entry needs a third column of the form [Link](https://...).');
+  process.exit(1);
+}
+
 const duplicates = findDuplicates(updatedLines);
 if (duplicates.length > 0) {
   console.error('\nDuplicate entries detected in README.md:');
@@ -63,6 +79,48 @@ if (duplicates.length > 0) {
   }
   console.error('\nEach resource name and URL must be unique across the whole README.');
   process.exit(1);
+}
+
+function findMalformedRows(allLines) {
+  const results = [];
+  let currentSection = '(before first section)';
+
+  for (const line of allLines) {
+    if (line.startsWith('## ')) {
+      currentSection = line.replace(/^##\s+/, '').trim();
+      continue;
+    }
+
+    if (!line.startsWith('|') || line.match(/^\|[\s-]+\|/)) continue;
+
+    const parts = line.split('|').map(p => p.trim());
+    const name = parts[1];
+    if (!name || name.toLowerCase() === 'name') continue;
+
+    // A submitted row has 3 cells (the Date column is appended on merge by
+    // add-dates), a merged one has 4. Either way the link sits in cell 3.
+    const cellCount = parts.length - 2;
+    if (cellCount < 3 || cellCount > 4) {
+      results.push({ section: currentSection, name, reason: `has ${cellCount} columns, expected 3 or 4` });
+      continue;
+    }
+
+    const linkCell = parts[3];
+    if (!linkCell) {
+      results.push({ section: currentSection, name, reason: 'the Link cell is empty' });
+      continue;
+    }
+
+    if (!/^\[Link\]\(https?:\/\/[^)]+\)$/.test(linkCell)) {
+      results.push({
+        section: currentSection,
+        name,
+        reason: `the Link cell is not a link: "${linkCell.slice(0, 60)}"`,
+      });
+    }
+  }
+
+  return results;
 }
 
 function findDuplicates(allLines) {

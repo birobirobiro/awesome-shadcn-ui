@@ -236,7 +236,6 @@
 | shadcn-packaged | This is an npm package that exports all shadcn/ui components without the need for a CLI, designed for ease of use. | [Link](https://github.com/anuoua/shadcn-packaged) | 2025-02-27T01:53:01.000Z |
 | shadcn-phone-input-2 | Phone input with libphonenumber-js. | [Link](https://github.com/damianricobelli/shadcn-phone-input) | 2024-12-27T12:56:05.000Z |
 | shadcn-phone-input | Phone input with country validation. | [Link](https://github.com/omeralpi/shadcn-phone-input) | 2024-12-27T12:56:05.000Z |
-| shadcn-portable-text-editor | A headless rich text editor built upon Sanity's Portable Text Editor with opinionated starting styles |  | 2025-09-06T21:28:00.000Z |
 | shadcn-pricing-page | Responsive pricing component with toggles. | [Link](https://github.com/aymanch-03/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
 | shadcn-spinner | Spinner component. | [Link](https://github.com/allipiopereira/shadcn-spinner) | 2024-12-27T12:56:05.000Z |
@@ -519,7 +518,7 @@
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-12-27T12:56:05.000Z |
 | ecommerce-kit | Next.js starter kit with the tools you need to quickly launch your e-commerce site. | [Link](https://ecommercekit.dev) | 2025-09-06T21:28:00.000Z |
 | electron-shadcn | Electron app template with shadcn/ui and a bunch of other libs and tools ready to use. | [Link](https://github.com/LuanRoger/electron-shadcn) | 2024-12-27T12:56:05.000Z |
-| forjnot | Modern Project Starter Kit | Launch your next project faster with Forjnot - A professional, customizable and clean starting point featuring modern tech stack and best practices | 2025-11-20T13:32:28.000Z |
+| forjnot | Modern project starter kit: a full-stack template with Next.js and NestJS in a scalable Turborepo monorepo. | [Link](https://github.com/aman-sharma-dev/forjnot) | 2025-11-20T13:32:28.000Z |
 | full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) | 2025-06-10T16:56:50.000Z |
 | fumadocs-starter | A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you need to build your next docs site. | [Link](https://github.com/techwithanirudh/fumadocs-starter) | 2025-11-20T13:33:22.000Z |
 | horizon-ai-nextjs-shadcn-boilerplate | Premium AI NextJS & shadcn/ui Boilerplate + Stripe + Supabase + OAuth. | [Link](https://horizon-ui.com/boilerplate-shadcn) | 2024-12-27T12:56:05.000Z |
