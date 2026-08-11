@@ -261,6 +261,7 @@
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-04-03T20:06:16.000Z |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-12-27T12:56:05.000Z |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) | 2025-02-03T19:03:08.000Z |
+| snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) | 2026-08-11T00:00:00.000Z |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
