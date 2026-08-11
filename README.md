@@ -191,7 +191,7 @@
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-12-27T12:56:05.000Z |
 | remocn | Build product demos, changelogs, and launch videos in React. Open source and delightfully easy | [Link](https://www.remocn.dev/) | 2026-04-14T02:06:56.000Z |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
-| rivelle-ui | Rivelle is an open-source UI library for React and Next.js with editable components, interactive effects, reusable blocks, and complete templates. Install only what you need and fully own the source. | [Link](https://github.com/w3cproject/rivelle-ui) |  |
+| rivelle-ui | Rivelle is an open-source UI library for React and Next.js with editable components, interactive effects, reusable blocks, and complete templates. Install only what you need and fully own the source. | [Link](https://github.com/w3cproject/rivelle-ui) | 2026-08-11T14:27:05.834Z |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-27T12:56:05.000Z |
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
@@ -253,7 +253,7 @@
 | shadcn-ui-sidebar | Retractable responsive sidebar. | [Link](https://github.com/salimi-my/shadcn-ui-sidebar) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) | 2024-12-27T12:56:05.000Z |
 | shadcncraft | Ship faster with a production-ready shadcn/ui design system. Get a fully matched Figma UI kit, React components, and hundreds of UI blocks built for real products. | [Link](https://shadcncraft.com/components?filter=free) | 2026-05-28T00:00:00.000Z |
-| shadcndashboard | Build admin panel faster with the open source complete shadcn dashboard kit | [Link](https://github.com/shadcndashboard/shadcndashboard) |  |
+| shadcndashboard | Build admin panel faster with the open source complete shadcn dashboard kit | [Link](https://github.com/shadcndashboard/shadcndashboard) | 2026-08-11T14:27:05.834Z |
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16T12:35:38.000Z |
 | shieldcn | Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supports npm, GitHub, Discord, Reddit badges with dark/light mode, 6 variants, and 40k+ icons. | [Link](https://shieldcn.dev) | 2026-04-25T00:00:00.000Z |
@@ -263,7 +263,7 @@
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-04-03T20:06:16.000Z |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-12-27T12:56:05.000Z |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) | 2025-02-03T19:03:08.000Z |
-| snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) |  |
+| snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) | 2026-08-11T14:27:05.834Z |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
@@ -308,20 +308,20 @@
 
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) |  |
+| 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 7ovr | Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, and ship in minutes. | [Link](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) | 2026-07-04T01:23:53.331Z |
-| atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) |
-| beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) |  |
+| atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
-| sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.io.vn/) |  |
+| sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.io.vn/) | 2026-08-11T14:27:05.834Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
-| wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) |  |
+| wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
 
 ## Plugins and Extensions
 
