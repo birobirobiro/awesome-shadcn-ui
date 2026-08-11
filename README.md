@@ -153,7 +153,7 @@
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-12-27T12:56:05.000Z |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-12-27T12:56:05.000Z |
 | modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-11-02T19:17:08.000Z |
-| motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) |
+| motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) | 2026-08-11T14:24:58.708Z |
 | multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) | 2025-01-21T12:41:54.000Z |
 | mvpblocks | Copy-paste beautiful, responsive components without worrying about styling or animations. Build faster, launch sooner. | [Link](https://blocks.mvp-subha.me) | 2025-05-14T13:29:45.000Z |
 | mynaui | TailwindCSS and shadcn/ui UI Kit for Figma and React. | [Link](https://mynaui.com/) | 2024-12-27T12:56:05.000Z |
@@ -468,7 +468,7 @@
 | Flutter (Forui) | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
 | Flutter (shadcn_ui) | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | Franken UI | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
-| Go (shadcn-templ) | Go and templ port of shadcn/ui. | [Link](https://github.com/axadrn/shadcn-templ) |
+| Go (shadcn-templ) | Go and templ port of shadcn/ui. | [Link](https://github.com/axadrn/shadcn-templ) | 2026-08-11T14:24:58.708Z |
 | Kotlin (shadcn-kotlin) | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
 | MkDocs (mkdocs-shadcn) | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
 | .NET (ShadUI) | Avalonia port of shadcn/ui. Based on SukiUI | [Link](https://github.com/accntech/shad-ui/) | 2025-10-13T13:42:09.000Z |
