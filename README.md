@@ -124,7 +124,7 @@
 | guarahooks | A free, open-source collection of reusable React hooks you can copy and paste into your apps. | [Link](https://github.com/h3rmel/guarahooks) | 2026-07-04 |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
 | hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
-| ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://bg.ibelick.com/) | 2024-12-27T12:56:05.000Z |
+| ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://github.com/ibelick/background-snippets) | 2024-12-27T12:56:05.000Z |
 | image-crop-field | Image crop field with shadcn/ui. This component is a wrapper around the react-easy-crop component. | [Link](https://github.com/JsCodeDevlopment/upload-crop-image) | 2025-10-08T02:41:05.000Z |
 | image-upload-shadcn | Image upload component. | [Link](https://github.com/kushagrasarathe/image-upload-shadcn) | 2024-12-27T12:56:05.000Z |
 | indie-ui | UI components with variants. | [Link](https://github.com/Ali-Hussein-dev/indie-ui) | 2024-12-27T12:56:05.000Z |
@@ -153,8 +153,8 @@
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-12-27T12:56:05.000Z |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-12-27T12:56:05.000Z |
 | modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-11-02T19:17:08.000Z |
-| moleculeui | A modern React component library focused on intuitive interactions and seamless user experiences. | [Link](https://www.moleculeui.design/) | 2025-09-06T20:19:06.000Z |
-| mrdoge-ui | Open-source components for sports apps | [Link](https://github.com/mrdogeco/docs) | 2026-08-10 |
+| motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) | 2026-08-11T14:24:58.708Z |
+| mrdoge-ui | Open-source components for sports apps | [Link](https://github.com/mrdogeco/docs) |
 | multi-selection | Managing multi-selection functionality with highlighter. | [Link](https://github.com/sherifawad/multi-selection-with-add-remove) | 2025-01-21T12:41:54.000Z |
 | mvpblocks | Copy-paste beautiful, responsive components without worrying about styling or animations. Build faster, launch sooner. | [Link](https://blocks.mvp-subha.me) | 2025-05-14T13:29:45.000Z |
 | mynaui | TailwindCSS and shadcn/ui UI Kit for Figma and React. | [Link](https://mynaui.com/) | 2024-12-27T12:56:05.000Z |
@@ -192,6 +192,7 @@
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-12-27T12:56:05.000Z |
 | remocn | Build product demos, changelogs, and launch videos in React. Open source and delightfully easy | [Link](https://www.remocn.dev/) | 2026-04-14T02:06:56.000Z |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
+| rivelle-ui | Rivelle is an open-source UI library for React and Next.js with editable components, interactive effects, reusable blocks, and complete templates. Install only what you need and fully own the source. | [Link](https://github.com/w3cproject/rivelle-ui) | 2026-08-11T14:27:05.834Z |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-27T12:56:05.000Z |
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
@@ -210,7 +211,6 @@
 | shadcn-chatbot-kit | Customizable chatbot components. | [Link](https://shadcn-chatbot-kit.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | shadcn-color-picker | Color picker with react-color. | [Link](https://shadcn-color-picker.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | shadcn-cookie-consent | Customizable cookie consent component. | [Link](https://github.com/r2hu1/shadcn-cookie-consent) | 2024-12-27T12:56:05.000Z |
-| shadcn-components-blocks | The ultimate blocks and components for Shadcn UI & Tailwind CSS. | [Link](https://shadcncomponents.dev/) | 2025-09-06T21:28:00.000Z |
 | shadcn-country-dropdown | ISO 3166 country selector dropdown. | [Link](https://shadcn-country-dropdown.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | shadcn-data-table-advanced-col-opions | DataTable with column resizing. | [Link](https://github.com/danielagg/shadcn-data-table-advanced-col-opions) | 2024-12-27T12:56:05.000Z |
 | shadcn-date-picker | Advanced date picker with various features. | [Link](https://date-picker.luca-felix.com) | 2024-12-27T12:56:05.000Z |
@@ -253,7 +253,8 @@
 | shadcn-ui-expansions | Additional useful components. | [Link](https://github.com/hsuanyi-chou/shadcn-ui-expansions) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-sidebar | Retractable responsive sidebar. | [Link](https://github.com/salimi-my/shadcn-ui-sidebar) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-templates | Free & Premium templates collection. | [Link](https://shadcnui-templates.com) | 2024-12-27T12:56:05.000Z |
-| shadcncraft | Ship faster with a production-ready shadcn/ui design system. Get a fully matched Figma UI kit, React components, and hundreds of UI blocks built for real products. | [Link]([https://shadcncraft.com](https://shadcncraft.com/components?filter=free)) | 2026-05-28T00:00:00.000Z |
+| shadcncraft | Ship faster with a production-ready shadcn/ui design system. Get a fully matched Figma UI kit, React components, and hundreds of UI blocks built for real products. | [Link](https://shadcncraft.com/components?filter=free) | 2026-05-28T00:00:00.000Z |
+| shadcndashboard | Build admin panel faster with the open source complete shadcn dashboard kit | [Link](https://github.com/shadcndashboard/shadcndashboard) | 2026-08-11T14:27:05.834Z |
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | shadcn-event-calendar | A beautiful and flexible event calendar component inspired by Google Calendar and Notion, built with Shadcn UI, TailwindCSS, and Framer Motion. | [Link](https://shadcn-event-calendar.vercel.app) | 2025-07-16T12:35:38.000Z |
 | shieldcn | Shields.io alternative that renders GitHub badges as shadcn/ui Button components via Satori. Supports npm, GitHub, Discord, Reddit badges with dark/light mode, 6 variants, and 40k+ icons. | [Link](https://shieldcn.dev) | 2026-04-25T00:00:00.000Z |
@@ -263,6 +264,7 @@
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-04-03T20:06:16.000Z |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-12-27T12:56:05.000Z |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) | 2025-02-03T19:03:08.000Z |
+| snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) | 2026-08-11T14:27:05.834Z |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
@@ -307,14 +309,20 @@
 
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
+| 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 7ovr | Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, and ship in minutes. | [Link](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) | 2026-07-04T01:23:53.331Z |
+| atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
+| interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
+| sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.io.vn/) | 2026-08-11T14:27:05.834Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
+| wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
 
 ## Plugins and Extensions
 
@@ -396,6 +404,7 @@
 | shadcn-pricing-page-generator | The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. | [Link](https://shipixen.com/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://shadcnthemeeditor.vercel.app) | 2024-12-27T12:56:05.000Z |
 | shadcn-zod-form | CLI tool to generate shadcn/ui forms from Zod schemas. | [Link](https://github.com/ilyichv/shadcn-zod-form) | 2024-12-27T12:56:05.000Z |
+| shadscan | Deterministic UI audits for shadcn apps, built for your terminal, your CI, and your AI agent. Scores accessibility, UI states, navigation, forms, metadata, and production polish with cited evidence and agent-ready fixes. | [Link](https://shadscan.com) | 2026-08-11T13:49:12.530Z |
 | sharable-form-builder | A sharable form builder for creating forms and sharing your form link, based on shadcn/ui and Next.js. | [Link](https://github.com/ayoubben18/sharable-form-builder) | 2024-12-27T12:56:05.000Z |
 | shoogle | A shadcn search engine | [Link](https://shoogle.dev/) | 2026-02-13T02:05:41.000Z |
 | slidytabs | A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use or customize the component | [Link](https://slidytabs.dev) | 2026-01-23T21:13:51.000Z |
@@ -454,26 +463,27 @@
 
 | Name | Description | Link | Date |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------- |
-| Angular | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
+| Angular (spartan) | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
 | Basecoat | Vanilla HTML, CSS and JS port of shadcn/ui. | [Link](https://basecoatui.com) | 2025-07-07T12:15:40.000Z |
-| Forui | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
-| Flutter | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
+| Blazor (simple/ui) | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
+| Flutter (Forui) | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
+| Flutter (shadcn_ui) | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | Franken UI | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
-| JollyUI | shadcn/ui compatible react aria components. | [Link](https://github.com/jolbol1/jolly-ui) | 2024-12-27T12:56:05.000Z |
-| Kotlin | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
-| mkdocs-shadcn | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
+| Go (shadcn-templ) | Go and templ port of shadcn/ui. | [Link](https://github.com/axadrn/shadcn-templ) | 2026-08-11T14:24:58.708Z |
+| Kotlin (shadcn-kotlin) | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
+| MkDocs (mkdocs-shadcn) | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
 | .NET (ShadUI) | Avalonia port of shadcn/ui. Based on SukiUI | [Link](https://github.com/accntech/shad-ui/) | 2025-10-13T13:42:09.000Z |
-| Phoenix Liveview | Phoenix Liveview port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-12-27T12:56:05.000Z |
-| React Native | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-12-27T12:56:05.000Z |
-| React Native (recommended) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27T12:56:05.000Z |
-| Ruby | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-12-27T12:56:05.000Z |
-| Rust (egui) | Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that fail the build on raw values. Live wasm storybook. | [Link](https://github.com/Type-zero-labs/ouroboros-ui) | 2026-07-07 |
-| Solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
-| Svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
-| Swift | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
-| Sysinfocus simple/ui | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
-| tetra-ui | Delightful components for a clean, accessible and modern component library for React Native. | [Link](https://github.com/Liamandrew/tetra-ui) | 2026-06-22 |
-| Vue | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
+| Phoenix LiveView (salad_ui) | Phoenix LiveView port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-12-27T12:56:05.000Z |
+| React Aria (jolly-ui) | shadcn/ui compatible react aria components. | [Link](https://github.com/jolbol1/jolly-ui) | 2024-12-27T12:56:05.000Z |
+| React Native (nativecn-ui) | React Native port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/nativecn-ui) | 2024-12-27T12:56:05.000Z |
+| React Native (react-native-reusables) | React Native port of shadcn/ui (recommended). | [Link](https://github.com/mrzachnugent/react-native-reusables) | 2024-12-27T12:56:05.000Z |
+| React Native (tetra-ui) | Delightful components for a clean, accessible and modern component library for React Native. | [Link](https://github.com/Liamandrew/tetra-ui) | 2026-06-22 |
+| Ruby (shadcn-rails) | Ruby port of shadcn/ui. | [Link](https://github.com/aviflombaum/shadcn-rails) | 2024-12-27T12:56:05.000Z |
+| Rust (ouroboros-ui) | Native Rust/egui port of the shadcn/ui design language. Token-first, with governance tests that fail the build on raw values. Live wasm storybook. | [Link](https://github.com/Type-zero-labs/ouroboros-ui) | 2026-07-07 |
+| Solid (shadcn-solid) | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
+| Svelte (shadcn-svelte) | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
+| Swift (swiftcn-ui) | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
+| Vue (shadcn-vue) | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
 
 ## Design System
 
@@ -585,6 +595,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### For the Awesome List
 
+Read [CONTRIBUTING.md](CONTRIBUTING.md) first — it has the row format, the naming
+rules, and what a resource has to clear to be accepted.
+
 - **Via Website**: Use the built-in submission form at [awesomeshadcn.dev](https://awesomeshadcn.dev/)
 - **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
-- **Guidelines**: Ensure resources are shadcn/ui related, well-documented, and actively maintained
