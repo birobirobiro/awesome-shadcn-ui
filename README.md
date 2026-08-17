@@ -568,11 +568,13 @@
 
 ## Star History
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=birobirobiro/awesome-shadcn-ui&type=Date" />
-</picture>
+<a href="https://star-history.dera.page/#birobirobiro/awesome-shadcn-ui&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=birobirobiro/awesome-shadcn-ui&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=birobirobiro/awesome-shadcn-ui&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=birobirobiro/awesome-shadcn-ui&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Contributors
 
