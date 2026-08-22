@@ -489,6 +489,7 @@
 
 | Name | Description | Link | Date |
 | ---------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
+| better-design | Open Source Claude Design | [Link](https://github.com/marvkr/better-design) |
 | shadcn-storybook-registry | Registry of stories for the shadcn components. Quickly get the atomic level components documented in Storybook. | [Link](https://registry.lloydrichards.dev/) | 2025-02-07T19:37:06.000Z |
 | obra-shadcn-ui | This file replicates all 51 shadcn/ui v4 components in a composable way as a reusable Figma library.. | [Link](https://www.figma.com/community/file/1514746685758799870/obra-shadcn-ui) | 2025-06-16T11:48:04.000Z |
 | shadcn-ui-components | Every component recreated in Figma. | [Link](https://www.figma.com/community/file/1342715840824755935/shadcn-ui-components) | 2024-12-27T12:56:05.000Z |
