@@ -463,6 +463,7 @@
 
 | Name | Description | Link | Date |
 | -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ---------- |
+| Angular (Base UI) | CLI-first Angular + Tailwind copy-in port of the shadcn/ui model. | [Link](https://github.com/Base-ui-ng/base-ui) |
 | Angular (spartan) | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
 | Basecoat | Vanilla HTML, CSS and JS port of shadcn/ui. | [Link](https://basecoatui.com) | 2025-07-07T12:15:40.000Z |
 | Blazor (simple/ui) | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
