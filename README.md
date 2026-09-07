@@ -171,6 +171,7 @@
 | ogimagecn | Beautiful OG images, made simple. Ready to use, customizable Open Graph image components for React. | [Link](https://github.com/shadcn-labs/ogimagecn) | 2026-06-15 |
 | origin-ui | Beautiful UI components with Tailwind CSS and Next.js. | [Link](https://originui.com/) | 2024-12-27T12:56:05.000Z |
 | otf-ui | 215+ cross-platform components for Next.js (Radix + Tailwind v4) and Expo (Tamagui) with one shared API. MIT. | [Link](https://otf-kit.dev/components) | 2026-05-14T00:00:00.000Z |
+| pace-ui | A collection of free and premium shadcn components, blocks, templates, starters, and MCP. Built for designers and developers to create beautiful, production ready apps faster | [Link](http://paceui.com/)) | 2026-08-15T10:34:28.000Z |
 | password-input | shadcn/ui custom password input. | [Link](https://gist.github.com/mjbalcueva/b21f39a8787e558d4c536bf68e267398) | 2024-12-27T12:56:05.000Z |
 | payment-gateways | Integration of payment gateways with Next.js 14. | [Link](https://github.com/PremPrakashCodes/payment-gateways) | 2024-12-27T12:56:05.000Z |
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
