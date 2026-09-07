@@ -312,6 +312,7 @@
 | 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 7ovr | Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, and ship in minutes. | [Link](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) | 2026-07-04T01:23:53.331Z |
 | atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| Better Design | One shadcn registry holding 85 complete design systems, each with the same 200-plus components and tokens, plus an MCP server that helps coding agents pick and install one. Free, no account. | [Link](https://better-design.com) | 2026-08-21T17:41:48.000Z |
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
