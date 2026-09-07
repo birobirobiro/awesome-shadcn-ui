@@ -105,6 +105,7 @@
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) | 2024-12-27T12:56:05.000Z |
 | envin | Framework-agnostic, type-safe tool to validate and preview your environment variables - powered by your favorite schema validator. | [Link](https://envin.turbostarter.dev) | 2025-07-07T12:17:37.000Z |
 | eo-n/ui | Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind CSS for a modern and customizable design system. | [Link](https://github.com/aeonzz/eo-n) | 2025-04-03T20:12:06.000Z |
+| evex | Open shadcn registry of Eve agents: preview every file, install with `npx shadcn@latest add @evex/<slug>`, and publish by pull request. | [Link](https://evex.sh) |
 | extend-ui | Reusable components built on shadcn/ui for web applications. | [Link](https://www.extend-ui.com/) | 2024-12-27T12:56:05.000Z |
 | fancy-area | Textarea with @mention support inspired by GitHub's PR comment section. | [Link](https://craft.mxkaske.dev/post/fancy-area) | 2024-12-27T12:56:05.000Z |
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) | 2024-12-27T12:56:05.000Z |
