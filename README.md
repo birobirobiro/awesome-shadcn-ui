@@ -348,6 +348,7 @@
 | ewgenius/ui | Create custom themes for shadcn/ui effortlessly using vibrant palettes from Radix Colors. | [Link](https://ui.ewgenius.me/shadcn-radix-colors) | 2024-12-27T12:56:05.000Z |
 | gradient-picker | Fancy Gradient Picker built with shadcn/ui, Radix UI, and Tailwind CSS. | [Link](https://github.com/Illyism/gradient-picker) | 2024-12-27T12:56:05.000Z |
 | navnote/rangeen | Tool that helps you to create a colour palette for your website. | [Link](https://github.com/navnote/rangeen) | 2024-12-27T12:56:05.000Z |
+| @sebas-dv/shadcn-theme-editor | In-app overlay that edits shadcn (Tailwind v4 / OKLCH) theme tokens live and writes changes straight back to your globals.css via PostCSS, with OKLCH sliders and live WCAG contrast checks. | [Link](https://github.com/Sebas-DV/shadcn-theme-editor) |
 | shadesigner.com | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface. | [Link](https://shadesigner.com) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-12-27T12:56:05.000Z |
 | shadcn theme editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/) | 2024-12-27T12:56:05.000Z |
