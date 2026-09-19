@@ -160,7 +160,7 @@ function findGlobalDuplicate(
  * - Rejects duplicates (name or URL) found anywhere in the README
  * - Finds the correct category section
  * - Inserts alphabetically within that section
- * - Includes today's date in the entry
+ * - Leaves the Date cell empty for the add-dates workflow to stamp on merge
  *
  * @param readmeContent - Current README markdown content
  * @param submission - Resource data to insert
@@ -177,9 +177,12 @@ function insertResourceIntoReadme(
     return { content: "", error: duplicateError };
   }
 
-  // Format: | Name | Description | Link | Date |
-  const today = new Date().toISOString().split("T")[0];
-  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) | ${today} |`;
+  // The row is submitted without a Date cell at all — the add-dates workflow
+  // appends one when the change lands on main, so the README records when an
+  // entry was merged rather than when it was submitted. add-dates only fills
+  // cells that are empty, so a date written here would survive the merge and
+  // win over the real one.
+  const newEntry = `| ${submission.name} | ${submission.description} | [Link](${submission.url}) |`;
 
   let insertIndex = -1;
   let inTargetSection = false;
