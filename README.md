@@ -55,6 +55,7 @@
 | adapttable | Data table for shadcn/ui in one import — URL-synced state, declarative filters with chips, column management and virtualization. Unstyled core pre-wired with the shadcn class preset. | [Link](https://github.com/orwa-mahmoud/adapttable) | 2026-07-11 |
 | agents-ui | Agents UI is LiveKit’s open source component library built with React and shadcn for designing voice agent interfaces. Start with production-ready defaults, then customize every detail to match your brand. | [Link](https://livekit.io/ui) | 2026-03-03T17:54:22.000Z |
 | agentcn | Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve and Flue. | [Link](https://agentcn.vercel.app) | 2026-06-21T12:00:00.000Z |
+| aicanvas | Animated React and Tailwind components and blocks installable via the shadcn CLI, with an MIT-licensed free library (CLI installs need a free account) and a paid Premium tier for design systems and templates. | [Link](https://aicanvas.me) | 2026-09-19T06:21:21.332Z |
 | animated-header | Vercel-like animated header. | [Link](https://github.com/mehrdadrafiee/animated-header) | 2025-10-25T16:09:52.000Z |
 | animated-tabs | Vercel-like animated tabs. | [Link](https://github.com/mehrdadrafiee/animated-tabs) | 2025-04-06T14:14:05.000Z |
 | approvals-ui | Approval workflow components for React Flow: quorum gates, amount thresholds, a policy lint (segregation of duties, single approver on high value), and plain-language editing behind a human review gate. Distributed as a shadcn registry. | [Link](https://approvals-ui.vercel.app) | 2026-07-08 |
@@ -312,16 +313,20 @@
 | 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 7ovr | Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, and ship in minutes. | [Link](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) | 2026-07-04T01:23:53.331Z |
 | atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| beste-ui | shadcn/ui registry of blocks, pieces and components installable with the shadcn CLI or over MCP; pieces, components and some blocks are free under MIT, while most blocks and full pages require a paid Pro license. | [Link](https://ui.beste.co/) | 2026-09-19T06:24:41.426Z |
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
+| Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
+| shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
 | sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.io.vn/) | 2026-08-11T14:27:05.834Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
+| usva | React component library built on Base UI with three themes (atmospheric dark, dense, and light) sharing one token set, installable from its shadcn registry or npm. | [Link](https://usva.build/) | 2026-09-19T06:24:02.410Z |
 | wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
 
 ## Plugins and Extensions
@@ -373,6 +378,7 @@
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/) | 2024-12-27T12:56:05.000Z |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-12-27T12:56:05.000Z |
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/cheatsheet/) | 2025-09-23T23:27:50.000Z |
+| compify | Open-source CLI that packages selected React Storybook stories into reviewable shadcn registry items, with a public component registry and a hosted editor that offers paid credit-based plans. | [Link](https://compify.app) | 2026-09-19T06:25:19.361Z |
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-12-27T12:56:05.000Z |
