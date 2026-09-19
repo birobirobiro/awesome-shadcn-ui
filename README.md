@@ -315,7 +315,7 @@
 | atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
 | beste-ui | shadcn/ui registry of blocks, pieces and components installable with the shadcn CLI or over MCP; pieces, components and some blocks are free under MIT, while most blocks and full pages require a paid Pro license. | [Link](https://ui.beste.co/) | 2026-09-19T06:24:41.426Z |
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
-| blode-ui | An open-source registry of accessible React components built on Base UI and Tailwind CSS v4, installable with the shadcn CLI. | [Link](https://blode.co/ui) |
+| blode-ui | An open-source registry of accessible React components built on Base UI and Tailwind CSS v4, installable with the shadcn CLI. | [Link](https://blode.co/ui) | 2026-09-19T06:29:29.076Z |
 | crafterui | Motion and interaction components for React and Tailwind — 3D carousels, scroll letter reveals, a Dynamic Island, cursor hit-testing and rolling countdowns — installed with the shadcn CLI and owned as source. | [Link](https://crafterui.com) | 2026-09-19T06:28:45.698Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
