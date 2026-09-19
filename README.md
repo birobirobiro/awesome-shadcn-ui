@@ -366,6 +366,7 @@
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------- |
 | animata | Hand-crafted ✍️ interaction animations and effects from around the internet 🛜 to copy and paste into your project. | [Link](https://animata.design) | 2024-12-27T12:56:05.000Z |
 | animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15T02:52:46.000Z |
+| motion-lexicon | Open-source shadcn registry of animated React components, page blocks, and motion primitives, each with a live preview and reduced-motion support. | [Link](https://motion-lexicon.pages.dev/en/) |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-12-27T12:56:05.000Z |
