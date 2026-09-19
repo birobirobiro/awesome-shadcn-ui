@@ -336,7 +336,7 @@
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
 | usva | React component library built on Base UI with three themes (atmospheric dark, dense, and light) sharing one token set, installable from its shadcn registry or npm. | [Link](https://usva.build/) | 2026-09-19T06:24:02.410Z |
 | wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
-| warren-ui | Data-dense instrument-panel components for ops and monitoring dashboards, such as panels, sparklines, heatmaps, ledgers and incident timelines. | [Link](https://warren.eduard3v.com) |
+| warren-ui | Data-dense instrument-panel components for ops and monitoring dashboards, such as panels, sparklines, heatmaps, ledgers and incident timelines. | [Link](https://warren.eduard3v.com) | 2026-09-19T06:33:36.627Z |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
 
 ## Plugins and Extensions
