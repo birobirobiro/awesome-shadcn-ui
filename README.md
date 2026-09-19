@@ -317,7 +317,7 @@
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
-| evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) |
+| evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
 | Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
