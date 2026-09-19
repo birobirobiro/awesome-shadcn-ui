@@ -106,7 +106,6 @@
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) | 2024-12-27T12:56:05.000Z |
 | envin | Framework-agnostic, type-safe tool to validate and preview your environment variables - powered by your favorite schema validator. | [Link](https://envin.turbostarter.dev) | 2025-07-07T12:17:37.000Z |
 | eo-n/ui | Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind CSS for a modern and customizable design system. | [Link](https://github.com/aeonzz/eo-n) | 2025-04-03T20:12:06.000Z |
-| evex | Open shadcn registry of Eve agents: preview every file, install with `npx shadcn@latest add @evex/<slug>`, and publish by pull request. | [Link](https://evex.sh) |
 | extend-ui | Reusable components built on shadcn/ui for web applications. | [Link](https://www.extend-ui.com/) | 2024-12-27T12:56:05.000Z |
 | fancy-area | Textarea with @mention support inspired by GitHub's PR comment section. | [Link](https://craft.mxkaske.dev/post/fancy-area) | 2024-12-27T12:56:05.000Z |
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) | 2024-12-27T12:56:05.000Z |
@@ -318,6 +317,7 @@
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
+| evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) |
 | Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
