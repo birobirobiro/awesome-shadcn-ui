@@ -321,7 +321,7 @@
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | blode-ui | An open-source registry of accessible React components built on Base UI and Tailwind CSS v4, installable with the shadcn CLI. | [Link](https://blode.co/ui) | 2026-09-19T06:29:29.076Z |
 | crafterui | Motion and interaction components for React and Tailwind — 3D carousels, scroll letter reveals, a Dynamic Island, cursor hit-testing and rolling countdowns — installed with the shadcn CLI and owned as source. | [Link](https://crafterui.com) | 2026-09-19T06:28:45.698Z |
-| data-table-filters | Data table blocks for shadcn/ui with faceted filters, sorting, infinite scroll and a row detail sheet, installed as editable source with the shadcn CLI. | [Link](https://github.com/openstatusHQ/data-table-filters) |
+| data-table-filters | Data table blocks for shadcn/ui with faceted filters, sorting, infinite scroll and a row detail sheet, installed as editable source with the shadcn CLI. | [Link](https://github.com/openstatusHQ/data-table-filters) | 2026-09-19T06:39:38.747Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
