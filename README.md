@@ -337,6 +337,7 @@
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
 | shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
+| soldevelo | MIT-licensed shadcn registry of components, blocks and page templates from the open-source projects SolDevelo builds, starting with OpenLMIS, built on Base UI. | [Link](https://registry.soldevelo.com) |
 | sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.studio/) | 2026-08-11T14:27:05.834Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
