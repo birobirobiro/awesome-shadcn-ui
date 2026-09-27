@@ -18,6 +18,10 @@ interface Category {
   description: string;
 }
 
+// The categories index depends only on the README, so it is prerendered at
+// build time and cached until the next deploy.
+export const dynamic = "force-static";
+
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "Libs and Components":
     "Essential libraries and reusable components built with shadcn/ui",

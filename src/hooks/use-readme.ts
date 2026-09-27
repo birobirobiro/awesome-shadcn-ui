@@ -1,11 +1,8 @@
 import { GITHUB_CONFIG } from "@/lib/config";
 import { titleToSlug } from "@/lib/slugs";
-import { Octokit } from "@octokit/rest";
 
-/** Singleton Octokit instance for GitHub API calls */
-const octokit = new Octokit();
-
-/** Categories to exclude from the resource list */
+/**
+ * Categories to exclude from the resource list */
 const EXCLUDED_CATEGORIES = ["Star History", "Contributors"];
 
 /** Cache duration in milliseconds (30 minutes) */
@@ -32,6 +29,23 @@ export interface Resource {
   /** GitHub star count (only for resources hosted on GitHub) */
   stars?: number;
 }
+
+/**
+ * Default fetch options for the GitHub API.
+ *
+ * `force-cache` makes the data fetch once at build time and be served from
+ * the incremental cache afterwards, so request-time invocations don't
+ * re-download the README on every page render. Without it, fetches are never
+ * cached by default (Next.js 16) and every SSR pass would hit the API again.
+ */
+const GITHUB_FETCH_INIT: RequestInit = {
+  cache: "force-cache",
+  headers: {
+    Accept: "application/vnd.github+json",
+    "User-Agent": GITHUB_CONFIG.API_HEADERS["User-Agent"] ?? "awesome-shadcn-ui",
+  },
+  redirect: "follow",
+} as const;
 
 /** Cached resource data */
 let cachedData: Resource[] | null = null;
@@ -72,18 +86,19 @@ export function githubRepoFromUrl(rawUrl: string): string | null {
  */
 async function fetchStarCounts(): Promise<Record<string, number>> {
   try {
-    const response = await octokit.repos.getContent({
-      owner: GITHUB_CONFIG.REPO_OWNER,
-      repo: GITHUB_CONFIG.REPO_NAME,
-      path: "public/stars.json",
-    });
+    const response = await fetch(
+      `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/public/stars.json`,
+      GITHUB_FETCH_INIT,
+    );
 
-    if (Array.isArray(response.data) || !("content" in response.data)) {
+    if (!response.ok) {
       return {};
     }
 
+    const data = (await response.json()) as { content?: string };
+
     const parsed = JSON.parse(
-      Buffer.from(response.data.content, "base64").toString(),
+      Buffer.from(data.content ?? "", "base64").toString(),
     );
     return parsed?.stars && typeof parsed.stars === "object"
       ? parsed.stars
@@ -197,20 +212,22 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
   }
 
   try {
-    const [response, starCounts] = await Promise.all([
-      octokit.repos.getContent({
-        owner: GITHUB_CONFIG.REPO_OWNER,
-        repo: GITHUB_CONFIG.REPO_NAME,
-        path: "README.md",
-      }),
+    const [readmeResponse, starCounts] = await Promise.all([
+      fetch(
+        `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/README.md`,
+        GITHUB_FETCH_INIT,
+      ),
       fetchStarCounts(),
     ]);
 
-    if (Array.isArray(response.data) || !("content" in response.data)) {
-      throw new Error("Invalid response data");
+    if (!readmeResponse.ok) {
+      throw new Error(
+        `Invalid response data: ${readmeResponse.status} ${readmeResponse.statusText}`,
+      );
     }
 
-    const content = Buffer.from(response.data.content, "base64").toString();
+    const readmeData = (await readmeResponse.json()) as { content?: string };
+    const content = Buffer.from(readmeData.content ?? "", "base64").toString();
     const lines = content.split("\n");
 
     const resources: Resource[] = [];
