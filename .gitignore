@@ -38,4 +38,5 @@ next-env.d.ts
 
 .agents
 .claude
-.mcp.json
+.mcp.json.wrangler/
+.playwright-mcp/
