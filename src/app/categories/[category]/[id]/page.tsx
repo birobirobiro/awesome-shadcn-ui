@@ -1,6 +1,6 @@
 import { ItemPageContent } from "@/components/item-page-content";
 import { fetchAndParseReadme } from "@/hooks/use-readme";
-import { slugToCategoryName } from "@/lib/slugs";
+import { categoryNameToSlug, slugToCategoryName } from "@/lib/slugs";
 import { notFound } from "next/navigation";
 
 interface ItemPageProps {
@@ -8,6 +8,19 @@ interface ItemPageProps {
     category: string;
     id: string;
   }>;
+}
+
+// Item pages depend only on the README, so they are prerendered at build time
+// for every category and item id and served statically afterwards.
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+  const resources = await fetchAndParseReadme();
+
+  return resources.map((resource) => ({
+    category: categoryNameToSlug(resource.category),
+    id: resource.id,
+  }));
 }
 
 export default async function ItemPage({ params }: ItemPageProps) {

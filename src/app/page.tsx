@@ -9,6 +9,10 @@ interface Category {
 
 const EXCLUDED_CATEGORIES = ["Star History", "Contributors"];
 
+// The site content only changes when the README changes (weekly bot commits),
+// so the page is prerendered at build time and cached until the next deploy.
+export const dynamic = "force-static";
+
 export default async function Home() {
   const fetchedResources = await fetchAndParseReadme();
 
