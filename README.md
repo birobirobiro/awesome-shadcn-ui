@@ -1,1 +1,1 @@
-file:///tmp/shadcn-readme-only.txt
+@file:/tmp/shadcn-readme-only.txt
