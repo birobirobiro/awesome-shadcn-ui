@@ -1,1 +1,1 @@
-file:///tmp/shadcn-readme-built.md
+PARTIAL_TEST
