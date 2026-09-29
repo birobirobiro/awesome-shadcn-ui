@@ -1,1 +1,1 @@
-VEVTVF9TTUFMTA==
+@/tmp/shadcn-readme-only.txt
