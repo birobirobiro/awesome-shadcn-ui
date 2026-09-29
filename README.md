@@ -1,1 +1,1 @@
-/tmp/readme-good.md
+@file:///tmp/readme-good.md
