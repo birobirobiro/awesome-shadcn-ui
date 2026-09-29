@@ -1,1 +1,1 @@
-@file:/tmp/shadcn-readme-only.txt
+TEST_PLACEHOLDER
