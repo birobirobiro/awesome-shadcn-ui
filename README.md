@@ -1,1 +1,1 @@
-TEST_PLACEHOLDER
+/tmp/readme-good.md
