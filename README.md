@@ -325,6 +325,7 @@
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
+| hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) |
 | Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | keyline-icons | MIT-licensed icon set drawn on one 24×24 grid in stroke, two-tone, duotone and fill styles with rounded or sharp corners, installable icon by icon with the shadcn CLI. | [Link](https://keylineicons.com/) | 2026-09-19T06:30:09.746Z |
