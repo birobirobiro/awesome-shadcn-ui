@@ -1,1 +1,1 @@
-@file:///tmp/readme-good.md
+https://raw.githubusercontent.com/birobirobiro/awesome-shadcn-ui/main/README.md
