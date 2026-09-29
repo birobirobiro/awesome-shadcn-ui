@@ -1,1 +1,1 @@
-/tmp/shadcn-readme-built.md
+file:///tmp/shadcn-readme-built.md
