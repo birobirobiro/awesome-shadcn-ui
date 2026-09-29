@@ -1,1 +1,1 @@
-PLACEHOLDER_WILL_REPLACE
+@/tmp/shadcn-readme-only.txt
