@@ -1,1 +1,1 @@
-/tmp/fixed-readme.md
+TEST_SMALL
