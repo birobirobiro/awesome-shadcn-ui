@@ -181,6 +181,7 @@
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
 | pdfx | shadcn/ui-style PDF component library for React. Copy-paste components built on @react-pdf/renderer run pdfx add invoice and own the code. | [Link](https://github.com/akii09/pdfx) | 2026-02-28T15:25:37.000Z |
 | phone-input-shadcn-ui | Custom phone number component with shadcn/ui. | [Link](https://www.armand-salle.fr/post/phone-input-shadcn-ui) | 2024-12-27T12:56:05.000Z |
+| pie-menu | A radial pie menu component for shadcn/ui: press, drag toward an item, and release, with full keyboard support and a headless primitive. | [Link](https://piemenu.jpmarqu.es) |
 | pittaya-ui | A fully open-source UI library for React, powered by TypeScript and Tailwind CSS. Fast, composable, and ready for production. | [Link](https://github.com/pittaya-ui/ui-kit) | 2026-01-27T22:07:20.000Z |
 | planner | Adaptable scheduling component for React. | [Link](https://github.com/UretzkyZvi/planner) | 2024-12-27T12:56:05.000Z |
 | plate | AI-powered rich-text editor. | [Link](https://github.com/udecode/plate) | 2024-12-27T12:56:05.000Z |
