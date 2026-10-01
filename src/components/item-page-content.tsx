@@ -167,6 +167,7 @@ export function ItemPageContent({
                   className="w-full text-xs sm:text-sm"
                 >
                   <Link
+                    prefetch={false}
                     href={`/categories/${categoryNameToSlug(item.category)}`}
                   >
                     View all in {item.category}
@@ -201,6 +202,7 @@ export function ItemPageContent({
               <CardContent className="p-4 pt-0 space-y-3">
                 {relatedItems.map((relatedItem) => (
                   <Link
+                    prefetch={false}
                     key={relatedItem.id}
                     href={`/categories/${categoryNameToSlug(item.category)}/${relatedItem.id}`}
                     className="block group"

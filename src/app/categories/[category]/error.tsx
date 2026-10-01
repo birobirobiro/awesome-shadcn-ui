@@ -39,13 +39,17 @@ export default function CategoryError({
             Try again
           </Button>
           <Button variant="outline" asChild>
-            <Link href="/categories" className="flex items-center gap-2">
+            <Link
+              prefetch={false}
+              href="/categories"
+              className="flex items-center gap-2"
+            >
               <ArrowLeft className="h-4 w-4" />
               Back to categories
             </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="/" className="flex items-center gap-2">
+            <Link prefetch={false} href="/" className="flex items-center gap-2">
               <Home className="h-4 w-4" />
               Homepage
             </Link>

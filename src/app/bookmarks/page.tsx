@@ -243,7 +243,9 @@ export default function BookmarksPage() {
               bookmark icon on any item.
             </p>
             <Button asChild>
-              <Link href="/">Browse resources</Link>
+              <Link prefetch={false} href="/">
+                Browse resources
+              </Link>
             </Button>
           </div>
         ) : filteredItems.length === 0 && debouncedSearchQuery ? (

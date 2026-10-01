@@ -60,7 +60,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
           {/* Brand Section */}
           <motion.div variants={itemVariants} className="lg:col-span-2">
-            <Link href="/" className="flex items-center space-x-2 mb-4 group">
+            <Link
+              prefetch={false}
+              href="/"
+              className="flex items-center space-x-2 mb-4 group"
+            >
               <img
                 src="/logo.svg"
                 alt="logo"
@@ -82,6 +86,7 @@ export function Footer() {
               {quickLinks.map((link) => (
                 <li key={link.name}>
                   <Link
+                    prefetch={false}
                     href={link.href}
                     target={link.external ? "_blank" : undefined}
                     rel={link.external ? "noopener noreferrer" : undefined}
@@ -104,6 +109,7 @@ export function Footer() {
               {FOOTER_CATEGORIES.map((category) => (
                 <li key={category.slug}>
                   <Link
+                    prefetch={false}
                     href={`/categories/${category.slug}`}
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 group"
                   >

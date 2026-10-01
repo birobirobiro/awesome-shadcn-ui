@@ -26,7 +26,9 @@ export default function NotFound() {
           It might have been moved, deleted, or the URL might be incorrect.
         </p>
         <Button asChild size="lg">
-          <Link href="/">Return Home</Link>
+          <Link prefetch={false} href="/">
+            Return Home
+          </Link>
         </Button>
       </div>
     </div>
