@@ -60,6 +60,7 @@
 | approvals-ui | Approval workflow components for React Flow: quorum gates, amount thresholds, a policy lint (segregation of duties, single approver on high value), and plain-language editing behind a human review gate. Distributed as a shadcn registry. | [Link](https://approvals-ui.vercel.app) | 2026-07-08 |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-12-27T12:56:05.000Z |
 | audio/ui | A set of accessible and composable Audio UI components. Built on top of shadcn/ui, it's designed for you to copy, paste, and own. | [Link](https://github.com/ouestlabs/audio-ui) | 2025-11-20T13:31:44.000Z |
+| audiocn | Audio components for React, built the shadcn way: level meters, visualizers, faders, knobs, channel strips, a complete mixer, players and sound pads. Copy, paste, make them yours. | [Link](https://audiocn.dev) |
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-12-27T12:56:05.000Z |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-12-27T12:56:05.000Z |
