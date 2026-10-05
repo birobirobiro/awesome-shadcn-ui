@@ -77,6 +77,7 @@
 | chanhdai-components | A collection of reusable components. Trusted registry for shadcn/ui. | [Link](https://chanhdai.com/components) | 2026-03-01T13:34:15.000Z |
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-12-27T12:56:05.000Z |
+| Colorshot | Color and gradient picker for React and Vue that themes with your shadcn/ui tokens. | [Link](https://orshot.com/open-source/colorshot) |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20T17:48:50.000Z |
 | componentry | Beautiful Animated UI Components for React Effortlessly add polished, production-ready interactions to your projects, with the styling and animations already handled. Browse components | [Link](https://github.com/harshjdhv/componentry) | 2026-07-16 |
 | confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) | 2024-12-27T12:56:05.000Z |
