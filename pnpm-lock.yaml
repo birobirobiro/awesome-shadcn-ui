@@ -147,6 +147,9 @@ importers:
       baseline-browser-mapping:
         specifier: ^2.10.10
         version: 2.10.10
+      eslint:
+        specifier: 9.39.1
+        version: 9.39.1
       prettier:
         specifier: ^3
         version: 3.6.2
