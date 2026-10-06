@@ -191,6 +191,7 @@
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-27T12:56:05.000Z |
 | react-select | React-select library with shadcn styling. | [Link](https://gist.github.com/ilkou/7bf2dbd42a7faf70053b43034fc4b5a4) | 2024-12-27T12:56:05.000Z |
 | react-wheel-picker | iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. | [Link](https://react-wheel-picker.chanhdai.com) | 2025-09-23T23:23:42.000Z |
+| reactframe | Animated React components, blocks and page sections built with Tailwind CSS and Motion, installable with the shadcn CLI. 150+ free MIT-licensed items plus a paid premium tier. | [Link](https://reactframe.com/) |
 | recursive-dnd-kanban-board | Recursive drag and drop kanban board. | [Link](https://github.com/mehrdadrafiee/recursive-dnd-kanban-board) | 2024-12-27T12:56:05.000Z |
 | remocn | Build product demos, changelogs, and launch videos in React. Open source and delightfully easy | [Link](https://www.remocn.dev/) | 2026-04-14T02:06:56.000Z |
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
