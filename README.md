@@ -588,6 +588,7 @@
 | turborepo-launchpad | A comprehensive monorepo boilerplate for shadcn projects using Turbo. It features a highly scalable setup ideal for developing complex applications with shared components and utilities. | [Link](https://github.com/JadRizk/turborepo-launchpad) | 2024-12-27T12:56:05.000Z |
 | waitly | A simple and useful waitlist Next.js and Shadcn UI template. | [Link](https://shadcnuikit.com/template/waitly-free-waitlist-template) | 2026-01-23T21:25:02.000Z |
 | wordpress-plugin-boilerplate | WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, TailwindCSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR, and more. | [Link](https://github.com/prappo/wordpress-plugin-boilerplate) | 2024-12-27T12:56:05.000Z |
+| ZeroCRM | Open-source sales CRM dashboard. Next.js 16, Tailwind v4 & Radix UI, pixel-perfect and mobile-ready. | [Link](https://github.com/CerebralCEO/zerocrm) |
 
 ## Star History
 
