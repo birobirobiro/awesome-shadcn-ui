@@ -571,6 +571,7 @@
 | shadcn-saas-landing | A full-fledged SaaS Landing template built using Next.JS, shadcn/ui, and fumadocs. | [Link](https://github.com/techwithanirudh/shadcn-saas-landing) | 2025-11-20T13:31:17.000Z |
 | saas-blocks-kit | 10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui, Tailwind CSS v4 and TypeScript. Dark mode by default. | [Link](https://github.com/SekmenAhmet/saas-blocks-kit) | 2026-03-31T13:04:58.000Z |
 | shadcn-ui-dashboard | Multipurpose and powerful admin dashboard template compatible with shadcn/ui. | [Link](https://shadcnuidashboard.com) | 2025-09-23T23:26:28.000Z |
+| shadcn-vite-starter | Vite and React starter whose conventions, agent skills and shadcn/ui lint rules keep coding agents on pattern, with routing, data fetching, forms and tables already wired on shadcn/ui and Base UI. | [Link](https://github.com/7ovr/shadcn-vite-starter) |
 | shadcn-vue-landing-page | Landing page template using Vue, shadcn-vue, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-vue-landing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-admin-template | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2026-04-24T20:17:40.000Z |
 | shadcn-next-workflows | Interactive workflow builder using React Flows, Next.js, and Shadcn/ui. Create, connect, and validate custom nodes easily. | [Link](https://github.com/nobruf/shadcn-next-workflows) | 2024-12-27T12:56:05.000Z |
