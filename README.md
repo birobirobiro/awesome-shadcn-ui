@@ -468,6 +468,7 @@
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03T14:07:11.000Z |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
+| hirelayer | Recruiting API platform for resume parsing, candidate matching and ranking, whose dashboard, docs and demo are built on shadcn/ui and Tailwind CSS. Free tier of 50 credits a month, paid plans for more. | [Link](https://hirelayer.co) |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
 | memergez | Quickly generate memes by entering text or an avatar URL, with support for many meme commands. | [Link](https://github.com/avalynndev/memergez) | 2024-12-27T12:56:05.000Z |
