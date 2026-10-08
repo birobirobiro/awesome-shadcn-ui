@@ -467,6 +467,7 @@
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-12-27T12:56:05.000Z |
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03T14:07:11.000Z |
+| codeotter | Self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs and enforces merge gates, with a React dashboard built on shadcn/ui. | [Link](https://codeotter.io) |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
