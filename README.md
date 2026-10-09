@@ -471,6 +471,7 @@
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
 | memergez | Quickly generate memes by entering text or an avatar URL, with support for many meme commands. | [Link](https://github.com/avalynndev/memergez) | 2024-12-27T12:56:05.000Z |
+| Mini Golf Spots | Free US mini golf course finder whose shadcn/ui interface includes course sorting, a mobile filter sheet and course-action buttons. | [Link](https://minigolfspots.com/) |
 | multiboard | Minimal Kanban platform. Built with Better-Auth, Next.js, ZenStack, Prisma, and shadcn/ui. | [Link](https://github.com/olliethedev/multiboard) | 2025-07-15T17:11:44.000Z |
 | openhive | Open-source, self-hosted Slack alternative with channels, DMs, threads, reactions, file uploads, and video/audio calls. Built with Next.js, Supabase, Zustand, and shadcn/ui. | [Link](https://github.com/arseneHuot/openhive) | 2026-03-14T18:15:08.000Z |
 | plotwist | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US) | 2024-12-27T12:56:05.000Z |
