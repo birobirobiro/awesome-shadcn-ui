@@ -125,7 +125,7 @@
 | grid | An opinionated grid system for React and Tailwind | [Link](https://grid.joohyunpark.com) | 2026-05-06 |
 | guarahooks | A free, open-source collection of reusable React hooks you can copy and paste into your apps. | [Link](https://github.com/h3rmel/guarahooks) | 2026-07-04 |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
-| hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
+| hextaui | React components, hooks and AI blocks for shadcn/ui on Base UI, installed from its own registry; the components are free and MIT licensed, with paid Pro blocks. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
 | ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://github.com/ibelick/background-snippets) | 2024-12-27T12:56:05.000Z |
 | image-crop-field | Image crop field with shadcn/ui. This component is a wrapper around the react-easy-crop component. | [Link](https://github.com/JsCodeDevlopment/upload-crop-image) | 2025-10-08T02:41:05.000Z |
 | image-upload-shadcn | Image upload component. | [Link](https://github.com/kushagrasarathe/image-upload-shadcn) | 2024-12-27T12:56:05.000Z |
