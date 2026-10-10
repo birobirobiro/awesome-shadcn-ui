@@ -450,6 +450,7 @@
 | anishshobithps.com | Personal portfolio of a software developer, grid-styled design . | [Link](https://anishshobithps.com/) | 2026-02-27T22:16:04.000Z |
 | birobirobiro.dev | A personal developer portfolio. | [Link](https://birobirobiro.dev/) | 2024-12-27T12:56:05.000Z |
 | bucharitesh.in | A minimal portfolio with awesome craft's registry. | [Link](https://bucharitesh.in) | 2025-12-25T13:25:27.000Z |
+| Ceramic Coating Near Me | Free ceramic-coating shop finder with shadcn/ui filter sheets and sorting controls. | [Link](https://ceramiccoatingshopsnearme.com/) |
 | chanhdai.com | A minimal portfolio, component registry, and blog. | [Link](https://chanhdai.com) | 2025-09-23T23:23:42.000Z |
 | devfolios | Find best portfolio inspiration from all over the internet | [Link](https://devfolios-one.vercel.app/) | 2025-10-25T16:06:54.000Z |
 | godly | Astronomically good web design inspiration. Only the best of the best. | [Link](https://godly.website/) | 2024-12-27T12:56:05.000Z |
