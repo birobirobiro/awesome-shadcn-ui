@@ -397,7 +397,6 @@
 | cut-it | Link shortener built using Next.js App Router, Server Actions, Drizzle ORM, Turso, and styled with shadcn/ui. | [Link](https://github.com/mehrabmp/cut-it) | 2024-12-27T12:56:05.000Z |
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-12-27T12:56:05.000Z |
-| design-system-mcp | MCP server that serves a shadcn/ui project's components, cva variants, tokens and docs to coding agents with zero config, plus a linter that flags hex colors, off-scale spacing, invalid variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/design-system-mcp) |
 | dialectcn | A living catalog of shadcn presets — brand-inspired, community-submitted, and occasionally random. Pick one, copy the code, ship the UI. | [Link](https://dialectcn.xyz/) | 2026-04-24T20:07:56.000Z |
 | focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://focusbrew.vercel.app) | 2025-05-14T13:31:07.000Z |
 | form-builder | UI-based codegen tool to easily create beautiful and type-safe @shadcn/ui forms. | [Link](https://github.com/AlandSleman/FormBuilder) | 2024-12-27T12:56:05.000Z |
@@ -413,6 +412,7 @@
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | memi | Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, component scaffolds, accessibility checks, and file-anchored quality gates. | [Link](https://github.com/sarveshsea/memi) | 2026-07-15 |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
+| onsystem | Keeps coding agents on a shadcn/ui project's design system with zero config: an MCP server with its components, cva variants, tokens and docs, plus a linter that flags hex colors, off-scale spacing, invented components or variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/onsystem) |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
