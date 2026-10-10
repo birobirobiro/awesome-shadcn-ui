@@ -412,6 +412,7 @@
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | memi | Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, component scaffolds, accessibility checks, and file-anchored quality gates. | [Link](https://github.com/sarveshsea/memi) | 2026-07-15 |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
+| onsystem | Keeps coding agents on a shadcn/ui project's design system with zero config: an MCP server with its components, cva variants, tokens and docs, plus a linter that flags hex colors, off-scale spacing, invented components or variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/onsystem) |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
