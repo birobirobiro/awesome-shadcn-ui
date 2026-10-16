@@ -148,7 +148,7 @@
 | localmode | Local-first AI UI registry with 107 copy-owned primitives and 36 composed blocks (chat, RAG, Whisper transcription, CLIP image search) that run entirely in the browser, no servers or API keys. Installable via the shadcn CLI. | [Link](https://localmode.ai) | 2026-07-16T01:32:42.992Z |
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) | 2024-12-27T12:56:05.000Z |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) | 2024-12-27T12:56:05.000Z |
-| marmo-ui | React components for Applications combined with MCP Server | [Link](https://github.com/mahmoudilyan/marmoui) | 2026-07-14T12:56:05.000Z |
+| marmo-ui | React components for Applications combined with MCP Server | [Link](https://marmoui.com) | 2026-07-14T12:56:05.000Z |
 | maily.to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) | 2024-12-27T12:56:05.000Z |
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-27T12:56:05.000Z |
 | manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-25T13:29:02.000Z |
@@ -429,7 +429,6 @@
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
 | pastecode | Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. | [Link](https://github.com/Quorin/PasteCode.app) | 2024-12-27T12:56:05.000Z |
-| pictera | Generate Open Graph images without design skills. | [Link](https://pictera.co) | 2025-10-08T02:42:37.000Z |
 | proxmox-helper-scripts | A catalog of scripts for your Proxmox VE homelab, built with the Next.js App Router and styled with shadcn/ui. | [Link](https://github.com/BramSuurdje/proxmox-helper-scripts) | 2024-12-27T12:56:05.000Z |
 | quack-db | Open-source in-browser DuckDB SQL editor. | [Link](https://github.com/mattf96s/QuackDB) | 2024-12-27T12:56:05.000Z |
 | shadcn-easy-install | Install all shadcn components easily. One-click to install all selected components. | [Link](https://shadcn-easy-install.vercel.app/) | 2025-06-10T16:58:44.000Z |
