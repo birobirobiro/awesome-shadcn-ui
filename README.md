@@ -66,6 +66,7 @@
 | big-calendar | A modern, feature-rich calendar application with multiple viewing options built using Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/lramos33/big-calendar) | 2025-03-08T12:16:18.000Z |
 | billingsdk | Modern, type-safe billing and subscription management components for React, built with TypeScript and Tailwind CSS. Designed to work seamlessly alongside shadcn/ui by[Dodo Payments](https://dodopayments.com/). [GitHub](https://github.com/dodopayments/billingsdk) | [Link](https://billingsdk.com/) | 2025-09-06T21:28:00.000Z |
 | billui | Open source billing components for React built with Shadcn. Pricing cards, payment methods, invoice history and more. | [Link](https://github.com/commet-labs/billui) | 2025-12-25T13:27:40.000Z |
+| blobz | Deterministic, Playful SVG avatar generated from string | [Link](https://github.com/lirena00/blobz) |
 | blocks.so | A set of clean, modern building blocks to copy and paste into your apps. Works with all React frameworks. | [Link](https://github.com/ephraimduncan/blocks) | 2025-09-06T21:28:00.000Z |
 | buouui | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com) | 2025-04-06T18:36:39.000Z |
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-12-27T12:56:05.000Z |
