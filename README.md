@@ -327,7 +327,7 @@
 | keyline-icons | MIT-licensed icon set drawn on one 24×24 grid in stroke, two-tone, duotone and fill styles with rounded or sharp corners, installable icon by icon with the shadcn CLI. | [Link](https://keylineicons.com/) | 2026-09-19T06:30:09.746Z |
 | microkit | Copy-paste microinteractions — animated buttons, hover effects, tabs and inputs — each with a live preview and copy-ready source in both Tailwind and plain CSS, installable with the shadcn CLI. | [Link](https://microkit.co) | 2026-09-19T06:40:24.048Z |
 | mischief-ui | A playful, high-utility shadcn registry: PDF, DOCX and JSON viewers, redaction and bounding boxes, agent chat with tool calls, data tables, command palettes, OTP inputs, and shader fields. | [Link](https://ui.tinkererslabs.com) | 2026-09-19T06:32:11.927Z |
-| mizzle | Animated React components installed as source with the shadcn CLI. Free core set, one-time license for the rest. | [Link](https://mizzle.saddy.me) |
+| mizzle | Animated React components installed as source with the shadcn CLI, with a free core set and a one-time license for the remaining catalog. | [Link](https://mizzle.saddy.me) |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | ns-ui | Open-source registry of React components, each built around a single interaction, from heroes and animated backgrounds to charts, loaders and form controls, installable by URL with the shadcn CLI. | [Link](https://design.helpmarq.com) | 2026-09-19T06:31:31.355Z |
