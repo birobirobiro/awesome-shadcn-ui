@@ -59,6 +59,7 @@
 | ascii/cnlibs | The shadcn/ui components redrawn as monospace text, with frames made of ASCII characters on a single grid, built on Base UI and installable from its own shadcn registry. | [Link](https://ascii.cnlibs.com/) | 2026-09-19T06:36:55.297Z |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-12-27T12:56:05.000Z |
 | audio/ui | A set of accessible and composable Audio UI components. Built on top of shadcn/ui, it's designed for you to copy, paste, and own. | [Link](https://github.com/ouestlabs/audio-ui) | 2025-11-20T13:31:44.000Z |
+| audiocn | Audio components for React, built the shadcn way: level meters, visualizers, faders, knobs, channel strips, a complete mixer, players and sound pads. Copy, paste, make them yours. | [Link](https://audiocn.dev) | 2026-10-05T15:50:29.155Z |
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | auto-form | A React component that automatically creates a shadcn/ui form based on a zod schema. | [Link](https://github.com/vantezzen/auto-form) | 2024-12-27T12:56:05.000Z |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-12-27T12:56:05.000Z |
@@ -77,6 +78,7 @@
 | chanhdai-components | A collection of reusable components. Trusted registry for shadcn/ui. | [Link](https://chanhdai.com/components) | 2026-03-01T13:34:15.000Z |
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-12-27T12:56:05.000Z |
+| Colorshot | Color and gradient picker for React and Vue that themes with your shadcn/ui tokens. | [Link](https://orshot.com/open-source/colorshot) | 2026-10-16T11:27:01.191Z |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20T17:48:50.000Z |
 | componentry | Beautiful Animated UI Components for React Effortlessly add polished, production-ready interactions to your projects, with the styling and animations already handled. Browse components | [Link](https://github.com/harshjdhv/componentry) | 2026-07-16 |
 | confirm-dialog | A confirm dialog component built with shadcn/ui. | [Link](https://github.com/Aslam97/react-confirm-dialog) | 2024-12-27T12:56:05.000Z |
@@ -86,6 +88,7 @@
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-12-27T12:56:05.000Z |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-12-27T12:56:05.000Z |
 | custom-admin-dashboard | A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Includes products, products creation and details page, order, customer, and settings pages. | [Link](https://github.com/S5SAJID/custom-ecom) | 2025-09-06T21:28:00.000Z |
+| dashboardblocks | Open-source dashboard blocks for shadcn/ui, including KPIs, charts, tables and full dashboards installed with the shadcn CLI for Radix UI, Base UI and React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) | 2026-10-16T11:26:47.313Z |
 | data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://shadcn.davidsling.in/components/data-command) | 2025-09-06T21:28:00.000Z |
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-12-27T12:56:05.000Z |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-12-27T12:56:05.000Z |
@@ -124,7 +127,7 @@
 | grid | An opinionated grid system for React and Tailwind | [Link](https://grid.joohyunpark.com) | 2026-05-06 |
 | guarahooks | A free, open-source collection of reusable React hooks you can copy and paste into your apps. | [Link](https://github.com/h3rmel/guarahooks) | 2026-07-04 |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
-| hexta-ui | Build stunning websites effortlessly. Modern, responsive, and customizable UI components for Next.js. Copy, adapt, and personalize them. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
+| hextaui | React components, hooks and AI blocks for shadcn/ui on Base UI, installed from its own registry; the components are free and MIT licensed, with paid Pro blocks. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
 | ibelick/background-snippet | Ready to use collection of modern background snippets. | [Link](https://github.com/ibelick/background-snippets) | 2024-12-27T12:56:05.000Z |
 | image-crop-field | Image crop field with shadcn/ui. This component is a wrapper around the react-easy-crop component. | [Link](https://github.com/JsCodeDevlopment/upload-crop-image) | 2025-10-08T02:41:05.000Z |
 | image-upload-shadcn | Image upload component. | [Link](https://github.com/kushagrasarathe/image-upload-shadcn) | 2024-12-27T12:56:05.000Z |
@@ -177,6 +180,7 @@
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
 | pdfx | shadcn/ui-style PDF component library for React. Copy-paste components built on @react-pdf/renderer run pdfx add invoice and own the code. | [Link](https://github.com/akii09/pdfx) | 2026-02-28T15:25:37.000Z |
 | phone-input-shadcn-ui | Custom phone number component with shadcn/ui. | [Link](https://www.armand-salle.fr/post/phone-input-shadcn-ui) | 2024-12-27T12:56:05.000Z |
+| pie-menu | A radial pie menu component for shadcn/ui: press, drag toward an item, and release, with full keyboard support and a headless primitive. | [Link](https://piemenu.jpmarqu.es) | 2026-10-16T11:27:18.323Z |
 | pittaya-ui | A fully open-source UI library for React, powered by TypeScript and Tailwind CSS. Fast, composable, and ready for production. | [Link](https://github.com/pittaya-ui/ui-kit) | 2026-01-27T22:07:20.000Z |
 | planner | Adaptable scheduling component for React. | [Link](https://github.com/UretzkyZvi/planner) | 2024-12-27T12:56:05.000Z |
 | plate | AI-powered rich-text editor. | [Link](https://github.com/udecode/plate) | 2024-12-27T12:56:05.000Z |
@@ -307,36 +311,48 @@
 
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
-| 000h | MIT-licensed shadcn registry of React components with organic shapes and adjustable motion, covering core UI, charts, drawers, text effects, animated backgrounds and WebGL sculptures. | [Link](https://000h.cojeev.com/) | 2026-09-19T06:41:47.735Z |
+| 000h | MIT-licensed shadcn registry of React components with organic shapes and adjustable motion, covering core UI, charts, drawers, text effects, animated backgrounds and WebGL sculptures. | [Link](https://cojeev.com/ui/) | 2026-09-19T06:41:47.735Z |
 | 1st-Pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 7ovr | Free, production-ready blocks built on Base UI for marketing and application UIs. Copy, paste, and ship in minutes. | [Link](https://7ovr.com/?utm_source=awesome-shadcn-ui&utm_medium=referral&utm_campaign=directory) | 2026-07-04T01:23:53.331Z |
+| arc-ui | Registry of React components and blocks with motion built in, installed with the shadcn CLI from the @uiarc namespace; a free MIT-licensed set is open source and the rest of the catalog needs a paid Arc Pro license. | [Link](https://uiarc.dev) | 2026-10-16T11:27:18.323Z |
 | atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| babelize-elements | MIT-licensed shadcn registry of React localization components, including language switchers, locale-aware number and relative-time formatters, a phone input, a localized navbar and a translation widget, installable with the shadcn CLI. | [Link](https://elements.babelize.co) | 2026-10-16T11:26:09.537Z |
 | beste-ui | shadcn/ui registry of blocks, pieces and components installable with the shadcn CLI or over MCP; pieces, components and some blocks are free under MIT, while most blocks and full pages require a paid Pro license. | [Link](https://ui.beste.co/) | 2026-09-19T06:24:41.426Z |
 | better-design | A shadcn registry of complete design systems, each installable with its own tokens and 200+ components, plus an MCP server that helps coding agents pick and install one; free, with a paid Pro plan for private brand guidelines. | [Link](https://better-design.com) | 2026-09-19T06:30:49.625Z |
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | blode-ui | An open-source registry of accessible React components built on Base UI and Tailwind CSS v4, installable with the shadcn CLI. | [Link](https://blode.co/ui) | 2026-09-19T06:29:29.076Z |
 | crafterui | Motion and interaction components for React and Tailwind — 3D carousels, scroll letter reveals, a Dynamic Island, cursor hit-testing and rolling countdowns — installed with the shadcn CLI and owned as source. | [Link](https://crafterui.com) | 2026-09-19T06:28:45.698Z |
+| creance | React components for supervising AI agents, such as approval prompts, tool-call timelines, diff review and a kill switch, installed as editable source from their own shadcn registry. | [Link](https://creance.pages.dev) | 2026-10-16T11:26:26.718Z |
 | data-table-filters | Data table blocks for shadcn/ui with faceted filters, sorting, infinite scroll and a row detail sheet, installed as editable source with the shadcn CLI. | [Link](https://github.com/openstatusHQ/data-table-filters) | 2026-09-19T06:39:38.747Z |
+| Diarmuradi | shadcn/ui registry of UI blocks and templates with a free block collection and paid Core and Complete plans. | [Link](https://www.diarmuradi.com/) |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
+| facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) |
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
 | Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
 | keyline-icons | MIT-licensed icon set drawn on one 24×24 grid in stroke, two-tone, duotone and fill styles with rounded or sharp corners, installable icon by icon with the shadcn CLI. | [Link](https://keylineicons.com/) | 2026-09-19T06:30:09.746Z |
+| liquikit | MIT-licensed shadcn registry of 32 liquid glass React components built on Base UI, with physically based refraction that works in Chrome, Safari and Firefox. | [Link](https://liquikit.dev/) | 2026-10-16T11:26:26.718Z |
 | microkit | Copy-paste microinteractions — animated buttons, hover effects, tabs and inputs — each with a live preview and copy-ready source in both Tailwind and plain CSS, installable with the shadcn CLI. | [Link](https://microkit.co) | 2026-09-19T06:40:24.048Z |
 | mischief-ui | A playful, high-utility shadcn registry: PDF, DOCX and JSON viewers, redaction and bounding boxes, agent chat with tool calls, data tables, command palettes, OTP inputs, and shader fields. | [Link](https://ui.tinkererslabs.com) | 2026-09-19T06:32:11.927Z |
 | more-shadcn | A collection of high-quality, copy-paste components for Svelte 5, built on top of shadcn-svelte. | [Link](https://more-shadcn.noair.fun/) | 2026-01-23T21:14:57.000Z |
+| nasaq | Open-source shadcn registry of React components, themes and page templates with Arabic and right-to-left layout built in, plus an MCP server. | [Link](https://nasaqui.com) | 2026-10-16T11:26:26.718Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | ns-ui | Open-source registry of React components, each built around a single interaction, from heroes and animated backgrounds to charts, loaders and form controls, installable by URL with the shadcn CLI. | [Link](https://design.helpmarq.com) | 2026-09-19T06:31:31.355Z |
 | paceui | shadcn registry of React blocks, motion components, and templates for Next.js and TanStack Start, with free blocks and components and paid Basic and Pro licenses for the full catalog. | [Link](https://paceui.com/) | 2026-09-19T06:27:28.422Z |
+| pastaui | MIT-licensed shadcn registry of 50+ React components for AI and agent interfaces, from prompt inputs and model pickers to file diffs and approval cards, with a paid Pro tier of full-page blocks. | [Link](https://pastaui.com) |
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | registry.directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
 | shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
+| signoff-ui | React components to review what an agent changed and approve what it may do, installable from its own shadcn registry or npm: multi-file diff review with per-hunk decisions and line comments, rule-based tool approvals and run telemetry, for AI SDK and AG-UI agents. | [Link](https://signoff-ui.vercel.app) | 2026-10-16T11:27:01.191Z |
 | sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.studio/) | 2026-08-11T14:27:05.834Z |
+| sureui | MIT-licensed shadcn registry of confirmation components built on Base UI, covering undo, hold to confirm, type to confirm, confirm dialogs and AI tool-call approval, installed as editable source with the shadcn CLI. | [Link](https://sureui.com) | 2026-10-16T11:27:18.323Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
+| uploadcn | MIT-licensed shadcn registry of file upload components and 58 blocks, with resumable S3, R2 and Cloudinary uploads, installable in every shadcn style. | [Link](https://uploadcn.dev) | 2026-10-13T13:24:36.938Z |
 | usva | React component library built on Base UI with three themes (atmospheric dark, dense, and light) sharing one token set, installable from its shadcn registry or npm. | [Link](https://usva.build/) | 2026-09-19T06:24:02.410Z |
+| viberdy | Free shadcn registry of 161 animated React components in 14 design styles, from glassmorphism and aurora to kinetic type and dither, installable from GitHub with the shadcn CLI and each paired with an AI prompt; a paid Pro plan adds the full kits. | [Link](https://github.com/viberdy-dev/ui) | 2026-10-16T11:27:01.191Z |
 | wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
 | warren-ui | Data-dense instrument-panel components for ops and monitoring dashboards, such as panels, sparklines, heatmaps, ledgers and incident timelines. | [Link](https://warren.eduard3v.com) | 2026-09-19T06:33:36.627Z |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
@@ -381,6 +397,7 @@
 | animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15T02:52:46.000Z |
 | motion-lexicon | Open-source shadcn registry of animated React components, page blocks, and motion primitives, each with a live preview and reduced-motion support. | [Link](https://motion-lexicon.pages.dev/en/) | 2026-09-19T06:26:03.190Z |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
+| shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-12-27T12:56:05.000Z |
 
@@ -411,6 +428,7 @@
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | memi | Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, component scaffolds, accessibility checks, and file-anchored quality gates. | [Link](https://github.com/sarveshsea/memi) | 2026-07-15 |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
+| onsystem | Keeps coding agents on a shadcn/ui project's design system with zero config: an MCP server with its components, cva variants, tokens and docs, plus a linter that flags hex colors, off-scale spacing, invented components or variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/onsystem) | 2026-10-16T11:26:47.313Z |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
@@ -466,6 +484,7 @@
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-12-27T12:56:05.000Z |
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03T14:07:11.000Z |
+| codeotter | Open-source, self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs and enforces merge gates, with a React dashboard built on shadcn/ui. | [Link](https://codeotter.io) | 2026-10-16T11:26:47.313Z |
 | GooseForum | Self-hosted forum with shadcn/ui-based discussion pages, an admin console, and a light/dark theme workbench, deployed as a single Go executable. | [Link](https://github.com/leancodebox/GooseForum) |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
@@ -521,6 +540,7 @@
 
 | Name | Description | Link | Date |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 7Ovr Landing Starter | Free Next.js landing page starter whose conventions and lint rules guide coding agents, with shadcn/ui preset theming and SEO checks. | [Link](https://github.com/7ovr/shadcn-next-starter) | 2026-10-16T11:26:26.718Z |
 | _cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-04T01:28:12.279Z |
 | a11y-starter-kit | Free WCAG 2.1 AA starter kit with accessible components, custom a11y hooks, and dark mode. Built with Next.js 16, Tailwind CSS v4, and shadcn/ui. | [Link](https://github.com/thefrontkit/a11y-starter-kit-code) | 2026-04-10T13:58:09.000Z |
 | agentic-react-nextjs-shadcn | Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessibility-first components, semantic HTML for AI agent testing, and production-ready patterns. | [Link](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) | 2026-03-03T22:35:00.000Z |
@@ -545,6 +565,7 @@
 | forjnot | Modern project starter kit: a full-stack template with Next.js and NestJS in a scalable Turborepo monorepo. | [Link](https://github.com/aman-sharma-dev/forjnot) | 2025-11-20T13:32:28.000Z |
 | full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) | 2025-06-10T16:56:50.000Z |
 | fumadocs-starter | A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you need to build your next docs site. | [Link](https://github.com/techwithanirudh/fumadocs-starter) | 2025-11-20T13:33:22.000Z |
+| Hikari | Free Next.js starter for individual accounts, with a shadcn/ui dashboard, Supabase authentication and Stripe recurring billing. | [Link](https://github.com/coremvp/Hikari) | 2026-10-16T11:26:26.718Z |
 | hype-stack | MIT-licensed full-stack monorepo starter whose web, desktop, admin and extension apps are built on shadcn/ui over a typed Hono backend, with optional paid feature packs. | [Link](https://github.com/BetterTyped/hype-stack) | 2026-09-19T06:38:19.772Z |
 | kairo-ui | Free landing page templates for Next.js 16. | [Link](https://www.kairoui.online/) | 2026-06-06T00:57:59.236Z |
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-12-27T12:56:05.000Z |
@@ -562,6 +583,7 @@
 | openui-shadcn-chat | Full-stack generative UI chatbot template using OpenUI Lang with shadcn/ui component library, SSE streaming, and tool calling. | [Link](https://github.com/thesysdev/openui/tree/main/examples/design-systems/shadcn) | 2026-03-31T13:01:46.000Z |
 | react-starter-kit | An opinionated, full-stack boilerplate for building modern web apps on the edge. Features Bun, React 19, tRPC, Drizzle ORM, and Cloudflare Workers. | [Link](https://github.com/kriasoft/react-starter-kit) | 2025-09-06T15:08:02.000Z |
 | react-vite-starter | React starter powered with Vite + Redux Toolkit + RTKQuery + React Router + shadcn UI and many more. | [Link](https://github.com/tejachundru/react-vite-starter) | 2024-12-27T12:56:05.000Z |
+| saas-dashboard-starter | Free Next.js 16 SaaS dashboard starter with shadcn/ui (Base UI), Tailwind CSS 4, Recharts and light/dark themes. | [Link](https://github.com/studiogridpro/saas-dashboard-starter) |
 | shadcn-landing-page | Landing page template using shadcn/ui, React, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-landing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-landing-page (Vue) | Project conversion[shadcn-vue-landing-page](https://github.com/leoMirandaa/shadcn-vue-landing-page) to Next.js - Landing page template using Nestjs, shadcn/ui, TypeScript, and Tailwind CSS. | [Link](https://github.com/nobruf/shadcn-landing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-nextjs-free-boilerplate | Free & Open-source NextJS Boilerplate + ChatGPT API Dashboard Template. | [Link](https://github.com/horizon-ui/shadcn-nextjs-boilerplate) | 2024-12-27T12:56:05.000Z |
@@ -571,6 +593,7 @@
 | shadcn-saas-landing | A full-fledged SaaS Landing template built using Next.JS, shadcn/ui, and fumadocs. | [Link](https://github.com/techwithanirudh/shadcn-saas-landing) | 2025-11-20T13:31:17.000Z |
 | saas-blocks-kit | 10 production-ready SaaS landing page sections built with Next.js 15, shadcn/ui, Tailwind CSS v4 and TypeScript. Dark mode by default. | [Link](https://github.com/SekmenAhmet/saas-blocks-kit) | 2026-03-31T13:04:58.000Z |
 | shadcn-ui-dashboard | Multipurpose and powerful admin dashboard template compatible with shadcn/ui. | [Link](https://shadcnuidashboard.com) | 2025-09-23T23:26:28.000Z |
+| shadcn-vite-starter | Vite and React starter whose conventions, agent skills and shadcn/ui lint rules keep coding agents on pattern, with routing, data fetching, forms and tables already wired on shadcn/ui and Base UI. | [Link](https://github.com/7ovr/shadcn-vite-starter) |
 | shadcn-vue-landing-page | Landing page template using Vue, shadcn-vue, TypeScript, and Tailwind CSS. | [Link](https://github.com/leoMirandaa/shadcn-vue-landing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-admin-template | A admin dashboard template for Next.js, React, Vite and Vue.js, built with Tailwind CSS. | [Link](https://shadcnadmin.com) | 2026-04-24T20:17:40.000Z |
 | shadcn-next-workflows | Interactive workflow builder using React Flows, Next.js, and Shadcn/ui. Create, connect, and validate custom nodes easily. | [Link](https://github.com/nobruf/shadcn-next-workflows) | 2024-12-27T12:56:05.000Z |
