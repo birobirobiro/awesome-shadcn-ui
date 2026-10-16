@@ -87,7 +87,7 @@
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-12-27T12:56:05.000Z |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-12-27T12:56:05.000Z |
 | custom-admin-dashboard | A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Includes products, products creation and details page, order, customer, and settings pages. | [Link](https://github.com/S5SAJID/custom-ecom) | 2025-09-06T21:28:00.000Z |
-| dashboardblocks | Open-source dashboard blocks for shadcn/ui, including KPIs, charts, tables and full dashboards installed with the shadcn CLI for Radix UI, Base UI and React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) |
+| dashboardblocks | Open-source dashboard blocks for shadcn/ui, including KPIs, charts, tables and full dashboards installed with the shadcn CLI for Radix UI, Base UI and React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) | 2026-10-16T11:26:47.313Z |
 | data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://shadcn.davidsling.in/components/data-command) | 2025-09-06T21:28:00.000Z |
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-12-27T12:56:05.000Z |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-12-27T12:56:05.000Z |
@@ -420,7 +420,7 @@
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | memi | Agent design CI for shadcn/ui and Tailwind: focused Agent Skills, UI audits, token extraction, component scaffolds, accessibility checks, and file-anchored quality gates. | [Link](https://github.com/sarveshsea/memi) | 2026-07-15 |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
-| onsystem | Keeps coding agents on a shadcn/ui project's design system with zero config: an MCP server with its components, cva variants, tokens and docs, plus a linter that flags hex colors, off-scale spacing, invented components or variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/onsystem) |
+| onsystem | Keeps coding agents on a shadcn/ui project's design system with zero config: an MCP server with its components, cva variants, tokens and docs, plus a linter that flags hex colors, off-scale spacing, invented components or variants and native elements in agent-written UI. | [Link](https://github.com/dgesteves/onsystem) | 2026-10-16T11:26:47.313Z |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | open-ui | The Open Standard for Generative UI | [Link](https://www.openui.com/) | 2026-03-20T17:06:27.000Z |
 | pagegen.ai | An AI Page Generator with Claude AI, React, and shadcn/ui. Generate web pages from text, screenshots, and templates with one click. | [Link](https://pagegen.ai) | 2024-12-27T12:56:05.000Z |
@@ -476,7 +476,7 @@
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-12-27T12:56:05.000Z |
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03T14:07:11.000Z |
-| codeotter | Open-source, self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs and enforces merge gates, with a React dashboard built on shadcn/ui. | [Link](https://codeotter.io) |
+| codeotter | Open-source, self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs and enforces merge gates, with a React dashboard built on shadcn/ui. | [Link](https://codeotter.io) | 2026-10-16T11:26:47.313Z |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
