@@ -418,7 +418,7 @@
 | country-data-in-charts | Globe Graph is a web app that visualizes countries' data like GDP, GDP per capita, and population in different years using many charts. | [Link](https://globe-graph.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | cv-forge | Resume builder built with @shadcn/ui, react-hook-form, and react-pdf. | [Link](https://cvforge.app) | 2024-12-27T12:56:05.000Z |
 | dialectcn | A living catalog of shadcn presets — brand-inspired, community-submitted, and occasionally random. Pick one, copy the code, ship the UI. | [Link](https://dialectcn.xyz/) | 2026-04-24T20:07:56.000Z |
-| focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://focusbrew.vercel.app) | 2025-05-14T13:31:07.000Z |
+| focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://github.com/yaakovcarioca/focus-brew) | 2025-05-14T13:31:07.000Z |
 | form-builder | UI-based codegen tool to easily create beautiful and type-safe @shadcn/ui forms. | [Link](https://github.com/AlandSleman/FormBuilder) | 2024-12-27T12:56:05.000Z |
 | form-builder-fast | Shadcn Form Builder - Build forms in minutes for free. | [Link](https://ui.indie-starter.dev/form-builder) | 2024-12-27T12:56:05.000Z |
 | graphitup | Create free downloadable Shadcn-themed chart images. Supports PNG, JPEG, WEBP, and even WEBM videos. Upload your own data for more realistic designs. | [Link](https://graphitup.com/tools) | 2025-12-26T22:40:15.000Z |
