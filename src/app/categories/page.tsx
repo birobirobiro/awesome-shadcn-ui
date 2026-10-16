@@ -18,6 +18,10 @@ interface Category {
   description: string;
 }
 
+// The categories index depends only on the README, so it is prerendered at
+// build time and cached until the next deploy.
+export const dynamic = "force-static";
+
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "Libs and Components":
     "Essential libraries and reusable components built with shadcn/ui",
@@ -28,7 +32,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Themes, color palettes, and customization utilities",
   Animations: "Animation libraries and motion components for shadcn/ui",
   Tools: "Development tools, generators, and utilities for shadcn/ui projects",
-  "Websites and Portfolios Inspirations":
+  "Websites and Portfolios":
     "Real-world examples and inspiration for your projects",
   Platforms: "Platforms and services that integrate with shadcn/ui",
   Ports: "Ports of shadcn/ui to other frameworks and technologies",
@@ -76,6 +80,7 @@ export default async function CategoriesPage() {
       <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {categories.map((category) => (
           <Link
+            prefetch={false}
             key={category.title}
             href={`/categories/${categoryNameToSlug(category.title)}`}
           >
