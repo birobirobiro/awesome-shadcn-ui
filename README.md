@@ -549,6 +549,7 @@
 | browser-extension-starter-plasmo-shadcn-trpc | Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC. | [Link](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) | 2024-12-27T12:56:05.000Z |
 | chadnext | Quick Starter Template includes Next.js 14 App Router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization, and more. | [Link](https://github.com/moinulmoin/chadnext) | 2024-12-27T12:56:05.000Z |
 | chatdeck-shadcn-saas-landing-template | ChatDeck — Free Shadcn UI SaaS landing page template built with Next.js and Tailwind CSS. | [Link](https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template) | 2026-05-24 |
+| chewypixel | Animated components from the Chewypixel templates, built with Motion. | [Link](https://chewypixel.io/components) |
 | cloudflare-saas-stack | An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare. | [Link](https://github.com/Dhravya/cloudflare-saas-stack) | 2024-12-27T12:56:05.000Z |
 | cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-04T01:28:12.279Z |
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-12-27T12:56:05.000Z |
