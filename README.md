@@ -548,6 +548,7 @@
 | forjnot | Modern project starter kit: a full-stack template with Next.js and NestJS in a scalable Turborepo monorepo. | [Link](https://github.com/aman-sharma-dev/forjnot) | 2025-11-20T13:32:28.000Z |
 | full-stack-monorepo-starter | Full stack monorepo template built using shadcn/ui + Fastify + graphql + vitejs + Docker and more. | [Link](https://github.com/mnove/monorepo-starter-graphql) | 2025-06-10T16:56:50.000Z |
 | fumadocs-starter | A fully-fledged Fumadocs starter template with built-in plugins, AI features, and everything you need to build your next docs site. | [Link](https://github.com/techwithanirudh/fumadocs-starter) | 2025-11-20T13:33:22.000Z |
+| Hikari | Free Next.js starter for individual accounts, with a shadcn/ui dashboard, Supabase authentication and Stripe recurring billing. | [Link](https://github.com/coremvp/Hikari) |
 | hype-stack | MIT-licensed full-stack monorepo starter whose web, desktop, admin and extension apps are built on shadcn/ui over a typed Hono backend, with optional paid feature packs. | [Link](https://github.com/BetterTyped/hype-stack) | 2026-09-19T06:38:19.772Z |
 | kairo-ui | Free landing page templates for Next.js 16. | [Link](https://www.kairoui.online/) | 2026-06-06T00:57:59.236Z |
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-12-27T12:56:05.000Z |
