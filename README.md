@@ -328,7 +328,7 @@
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
-| facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) |
+| facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) | 2026-10-16T11:30:42.531Z |
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
 | Identity Forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
@@ -399,7 +399,7 @@
 | animate-ui | A fully animated, open-source React component distribution. Browse a list of animated primitives, components and icons you can install and use in your projects. | [Link](https://animate-ui.com/) | 2025-10-15T02:52:46.000Z |
 | motion-lexicon | Open-source shadcn registry of animated React components, page blocks, and motion primitives, each with a live preview and reduced-motion support. | [Link](https://motion-lexicon.pages.dev/en/) | 2026-09-19T06:26:03.190Z |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
-| shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) |
+| shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) | 2026-10-16T11:30:42.531Z |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-12-27T12:56:05.000Z |
 
@@ -487,7 +487,7 @@
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
 | citeme | AI-powered academic citation generator. Searches 11+ databases and formats in 40+ styles (APA, ABNT, MLA, etc.). Web app, Chrome extension, Google Docs add-on, and Word add-in. | [Link](https://citeme.app) | 2026-03-03T14:07:11.000Z |
 | codeotter | Open-source, self-hosted AI pull request reviewer for GitHub, Forgejo and Gitea that scores PRs and enforces merge gates, with a React dashboard built on shadcn/ui. | [Link](https://codeotter.io) | 2026-10-16T11:26:47.313Z |
-| GooseForum | Self-hosted forum with shadcn/ui-based discussion pages, an admin console, and a light/dark theme workbench, deployed as a single Go executable. | [Link](https://github.com/leancodebox/GooseForum) |
+| GooseForum | Self-hosted forum with shadcn/ui-based discussion pages, an admin console, and a light/dark theme workbench, deployed as a single Go executable. | [Link](https://github.com/leancodebox/GooseForum) | 2026-10-16T11:30:42.531Z |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
