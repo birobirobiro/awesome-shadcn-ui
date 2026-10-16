@@ -30,7 +30,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Themes, color palettes, and customization utilities",
   Animations: "Animation libraries and motion components for shadcn/ui",
   Tools: "Development tools, generators, and utilities for shadcn/ui projects",
-  "Websites and Portfolios Inspirations":
+  "Websites and Portfolios":
     "Real-world examples and inspiration for your projects",
   Platforms: "Platforms and services that integrate with shadcn/ui",
   Ports: "Ports of shadcn/ui to other frameworks and technologies",
@@ -167,6 +167,7 @@ export function ItemPageContent({
                   className="w-full text-xs sm:text-sm"
                 >
                   <Link
+                    prefetch={false}
                     href={`/categories/${categoryNameToSlug(item.category)}`}
                   >
                     View all in {item.category}
@@ -201,6 +202,7 @@ export function ItemPageContent({
               <CardContent className="p-4 pt-0 space-y-3">
                 {relatedItems.map((relatedItem) => (
                   <Link
+                    prefetch={false}
                     key={relatedItem.id}
                     href={`/categories/${categoryNameToSlug(item.category)}/${relatedItem.id}`}
                     className="block group"
