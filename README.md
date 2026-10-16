@@ -87,7 +87,7 @@
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-12-27T12:56:05.000Z |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-12-27T12:56:05.000Z |
 | custom-admin-dashboard | A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Includes products, products creation and details page, order, customer, and settings pages. | [Link](https://github.com/S5SAJID/custom-ecom) | 2025-09-06T21:28:00.000Z |
-| dashboardblocks | Dashboard blocks for shadcn/ui. KPIs, charts, tables and full dashboards, installed with the shadcn CLI. Works with Radix, Base UI & React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) |
+| dashboardblocks | Open-source dashboard blocks for shadcn/ui, including KPIs, charts, tables and full dashboards installed with the shadcn CLI for Radix UI, Base UI and React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) |
 | data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://shadcn.davidsling.in/components/data-command) | 2025-09-06T21:28:00.000Z |
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-12-27T12:56:05.000Z |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-12-27T12:56:05.000Z |
