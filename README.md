@@ -430,6 +430,7 @@
 | registry-directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
 | shadcn-builder | Create beautiful, responsive forms with the easy-to-use form builder and generate React code using shadcn/ui components. | [Link](https://www.shadcn-builder.com/?utm_source=github&utm_content=awesome-shadcn-ui) | 2025-04-03T20:07:06.000Z |
 | shadcn-easy-install | Install all shadcn components easily. One-click to install all selected components. | [Link](https://shadcn-easy-install.vercel.app/) | 2025-06-10T16:58:44.000Z |
+| shadcn-exchange | Free search engine for public shadcn/ui registries, with 3,500+ blocks from 100+ registries, each shown with a live light and dark preview, its source code and a one-line install command that serves the block unchanged from its author's registry. | [Link](https://shadcn.exchange/) |
 | shadcn-play | A playground for building and previewing shadcn/ui components with a live editor. | [Link](https://github.com/ephraimduncan/shadcn-play) | 2026-02-13T12:46:03.000Z |
 | shadcn-pricing-page-generator | The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. | [Link](https://shipixen.com/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-table-maker | Tool for creating dynamic tables. | [Link](https://shadcn-table-maker.vercel.app/) | 2024-12-27T12:56:05.000Z |
