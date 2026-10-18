@@ -354,7 +354,7 @@
 | sebas-dv-shadcn-theme-editor | In-app overlay that edits shadcn (Tailwind v4 / OKLCH) theme tokens live and writes changes straight back to your globals.css via PostCSS, with OKLCH sliders and live WCAG contrast checks. | [Link](https://github.com/Sebas-DV/shadcn-theme-editor) | 2026-09-19T06:39:00.924Z |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-12-27T12:56:05.000Z |
-| shadcnpreset | Find the perfect shadcn preset in seconds. Open source and Free. | [Link](https://shadcnpreset.com) | 2026-05-03T14:17:12.478Z |
+| shadcnpreset | Compare shadcn presets on real components and browse free shadcn themes taken from community presets, with font pairing, copyable CSS and a shadcn CLI command. Open source and free. | [Link](https://shadcnpreset.com) | 2026-05-03T14:17:12.478Z |
 | shadesigner-com | A shadcn/ui Palette Generator & Theme Designer with a beautiful interface. | [Link](https://shadesigner.com) | 2024-12-27T12:56:05.000Z |
 | smui | Nord-inspired terminal theme for shadcn/ui with monospace typography, zero border radius, and frost-blue accents. | [Link](https://smui.statico.io) | 2026-02-27T22:10:44.000Z |
 | the-gridcn | Tron inspired shadcn/ui theme | [Link](https://thegridcn.com/) | 2026-02-06T17:57:20.000Z |
