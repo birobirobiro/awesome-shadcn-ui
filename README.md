@@ -377,6 +377,7 @@
 | crafterui | Motion and interaction components for React and Tailwind — 3D carousels, scroll letter reveals, a Dynamic Island, cursor hit-testing and rolling countdowns — installed with the shadcn CLI and owned as source. | [Link](https://crafterui.com) | 2026-09-19T06:28:45.698Z |
 | cult-ui | Curated set of animated shadcn-style React components. | [Link](https://www.cult-ui.com/) | 2024-12-27T12:56:05.000Z |
 | dy-comps | shacn/ui & Framer Motion React components — flexible, responsive & easy to drop into any project. | [Link](https://dycomps.oimmi.com/) | 2025-03-08T12:15:57.000Z |
+| eased | Motion-first React components and page blocks for shadcn, with tuned springs and light and dark themes, installed with the shadcn CLI: 37 free MIT components plus a paid one-time Pro tier. | [Link](https://eased.dev) |
 | eldora-ui | free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. | [Link](https://eldoraui.site/) | 2025-10-25T16:07:53.000Z |
 | fluid-functionalism | Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight transitions. Every animation serves a functional purpose. | [Link](https://fluid-functionalism.vercel.app) | 2026-04-24T19:38:06.000Z |
 | forgeui | Animation-first shadcn/ui registry with free motion components and WebGL backgrounds, plus a paid Pro tier that unlocks blocks, templates, and the rest of the catalog. | [Link](https://github.com/AmanShakya0018/forgeui) | 2026-09-19T06:34:50.502Z |
