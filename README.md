@@ -389,6 +389,7 @@
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
 | motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) | 2026-08-11T14:24:58.708Z |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
+| nxui | Animated Vue 3 components for shadcn-vue projects: 360+ components, including text animations, WebGL backgrounds, dashboard charts and shader effects, installable from its own registry with the shadcn-vue CLI. | [Link](https://nxui.geoql.in/docs) |
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-12-27T12:56:05.000Z |
 | shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) | 2026-10-16T11:30:42.531Z |
