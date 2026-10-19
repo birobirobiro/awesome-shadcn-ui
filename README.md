@@ -477,6 +477,7 @@
 | focus-brew | A free productivity toolkit that combines essential tools to help you stay focused, organized, and efficient throughout your workday. | [Link](https://github.com/yaakovcarioca/focus-brew) | 2025-05-14T13:31:07.000Z |
 | gooseforum | Self-hosted forum with shadcn/ui-based discussion pages, an admin console, and a light/dark theme workbench, deployed as a single Go executable. | [Link](https://github.com/leancodebox/GooseForum) | 2026-10-16T11:30:42.531Z |
 | grade-calculator | A grade calculator/dashboard for students, aiming to provide a better overview of academic performance. | [Link](https://grades.nstr.dev/) | 2024-12-27T12:56:05.000Z |
+| hirelayer | Recruiting API platform for resume parsing, candidate matching and ranking, whose dashboard, docs and demo are built on shadcn/ui and Tailwind CSS. Free tier of 50 credits a month, paid plans for more. | [Link](https://hirelayer.co) |
 | infinitunes | A simple music player web app built using Next.js, shadcn/ui, Tailwind CSS, Drizzle ORM, and more. | [Link](https://github.com/rajput-hemant/infinitunes) | 2024-12-27T12:56:05.000Z |
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
