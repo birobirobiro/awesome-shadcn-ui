@@ -382,6 +382,7 @@
 | forgeui | Animation-first shadcn/ui registry with free motion components and WebGL backgrounds, plus a paid Pro tier that unlocks blocks, templates, and the rest of the catalog. | [Link](https://github.com/AmanShakya0018/forgeui) | 2026-09-19T06:34:50.502Z |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
+| illos | Animated SVG illustrations in Shader, HUD and Isometric styles that install with the shadcn CLI; spot illustrations are free and Illos Pro adds the full set plus agent skills. | [Link](https://illos.dev/) |
 | loading-ui | Curated, copy-friendly spinners, loaders, and loading-state animations for the web—free and open source. | [Link](https://loading-ui.com/) | 2026-04-25T12:00:00.000Z |
 | microkit | Copy-paste microinteractions — animated buttons, hover effects, tabs and inputs — each with a live preview and copy-ready source in both Tailwind and plain CSS, installable with the shadcn CLI. | [Link](https://microkit.co) | 2026-09-19T06:40:24.048Z |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-12-27T12:56:05.000Z |
