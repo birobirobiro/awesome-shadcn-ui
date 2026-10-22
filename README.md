@@ -465,6 +465,7 @@
 
 | Name | Description | Link | Date |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------- |
+| anon-li | Open-source privacy app for email aliases, end-to-end encrypted file sharing and encrypted forms, with a dashboard and public pages built on shadcn/ui; free tier plus paid plans. | [Link](https://anon.li) |
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-12-27T12:56:05.000Z |
 | atomic-crm | Open-source CRM built with React, shadcn-admin-kit and Supabase for managing contacts, tasks, notes and sales pipelines. | [Link](https://github.com/marmelab/atomic-crm) | 2025-09-23T23:25:16.000Z |
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
