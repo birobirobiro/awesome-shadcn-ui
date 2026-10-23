@@ -406,7 +406,7 @@
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-12-27T12:56:05.000Z |
 | qodesign-free | Free, MIT-licensed animated React components and two dashboards, installable with the shadcn CLI and also shipped as single HTML files; a paid catalog lives at qodesign.dev. | [Link](https://github.com/teodoravadani/qodesign-free) | 2026-10-23T22:39:35.545Z |
-| reactframe | Animated React components, blocks and page sections built with Tailwind CSS and Motion, installable with the shadcn CLI; 150+ free MIT-licensed items plus a paid premium tier. | [Link](https://reactframe.com/) |
+| reactframe | Animated React components, blocks and page sections built with Tailwind CSS and Motion, installable with the shadcn CLI; 150+ free MIT-licensed items plus a paid premium tier. | [Link](https://reactframe.com/) | 2026-10-23T23:12:17.257Z |
 | shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) | 2026-10-16T11:30:42.531Z |
 | slidytabs | A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use or customize the component | [Link](https://slidytabs.dev) | 2026-01-23T21:13:51.000Z |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
