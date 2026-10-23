@@ -39,7 +39,7 @@ export default function CategoriesError({
             Try again
           </Button>
           <Button variant="outline" asChild>
-            <Link href="/" className="flex items-center gap-2">
+            <Link prefetch={false} href="/" className="flex items-center gap-2">
               <Home className="h-4 w-4" />
               Go to homepage
             </Link>

@@ -30,6 +30,7 @@ export function NavLinks() {
   return (
     <nav className="hidden md:flex items-center gap-6">
       <Link
+        prefetch={false}
         href="/categories"
         className={`text-sm transition-colors ${
           pathname === "/categories" || pathname?.startsWith("/categories")
@@ -40,6 +41,7 @@ export function NavLinks() {
         Categories
       </Link>
       <Link
+        prefetch={false}
         href="/bookmarks"
         className={`text-sm transition-colors ${
           pathname === "/bookmarks"
@@ -98,6 +100,7 @@ function MobileMenu() {
           <SheetHeader className="border-b px-6 py-4">
             <SheetTitle asChild>
               <Link
+                prefetch={false}
                 href="/"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-3"
@@ -110,6 +113,7 @@ function MobileMenu() {
           <div className="flex-1 px-6 py-6">
             <nav className="flex flex-col gap-2">
               <Link
+                prefetch={false}
                 href="/categories"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-3 px-4 py-3 text-sm font-medium bg-muted/50 hover:bg-muted transition-colors"
@@ -117,6 +121,7 @@ function MobileMenu() {
                 <span className="flex-1">Categories</span>
               </Link>
               <Link
+                prefetch={false}
                 href="/bookmarks"
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-3 px-4 py-3 text-sm font-medium bg-muted/50 hover:bg-muted transition-colors"
@@ -173,6 +178,7 @@ function MobileMenu() {
 const LogoLink = memo(function LogoLink() {
   return (
     <Link
+      prefetch={false}
       href="/"
       className="flex items-center gap-2 hover:opacity-80 transition-opacity"
     >
