@@ -329,7 +329,7 @@
 | wds-registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06T21:28:00.000Z |
 | we-inc-components | Free shadcn registry of 667 React and Tailwind CSS components and page sections in 35 categories, each with a live preview, the React code and a plain HTML version, installable with `npx shadcn@latest add`. | [Link](https://we.inc/components) | 2026-10-23T22:39:00.412Z |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
-| wick-charts | MIT-licensed shadcn registry of realtime canvas charts for React and shadcn-vue that stay smooth while data streams in and take their colors from your theme tokens. | [Link](https://wick-charts.eeff.io/integrations/shadcn/) |
+| wick-charts | MIT-licensed shadcn registry of realtime canvas charts for React and shadcn-vue that stay smooth while data streams in and take their colors from your theme tokens. | [Link](https://wick-charts.eeff.io/integrations/shadcn/) | 2026-10-23T22:39:35.545Z |
 
 ## Plugins and Extensions
 
@@ -358,7 +358,7 @@
 | identity-forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) | 2025-04-23T20:08:21.000Z |
 | navnote-rangeen | Tool that helps you to create a colour palette for your website. | [Link](https://github.com/navnote/rangeen) | 2024-12-27T12:56:05.000Z |
-| night-glass | Dark glassmorphism theme for shadcn/ui: near-black surfaces, one accent color, liquid-glass panels and buttons, with matching Tailwind v3/v4 presets. | [Link](https://github.com/lbrdev/night-glass) |
+| night-glass | Dark glassmorphism theme for shadcn/ui: near-black surfaces, one accent color, liquid-glass panels and buttons, with matching Tailwind v3/v4 presets. | [Link](https://github.com/lbrdev/night-glass) | 2026-10-23T22:39:35.545Z |
 | sebas-dv-shadcn-theme-editor | In-app overlay that edits shadcn (Tailwind v4 / OKLCH) theme tokens live and writes changes straight back to your globals.css via PostCSS, with OKLCH sliders and live WCAG contrast checks. | [Link](https://github.com/Sebas-DV/shadcn-theme-editor) | 2026-09-19T06:39:00.924Z |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-12-27T12:56:05.000Z |
@@ -403,7 +403,7 @@
 | nxui | Animated Vue 3 components for shadcn-vue projects: 360+ components, including text animations, WebGL backgrounds, dashboard charts and shader effects, installable from its own registry with the shadcn-vue CLI. | [Link](https://nxui.geoql.in/docs) | 2026-10-23T22:39:00.412Z |
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-12-27T12:56:05.000Z |
-| qodesign-free | Free, MIT-licensed animated React components and two dashboards, installable with the shadcn CLI and also shipped as single HTML files; a paid catalog lives at qodesign.dev. | [Link](https://github.com/teodoravadani/qodesign-free) |
+| qodesign-free | Free, MIT-licensed animated React components and two dashboards, installable with the shadcn CLI and also shipped as single HTML files; a paid catalog lives at qodesign.dev. | [Link](https://github.com/teodoravadani/qodesign-free) | 2026-10-23T22:39:35.545Z |
 | shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) | 2026-10-16T11:30:42.531Z |
 | slidytabs | A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use or customize the component | [Link](https://slidytabs.dev) | 2026-01-23T21:13:51.000Z |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
@@ -479,7 +479,7 @@
 
 | Name | Description | Link | Date |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------- |
-| anon-li | Open-source privacy app for email aliases, end-to-end encrypted file sharing and encrypted forms, with a dashboard and public pages built on shadcn/ui; free tier plus paid plans. | [Link](https://anon.li) |
+| anon-li | Open-source privacy app for email aliases, end-to-end encrypted file sharing and encrypted forms, with a dashboard and public pages built on shadcn/ui; free tier plus paid plans. | [Link](https://anon.li) | 2026-10-23T22:39:35.545Z |
 | anonypost | Share your thoughts and experiences anonymously by posting on the platform. Crafted using t3-stack. | [Link](https://github.com/avalynndev/anonypost) | 2024-12-27T12:56:05.000Z |
 | atomic-crm | Open-source CRM built with React, shadcn-admin-kit and Supabase for managing contacts, tasks, notes and sales pipelines. | [Link](https://github.com/marmelab/atomic-crm) | 2025-09-23T23:25:16.000Z |
 | auditzap | AI-powered website audit tool that runs 24 checks across SEO, performance, and site health, then generates code-level fix instructions ranked by revenue impact. Built with Next.js 16, shadcn/ui, Tailwind CSS 4, and Drizzle ORM. | [Link](https://auditzap.io) | 2026-04-24T19:42:15.000Z |
