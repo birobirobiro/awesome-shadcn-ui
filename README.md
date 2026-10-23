@@ -325,7 +325,7 @@
 | wa-ui | A registry of WhatsApp Web chat components — chat bubbles, message input, voice and media bubbles, and Meta Business message templates — built on WhatsApp's WDS design tokens with light and dark modes. | [Link](https://ui.meta-cloud-api.site) | 2026-08-11T14:27:05.834Z |
 | warren-ui | Data-dense instrument-panel components for ops and monitoring dashboards, such as panels, sparklines, heatmaps, ledgers and incident timelines. | [Link](https://warren.eduard3v.com) | 2026-09-19T06:33:36.627Z |
 | wds-registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06T21:28:00.000Z |
-| we-inc-components | Free shadcn registry of 667 React and Tailwind CSS components and page sections in 35 categories, each with a live preview, the React code and a plain HTML version, installable with `npx shadcn@latest add`. | [Link](https://we.inc/components) |
+| we-inc-components | Free shadcn registry of 667 React and Tailwind CSS components and page sections in 35 categories, each with a live preview, the React code and a plain HTML version, installable with `npx shadcn@latest add`. | [Link](https://we.inc/components) | 2026-10-23T22:39:00.412Z |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
 
 ## Plugins and Extensions
@@ -395,7 +395,7 @@
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
 | motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) | 2026-08-11T14:24:58.708Z |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
-| nxui | Animated Vue 3 components for shadcn-vue projects: 360+ components, including text animations, WebGL backgrounds, dashboard charts and shader effects, installable from its own registry with the shadcn-vue CLI. | [Link](https://nxui.geoql.in/docs) |
+| nxui | Animated Vue 3 components for shadcn-vue projects: 360+ components, including text animations, WebGL backgrounds, dashboard charts and shader effects, installable from its own registry with the shadcn-vue CLI. | [Link](https://nxui.geoql.in/docs) | 2026-10-23T22:39:00.412Z |
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-12-27T12:56:05.000Z |
 | shadcn-animated | Collection of animated shadcn/ui components with live examples and installation documentation. | [Link](https://github.com/sopo/shadcn-animated) | 2026-10-16T11:30:42.531Z |
@@ -437,7 +437,7 @@
 | registry-directory | A curated directory to discover, preview, and copy shadcn/ui registries. | [Link](https://github.com/rbadillap/registry.directory) | 2025-09-23T23:29:49.000Z |
 | shadcn-builder | Create beautiful, responsive forms with the easy-to-use form builder and generate React code using shadcn/ui components. | [Link](https://www.shadcn-builder.com/?utm_source=github&utm_content=awesome-shadcn-ui) | 2025-04-03T20:07:06.000Z |
 | shadcn-easy-install | Install all shadcn components easily. One-click to install all selected components. | [Link](https://shadcn-easy-install.vercel.app/) | 2025-06-10T16:58:44.000Z |
-| shadcn-exchange | Free search engine for public shadcn/ui registries, with 3,500+ blocks from 100+ registries, each shown with a live light and dark preview, its source code and a one-line install command that serves the block unchanged from its author's registry. | [Link](https://shadcn.exchange/) |
+| shadcn-exchange | Free search engine for public shadcn/ui registries, with 3,500+ blocks from 100+ registries, each shown with a live light and dark preview, its source code and a one-line install command that serves the block unchanged from its author's registry. | [Link](https://shadcn.exchange/) | 2026-10-23T22:39:00.412Z |
 | shadcn-play | A playground for building and previewing shadcn/ui components with a live editor. | [Link](https://github.com/ephraimduncan/shadcn-play) | 2026-02-13T12:46:03.000Z |
 | shadcn-pricing-page-generator | The easiest way to get a React pricing page with shadcn/ui, Radix UI, and/or Tailwind CSS. | [Link](https://shipixen.com/shadcn-pricing-page) | 2024-12-27T12:56:05.000Z |
 | shadcn-table-maker | Tool for creating dynamic tables. | [Link](https://shadcn-table-maker.vercel.app/) | 2024-12-27T12:56:05.000Z |
