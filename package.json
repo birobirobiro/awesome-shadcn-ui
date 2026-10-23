@@ -11,7 +11,7 @@
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "format": "prettier --write ./src",
-    "lint": "next lint",
+    "lint": "eslint .",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -63,6 +63,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.2.3",
     "baseline-browser-mapping": "^2.10.10",
+    "eslint": "9.39.1",
     "prettier": "^3",
     "shadcn": "^3.8.5",
     "tailwind-merge": "^2.6.0",

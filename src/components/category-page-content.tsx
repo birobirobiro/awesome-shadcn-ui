@@ -20,7 +20,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
     "Themes, color palettes, and customization utilities",
   Animations: "Animation libraries and motion components for shadcn/ui",
   Tools: "Development tools, generators, and utilities for shadcn/ui projects",
-  "Websites and Portfolios Inspirations":
+  "Websites and Portfolios":
     "Real-world examples and inspiration for your projects",
   Platforms: "Platforms and services that integrate with shadcn/ui",
   Ports: "Ports of shadcn/ui to other frameworks and technologies",
