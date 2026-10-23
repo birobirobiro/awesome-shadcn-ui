@@ -59,29 +59,31 @@ entirely — no date, and no trailing `|  |` either. A workflow appends it when
 your change lands on `main`, and it only fills cells that are empty, so a date
 you write yourself survives the merge and permanently records the wrong day.
 
-**Keep the section alphabetical.** Comparison ignores case and any leading
-punctuation, so `_cn` sorts under `c` and `.NET` under `n`.
+**Keep the section alphabetical.** Sort by the standardized Name column within
+each section.
 
 **No extra links inside the description.** If you want to show a demo, make it
 the main link or leave it out.
 
 ## Naming
 
-Use the project's own name, lowercase: `shadcn-svelte`, `tetra-ui`, `beui`. Keep
-the project's own casing when the brand is a proper noun that would look wrong
-lowercased.
+Use the project's name in **kebab-case**: lowercase letters and digits, with
+hyphens between words. Replace spaces, dots, slashes, underscores and parentheses
+with hyphens; remove leading or trailing hyphens and collapse repeated hyphens.
+This also applies to proper nouns and domain-based names: `beamline-ui`,
+`hikari`, `21st-dev`. Keep the actual project URL unchanged.
 
-**Ports are the exception.** There, the Name column works as an index — people
-scan it for their language, not for a product name. So a port is named
-`Language (project)`:
+**Ports keep the language or framework first.** The Name column works as an
+index — people scan it for their language, not for a product name. Use
+`language-project`, in the same lowercase, hyphen-separated format:
 
 ```markdown
-| Svelte (shadcn-svelte) | Svelte port of shadcn/ui. | [Link](...) |
-| React Native (tetra-ui) | ... | [Link](...) |
+| svelte-shadcn-svelte | Svelte port of shadcn/ui. | [Link](...) |
+| react-native-tetra-ui | React Native port of shadcn/ui. | [Link](...) |
 ```
 
-A port that isn't tied to one language — `Basecoat`, `Franken UI` — just uses
-its own name.
+A port that isn't tied to one language — `basecoat`, `franken-ui` — just uses
+its own standardized name.
 
 ## Sections
 
@@ -101,6 +103,14 @@ its own name.
 
 Adding a new section means updating the README and the table of contents in the
 same pull request.
+
+List each resource once, under its main purpose. Prefer Ports for framework
+ports, Animations for motion-focused collections, and Colors and Customizations
+for themes and theme editors, even when they use a registry for distribution.
+Registries is for general component and block collections installed from their
+own registry; a directory that helps discover registries belongs in Tools.
+Reusable components and hooks belong in Libs and Components, cloneable starters
+in Boilerplates / Templates, and complete applications in Platforms.
 
 ## What happens after you open it
 
