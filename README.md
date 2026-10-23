@@ -314,6 +314,7 @@
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) | 2025-02-03T19:03:08.000Z |
 | skrewww | Open-source React and TypeScript design system with a shadcn-compatible registry, token-driven Shape/Surface modes, and machine-readable contracts for coding agents; the paired Figma library is free, with an optional paid Pro tier. | [Link](https://skrewww.com) | 2026-10-16T11:32:23.275Z |
 | soldevelo | MIT-licensed shadcn registry of components, blocks and page templates from the open-source projects SolDevelo builds, starting with OpenLMIS, built on Base UI. | [Link](https://registry.soldevelo.com) | 2026-10-16T11:31:04.236Z |
+| suiss-ui | MIT-licensed shadcn registry of components, patterns, interactions, charts and blocks for React on Base UI, Radix or React Aria, React Native, SwiftUI and Jetpack Compose, in nine styles. | [Link](https://suiss.app/ui) |
 | sureui | MIT-licensed shadcn registry of confirmation components built on Base UI, covering undo, hold to confirm, type to confirm, confirm dialogs and AI tool-call approval, installed as editable source with the shadcn CLI. | [Link](https://sureui.com) | 2026-10-16T11:27:18.323Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | ui-nference-sh | a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai agent interfaces. | [Link](https://ui.inference.sh/) | 2026-02-13T17:47:21.000Z |
