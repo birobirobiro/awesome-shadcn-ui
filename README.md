@@ -356,6 +356,7 @@
 | identity-forge | Registry of shadcn/ui theme kits that install with the shadcn CLI, each setting a font pairing plus light and dark color tokens, with most kits free and premium kits on a paid Pro plan. | [Link](https://identityforge.io/kits) | 2026-09-19T06:22:38.803Z |
 | matsu-theme | Ghibli Studio inspired theme for shadcn/ui made by Matt Wierzbicki | [Link](https://matsu-theme.vercel.app/) | 2025-04-23T20:08:21.000Z |
 | navnote-rangeen | Tool that helps you to create a colour palette for your website. | [Link](https://github.com/navnote/rangeen) | 2024-12-27T12:56:05.000Z |
+| night-glass | Dark glassmorphism theme for shadcn/ui: near-black surfaces, one accent color, liquid-glass panels and buttons, with matching Tailwind v3/v4 presets. | [Link](https://github.com/lbrdev/night-glass) |
 | sebas-dv-shadcn-theme-editor | In-app overlay that edits shadcn (Tailwind v4 / OKLCH) theme tokens live and writes changes straight back to your globals.css via PostCSS, with OKLCH sliders and live WCAG contrast checks. | [Link](https://github.com/Sebas-DV/shadcn-theme-editor) | 2026-09-19T06:39:00.924Z |
 | shadcn-theme-editor | Shadcn Theme Editor is a user-friendly component designed to simplify the process of managing and customizing theme colors in Shadcn-based projects. | [Link](https://github.com/programming-with-ia/shadcn-theme-editor/) | 2024-12-27T12:56:05.000Z |
 | shadcn-ui-customizer | POC - shadcn/ui themes with color pickers. | [Link](https://github.com/Railly/shadcn-ui-customizer) | 2024-12-27T12:56:05.000Z |
