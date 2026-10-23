@@ -481,6 +481,7 @@
 | jobsync | JobSync is a job seekers' assistant to manage job search efficiently. | [Link](https://github.com/Gsync/jobsync) | 2024-12-27T12:56:05.000Z |
 | kd | Ad-free Kdrama streaming app. Built with Next.js, Drizzle ORM, NeonDB, and shadcn/ui. | [Link](https://github.com/gneiru/kd) | 2024-12-27T12:56:05.000Z |
 | keyzen | KeyZen is a small side project: a clean, browser-based typing speed test built for practice and fun. It is open source and free to use or fork. | [Link](https://keyzen.theshiva.xyz/) | 2026-04-24T20:24:48.000Z |
+| mailmop | Gmail cleaner with a shadcn/ui interface that ranks senders by email count for bulk delete, unsubscribe, and block, all in the browser. Free tier, optional paid Pro plan. | [Link](https://mailmop.com) |
 | memergez | Quickly generate memes by entering text or an avatar URL, with support for many meme commands. | [Link](https://github.com/avalynndev/memergez) | 2024-12-27T12:56:05.000Z |
 | memfree | Open-source hybrid AI search engine, instantly get accurate answers from the internet, bookmarks, notes, and docs. Built using Next.js and shadcn/ui. | [Link](https://github.com/memfreeme/memfree) | 2024-12-27T12:56:05.000Z |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
