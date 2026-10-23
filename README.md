@@ -511,7 +511,7 @@
 | s5arc-ecommerce-platform | S5ARC is an open-source, multi-tenant e-commerce SaaS platform designed to help non-technical founders launch online stores quickly built with shadcn & nextjs etc. | [Link](https://github.com/S5SAJID/next-dashcommerce) | 2026-04-24T19:39:08.000Z |
 | solidping | AGPL-3.0 self-hosted uptime monitoring app with a shadcn/ui dashboard for checks, incidents and status pages, plus an optional paid hosted version. | [Link](https://github.com/fclairamb/solidping) | 2026-10-23T22:38:43.242Z |
 | someday | Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail users. | [Link](https://github.com/rbbydotdev/someday) | 2024-12-27T12:56:05.000Z |
-| stock-expert-ai | A free US-stock research app demonstrating shadcn/ui cards, badges, buttons, dropdowns, and accordions across stock screening and company research interfaces. | [Link](https://www.stockexpertai.com/) |
+| stock-expert-ai | A free US-stock research app demonstrating shadcn/ui cards, badges, buttons, dropdowns, and accordions across stock screening and company research interfaces. | [Link](https://www.stockexpertai.com/) | 2026-10-23T23:11:27.591Z |
 | stocks | Stock Picker with Next.js charts. | [Link](https://github.com/aryanvichare/stocks) | 2024-12-27T12:56:05.000Z |
 | translate-app | Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. | [Link](https://github.com/developaul/translate-app) | 2024-12-27T12:56:05.000Z |
 | typelabs | MonkeyType-inspired typing test app built with React, shadcn, and Zustand at its core. | [Link](https://github.com/imsandeshpandey/typelabs) | 2024-12-27T12:56:05.000Z |
