@@ -493,6 +493,7 @@
 | pdfmavericks | 40+ free browser-based PDF tools (compress, merge, split, sign, watermark, redact, OCR, convert) with client-side processing — files never leave the device. Built with Next.js 15 App Router, shadcn/ui, and Tailwind CSS. | [Link](https://pdfmavericks.com/) | 2026-05-20T12:30:00.000Z |
 | plotwist | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US) | 2024-12-27T12:56:05.000Z |
 | s5arc-ecommerce-platform | S5ARC is an open-source, multi-tenant e-commerce SaaS platform designed to help non-technical founders launch online stores quickly built with shadcn & nextjs etc. | [Link](https://github.com/S5SAJID/next-dashcommerce) | 2026-04-24T19:39:08.000Z |
+| solidping | AGPL-3.0 self-hosted uptime monitoring app with a shadcn/ui dashboard for checks, incidents and status pages, plus an optional paid hosted version. | [Link](https://github.com/fclairamb/solidping) |
 | someday | Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail users. | [Link](https://github.com/rbbydotdev/someday) | 2024-12-27T12:56:05.000Z |
 | stocks | Stock Picker with Next.js charts. | [Link](https://github.com/aryanvichare/stocks) | 2024-12-27T12:56:05.000Z |
 | translate-app | Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. | [Link](https://github.com/developaul/translate-app) | 2024-12-27T12:56:05.000Z |
