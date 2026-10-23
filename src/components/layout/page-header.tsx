@@ -44,7 +44,7 @@ export function PageHeader({
           <BreadcrumbList className="flex-wrap">
             <BreadcrumbItem>
               <BreadcrumbLink asChild>
-                <Link href="/" className="text-sm">
+                <Link prefetch={false} href="/" className="text-sm">
                   Home
                 </Link>
               </BreadcrumbLink>
@@ -60,6 +60,7 @@ export function PageHeader({
                   ) : (
                     <BreadcrumbLink asChild>
                       <Link
+                        prefetch={false}
                         href={breadcrumb.href}
                         className="text-sm truncate max-w-[100px] sm:max-w-none"
                       >
