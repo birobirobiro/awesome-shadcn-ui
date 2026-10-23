@@ -388,6 +388,7 @@
 | motion-lexicon | Open-source shadcn registry of animated React components, page blocks, and motion primitives, each with a live preview and reduced-motion support. | [Link](https://motion-lexicon.pages.dev/en/) | 2026-09-19T06:26:03.190Z |
 | motionvariants | Beautiful Framer Motion Animations. | [Link](https://github.com/chrisabdo/motionvariants) | 2024-12-27T12:56:05.000Z |
 | motiq | Accessible, state-driven animated React components and workflow blocks for shadcn/ui, installed as editable source. | [Link](https://github.com/RMahammad/motiq) | 2026-08-11T14:24:58.708Z |
+| movin-design | Free animated UI components (toggles, buttons, loaders, inputs and more) installable from the @movin shadcn registry, each also available as plain HTML/CSS with no dependencies, under MIT-0. | [Link](https://movin.design/components/) |
 | number-flow | React component for number transitions and formatting. | [Link](https://number-flow.barvian.me/) | 2024-12-27T12:56:05.000Z |
 | planes | Registry of animated React components built with Motion and Tailwind, with a small free set of controls, text effects and physics interactions and a paid Pro license for most of the catalog. | [Link](https://useplanes.com) | 2026-09-19T06:42:29.539Z |
 | pqoqubbw | Open-source animated icons collection. | [Link](https://icons.pqoqubbw.dev/) | 2024-12-27T12:56:05.000Z |
