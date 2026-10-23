@@ -328,6 +328,7 @@
 | wds-registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06T21:28:00.000Z |
 | we-inc-components | Free shadcn registry of 667 React and Tailwind CSS components and page sections in 35 categories, each with a live preview, the React code and a plain HTML version, installable with `npx shadcn@latest add`. | [Link](https://we.inc/components) | 2026-10-23T22:39:00.412Z |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
+| wick-charts | MIT-licensed shadcn registry of realtime canvas charts for React and shadcn-vue that stay smooth while data streams in and take their colors from your theme tokens. | [Link](https://wick-charts.eeff.io/integrations/shadcn/) |
 
 ## Plugins and Extensions
 
