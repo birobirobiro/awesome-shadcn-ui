@@ -56,6 +56,7 @@
 | autocomplete-select-shadcn-ui | Autocomplete component built with shadcn/ui and Fancy Multi Select by Maximilian Kaske. | [Link](https://www.armand-salle.fr/post/autocomplete-select-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | billingsdk | Type-safe React billing and subscription management components from Dodo Payments, built with TypeScript and Tailwind CSS to work alongside shadcn/ui. | [Link](https://billingsdk.com/) | 2025-09-06T21:28:00.000Z |
 | billui | Open source billing components for React built with Shadcn. Pricing cards, payment methods, invoice history and more. | [Link](https://github.com/commet-labs/billui) | 2025-12-25T13:27:40.000Z |
+| blobz | Deterministic SVG avatar generator with a free MIT-licensed shadcn registry of avatar components and blocks, plus an optional paid hosted image API. | [Link](https://github.com/lirena00/blobz) |
 | blocks-so | A set of clean, modern building blocks to copy and paste into your apps. Works with all React frameworks. | [Link](https://github.com/ephraimduncan/blocks) | 2025-09-06T21:28:00.000Z |
 | buouui | A UI component library and template suite based on shadcn/ui with stunning landing pages, templates, and rich animations. | [Link](https://buouui.com) | 2025-04-06T18:36:39.000Z |
 | calendar | React/shadcn full calendar like Google Calendar | [Link](https://github.com/charlietlamb/calendar) | 2024-12-27T12:56:05.000Z |
