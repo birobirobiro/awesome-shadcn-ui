@@ -86,6 +86,7 @@
 | downshift-shadcn-combobox | Combobox/autocomplete component built with shadcn/ui and Downshift. | [Link](https://github.com/TheOmer77/downshift-shadcn-combobox) | 2024-12-27T12:56:05.000Z |
 | drag-to-resize-sidebar | Extended shadcn/ui sidebar component with persisted state drag-to-resize functionality. | [Link](https://github.com/lumpinif/drag-to-resize-sidebar) | 2024-12-27T12:56:05.000Z |
 | drop-drawer | A dropdown menu on desktop and a drawer on mobile devices. | [Link](https://github.com/jiaweing/DropDrawer) | 2025-05-13T14:19:30.000Z |
+| eased-ui | Motion-first React components for shadcn/ui, with spring-based animation, reduced-motion support and an MCP server for AI agents; free and MIT, with a paid Pro tier of blocks and Mac components. | [Link](https://eased.dev) |
 | emblor | Customizable, accessible tag input component with shadcn/ui. | [Link](https://github.com/JaleelB/emblor) | 2024-12-27T12:56:05.000Z |
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) | 2024-12-27T12:56:05.000Z |
 | eo-n-ui | Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind CSS for a modern and customizable design system. | [Link](https://github.com/aeonzz/eo-n) | 2025-04-03T20:12:06.000Z |
