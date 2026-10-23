@@ -24,7 +24,7 @@
 
 <p align="center">
   <i>Created by <a href="https://birobirobiro.dev/" target="_blank">birobirobiro.dev</a></i><br>
-  <i>Site by <a href="https://bankkroll.xyz/" target="_blank">bankkroll.xyz</a></i>
+  <i>Site by <a href="https://vtxlabs.dev/" target="_blank">vtxlabs.dev</a></i>
 </p>
 
 <h3 align="center">Sponsors</h3>

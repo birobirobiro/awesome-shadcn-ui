@@ -84,12 +84,12 @@ export default function Hero() {
         <span>
           Site by{" "}
           <a
-            href="https://bankkroll.xyz"
+            href="https://vtxlabs.dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:underline underline-offset-4"
           >
-            bankkroll.xyz
+            vtxlabs.dev
           </a>
         </span>
       </motion.div>
