@@ -175,6 +175,7 @@
 | shadcn-admin | Admin Dashboard UI with shadcn/ui and Vite. | [Link](https://github.com/satnaing/shadcn-admin) | 2024-12-27T12:56:05.000Z |
 | shadcn-admin-kit | Powerful open-source shadcn components to build beautiful internal tools, admin panels, and dashboards with React | [Link](https://github.com/marmelab/shadcn-admin-kit) | 2025-07-07T12:23:13.000Z |
 | shadcn-blocks | Official pre-made customizable components. | [Link](https://ui.shadcn.com/blocks) | 2024-12-27T12:56:05.000Z |
+| shadcn-blocks-com | Premium shadcn/ui registry with 1429 blocks, 1189 component variants, 14 templates, Figma kit, themes, and admin dashboard resources. | [Link](https://www.shadcnblocks.com) | 2025-02-23T14:05:40.000Z |
 | shadcn-cal | Cal.com monthly calendar replica with shadcn/ui. | [Link](https://shadcn-cal-com.vercel.app/?date=2024-04-29) | 2024-12-27T12:56:05.000Z |
 | shadcn-calendar-component | Calendar date picker component. | [Link](https://github.com/sersavan/shadcn-calendar-component) | 2024-12-27T12:56:05.000Z |
 | shadcn-calendar-heatmap | Modern calendar heatmap alternative. | [Link](https://shadcn-calendar-heatmap.vercel.app/) | 2024-12-27T12:56:05.000Z |
