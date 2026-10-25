@@ -11,7 +11,13 @@ import {
   InputGroupButton,
 } from "@/components/ui/input-group";
 import { Button } from "@/components/ui/button";
-import { Check, ChevronDown, Search, X } from "lucide-react";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "@/components/ui/collapsible";
+import { Badge } from "@/components/ui/badge";
+import { Check, ChevronDown, Search, SlidersHorizontal, X } from "lucide-react";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 
 interface SearchFilterControlsProps {
@@ -41,17 +47,24 @@ export function SearchFilterControls({
   resultCount,
   onClearFilters,
 }: SearchFilterControlsProps) {
+  const [showFilters, setShowFilters] = useState(false);
   const [showAllCategories, setShowAllCategories] = useState(false);
+  const activeFilterCount =
+    selectedCategories.length + (sortOption !== "date-desc" ? 1 : 0);
   const visibleCategories = categoryOptions.filter(
     (category, index) =>
       showAllCategories ||
       index < VISIBLE_CATEGORIES ||
       selectedCategories.includes(category.value),
   );
-  const hasFilters = Boolean(searchQuery || selectedCategories.length);
+  const hasFilters = Boolean(searchQuery || activeFilterCount);
 
   return (
-    <div className="catalog-filters">
+    <Collapsible
+      className="catalog-filters"
+      open={showFilters}
+      onOpenChange={setShowFilters}
+    >
       <div className="catalog-toolbar">
         <InputGroup className="catalog-search">
           <InputGroupInput
@@ -79,82 +92,108 @@ export function SearchFilterControls({
             </InputGroupAddon>
           )}
         </InputGroup>
-        <div className="catalog-toolbar__actions">
-          <span className="catalog-sort-label" id="catalog-sort-label">
-            Sort by
-          </span>
-          <Sort sortOption={sortOption} onValueChange={onValueChange} />
-        </div>
-      </div>
-
-      <div className="catalog-category-heading">
-        <span>Categories</span>
-        <span className="text-muted-foreground">Select one or more</span>
-      </div>
-      <div
-        className="category-rail"
-        role="group"
-        aria-label="Filter by category"
-      >
-        <Button
-          variant="outline"
-          size="sm"
-          type="button"
-          className="category-chip"
-          aria-pressed={selectedCategories.length === 0}
-          onClick={() => setSelectedCategories([])}
-        >
-          <CategoryIcon category="All" />
-          All <span className="category-chip__count">{totalItems}</span>
-        </Button>
-        <ToggleGroup
-          type="multiple"
-          value={selectedCategories}
-          onValueChange={setSelectedCategories}
-          className="contents"
-          spacing={1.5}
-          aria-label="Categories"
-          id="catalog-categories"
-        >
-          {visibleCategories.map((category) => (
-            <ToggleGroupItem
-              key={category.value}
-              value={category.value}
-              className="category-chip"
-              disabled={
-                category.count === 0 &&
-                !selectedCategories.includes(category.value)
-              }
-            >
-              {selectedCategories.includes(category.value) ? (
-                <Check aria-hidden="true" />
-              ) : (
-                <CategoryIcon category={category.value} />
-              )}
-              {category.label}
-              <span className="category-chip__count">{category.count}</span>
-            </ToggleGroupItem>
-          ))}
-        </ToggleGroup>
-        {categoryOptions.length > VISIBLE_CATEGORIES && (
+        <CollapsibleTrigger asChild>
           <Button
-            variant="ghost"
-            size="sm"
+            variant={
+              showFilters || activeFilterCount > 0 ? "secondary" : "outline"
+            }
             type="button"
-            className="category-rail__expand"
-            aria-expanded={showAllCategories}
-            aria-controls="catalog-categories"
-            onClick={() => setShowAllCategories((value) => !value)}
+            className="h-10 shrink-0"
+            aria-controls="catalog-filter-panel"
+            aria-label={showFilters ? "Hide filters" : "Show filters"}
           >
-            {showAllCategories ? "Show fewer" : "All categories"}
+            <SlidersHorizontal data-icon="inline-start" aria-hidden="true" />
+            Filters
+            {activeFilterCount > 0 && (
+              <Badge variant="outline">{activeFilterCount}</Badge>
+            )}
             <ChevronDown
               data-icon="inline-end"
               aria-hidden="true"
-              className={showAllCategories ? "rotate-180" : undefined}
+              className={showFilters ? "rotate-180" : undefined}
             />
           </Button>
-        )}
+        </CollapsibleTrigger>
       </div>
+
+      <CollapsibleContent id="catalog-filter-panel">
+        <div className="catalog-filter-panel__sort">
+          <span className="catalog-sort-label">Sort by</span>
+          <Sort
+            sortOption={sortOption}
+            onValueChange={onValueChange}
+            className="min-w-0 flex-1 sm:flex-none"
+          />
+        </div>
+        <div className="catalog-category-heading">
+          <span>Categories</span>
+          <span className="text-muted-foreground">Select one or more</span>
+        </div>
+        <div
+          className="category-rail"
+          role="group"
+          aria-label="Filter by category"
+        >
+          <Button
+            variant="outline"
+            size="sm"
+            type="button"
+            className="category-chip"
+            aria-pressed={selectedCategories.length === 0}
+            onClick={() => setSelectedCategories([])}
+          >
+            <CategoryIcon category="All" />
+            All <span className="category-chip__count">{totalItems}</span>
+          </Button>
+          <ToggleGroup
+            type="multiple"
+            value={selectedCategories}
+            onValueChange={setSelectedCategories}
+            className="contents"
+            spacing={1.5}
+            aria-label="Categories"
+            id="catalog-categories"
+          >
+            {visibleCategories.map((category) => (
+              <ToggleGroupItem
+                key={category.value}
+                value={category.value}
+                className="category-chip"
+                disabled={
+                  category.count === 0 &&
+                  !selectedCategories.includes(category.value)
+                }
+              >
+                {selectedCategories.includes(category.value) ? (
+                  <Check aria-hidden="true" />
+                ) : (
+                  <CategoryIcon category={category.value} />
+                )}
+                {category.label}
+                <span className="category-chip__count">{category.count}</span>
+              </ToggleGroupItem>
+            ))}
+          </ToggleGroup>
+          {categoryOptions.length > VISIBLE_CATEGORIES && (
+            <Button
+              variant="ghost"
+              size="sm"
+              type="button"
+              className="category-rail__expand"
+              aria-expanded={showAllCategories}
+              aria-controls="catalog-categories"
+              onClick={() => setShowAllCategories((value) => !value)}
+            >
+              {showAllCategories ? "Show fewer" : "All categories"}
+              <ChevronDown
+                data-icon="inline-end"
+                aria-hidden="true"
+                className={showAllCategories ? "rotate-180" : undefined}
+              />
+            </Button>
+          )}
+        </div>
+      </CollapsibleContent>
 
       <div className="catalog-filter-summary">
         <p role="status" aria-live="polite" aria-atomic="true">
@@ -181,6 +220,6 @@ export function SearchFilterControls({
           </Button>
         )}
       </div>
-    </div>
+    </Collapsible>
   );
 }

@@ -255,6 +255,7 @@ export default function ItemList({
             updateFilters((params) => {
               params.delete("q");
               params.delete("category");
+              params.delete("sort");
             });
             setCurrentPage(1);
           }}

@@ -730,6 +730,17 @@ html:has(body[data-scroll-locked]) {
   padding-bottom: 1rem;
 }
 
+.catalog-filters .catalog-search {
+  flex: 1 1 0;
+}
+
+.catalog-filter-panel__sort {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
 .catalog-category-heading {
   display: flex;
   flex-wrap: wrap;
