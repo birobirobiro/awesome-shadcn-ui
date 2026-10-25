@@ -11,6 +11,8 @@ function ShadcnStudioLogo({ className = "w-5 h-5" }: ShadcnStudioLogoProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
+      aria-hidden="true"
+      focusable="false"
     >
       <rect width="328" height="328" rx="164" className="fill-foreground" />
       <path

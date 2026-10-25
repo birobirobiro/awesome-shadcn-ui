@@ -50,23 +50,34 @@ export function useWebsitePreview({
 }): UseWebsitePreviewReturn {
   const [previewState, setPreviewState] = useState<PreviewState>("loading");
   const [screenshotUrl, setScreenshotUrl] = useState<string | null>(null);
-  const [faviconUrl, setFaviconUrl] = useState<string | null>(null);
+  let faviconUrl: string | null = null;
+  try {
+    faviconUrl = `https://icons.duckduckgo.com/ip3/${new URL(url).hostname}.ico`;
+  } catch {
+    /* Invalid URLs have no favicon. */
+  }
 
   useEffect(() => {
     let isMounted = true;
 
-    // Extract domain for favicon
-    try {
-      const domain = new URL(url).hostname;
-      setFaviconUrl(`https://icons.duckduckgo.com/ip3/${domain}.ico`);
-    } catch {
-      setFaviconUrl(null);
-    }
+    const fetchWithTimeout = async (
+      input: RequestInfo | URL,
+      timeoutMs: number,
+    ) => {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
+      try {
+        return await fetch(input, { signal: controller.signal });
+      } finally {
+        clearTimeout(timeout);
+      }
+    };
 
     const loadScreenshot = async () => {
       try {
         const microlinkUrl = `https://api.microlink.io?url=${encodeURIComponent(url)}&screenshot=true&meta=false`;
-        const response = await fetch(microlinkUrl);
+        const response = await fetchWithTimeout(microlinkUrl, 12000);
         const data = await response.json();
 
         if (!isMounted) return;
@@ -86,8 +97,9 @@ export function useWebsitePreview({
 
     const checkEmbeddable = async () => {
       try {
-        const response = await fetch(
+        const response = await fetchWithTimeout(
           `/api/preview-check?url=${encodeURIComponent(url)}`,
+          8000,
         );
         const data = await response.json();
 

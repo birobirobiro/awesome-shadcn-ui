@@ -50,7 +50,7 @@ function createResizeObserverStore() {
     notificationScheduled = true;
     queueMicrotask(() => {
       notificationScheduled = false;
-      for (const callback of listeners) {
+      for (const callback of Array.from(listeners)) {
         callback();
       }
     });
@@ -564,8 +564,20 @@ function MarqueeContent(props: DivProps) {
         {onMultipliedChildrenRender(multiplier - 1)}
       </ContentPrimitive>
       <ContentPrimitive
+        data-orientation={context.orientation}
+        data-slot="marquee-content"
         role="presentation"
         aria-hidden="true"
+        ref={(element) => {
+          // Keep visual copies clickable without repeating keyboard stops.
+          element
+            ?.querySelectorAll<HTMLElement>(
+              "a, button, input, select, textarea, [tabindex]",
+            )
+            .forEach((control) => {
+              control.tabIndex = -1;
+            });
+        }}
         {...contentProps}
         style={style}
         className={cn(

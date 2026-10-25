@@ -1,9 +1,9 @@
 "use client";
 
 import { isValid, parseISO } from "date-fns";
-import { AnimatePresence, motion } from "motion/react";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
+import { useCallback, useMemo, useState, useSyncExternalStore } from "react";
+
+import { SponsorRail } from "@/components/sponsor-rail";
 
 import { SortOption } from "@/components/sort";
 import { useBookmarks } from "@/hooks/use-bookmark";
@@ -12,7 +12,29 @@ import { Resource } from "@/hooks/use-readme";
 import { ItemGrid, SPONSOR_INTERVAL } from "./item-grid";
 import { PaginationControls } from "./pagination-controls";
 import { SearchFilterControls } from "./search-filter-controls";
-import { Skeleton } from "./ui/skeleton";
+
+// The home page is statically rendered; read URL state after hydration.
+function subscribeToFilters(callback: () => void) {
+  window.addEventListener("popstate", callback);
+  window.addEventListener("catalog-filters", callback);
+  return () => {
+    window.removeEventListener("popstate", callback);
+    window.removeEventListener("catalog-filters", callback);
+  };
+}
+const getFilterSnapshot = () => window.location.search;
+const getServerFilterSnapshot = () => "";
+
+function updateFilters(update: (params: URLSearchParams) => void) {
+  const url = new URL(window.location.href);
+  update(url.searchParams);
+  window.history.replaceState(
+    null,
+    "",
+    `${url.pathname}${url.search}${url.hash}`,
+  );
+  window.dispatchEvent(new Event("catalog-filters"));
+}
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
@@ -38,13 +60,37 @@ export default function ItemList({
   items: initialItems,
   categories,
 }: ItemListProps) {
-  const [filteredItems, setFilteredItems] = useState<Resource[]>(initialItems);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(ITEMS_PER_PAGE_OPTIONS[1]);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
-  const [sortOption, setSortOption] = useState<SortOption>("date-desc");
-  const [isLoading, setIsLoading] = useState(true);
+  const filterSnapshot = useSyncExternalStore(
+    subscribeToFilters,
+    getFilterSnapshot,
+    getServerFilterSnapshot,
+  );
+  const params = useMemo(
+    () => new URLSearchParams(filterSnapshot),
+    [filterSnapshot],
+  );
+  const searchQuery = params.get("q") ?? "";
+  const selectedCategories = useMemo(
+    () =>
+      params
+        .getAll("category")
+        .filter((value) =>
+          categories.some((category) => category.title === value),
+        ),
+    [params, categories],
+  );
+  const requestedSort = params.get("sort");
+  const sortOption: SortOption = [
+    "date-desc",
+    "date-asc",
+    "name-asc",
+    "name-desc",
+    "stars-desc",
+  ].includes(requestedSort ?? "")
+    ? (requestedSort as SortOption)
+    : "date-desc";
 
   const debouncedSearchQuery = useDebounce(searchQuery, 300);
   const {
@@ -53,22 +99,31 @@ export default function ItemList({
     isLoading: isBookmarkLoading,
   } = useBookmarks();
 
-  const categoryOptions = useMemo(
-    () =>
-      categories.map((category) => ({
-        label: category.title,
-        value: category.title,
-      })),
-    [categories],
-  );
+  const searchMatchedItems = useMemo(() => {
+    const query = debouncedSearchQuery.trim().toLowerCase();
+    return initialItems.filter(
+      (item) =>
+        !query ||
+        item.name?.toLowerCase().includes(query) ||
+        item.description?.toLowerCase().includes(query),
+    );
+  }, [initialItems, debouncedSearchQuery]);
+
+  const categoryOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const item of searchMatchedItems) {
+      counts.set(item.category, (counts.get(item.category) ?? 0) + 1);
+    }
+    return categories.map((category) => ({
+      label: category.title,
+      value: category.title,
+      count: counts.get(category.title) ?? 0,
+    }));
+  }, [categories, searchMatchedItems]);
 
   const sortItems = useCallback(
     (items: Resource[]): Resource[] => {
       return [...items].sort((a, b) => {
-        const aBookmarked = bookmarkedItems.includes(a.id);
-        const bBookmarked = bookmarkedItems.includes(b.id);
-        if (aBookmarked !== bBookmarked) return aBookmarked ? -1 : 1;
-
         const [field, direction] = sortOption.split("-") as [
           "date" | "name" | "stars",
           "asc" | "desc",
@@ -91,40 +146,31 @@ export default function ItemList({
           const nameB = b.name?.toLowerCase() || "";
           const result = nameA.localeCompare(nameB);
           return direction === "asc" ? result : -result;
-        } else {
-          const dateA =
-            a.date && a.date !== "Unknown" ? parseISO(a.date) : new Date(0);
-          const dateB =
-            b.date && b.date !== "Unknown" ? parseISO(b.date) : new Date(0);
-
-          if (!isValid(dateA) && !isValid(dateB)) return 0;
-          if (!isValid(dateA)) return direction === "asc" ? -1 : 1;
-          if (!isValid(dateB)) return direction === "asc" ? 1 : -1;
-
-          const dateDiff =
-            direction === "asc"
-              ? dateA.getTime() - dateB.getTime()
-              : dateB.getTime() - dateA.getTime();
-          if (dateDiff !== 0) return dateDiff;
-
-          return direction === "asc" ? a.order - b.order : b.order - a.order;
         }
+
+        const dateA =
+          a.date && a.date !== "Unknown" ? parseISO(a.date) : new Date(0);
+        const dateB =
+          b.date && b.date !== "Unknown" ? parseISO(b.date) : new Date(0);
+
+        if (!isValid(dateA) && !isValid(dateB)) return 0;
+        if (!isValid(dateA)) return direction === "asc" ? -1 : 1;
+        if (!isValid(dateB)) return direction === "asc" ? 1 : -1;
+
+        const dateDiff =
+          direction === "asc"
+            ? dateA.getTime() - dateB.getTime()
+            : dateB.getTime() - dateA.getTime();
+        if (dateDiff !== 0) return dateDiff;
+
+        return direction === "asc" ? a.order - b.order : b.order - a.order;
       });
     },
-    [bookmarkedItems, sortOption],
+    [sortOption],
   );
 
-  const filterAndSortItems = useCallback(() => {
-    let filtered = [...initialItems];
-
-    if (debouncedSearchQuery) {
-      const lowercaseQuery = debouncedSearchQuery.toLowerCase();
-      filtered = filtered.filter(
-        (item) =>
-          (item.name?.toLowerCase() || "").includes(lowercaseQuery) ||
-          (item.description?.toLowerCase() || "").includes(lowercaseQuery),
-      );
-    }
+  const filteredItems = useMemo(() => {
+    let filtered = searchMatchedItems;
 
     if (selectedCategories.length > 0) {
       filtered = filtered.filter((item) =>
@@ -132,42 +178,20 @@ export default function ItemList({
       );
     }
 
-    const sortedItems = sortItems(filtered);
-
-    setFilteredItems(sortedItems);
-    setCurrentPage(1);
-  }, [initialItems, debouncedSearchQuery, selectedCategories, sortItems]);
-
-  // Update filteredItems when initialItems change
-  useEffect(() => {
-    setFilteredItems(initialItems);
-    setCurrentPage(1);
-  }, [initialItems]);
-
-  useEffect(() => {
-    filterAndSortItems();
-  }, [filterAndSortItems]);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-      filterAndSortItems();
-    }, 100);
-    return () => clearTimeout(timer);
-  }, []);
-
-  // Set loading to false when initialItems are available
-  useEffect(() => {
-    if (initialItems.length > 0) {
-      setIsLoading(false);
-    }
-  }, [initialItems]);
+    return sortItems(filtered);
+  }, [searchMatchedItems, selectedCategories, sortItems]);
 
   const itemsPerPageActual = itemSlotsFor(itemsPerPage);
-  const totalPages = Math.ceil(filteredItems.length / itemsPerPageActual);
-  const indexOfLastItem = currentPage * itemsPerPageActual;
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredItems.length / itemsPerPageActual),
+  );
+  const safePage = Math.min(currentPage, totalPages);
+  const indexOfLastItem = safePage * itemsPerPageActual;
   const indexOfFirstItem = indexOfLastItem - itemsPerPageActual;
   const currentItems = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
+  const showingFrom = filteredItems.length === 0 ? 0 : indexOfFirstItem + 1;
+  const showingTo = Math.min(indexOfLastItem, filteredItems.length);
 
   const handlePageChange = useCallback((pageNumber: number) => {
     setCurrentPage(pageNumber);
@@ -178,146 +202,102 @@ export default function ItemList({
     setCurrentPage(1);
   }, []);
 
-  const handleSortChange = useCallback(
-    (option: SortOption) => {
-      setSortOption(option);
-
-      const sorted = sortItems(
-        filteredItems.filter((item) => {
-          if (
-            selectedCategories.length > 0 &&
-            !selectedCategories.includes(item.category)
-          ) {
-            return false;
-          }
-
-          if (debouncedSearchQuery) {
-            const lowercaseQuery = debouncedSearchQuery.toLowerCase();
-            return (
-              (item.name?.toLowerCase() || "").includes(lowercaseQuery) ||
-              (item.description?.toLowerCase() || "").includes(lowercaseQuery)
-            );
-          }
-
-          return true;
-        }),
-      );
-
-      setFilteredItems(sorted);
-    },
-    [filteredItems, sortItems, selectedCategories, debouncedSearchQuery],
-  );
-
-  // Get grid column classes
-  const getGridClasses = useCallback(() => {
-    return "sm:grid-cols-2 lg:grid-cols-3";
+  const handleSortChange = useCallback((option: SortOption) => {
+    updateFilters((params) => {
+      if (option === "date-desc") params.delete("sort");
+      else params.set("sort", option);
+    });
+    setCurrentPage(1);
   }, []);
 
-  // Get item card height
-  const getCardHeightClass = useCallback(() => {
-    return "min-h-[250px]";
+  const handleSearchQueryChange = useCallback((query: string) => {
+    updateFilters((params) => {
+      if (query) params.set("q", query);
+      else params.delete("q");
+    });
+    setCurrentPage(1);
   }, []);
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
+  const handleCategoriesChange = useCallback((categories: string[]) => {
+    updateFilters((params) => {
+      params.delete("category");
+      categories.forEach((category) => params.append("category", category));
+    });
+    setCurrentPage(1);
+  }, []);
 
   return (
-    <motion.div
-      className="space-y-6"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <motion.div variants={itemVariants}>
+    <section id="index" className="catalog" aria-labelledby="catalog-title">
+      <div className="shell">
+        <div className="catalog-head">
+          <div>
+            <h1 id="catalog-title" className="text-2xl font-medium sm:text-3xl">
+              Resources
+            </h1>
+            <p className="catalog-head__meta">
+              Browse {initialItems.length} resources across {categories.length}{" "}
+              categories.
+            </p>
+          </div>
+        </div>
+
         <SearchFilterControls
           searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
+          setSearchQuery={handleSearchQueryChange}
           categoryOptions={categoryOptions}
           selectedCategories={selectedCategories}
-          setSelectedCategories={setSelectedCategories}
+          setSelectedCategories={handleCategoriesChange}
           sortOption={sortOption}
-          onSortChange={handleSortChange}
+          onValueChange={handleSortChange}
+          totalItems={searchMatchedItems.length}
+          resultCount={filteredItems.length}
+          onClearFilters={() => {
+            updateFilters((params) => {
+              params.delete("q");
+              params.delete("category");
+            });
+            setCurrentPage(1);
+          }}
         />
-      </motion.div>
 
-      <motion.div variants={itemVariants}>
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={`${isLoading ? "loading" : "loaded"}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.3 }}
-            layout
-          >
-            {isLoading ? (
-              <div className={`grid gap-6 ${getGridClasses()}`}>
-                {[...Array(itemsPerPage)].map((_, index) => (
-                  <Card
-                    key={index}
-                    className={`flex flex-col h-full ${getCardHeightClass()} overflow-hidden`}
-                  >
-                    <CardHeader className="pb-4">
-                      <div className="flex justify-between items-start">
-                        <Skeleton className="h-6 w-3/4" />
-                        <Skeleton className="h-5 w-16" />
-                      </div>
-                    </CardHeader>
-                    <CardContent className="flex-grow">
-                      <Skeleton className="h-4 w-full mb-2" />
-                      <Skeleton className="h-4 w-5/6" />
-                    </CardContent>
-                    <CardFooter className="pt-4">
-                      <Skeleton className="h-9 w-full" />
-                    </CardFooter>
-                  </Card>
-                ))}
-              </div>
-            ) : (
+        <div className="category-layout">
+          <SponsorRail />
+          <div className="category-main">
+            <div className="catalog-results">
               <ItemGrid
                 items={currentItems}
                 bookmarkedItems={bookmarkedItems}
                 onBookmark={toggleBookmark}
                 isBookmarkLoading={isBookmarkLoading}
+                startIndex={indexOfFirstItem}
+                pageSize={totalPages > 1 ? itemsPerPage : undefined}
+              />
+            </div>
+
+            {filteredItems.length > 0 && (
+              <PaginationControls
+                currentPage={safePage}
+                totalPages={totalPages}
+                itemsPerPage={itemsPerPage}
+                handlePageChange={handlePageChange}
+                handleItemsPerPageChange={handleItemsPerPageChange}
+                itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
               />
             )}
-          </motion.div>
-        </AnimatePresence>
-      </motion.div>
 
-      {filteredItems.length > 0 && (
-        <motion.div variants={itemVariants}>
-          <PaginationControls
-            currentPage={currentPage}
-            totalPages={totalPages}
-            itemsPerPage={itemsPerPage}
-            handlePageChange={handlePageChange}
-            handleItemsPerPageChange={handleItemsPerPageChange}
-            itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
-          />
-        </motion.div>
-      )}
-
-      <motion.div
-        variants={itemVariants}
-        className="text-sm text-muted-foreground text-center"
-      >
-        Showing {indexOfFirstItem + 1} -{" "}
-        {Math.min(indexOfLastItem, filteredItems.length)} of{" "}
-        {filteredItems.length} items
-      </motion.div>
-    </motion.div>
+            <div className="catalog-foot">
+              <span className="catalog-foot__count">
+                Showing {showingFrom} to {showingTo} of {filteredItems.length}
+              </span>
+              <span>
+                {selectedCategories.length > 0
+                  ? `${selectedCategories.length} categories selected`
+                  : "All categories"}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,0 +1,24 @@
+{
+  "scanned": "2026-10-24",
+  "framework": "Next.js 16.3.6 App Router, static prerender via OpenNext/Cloudflare",
+  "fonts": "Geist + Geist Mono via next/font in src/app/layout.tsx",
+  "palette": "shadcn OKLCH tokens in src/app/globals.css; brand pink #FC60A8 and ink #494368 in public/logo.svg",
+  "motion": "motion/react used for entry and layout across hero, cards, footer and CTA; no reduced-motion fallback",
+  "spacing": "Tailwind v4 default 4pt scale; max-w-7xl containers",
+  "preserve": [
+    "brand sunglasses mark and wordmark",
+    "README as the only resource source",
+    "routes: /, /categories, /categories/[category], /categories/[category]/[id], /bookmarks",
+    "search, category filter, sort, pagination, bookmarks and PR submission wiring",
+    "sponsor links and sponsor cards",
+    "all existing content facts and credits"
+  ],
+  "introduce": [
+    "Console theme, paper colorway in light and graphite in dark",
+    "brand pink replaces the theme amber",
+    "Host Grotesk + Atkinson Hyperlegible Mono",
+    "Index-First composition with a compact banner masthead",
+    "hairline panels, no shadows or gradients",
+    "reduced-motion-safe interaction states and visible content without JS"
+  ]
+}

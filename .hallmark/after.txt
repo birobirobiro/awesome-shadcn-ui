@@ -1,0 +1,170 @@
+render tier: 25 screenshots in /Users/birobirobiro/Developer/side-projects/awesome-shadcn-ui/.hallmark/shots (1280x800, 1440x900, 1920x1080 folds; 1440 and 375 full pages)
+src/components/ui/accordion.tsx
+  FAIL 10a :42 transition-all on <AccordionPrimitive class="focus-visible:ring-ring/50 focu…"> | fix: Name the properties: transition-colors, transition-opacity or transition-transform
+src/components/ui/input-otp.tsx
+  FAIL 10a :54 transition-all on <div class="dark:bg-input/30 border-input d…">
+src/components/ui/navigation-menu.tsx
+  FAIL 10a :61 transition-all on cva() class string
+  FAIL 10a :128 transition-all on <NavigationMenuPrimitive class="data-active:focus:bg-muted data…">
+src/components/ui/progress.tsx
+  FAIL 10a :22 transition-all on <ProgressPrimitive class="bg-primary size-full flex-1 tra…">
+src/components/ui/sidebar.tsx
+  FAIL 10a :217 transition-[width] on <div class="relative w-(--sidebar-width) bg…">
+  FAIL 10a :228 transition-[left,right,width] on <div class="fixed inset-y-0 z-10 hidden h-s…">
+  FAIL 10a :283 transition-all on <button class="hover:after:bg-sidebar-border a…">
+  FAIL 10a :468 transition-[width,height,padding] on cva() class string
+src/components/ui/switch.tsx
+  FAIL 10a :16 transition-all on <SwitchPrimitive class="data-checked:bg-primary data-un…">
+src/components/ui/tabs.tsx
+  FAIL 10a :63 transition-all on <TabsPrimitive class="focus-visible:border-ring focus…">
+src/components/ui/toggle.tsx
+  FAIL 10a :9 transition-all on cva() class string
+src/app/bookmarks/page.tsx
+  FAIL 19 :242 dash "–" in copy | fix: A comma, a colon, a full stop or parentheses; never a dash
+src/components/category-page-content.tsx
+  FAIL 19 :166 dash "–" in copy
+src/components/items-list.tsx
+  FAIL 19 :184 dash "–" in copy
+http://localhost:3001/categories/libs-and-components/8starlabs-ui
+  FAIL 26a :1 [1440px] nothing shows keyboard focus on iframe.h-full | fix: Give every control a :focus-visible ring; never remove an outline without putting one back
+  FAIL 73 :1 [1440px] text painted under another element: span.related-row__title over "Data table for s"; span.related-row__title o… | fix: Give the text its own space, or put it above what covers it on a surface of its own
+  REFLEX 44c :1 [1440px] hero ends at 370px of a 900px screen | fix: Fill the first screen with the visual or the headline, not with copy
+  REFLEX 49b :1 [320px] link "Libs and Components" wraps to 2 lines (a.footer-link) | fix: Shorten the label or set nowrap
+  REFLEX 49b :1 [320px] link "Boilerplates / Templates" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Plugins and Extensions" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Colors and Customizations" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Pull request template" wraps to 2 lines (a.footer-link)
+  REFLEX 79 :1 [1440px] 555px of nothing between the hero's last content (y 345) and the fold | fix: Centre the content in the screen and grow the visual or the head (layout.md § 6); never fill it with copy
+  WARN 77 :1 [1440px] 2 sections, hero and footer included | fix: A landing strip, not a page: six to nine sections, five on a thin prompt (layout.md § 3)
+  WARN F18 :1 [375px] slot "tooltip-trigger" renders at 32 x 32px on a phone | fix: The slot collapsed: give it width: 100% and an aspect-ratio in the stacked layout
+  WARN F18 :1 [1440px] slot "tooltip-trigger" renders at 60 x 32px | fix: The slot collapsed: give it a width from its track and a real aspect-ratio, never a percentage of a shrink-to-fit parent
+  NOTE 58 :1 [1440px] 150 words on one screen (from y=650) | fix: One idea per screen: cut to about 80 words, make the section an object
+src/components/sponsors/shadcn-studio-logo.tsx
+  FAIL 33 :9 <svg> without aria-hidden or aria-label | fix: Add aria-hidden or an aria-label
+src/app/globals.css
+  FAIL 39a :1173 disabled via opacity alone on .page-button:disabled | fix: Three disabled channels: fill, ink and cursor, plus the disabled attribute
+  FAIL 48 :100 oklch literal oklch(16.5% 0.008 250) outside tokens (--paper on .dark) | fix: Lift the value into the token block
+  FAIL 48 :101 oklch literal oklch(20.5% 0.009 250) outside tokens (--paper-2 on .dark)
+  FAIL 48 :102 oklch literal oklch(24% 0.01 250) outside tokens (--paper-3 on .dark)
+  FAIL 48 :103 oklch literal oklch(95% 0.005 250) outside tokens (--ink on .dark)
+  FAIL 48 :104 oklch literal oklch(84% 0.008 250) outside tokens (--ink-2 on .dark)
+  FAIL 48 :105 oklch literal oklch(71% 0.01 250) outside tokens (--muted-ink on .dark)
+  FAIL 48 :106 oklch literal oklch(30% 0.01 250) outside tokens (--rule on .dark)
+  FAIL 48 :107 oklch literal oklch(40% 0.012 250) outside tokens (--rule-2 on .dark)
+  FAIL 48 :108 colour literal #fc60a8 outside tokens (--brand on .dark)
+  FAIL 48 :109 colour literal #ff8fc6 outside tokens (--brand-strong on .dark)
+  FAIL 48 :110 oklch literal oklch(28% 0.05 350) outside tokens (--brand-soft on .dark)
+  FAIL 48 :111 colour literal #ffb3d6 outside tokens (--brand-ink on .dark)
+  FAIL 48 :112 colour literal #8bb8d6 outside tokens (--cool on .dark)
+  FAIL 48 :113 colour literal #fc60a8 outside tokens (--focus on .dark)
+  FAIL 48 :129 oklch literal oklch(70% 0.18 25) outside tokens (--destructive on .dark)
+  REFLEX 64 :743 monospace label voice on .category-chip__count | fix: Labels in the body face, a step smaller, sentence case; mono only for code and figures
+  WARN 25 :1053 measure 42ch on .empty-state__text (45-75ch range) | fix: Set prose measure between 45 and 75ch; a one-sentence lede or caption from 28ch
+  WARN F6 :1049 numeric selector .empty-state__title at display size without tabular figures | fix: Add font-variant-numeric: tabular-nums
+  WARN F6 :1643 numeric selector .state-message__title at display size without tabular figures
+http://localhost:3001/
+  FAIL 40 :1 [1440px] a field's edge is under 3:1 against what surrounds it: input.h-10 2.08:1 | fix: Draw the field in --color-muted, or fill it a step off the surface it sits on
+  REFLEX 39b :1 [1440px] control height outside 44 to 52px: a.sponsorship__cta 22px, button.category-chip 34px, button.category-chip 34… | fix: Marketing controls stand 44 to 52px; app UI 32 to 40px with a 44px hit target
+  REFLEX 44c :1 [1440px] hero ends at 539px of a 900px screen
+  REFLEX 49b :1 [320px] link "mini-golf-spots" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "stock-expert-ai" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-exchange" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "we-inc-components" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-animated" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-vite-starter" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "Libs and Components" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Boilerplates / Templates" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Plugins and Extensions" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Colors and Customizations" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Pull request template" wraps to 2 lines (a.footer-link)
+  REFLEX 59 :1 [1440px] smallest gap between sections is 49px (gaps: 49, 231, 164) | fix: 120px or more between sections, by the --section-gap steps
+  REFLEX 77 :1 [1440px] 1 thin section: "Contribute to awesome-shadcn" (92% wide, no mass) | fix: Widen the body to ten of twelve columns and give it mass: a visual 300px tall or more, a set of three across, rows, or a statement (layout.md § 4 and § 5)
+  WARN 77 :1 [1440px] 4 sections, hero and footer included
+  WARN F18 :1 [375px] slot "tooltip-trigger" renders at 32 x 32px on a phone
+  WARN F18 :1 [1440px] slot "tooltip-trigger" renders at 60 x 32px
+  WARN F20 :1 [1440px] div.sponsorship__links leaves one item alone on its last row (2 + 1) | fix: Change the count or the columns so the last row is not an orphan
+  NOTE 58 :1 [1440px] 261 words on one screen (from y=2750)
+  NOTE 58 :1 [1440px] hero carries 5 text blocks before its actions | fix: Headline, one sentence, actions; delete the rest
+http://localhost:3001/bookmarks
+  FAIL 40 :1 [1440px] a field's edge is under 3:1 against what surrounds it: input.h-10 2.08:1
+  REFLEX 44c :1 [1440px] hero ends at 339px of a 900px screen
+  REFLEX 49b :1 [320px] link "Libs and Components" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Boilerplates / Templates" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Plugins and Extensions" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Colors and Customizations" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Pull request template" wraps to 2 lines (a.footer-link)
+  REFLEX 79 :1 [1440px] 408px of nothing between the hero's last content (y 314) and the next section
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "tooltip-trigger" renders at 32 x 32px on a phone
+  WARN F18 :1 [1440px] slot "tooltip-trigger" renders at 60 x 32px
+  NOTE 58 :1 [1440px] 86 words on one screen (from y=150) | fix: Close to the 80-word screen budget
+  NOTE 58 :1 [1440px] hero carries 3 text blocks before its actions
+http://localhost:3001/categories/libs-and-components
+  FAIL 40 :1 [1440px] a field's edge is under 3:1 against what surrounds it: input.h-10 2.08:1
+  REFLEX 39b :1 [1440px] control height outside 44 to 52px: button.page-button 32px, button.page-button 32px, button.page-button 32px
+  REFLEX 44c :1 [1440px] hero ends at 339px of a 900px screen
+  REFLEX 49b :1 [320px] link "autocomplete-select-shadcn-ui" wraps to 3 lines (a)
+  REFLEX 49b :1 [320px] link "calendar-schedular" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "cascader-shadcn" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "clerk-elements" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "clerk-shadcn-theme" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "confirm-dialog" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "country-state-dropdown" wraps to 3 lines (a)
+  REFLEX 49b :1 [320px] link "data-command" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "date-range-picker-for-shadcn" wraps to 3 lines (a)
+  REFLEX 49b :1 [320px] link "Libs and Components" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Boilerplates / Templates" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Plugins and Extensions" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Colors and Customizations" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Pull request template" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [375px] link "autocomplete-select-shadcn-ui" wraps to 2 lines (a)
+  REFLEX 49b :1 [375px] link "country-state-dropdown" wraps to 2 lines (a)
+  REFLEX 49b :1 [375px] link "date-range-picker-for-shadcn" wraps to 2 lines (a)
+  REFLEX 59 :1 [1440px] smallest gap between sections is 49px (gaps: 49)
+  REFLEX 79 :1 [1440px] 586px of nothing between the hero's last content (y 314) and the fold
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "tooltip-trigger" renders at 32 x 32px on a phone
+  WARN F18 :1 [1440px] slot "tooltip-trigger" renders at 60 x 32px
+  NOTE 58 :1 [1440px] 217 words on one screen (from y=350)
+  NOTE 58 :1 [1440px] hero carries 3 text blocks before its actions
+src/components/sponsor-card.tsx
+  FAIL 54 :12 eyebrow "AD" before <div> | fix: Cut it; the heading already says this (craft.md § 7 has twelve other openings)
+src/components/ui/command.tsx
+  FAIL 67 :171 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-dat…"> | fix: Sentence case in the body face, a step smaller, untracked: drop uppercase and the tracking-* class
+src/components/ui/context-menu.tsx
+  FAIL 67 :240 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+src/components/ui/dropdown-menu.tsx
+  FAIL 67 :200 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+src/components/ui/menubar.tsx
+  FAIL 67 :207 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+.hallmark/before.json
+  FAIL kept :1 handlers the page had before and no longer has: onChange={(e) => setSearchQuery(e.target.value)}, onClick={() => (window.location.href = "/")}, onClick={(e) => e.stopPropagation()}, onClick={(e) => { e.preventDefault(); e.stopPro…, onClick={handleCardClick}, onError={() => setScreenshotFailed(true)}, onValueChange={handleSortChange}, onValueChange={setSelectedCategories} | fix: Restore each one, or record it in the stamp: /* Hallmark · dropped <item>, <item> · <the reason> */
+  WARN kept :1 not compared, because this run did not render them: http://localhost:3000, http://localhost:3000/categories, http://localhost:3000/categories/registries, http://localhost:3000/categories/registries/000h and 1 more | fix: Render the same pages or URLs the before record holds
+src/components/ui/multi-select.tsx
+  REFLEX 12 :199 bounce animate-bounce on <Badge class="animate-bounce"> | fix: Exponential ease-out on UI state; no bounce or overshoot
+  REFLEX 12 :222 bounce animate-bounce on <Badge class="bg-transparent text-foreground …">
+http://localhost:3001/categories
+  REFLEX 44c :1 [1440px] hero ends at 310px of a 900px screen
+  REFLEX 49b :1 [320px] link "Libs and Components" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Boilerplates / Templates" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Plugins and Extensions" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Colors and Customizations" wraps to 2 lines (a.footer-link)
+  REFLEX 49b :1 [320px] link "Pull request template" wraps to 2 lines (a.footer-link)
+  REFLEX 79 :1 [1440px] 615px of nothing between the hero's last content (y 285) and the fold
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "tooltip-trigger" renders at 32 x 32px on a phone
+  WARN F18 :1 [1440px] slot "tooltip-trigger" renders at 60 x 32px
+  WARN F20 :1 [1440px] div.category-index leaves one item alone on its last row (2 + 2 + 2 + 2 + 2 + 1)
+  NOTE 58 :1 [1440px] 161 words on one screen (from y=150)
+src/components/ui/alert-dialog.tsx
+  WARN 29 :36 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <AlertDialogPrimitive class="data-open:animate-in … | fix: Solid or grained surface; elevation by lightness, shadows with offset and blur
+src/components/ui/dialog.tsx
+  WARN 29 :39 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <DialogPrimitive class="data-open:animate-in data-…
+src/components/ui/drawer.tsx
+  WARN 29 :37 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <DrawerPrimitive class="data-open:animate-in data-…
+src/components/ui/sheet.tsx
+  WARN 29 :37 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <SheetPrimitive class="data-open:animate-in data-c…
+src/components/pr-submission-dialog.tsx
+  WARN F2 :173 three-period ellipsis in prose x1 | fix: Use a true ellipsis character (…)
+sloplint: 43 FAIL, 60 REFLEX, 26 WARN, 8 NOTE across 104 file(s) and 5 URL(s).
+kept: links 20/20, handlers 50/58; before 87 FAIL, 21 REFLEX, now 43 FAIL, 60 REFLEX

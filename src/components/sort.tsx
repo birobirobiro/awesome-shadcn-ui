@@ -2,11 +2,11 @@ import {
   Select,
   SelectContent,
   SelectItem,
+  SelectGroup,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
 import { cn } from "@/lib/utils";
-import { Calendar, SortAsc, SortDesc, Star, Text } from "lucide-react";
 
 export type SortOption =
   | "date-desc"
@@ -17,80 +17,39 @@ export type SortOption =
 
 interface SortProps {
   sortOption: SortOption;
-  onSortChange: (option: SortOption) => void;
+  onValueChange: (option: SortOption) => void;
   className?: string;
 }
 
+const sortOptions = [
+  { value: "date-desc", label: "Newest first" },
+  { value: "date-asc", label: "Oldest first" },
+  { value: "name-asc", label: "Name A to Z" },
+  { value: "name-desc", label: "Name Z to A" },
+  { value: "stars-desc", label: "Most stars" },
+] as const;
+
 export default function Sort({
   sortOption,
-  onSortChange,
+  onValueChange,
   className,
 }: SortProps) {
-  const sortOptions = [
-    {
-      value: "date-desc",
-      label: "Date (Newest first)",
-      icon: <Calendar className="h-4 w-4 mr-2" />,
-      directionIcon: <SortDesc className="h-4 w-4 ml-2 inline" />,
-    },
-    {
-      value: "date-asc",
-      label: "Date (Oldest first)",
-      icon: <Calendar className="h-4 w-4 mr-2" />,
-      directionIcon: <SortAsc className="h-4 w-4 ml-2 inline" />,
-    },
-    {
-      value: "name-asc",
-      label: "Name (A-Z)",
-      icon: <Text className="h-4 w-4 mr-2" />,
-      directionIcon: <SortDesc className="h-4 w-4 ml-2 inline" />,
-    },
-    {
-      value: "name-desc",
-      label: "Name (Z-A)",
-      icon: <Text className="h-4 w-4 mr-2" />,
-      directionIcon: <SortAsc className="h-4 w-4 ml-2 inline" />,
-    },
-    {
-      value: "stars-desc",
-      label: "GitHub Stars",
-      icon: <Star className="h-4 w-4 mr-2" />,
-      directionIcon: <SortDesc className="h-4 w-4 ml-2 inline" />,
-    },
-  ] as const;
-
-  const selectedOption =
-    sortOptions.find((option) => option.value === sortOption) || sortOptions[0];
-
-  const handleSortChange = (value: string) => {
-    onSortChange(value as SortOption);
-  };
-
   return (
-    <Select
-      value={sortOption}
-      defaultValue="date-desc"
-      onValueChange={handleSortChange}
-    >
-      <SelectTrigger className={cn("w-full sm:w-[200px]", className)}>
-        <SelectValue>
-          <span className="flex items-center">
-            {selectedOption.icon}
-            <span className="truncate">{selectedOption.label}</span>
-            {selectedOption.directionIcon}
-          </span>
-        </SelectValue>
+    <Select value={sortOption} onValueChange={onValueChange}>
+      <SelectTrigger
+        className={cn("w-full sm:w-[12.5rem]", className)}
+        aria-label="Sort resources"
+      >
+        <SelectValue placeholder="Sort resources" />
       </SelectTrigger>
-      <SelectContent align="center">
-        {sortOptions.map((option) => (
-          <SelectItem key={option.value} value={option.value}>
-            <span className="flex items-center">
-              {option.icon}
-              <span className="truncate">{option.label}</span>
-              {option.directionIcon}
-            </span>
-          </SelectItem>
-        ))}
+      <SelectContent align="end">
+        <SelectGroup>
+          {sortOptions.map((option) => (
+            <SelectItem key={option.value} value={option.value}>
+              {option.label}
+            </SelectItem>
+          ))}
+        </SelectGroup>
       </SelectContent>
     </Select>
   );

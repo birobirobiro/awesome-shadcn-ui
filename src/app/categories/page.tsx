@@ -1,15 +1,7 @@
+import { CategoryIcon } from "@/components/category-icon";
 import { PageHeader } from "@/components/layout/page-header";
-import { Badge } from "@/components/ui/badge";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import { fetchAndParseReadme, Resource } from "@/hooks/use-readme";
 import { categoryNameToSlug } from "@/lib/slugs";
-import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 interface Category {
@@ -69,53 +61,71 @@ export default async function CategoriesPage() {
     }),
   );
 
+  const totalItems = categories.reduce(
+    (sum, category) => sum + category.items.length,
+    0,
+  );
+
   return (
-    <div className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8">
+    <div className="shell">
       <PageHeader
         title="Categories"
-        description="Explore our curated collection of shadcn/ui resources organized by category"
+        description="Explore the index by category. Every category is built from the same README, so the list stays current with the repository."
         breadcrumbs={[{ label: "Categories", href: "/categories" }]}
       />
 
-      <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="category-index">
         {categories.map((category) => (
           <Link
             prefetch={false}
             key={category.title}
             href={`/categories/${categoryNameToSlug(category.title)}`}
+            className="category-card"
           >
-            <Card className="h-[280px] group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col">
-              <CardHeader className="p-4 pb-3">
-                <div className="flex items-start justify-between gap-2 mb-2">
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5">
-                    [{category.title}]
-                  </span>
-                  <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
-                </div>
-                <CardTitle className="text-base font-bold group-hover:text-primary transition-colors duration-200 line-clamp-2 leading-snug">
-                  {category.title}
-                </CardTitle>
-              </CardHeader>
+            <div className="category-card__top">
+              <h2 className="category-card__title">
+                <CategoryIcon category={category.title} />
+                <span>{category.title}</span>
+              </h2>
+              <span className="category-card__count">
+                {category.items.length}{" "}
+                {category.items.length === 1 ? "resource" : "resources"}
+              </span>
+            </div>
 
-              <div className="h-px bg-border mx-4" />
+            <p className="category-card__description">{category.description}</p>
 
-              <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3">
-                <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed overflow-hidden">
-                  {category.description}
-                </p>
-              </CardContent>
-
-              <div className="h-px bg-border mx-4" />
-
-              <CardFooter className="flex gap-3 items-center p-4 pt-3">
-                <Badge variant="secondary" className="text-xs flex-shrink-0">
-                  {category.items.length}{" "}
-                  {category.items.length === 1 ? "item" : "items"}
-                </Badge>
-              </CardFooter>
-            </Card>
+            <p className="category-card__preview">
+              {category.items
+                .slice(0, 3)
+                .map((item) => item.name)
+                .join(" · ")}
+            </p>
           </Link>
         ))}
+
+        <Link
+          prefetch={false}
+          href="/#index"
+          className="category-card category-card--all"
+        >
+          <div className="category-card__top">
+            <h2 className="category-card__title">
+              <CategoryIcon category="All resources" />
+              <span>All resources</span>
+            </h2>
+            <span className="category-card__count">{totalItems} resources</span>
+          </div>
+
+          <p className="category-card__description">
+            Browse the full index across every category.
+          </p>
+
+          <p className="category-card__preview">
+            <span className="text-foreground">Complete:</span> all {totalItems}{" "}
+            resources in one index
+          </p>
+        </Link>
       </div>
     </div>
   );

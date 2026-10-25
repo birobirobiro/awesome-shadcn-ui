@@ -1,0 +1,92 @@
+render tier: 25 screenshots in /Users/birobirobiro/Developer/side-projects/awesome-shadcn-ui/.hallmark/shots (1280x800, 1440x900, 1920x1080 folds; 1440 and 375 full pages)
+http://localhost:3000
+  REFLEX 49b :1 [320px] link "mini-golf-spots" wraps to 2 lines (a) | fix: Shorten the label or set nowrap
+  REFLEX 49b :1 [320px] link "stock-expert-ai" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-exchange" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "we-inc-components" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-animated" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "shadcn-vite-starter" wraps to 2 lines (a)
+  WARN 77 :1 [1440px] 4 sections, hero and footer included | fix: A landing strip, not a page: six to nine sections, five on a thin prompt (layout.md § 3)
+  WARN F18 :1 [375px] slot "sheet-trigger" renders at 36 x 36px on a phone | fix: The slot collapsed: give it width: 100% and an aspect-ratio in the stacked layout
+  WARN F18 :1 [1440px] slot "dialog-trigger" renders at 83 x 32px | fix: The slot collapsed: give it a width from its track and a real aspect-ratio, never a percentage of a shrink-to-fit parent
+  WAIVED 39b :1 [1440px] control height outside 44 to 52px: button.category-chip 34px, button.category-chip 34px, button.category-chip …
+  WAIVED 44c :1 [1440px] hero ends at 554px of a 900px screen
+  WAIVED 59 :1 [1440px] smallest gap between sections is 49px (gaps: 49, 231, 164)
+  NOTE 58 :1 [1440px] 260 words on one screen (from y=2750) | fix: One idea per screen: cut to about 80 words, make the section an object
+  NOTE 58 :1 [1440px] hero carries 5 text blocks before its actions | fix: Headline, one sentence, actions; delete the rest
+http://localhost:3000/categories/registries
+  REFLEX 49b :1 [320px] link "21st-dev-agent-elements" wraps to 3 lines (a)
+  REFLEX 49b :1 [320px] link "babelize-elements" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "chanhdai-components" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "dashboardblocks" wraps to 2 lines (a)
+  REFLEX 49b :1 [320px] link "data-table-filters" wraps to 2 lines (a)
+  REFLEX 49b :1 [375px] link "21st-dev-agent-elements" wraps to 2 lines (a)
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "sheet-trigger" renders at 36 x 36px on a phone
+  WARN F18 :1 [1440px] slot "dialog-trigger" renders at 83 x 32px
+  WAIVED 39b :1 [1440px] control height outside 44 to 52px: button.page-button 32px, button.page-button 32px
+  WAIVED 44c :1 [1440px] hero ends at 339px of a 900px screen
+  WAIVED 59 :1 [1440px] smallest gap between sections is 49px (gaps: 49)
+  WAIVED 79 :1 [1440px] 586px of nothing between the hero's last content (y 314) and the fold
+  NOTE 58 :1 [1440px] 268 words on one screen (from y=1150)
+  NOTE 58 :1 [1440px] hero carries 3 text blocks before its actions
+src/app/globals.css
+  REFLEX 64 :700 monospace label voice on .category-chip__count | fix: Labels in the body face, a step smaller, sentence case; mono only for code and figures
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --… | fix: Fix the gate, or satisfy the guard and say why in the page's own words
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a … | fix: Lock it into a design.md so later pages inherit it instead of re-arguing it
+src/app/[...not-found]/page.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/app/bookmarks/error.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/app/categories/[category]/[id]/error.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/app/categories/[category]/error.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/app/categories/error.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/components/category-page-content.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/components/layout/footer.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/components/sponsors/shadcn-studio-logo.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/components/ui/accordion.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+src/providers/providers.tsx
+  WAIVER 64 :1 waiver on 64 REJECTED (guard: none of --font-display, --font-body or --…
+  NOTE waive :1 4 reflex gates waived (44c, 79, 59, 39b): that is a house style, not a …
+http://localhost:3000/bookmarks
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "sheet-trigger" renders at 36 x 36px on a phone
+  WARN F18 :1 [1440px] slot "dialog-trigger" renders at 83 x 32px
+  WAIVED 44c :1 [1440px] hero ends at 339px of a 900px screen
+  WAIVED 79 :1 [1440px] 408px of nothing between the hero's last content (y 314) and the next section
+  NOTE 58 :1 [1440px] 87 words on one screen (from y=150) | fix: Close to the 80-word screen budget
+  NOTE 58 :1 [1440px] hero carries 3 text blocks before its actions
+http://localhost:3000/categories
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "sheet-trigger" renders at 36 x 36px on a phone
+  WARN F18 :1 [1440px] slot "dialog-trigger" renders at 83 x 32px
+  WARN F20 :1 [1440px] div.category-index leaves one item alone on its last row (2 + 2 + 2 + 2 + 2 + 1) | fix: Change the count or the columns so the last row is not an orphan
+  WAIVED 44c :1 [1440px] hero ends at 310px of a 900px screen
+  WAIVED 79 :1 [1440px] 615px of nothing between the hero's last content (y 285) and the fold
+  NOTE 58 :1 [1440px] 161 words on one screen (from y=150)
+http://localhost:3000/categories/registries/000h
+  WARN 77 :1 [1440px] 2 sections, hero and footer included
+  WARN F18 :1 [375px] slot "sheet-trigger" renders at 36 x 36px on a phone
+  WARN F18 :1 [1440px] slot "dialog-trigger" renders at 83 x 32px
+  WAIVED 44c :1 [1440px] hero ends at 401px of a 900px screen
+  WAIVED 79 :1 [1440px] 524px of nothing between the hero's last content (y 376) and the fold
+  NOTE 58 :1 [1440px] 182 words on one screen (from y=700)
+sloplint: 0 FAIL, 13 REFLEX, 16 WARN, 13 WAIVED, 11 REJECTED, 19 NOTE across 105 file(s) and 5 URL(s).
+kept: links 106/106, fields 1/1, handlers 50/58 (8 dropped on record), headings 8/8, figures 12/12; before 87 FAIL, 21 REFLEX, now 0 FAIL, 13 REFLEX
+compare: .hallmark/compare.html shows before and after side by side

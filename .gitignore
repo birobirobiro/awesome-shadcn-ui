@@ -38,5 +38,11 @@ next-env.d.ts
 
 .agents
 .claude
-.mcp.json.wrangler/
+.mcp.json
+.wrangler/
 .playwright-mcp/
+AGENTS.md
+CLAUDE.md
+
+# Local pnpm dependency store
+/.pnpm-store/

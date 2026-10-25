@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "file": "public/affiliates/claude.svg",
+      "url": "https://svgl.app/library/claude-ai-icon.svg"
+    },
+    {
+      "file": "public/affiliates/v0-light.svg",
+      "url": "https://svgl.app/library/v0_light.svg"
+    },
+    {
+      "file": "public/affiliates/v0-dark.svg",
+      "url": "https://svgl.app/library/v0_dark.svg"
+    },
+    {
+      "file": "public/affiliates/raycast.svg",
+      "url": "https://svgl.app/library/raycast.svg"
+    },
+    {
+      "file": "public/affiliates/lovable.svg",
+      "url": "https://svgl.app/library/lovable.svg"
+    },
+    {
+      "file": "public/affiliates/hostinger-light.svg",
+      "url": "https://api.iconify.design/simple-icons/hostinger.svg?color=%23000000"
+    },
+    {
+      "file": "public/affiliates/hostinger-dark.svg",
+      "url": "https://api.iconify.design/simple-icons/hostinger.svg?color=%23ffffff"
+    }
+  ]
+}

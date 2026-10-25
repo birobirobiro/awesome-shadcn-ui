@@ -1,5 +1,6 @@
 "use client";
 
+import { StateMessage } from "@/components/layout/state-message";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, ArrowLeft, Home, RefreshCw } from "lucide-react";
 import Link from "next/link";
@@ -17,57 +18,36 @@ export default function CategoryError({
   }, [error]);
 
   return (
-    <div className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8">
-      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center space-y-6">
-        <div className="flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 border border-destructive/30 bg-destructive/5">
-          <AlertTriangle className="h-8 w-8 sm:h-10 sm:w-10 text-destructive" />
-        </div>
-
-        <div className="space-y-2">
-          <h1 className="text-2xl sm:text-3xl font-bold text-foreground">
-            Failed to load category
-          </h1>
-          <p className="text-sm sm:text-base text-muted-foreground max-w-md">
-            We couldn't load this category page. The category might not exist or
-            there's a temporary issue.
-          </p>
-        </div>
-
-        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-          <Button onClick={reset} className="flex items-center gap-2">
-            <RefreshCw className="h-4 w-4" />
-            Try again
-          </Button>
-          <Button variant="outline" asChild>
-            <Link
-              prefetch={false}
-              href="/categories"
-              className="flex items-center gap-2"
-            >
-              <ArrowLeft className="h-4 w-4" />
-              Back to categories
-            </Link>
-          </Button>
-          <Button variant="outline" asChild>
-            <Link prefetch={false} href="/" className="flex items-center gap-2">
-              <Home className="h-4 w-4" />
-              Homepage
-            </Link>
-          </Button>
-        </div>
-
-        {process.env.NODE_ENV === "development" && (
-          <details className="mt-6 p-4 bg-muted text-left max-w-2xl w-full">
-            <summary className="cursor-pointer text-sm font-medium">
-              Error Details (Development)
-            </summary>
-            <pre className="mt-2 text-xs text-muted-foreground overflow-auto">
-              {error.message}
-              {error.stack && `\n\n${error.stack}`}
-            </pre>
-          </details>
-        )}
-      </div>
-    </div>
+    <StateMessage
+      icon={<AlertTriangle className="h-5 w-5" aria-hidden="true" />}
+      title="Failed to load category"
+      description="We couldn't load this category page. The category might not exist or there's a temporary issue."
+    >
+      <Button onClick={reset} className="gap-2">
+        <RefreshCw className="h-4 w-4" aria-hidden="true" />
+        Try again
+      </Button>
+      <Button variant="outline" asChild>
+        <Link prefetch={false} href="/categories" className="gap-2">
+          <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+          Back to categories
+        </Link>
+      </Button>
+      <Button variant="outline" asChild>
+        <Link prefetch={false} href="/" className="gap-2">
+          <Home className="h-4 w-4" aria-hidden="true" />
+          Homepage
+        </Link>
+      </Button>
+      {process.env.NODE_ENV === "development" && (
+        <details className="state-message__details">
+          <summary>Error details (development)</summary>
+          <pre>
+            {error.message}
+            {error.stack && `\n\n${error.stack}`}
+          </pre>
+        </details>
+      )}
+    </StateMessage>
   );
 }

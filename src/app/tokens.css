@@ -1,0 +1,54 @@
+/* Hallmark · Console colorway, graphite dark tokens. */
+:root.dark {
+  --paper: oklch(16.5% 0.008 250);
+  --paper-2: oklch(20.5% 0.009 250);
+  --paper-3: oklch(24% 0.01 250);
+  --ink: oklch(95% 0.005 250);
+  --ink-2: oklch(84% 0.008 250);
+  --muted-ink: oklch(71% 0.01 250);
+  --rule: oklch(30% 0.01 250);
+  --rule-2: oklch(40% 0.012 250);
+  --brand: #fc60a8;
+  --brand-strong: #ff8fc6;
+  --brand-soft: oklch(28% 0.05 350);
+  --brand-ink: #ffb3d6;
+  --cool: #8bb8d6;
+  --focus: #fc60a8;
+
+  --background: var(--paper);
+  --foreground: var(--ink);
+  --card: var(--paper);
+  --card-foreground: var(--ink);
+  --popover: var(--paper-2);
+  --popover-foreground: var(--ink);
+  --primary: var(--ink);
+  --primary-foreground: var(--paper);
+  --secondary: var(--paper-2);
+  --secondary-foreground: var(--ink);
+  --muted: var(--paper-2);
+  --muted-foreground: var(--muted-ink);
+  --accent: var(--brand-soft);
+  --accent-foreground: var(--brand-ink);
+  --destructive: oklch(70% 0.18 25);
+  --destructive-foreground: var(--paper);
+  --border: var(--rule);
+  --input: oklch(55% 0.01 250);
+  --ring: var(--focus);
+  --chart-1: var(--brand);
+  --chart-2: var(--cool);
+  --chart-3: var(--ink-2);
+  --chart-4: var(--muted-ink);
+  --chart-5: var(--brand-strong);
+  --sidebar: var(--paper-2);
+  --sidebar-foreground: var(--ink);
+  --sidebar-primary: var(--ink);
+  --sidebar-primary-foreground: var(--paper);
+  --sidebar-accent: var(--paper-3);
+  --sidebar-accent-foreground: var(--ink);
+  --sidebar-border: var(--rule);
+  --sidebar-ring: var(--focus);
+
+  --donation-bg: var(--brand-soft);
+  --donation-bg-hover: var(--brand);
+  --donation-text: var(--ink);
+}

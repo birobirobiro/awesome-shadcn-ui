@@ -23,9 +23,11 @@ export const ModeToggle = memo(function ModeToggle() {
     if (!buttonRef.current) return;
 
     const newTheme = isDark ? "light" : "dark";
+    const reduceMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
 
-    // Check if View Transitions API is supported
-    if (!document.startViewTransition) {
+    if (!document.startViewTransition || reduceMotion) {
       setTheme(newTheme);
       return;
     }
@@ -53,30 +55,32 @@ export const ModeToggle = memo(function ModeToggle() {
         ],
       },
       {
-        duration: 700,
-        easing: "ease-in-out",
+        duration: 500,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
         pseudoElement: "::view-transition-new(root)",
       },
     );
   }, [isDark, setTheme]);
 
-  // Use CSS-based icon switching - no mounted state needed
-  // Icons are always rendered, CSS shows/hides based on .dark class
   return (
     <Tooltip>
       <TooltipTrigger asChild>
         <Button
           ref={buttonRef}
           onClick={onToggle}
-          variant="outline"
+          variant="ghost"
           size="icon"
-          className="h-[34px] w-9"
+          className="h-11! w-11! sm:h-10! sm:w-10!"
           aria-label="Toggle theme"
         >
-          {/* Sun icon - visible in dark mode */}
-          <Sun className="h-4 w-4 rotate-0 scale-100 transition-transform dark:rotate-90 dark:scale-0 absolute" />
-          {/* Moon icon - visible in light mode */}
-          <Moon className="h-4 w-4 rotate-90 scale-0 transition-transform dark:rotate-0 dark:scale-100 absolute" />
+          <Sun
+            className="absolute h-4 w-4 rotate-0 scale-100 transition-transform duration-[var(--dur-micro)] dark:rotate-90 dark:scale-0"
+            aria-hidden="true"
+          />
+          <Moon
+            className="absolute h-4 w-4 rotate-90 scale-0 transition-transform duration-[var(--dur-micro)] dark:rotate-0 dark:scale-100"
+            aria-hidden="true"
+          />
         </Button>
       </TooltipTrigger>
       <TooltipContent>

@@ -1,5 +1,7 @@
 "use client";
 
+import { Github } from "@/components/icons/github-icon";
+
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -11,11 +13,15 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Field, FieldGroup, FieldLabel } from "@/components/ui/field";
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Spinner } from "@/components/ui/spinner";
 import {
   Select,
   SelectContent,
   SelectItem,
+  SelectGroup,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
@@ -27,8 +33,6 @@ import {
   Check,
   Copy,
   ExternalLink,
-  Github,
-  Loader2,
   LogOut,
   Plus,
 } from "lucide-react";
@@ -100,7 +104,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
     } else {
       toast.error(result.error || "Failed to submit pull request");
     }
-  }, [formData, submitPR]);
+  }, [formData, submitPR, authState.token]);
 
   const handleClose = useCallback(() => {
     stopPolling();
@@ -124,9 +128,9 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
   );
 
   const renderAuthStep = () => (
-    <div className="space-y-4">
+    <div className="flex flex-col gap-4">
       {authState.isPolling && authState.userCode ? (
-        <div className="space-y-4">
+        <div className="flex flex-col gap-4">
           <p className="text-sm text-muted-foreground text-center">
             Enter this code on GitHub to continue:
           </p>
@@ -160,7 +164,9 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
           </div>
           <Button asChild variant="outline" className="w-full h-10">
             <a
-              href={authState.verificationUri ?? "https://github.com/login/device"}
+              href={
+                authState.verificationUri ?? "https://github.com/login/device"
+              }
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -169,12 +175,12 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             </a>
           </Button>
           <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-            <Loader2 className="h-4 w-4 animate-spin" />
-            <span>Waiting for authorization...</span>
+            <Spinner className="h-4 w-4 animate-spin" />
+            <span>Waiting for authorization…</span>
           </div>
         </div>
       ) : (
-        <div className="space-y-4">
+        <div className="flex flex-col gap-4">
           <p className="text-sm text-muted-foreground text-center">
             Sign in with GitHub to submit a resource. Your submission will be
             linked to your GitHub account.
@@ -185,7 +191,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             className="w-full h-10"
           >
             {isAuthLoading ? (
-              <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+              <Spinner className="mr-2 h-4 w-4 animate-spin" />
             ) : (
               <Github className="mr-2 h-4 w-4" />
             )}
@@ -195,28 +201,25 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
       )}
 
       {authError && (
-        <div className="flex items-center gap-2 text-destructive text-sm">
-          <AlertCircle className="h-4 w-4 shrink-0" />
-          <span>{authError}</span>
-        </div>
+        <Alert variant="destructive">
+          <AlertCircle />
+          <AlertDescription>{authError}</AlertDescription>
+        </Alert>
       )}
     </div>
   );
 
   const renderFormStep = () => (
-    <div className="space-y-4">
+    <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between rounded-md border bg-muted/50 px-3 py-2">
         <div className="flex items-center gap-2 text-sm">
-          {authState.avatar && (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={authState.avatar}
-              alt=""
-              className="h-5 w-5 rounded-full"
-            />
-          )}
+          <Avatar className="size-5">
+            <AvatarImage src={authState.avatar ?? undefined} alt="" />
+            <AvatarFallback>{authState.username?.slice(0, 2)}</AvatarFallback>
+          </Avatar>
           <span className="text-muted-foreground">
-            Signed in as <span className="text-foreground">@{authState.username}</span>
+            Signed in as{" "}
+            <span className="text-foreground">@{authState.username}</span>
           </span>
         </div>
         <Button
@@ -224,17 +227,21 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
           size="sm"
           onClick={logout}
           disabled={isSubmitting}
-          className="h-7 px-2 text-muted-foreground"
+          className="h-7 px-2"
+          aria-label="Sign out of GitHub"
         >
           <LogOut className="h-3.5 w-3.5" />
         </Button>
       </div>
 
-      <div className="space-y-4">
-        <div className="space-y-1.5">
-          <Label htmlFor="category" className="text-sm text-muted-foreground">
+      <FieldGroup>
+        <Field data-disabled={isSubmitting}>
+          <FieldLabel
+            htmlFor="category"
+            className="text-sm text-muted-foreground"
+          >
             Category
-          </Label>
+          </FieldLabel>
           <Select
             value={formData.category}
             onValueChange={(value) =>
@@ -242,23 +249,25 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             }
             disabled={isSubmitting}
           >
-            <SelectTrigger className="h-10 w-full">
+            <SelectTrigger id="category" className="h-10 w-full">
               <SelectValue placeholder="Select a category" />
             </SelectTrigger>
             <SelectContent>
-              {CATEGORIES.map((category) => (
-                <SelectItem key={category} value={category}>
-                  {category}
-                </SelectItem>
-              ))}
+              <SelectGroup>
+                {CATEGORIES.map((category) => (
+                  <SelectItem key={category} value={category}>
+                    {category}
+                  </SelectItem>
+                ))}
+              </SelectGroup>
             </SelectContent>
           </Select>
-        </div>
+        </Field>
 
-        <div className="space-y-1.5">
-          <Label htmlFor="name" className="text-sm text-muted-foreground">
+        <Field data-disabled={isSubmitting}>
+          <FieldLabel htmlFor="name" className="text-sm text-muted-foreground">
             Name
-          </Label>
+          </FieldLabel>
           <Input
             id="name"
             placeholder="shadcn-dashboard"
@@ -269,15 +278,15 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             className="h-10"
             disabled={isSubmitting}
           />
-        </div>
+        </Field>
 
-        <div className="space-y-1.5">
-          <Label
+        <Field data-disabled={isSubmitting}>
+          <FieldLabel
             htmlFor="description"
             className="text-sm text-muted-foreground"
           >
             Description
-          </Label>
+          </FieldLabel>
           <Input
             id="description"
             placeholder="Admin dashboard built with shadcn/ui"
@@ -288,12 +297,12 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             className="h-10"
             disabled={isSubmitting}
           />
-        </div>
+        </Field>
 
-        <div className="space-y-1.5">
-          <Label htmlFor="url" className="text-sm text-muted-foreground">
+        <Field data-disabled={isSubmitting}>
+          <FieldLabel htmlFor="url" className="text-sm text-muted-foreground">
             URL
-          </Label>
+          </FieldLabel>
           <Input
             id="url"
             type="url"
@@ -305,15 +314,15 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
             className="h-10"
             disabled={isSubmitting}
           />
-        </div>
+        </Field>
 
         {submissionError && (
-          <div className="flex items-center gap-2 text-destructive text-sm">
-            <AlertCircle className="h-4 w-4 shrink-0" />
-            <span>{submissionError}</span>
-          </div>
+          <Alert variant="destructive">
+            <AlertCircle />
+            <AlertDescription>{submissionError}</AlertDescription>
+          </Alert>
         )}
-      </div>
+      </FieldGroup>
 
       <Button
         onClick={handleSubmit}
@@ -322,7 +331,7 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
       >
         {isSubmitting ? (
           <>
-            <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+            <Spinner className="mr-2 h-4 w-4 animate-spin" />
             {submissionStatus || "Submitting..."}
           </>
         ) : (
@@ -333,23 +342,19 @@ export function PRSubmissionDialog({ trigger }: PRSubmissionDialogProps) {
   );
 
   const renderSuccessStep = () => (
-    <div className="space-y-6">
-      <div className="flex flex-col items-center text-center space-y-3">
-        <div className="h-10 w-10 rounded-full bg-emerald-500/10 flex items-center justify-center">
-          <Check className="h-5 w-5 text-emerald-500" />
-        </div>
-        <div className="space-y-1">
-          <p className="font-medium">Pull request created</p>
-          {submissionResult && (
-            <Badge variant="secondary" className="font-normal">
-              #{submissionResult.prNumber}
-            </Badge>
-          )}
-        </div>
-      </div>
+    <div className="flex flex-col gap-6">
+      <Alert>
+        <Check aria-hidden="true" />
+        <AlertTitle>Pull request created</AlertTitle>
+        {submissionResult && (
+          <AlertDescription>
+            <Badge variant="secondary">#{submissionResult.prNumber}</Badge>
+          </AlertDescription>
+        )}
+      </Alert>
 
       {submissionResult && (
-        <div className="space-y-3">
+        <div className="flex flex-col gap-3">
           <Button asChild variant="outline" className="w-full h-10">
             <a
               href={submissionResult.prUrl}

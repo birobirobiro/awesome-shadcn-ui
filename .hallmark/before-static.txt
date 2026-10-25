@@ -1,0 +1,149 @@
+src/app/categories/page.tsx
+  FAIL 10a :87 transition-all on <Card class="h-[280px] group hover:border-pr…"> | fix: Name the properties: transition-colors, transition-opacity or transition-transform
+  FAIL 10a :93 transition-all on <ArrowRight class="h-4 w-4 text-muted-foreground g…">
+  FAIL 67 :90 "[ ]" uppercase at 10px tracked 0.05em on <span class="text-[10px] font-mono uppercase…"> | fix: Sentence case in the body face, a step smaller, untracked: drop uppercase and the tracking-* class
+src/components/item-card.tsx
+  FAIL 10a :54 transition-all on <Card class="h-full group hover:border-prima…">
+  FAIL 10a :63 transition-all on <ArrowRight class="h-4 w-4 text-muted-foreground g…">
+  FAIL 10a :94 transition-all on <Button class="h-8 w-8 transition-all duration…">
+  FAIL 10a :121 transition-all on <Button class="h-8 w-8 text-muted-foreground h…">
+  FAIL 67 :60 "[ ]" uppercase at 10px tracked 0.05em on <span class="text-[10px] font-mono uppercase…">
+  REFLEX 64 :78 font-mono on "Added:" at 12px (<div class="flex items-center justify-betwe…">) | fix: Labels in the body face at a smaller size and normal case; font-mono only for code and figures
+src/components/item-page-content.tsx
+  FAIL 10a :210 transition-all on <div class="relative overflow-hidden flex i…">
+  FAIL 10a :211 transition-all on <div class="absolute inset-0 opacity-0 grou…">
+src/components/layout/header.tsx
+  FAIL 10a :151 transition-all on <a class="flex items-center gap-3 bg-back…">
+  FAIL 67 :146 "Sponsored by" uppercase at 10px tracked 0.1em on <span class="text-[10px] text-muted-foregrou…">
+  REFLEX 64 :146 font-mono on "Sponsored by" at 10px (<span class="text-[10px] text-muted-foregrou…">)
+  WARN 29 :192 glass: backdrop-blur over bg-background/80 on <header class="sticky top-0 z-50 border-b back…"> | fix: Solid or grained surface; elevation by lightness, shadows with offset and blur
+src/components/sponsor-card.tsx
+  FAIL 10a :33 transition-all on <Card class="h-full group hover:border-prima…">
+  FAIL 10a :42 transition-all on <ArrowRight class="h-4 w-4 text-muted-foreground g…">
+  FAIL 10a :60 transition-all on <Button class="h-8 w-8 text-muted-foreground h…">
+  FAIL 67 :39 "[sponsored]" uppercase at 10px tracked 0.05em on <span class="text-[10px] font-mono uppercase…">
+  REFLEX 64 :39 font-mono on "[sponsored]" at 10px (<span class="text-[10px] font-mono uppercase…">)
+src/components/ui/accordion.tsx
+  FAIL 10a :42 transition-all on <AccordionPrimitive class="focus-visible:ring-ring/50 focu…">
+src/components/ui/badge.tsx
+  FAIL 10a :7 transition-all on cva() class string
+src/components/ui/button.tsx
+  FAIL 10a :7 transition-all on cva() class string
+src/components/ui/input-otp.tsx
+  FAIL 10a :54 transition-all on <div class="dark:bg-input/30 border-input d…">
+src/components/ui/navigation-menu.tsx
+  FAIL 10a :61 transition-all on cva() class string
+  FAIL 10a :128 transition-all on <NavigationMenuPrimitive class="data-active:focus:bg-muted data…">
+src/components/ui/progress.tsx
+  FAIL 10a :22 transition-all on <ProgressPrimitive class="bg-primary size-full flex-1 tra…">
+src/components/ui/sidebar.tsx
+  FAIL 10a :217 transition-[width] on <div class="relative w-(--sidebar-width) bg…">
+  FAIL 10a :228 transition-[left,right,width] on <div class="fixed inset-y-0 z-10 hidden h-s…">
+  FAIL 10a :283 transition-all on <button class="hover:after:bg-sidebar-border a…">
+  FAIL 10a :468 transition-[width,height,padding] on cva() class string
+src/components/ui/switch.tsx
+  FAIL 10a :16 transition-all on <SwitchPrimitive class="data-checked:bg-primary data-un…">
+src/components/ui/tabs.tsx
+  FAIL 10a :63 transition-all on <TabsPrimitive class="focus-visible:border-ring focus…">
+src/components/ui/toggle.tsx
+  FAIL 10a :9 transition-all on cva() class string
+src/components/website-preview.tsx
+  FAIL 10a :54 transition-all on <div class="absolute inset-0 bg-gradient-to…">
+  FAIL 10a :72 transition-all on <div class="absolute inset-0 bg-gradient-to…">
+  WARN F1 :108 straight quote in prose x1 (first: We couldn't load a previ) | fix: Use typographic quotes: “ ” ’
+  WARN F2 :29 three-period ellipsis in prose x1 | fix: Use a true ellipsis character (…)
+src/app/globals.css
+  FAIL 20 :1 no Hallmark stamp on the first non-empty line of any CSS | fix: The stamp comment is line 1 of the CSS; only @charset may precede it
+  FAIL 34 :1 no overflow-x: clip on html and body | fix: overflow-x: clip on both html and body
+  FAIL 48 :74 oklch literal oklch(0.141 0.005 285.823) outside tokens (--background on .dark) | fix: Lift the value into the token block
+  FAIL 48 :75 oklch literal oklch(0.985 0 0) outside tokens (--foreground on .dark)
+  FAIL 48 :76 oklch literal oklch(0.21 0.006 285.885) outside tokens (--card on .dark)
+  FAIL 48 :77 oklch literal oklch(0.985 0 0) outside tokens (--card-foreground on .dark)
+  FAIL 48 :78 oklch literal oklch(0.21 0.006 285.885) outside tokens (--popover on .dark)
+  FAIL 48 :79 oklch literal oklch(0.985 0 0) outside tokens (--popover-foreground on .dark)
+  FAIL 48 :80 oklch literal oklch(0.92 0.004 286.32) outside tokens (--primary on .dark)
+  FAIL 48 :81 oklch literal oklch(0.21 0.006 285.885) outside tokens (--primary-foreground on .dark)
+  FAIL 48 :82 oklch literal oklch(0.274 0.006 286.033) outside tokens (--secondary on .dark)
+  FAIL 48 :83 oklch literal oklch(0.985 0 0) outside tokens (--secondary-foreground on .dark)
+  FAIL 48 :84 oklch literal oklch(0.274 0.006 286.033) outside tokens (--muted on .dark)
+  FAIL 48 :85 oklch literal oklch(0.705 0.015 286.067) outside tokens (--muted-foreground on .dark)
+  FAIL 48 :86 oklch literal oklch(0.274 0.006 286.033) outside tokens (--accent on .dark)
+  FAIL 48 :87 oklch literal oklch(0.985 0 0) outside tokens (--accent-foreground on .dark)
+  FAIL 48 :88 oklch literal oklch(0.704 0.191 22.216) outside tokens (--destructive on .dark)
+  FAIL 48 :89 oklch literal oklch(0 0 0) outside tokens (--destructive-foreground on .dark)
+  FAIL 48 :90 oklch literal oklch(1 0 0 / 10%) outside tokens (--border on .dark)
+  FAIL 48 :91 oklch literal oklch(1 0 0 / 15%) outside tokens (--input on .dark)
+  FAIL 48 :92 oklch literal oklch(0.552 0.016 285.938) outside tokens (--ring on .dark)
+  FAIL 48 :93 oklch literal oklch(0.488 0.243 264.376) outside tokens (--chart-1 on .dark)
+  FAIL 48 :94 oklch literal oklch(0.696 0.17 162.48) outside tokens (--chart-2 on .dark)
+  FAIL 48 :95 oklch literal oklch(0.769 0.188 70.08) outside tokens (--chart-3 on .dark)
+  FAIL 48 :96 oklch literal oklch(0.627 0.265 303.9) outside tokens (--chart-4 on .dark)
+  FAIL 48 :97 oklch literal oklch(0.645 0.246 16.439) outside tokens (--chart-5 on .dark)
+  FAIL 48 :98 oklch literal oklch(0.21 0.006 285.885) outside tokens (--sidebar on .dark)
+  FAIL 48 :99 oklch literal oklch(0.985 0 0) outside tokens (--sidebar-foreground on .dark)
+  FAIL 48 :100 oklch literal oklch(0.488 0.243 264.376) outside tokens (--sidebar-primary on .dark)
+  FAIL 48 :101 oklch literal oklch(0.985 0 0) outside tokens (--sidebar-primary-foreground on .dark)
+  FAIL 48 :102 oklch literal oklch(0.274 0.006 286.033) outside tokens (--sidebar-accent on .dark)
+  FAIL 48 :103 oklch literal oklch(0.985 0 0) outside tokens (--sidebar-accent-foreground on .dark)
+  FAIL 48 :104 oklch literal oklch(1 0 0 / 10%) outside tokens (--sidebar-border on .dark)
+  FAIL 48 :105 oklch literal oklch(0.552 0.016 285.938) outside tokens (--sidebar-ring on .dark)
+  FAIL 48 :108 oklch literal oklch(0.95 0.15 95) outside tokens (--donation-bg on .dark)
+  FAIL 48 :109 oklch literal oklch(0.92 0.18 95) outside tokens (--donation-bg-hover on .dark)
+  FAIL 48 :110 oklch literal oklch(0.15 0 0) outside tokens (--donation-text on .dark)
+  FAIL 48 :121 colour literal hsl(0 0% 0%) outside tokens (--shadow-color on .dark)
+  FAIL 48 :122 colour literal hsl(0 0% 0% / 0.09) outside tokens (--shadow-2xs on .dark)
+  FAIL 48 :123 colour literal hsl(0 0% 0% / 0.09) outside tokens (--shadow-xs on .dark)
+  FAIL 48 :124 colour literal hsl(0 0% 0% / 0.18) outside tokens (--shadow-sm on .dark)
+  FAIL 48 :126 colour literal hsl(0 0% 0% / 0.18) outside tokens (--shadow on .dark)
+  FAIL 48 :128 colour literal hsl(0 0% 0% / 0.18) outside tokens (--shadow-md on .dark)
+  FAIL 48 :130 colour literal hsl(0 0% 0% / 0.18) outside tokens (--shadow-lg on .dark)
+  FAIL 48 :132 colour literal hsl(0 0% 0% / 0.18) outside tokens (--shadow-xl on .dark)
+  FAIL 48 :134 colour literal hsl(0 0% 0% / 0.45) outside tokens (--shadow-2xl on .dark)
+  WARN F16 :1 browser surfaces unthemed: ::selection | fix: Theme the parts you did not draw from the palette
+src/components/github-stars.tsx
+  FAIL 33 :49 <svg> without aria-hidden or aria-label | fix: Add aria-hidden or an aria-label
+src/components/item-grid.tsx
+  FAIL 33 :37 <svg> without aria-hidden or aria-label
+src/components/sponsors/shadcn-studio-logo.tsx
+  FAIL 33 :9 <svg> without aria-hidden or aria-label
+src/components/sponsorship.tsx
+  FAIL 67 :26 "Sponsored by" uppercase at 10px tracked 0.1em on <span class="text-[10px] text-muted-foregrou…">
+  REFLEX 64 :26 font-mono on "Sponsored by" at 10px (<span class="text-[10px] text-muted-foregrou…">)
+src/components/ui/command.tsx
+  FAIL 67 :171 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-dat…">
+src/components/ui/context-menu.tsx
+  FAIL 67 :240 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+src/components/ui/dropdown-menu.tsx
+  FAIL 67 :200 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+src/components/ui/menubar.tsx
+  FAIL 67 :207 letter-spaced at 12px tracked 0.1em on <span class="text-muted-foreground group-foc…">
+src/components/ui/multi-select.tsx
+  REFLEX 12 :199 bounce animate-bounce on <Badge class="animate-bounce"> | fix: Exponential ease-out on UI state; no bounce or overshoot
+  REFLEX 12 :222 bounce animate-bounce on <Badge class="bg-transparent text-foreground …">
+src/components/layout/footer.tsx
+  REFLEX 64 :132 font-mono on "© awesome-shadcn/ui. Al…" at 12px (<div class="flex flex-col md:flex-row items…">)
+  REFLEX 64 :139 font-mono on "Built with Next.js & sh…" at 12px (<div class="flex items-center gap-4 text-xs…">)
+  WARN 11 :68 group-hover:scale-105 on <img class="h-8 w-auto transition-transform…">: the image moves on hover | fix: Imagery sits still; give the container the feedback
+src/components/ui/alert-dialog.tsx
+  WARN 29 :36 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <AlertDialogPrimitive class="data-open:animate-in …
+src/components/ui/dialog.tsx
+  WARN 29 :39 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <DialogPrimitive class="data-open:animate-in data-…
+src/components/ui/drawer.tsx
+  WARN 29 :37 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <DrawerPrimitive class="data-open:animate-in data-…
+src/components/ui/sheet.tsx
+  WARN 29 :37 glass: supports-backdrop-filter:backdrop-blur-xs over bg-black/10 on <SheetPrimitive class="data-open:animate-in data-c…
+src/app/bookmarks/error.tsx
+  WARN F1 :31 straight quote in prose x2 (first: We couldn't load this bo)
+src/app/categories/[category]/[id]/error.tsx
+  WARN F1 :31 straight quote in prose x2 (first: We couldn't load this it)
+src/app/categories/[category]/error.tsx
+  WARN F1 :31 straight quote in prose x2 (first: We couldn't load this ca)
+src/app/categories/error.tsx
+  WARN F1 :31 straight quote in prose x1 (first: We couldn't load the cat)
+src/app/global-error.tsx
+  WARN F1 :32 straight quote in prose x1 (first: We've encountered)
+src/app/not-found.tsx
+  WARN F1 :24 straight quote in prose x2 (first: Sorry, we couldn't find the pag)
+src/components/pr-submission-dialog.tsx
+  WARN F2 :173 three-period ellipsis in prose x1
+sloplint: 86 FAIL, 8 REFLEX, 16 WARN across 102 file(s).

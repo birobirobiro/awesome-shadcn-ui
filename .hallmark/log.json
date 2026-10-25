@@ -1,0 +1,343 @@
+{
+  "runs": [
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "redesign",
+      "scope": "app",
+      "themeDeal": {
+        "genre": "modern-minimal",
+        "prompt": "A curated directory of shadcn/ui resources for developers and designers. The job is to scan, filter, save and open resources.",
+        "options": [
+          "console",
+          "blueprint",
+          "coral"
+        ],
+        "chosen": "console",
+        "adaptation": "paper colorway, brand pink #FC60A8 in place of amber; graphite dark mode"
+      },
+      "shape": "Index-First",
+      "hero": "Banner",
+      "before": {
+        "fails": 87,
+        "reflex": 21,
+        "warns": 31,
+        "files": 102,
+        "urls": 5,
+        "links": 106,
+        "fields": 1,
+        "handlers": 58
+      },
+      "depth": "full",
+      "theme": "console",
+      "axes": "paper/Host Grotesk/350",
+      "nav": "edge-aligned",
+      "footer": "mast",
+      "imagery": "live website screenshots; no hero photography",
+      "entry": "index reading",
+      "fingerprint": "index-first · banner · ledger panel · rows · compact header · mast footer",
+      "sections": 4,
+      "signature": "index reading",
+      "waived": [
+        "44c",
+        "79",
+        "59",
+        "39b"
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 13,
+        "warns": 15,
+        "waived": 13,
+        "notes": 19,
+        "files": 105,
+        "urls": 5
+      },
+      "kept": {
+        "links": "106/106",
+        "fields": "1/1",
+        "handlers": "50/58 (8 dropped on record)",
+        "headings": "8/8",
+        "figures": "12/12"
+      },
+      "handoff": {
+        "build": "pnpm build; 569 static pages; deploy with pnpm deploy after README changes",
+        "tokens": "Light tokens in src/app/globals.css; dark tokens in src/app/tokens.css; keep :root.dark for specificity",
+        "waivers": "44c/79/59 document the Index-First fold; 39b documents dense app controls",
+        "git": ".gitignore remains local; .hallmark/ and skills-lock.json are untracked; no commit or deploy performed"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "sponsors",
+      "feature": "partner rail on category pages + three-card sponsor row in the hero, inspired by shoogle.dev/directory",
+      "after": {
+        "fails": 0,
+        "reflex": 19,
+        "warns": 8,
+        "waived": 7,
+        "notes": 6,
+        "files": 4,
+        "urls": 2
+      },
+      "kept": {
+        "links": "106/106 existing; +3 sponsor links on category pages",
+        "fields": "1/1",
+        "handlers": "58/58; inline category search handler remains, now via handleSearchQueryChange with page reset",
+        "headings": "8/8",
+        "figures": "12/12"
+      },
+      "manualWaived": [
+        "49b",
+        "64"
+      ],
+      "notes": [
+        "F7 is the same card recipe on repeated sponsor cards; the role is intentionally the same.",
+        "49 is a multi-line sponsor card label; the open-slot link has a concise aria-label.",
+        "Gate 73 was fixed by allowing full descriptions inside .category-main at >=1280; mobile and home rows keep the two-line clamp.",
+        "Catalogue search on mobile no longer takes its 18rem flex-basis as height via .catalog-search--page."
+      ],
+      "handoff": {
+        "rail": "src/components/sponsor-rail.tsx; visible at >=1280 inside .category-layout; sticky under the site header",
+        "hero": "src/components/sponsorship.tsx; inline below 1280, three cards at >=1280",
+        "data": "src/components/sponsors/sponsors.tsx adds cta labels for the card row",
+        "css": "src/app/globals.css: .sponsorship--hero, .category-layout, .category-main, .sponsor-rail, .catalog-search--page",
+        "qa": "pnpm type-check, lint, build (569 pages); light/dark at 1440, rail at 1280/1279, mobile at 375; hover, focus-visible, active and reduced-motion rules present",
+        "screenshots": ".hallmark/after-sponsors-home-1440-dark-2.png, after-sponsors-home-1440-light.png, after-sponsors-category-1440-dark.png, after-sponsors-category-1440-light.png, after-sponsors-category-sticky-1440-dark.png, after-sponsors-category-375-dark-2.png",
+        "git": ".gitignore remains local; .hallmark/ and skills-lock.json are untracked; no commit or deploy performed"
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "sponsor rows and navbar",
+      "theme": "Console (paper and graphite, brand pink)",
+      "reference": [
+        "https://shoogle.dev/",
+        "https://shoogle.dev/directory"
+      ],
+      "changes": [
+        "Sponsor rows share resource-row background, hover, text alignment and metadata columns; sponsor logos occupy the index gutter.",
+        "Action tracks have a consistent width so sponsored and ordinary rows align.",
+        "Navbar branding removed as requested; hero branding retained; mobile menu moved to the left and titled Navigation."
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 23,
+        "warns": 5,
+        "waived": 1,
+        "notes": 3,
+        "files": 3,
+        "urls": 2
+      },
+      "manualWaived": {
+        "49b": "Real resource and sponsor names may wrap on narrow phones; preserve their names and align all rows consistently.",
+        "64": "Category chip counts are measured figures, not labels, and retain the Console numeric face."
+      },
+      "finish": [
+        "F7: Existing sponsor and index panels deliberately share the same surface recipe.",
+        "F18: select-value and breadcrumb are shadcn semantic slots, not empty media slots; their compact text height is intentional.",
+        "Visual review completed in-thread on Hallmark-rendered desktop and mobile captures; sponsor columns align and navbar contains only navigation and actions."
+      ],
+      "validation": [
+        "pnpm type-check passed",
+        "pnpm lint: 0 errors, 3 existing no-img-element warnings",
+        "pnpm build passed",
+        "Prettier check passed for all three edited source files",
+        "git diff --check passed",
+        "Hallmark render: home and category at 320, 375, 1280, 1440 and 1920; 0 FAIL"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "resource row interactions and global pointer",
+      "changes": [
+        "Resource and sponsor title links cover their whole row through a positioned pseudo-element; keyboard and native link semantics are preserved.",
+        "Row action buttons and links remain above the row link, with an independent click target.",
+        "Global base-layer pointer rule added for enabled buttons and button roles, following shadcn documentation."
+      ],
+      "validation": [
+        "TypeScript and targeted ESLint passed.",
+        "Prettier and git diff --check passed.",
+        "Browser hit testing passed for regular rows, sponsor rows, and independent actions.",
+        "Clicking row background navigated to resource details; bookmarking toggled without navigation and was restored.",
+        "Category row hit testing passed after stylesheet load."
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 9,
+        "warns": 3,
+        "waived": 1,
+        "notes": 2,
+        "files": 3,
+        "urls": 1
+      },
+      "manualWaived": {
+        "49b": "Existing resource and sponsor names retain their natural wrapping on narrow phones.",
+        "64": "Category counts are numeric figures in the Console numeric face."
+      },
+      "finish": [
+        "Existing shared sponsor panel recipe is intentional (F7).",
+        "Select-value shadcn slots are compact text controls, not media slots (F18)."
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "shadcn component audit, stable tables, affiliate preview, and compact hero",
+      "theme": "Console (paper/graphite, brand pink)",
+      "hero": "Banner",
+      "signature": "sunglasses masthead",
+      "changes": [
+        "Resource listings compose the installed shadcn Table, TableHeader, TableBody, TableRow, TableHead, TableCell and TableCaption; no nested vertical scroll.",
+        "Consistent row heights and aria-hidden empty rows preserve full-page table height on the last page; pagination keeps a fixed number of slots.",
+        "Resource actions use Button; pagination uses Pagination/Content/Item/Ellipsis; Select options are inside SelectGroup.",
+        "Category filters use ToggleGroup; searches use InputGroup; loading states use Skeleton; empty and error states use Empty.",
+        "Submission fields use FieldGroup/Field/FieldLabel; feedback uses Alert, Avatar and Spinner; bookmark clearing uses AlertDialog.",
+        "Desktop navigation uses NavigationMenu. Mobile Sheet has an accessible description. Root html declares smooth scrolling for Next.js 16.",
+        "Affiliate mockups use Card and Item with two explicitly labelled Preview entries and null URLs; real links can be supplied through src/lib/affiliates.ts.",
+        "Final hero is one compact masthead: sunglasses logo, wordmark, one sentence, browse action and existing submission action. Sidebar category card and commercial blocks were removed from the hero at the user request.",
+        "Sponsors and affiliate previews accompany the catalogue; mobile affiliate previews sit below the results. Credits remain in the footer."
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 0,
+        "warns": 3,
+        "notes": 2,
+        "files": 5,
+        "urls": 1
+      },
+      "validation": [
+        "shadcn MCP registry examples and audit checklist consulted; installed components reused without overwriting their implementation.",
+        "Playwright MCP: stable first/last page table height and pagination position on home, categories and bookmarks; desktop and mobile.",
+        "Playwright MCP: category toggles, reset, search/no results, sort, items-per-page, bookmark independence, row navigation, submission modal and mobile menu passed.",
+        "Final hero verified at 320, 375, 768, 1280, 1440 and 1920 pixels: no overflow, no cards or commercial content, actions above the fold.",
+        "TypeScript, ESLint and final production build passed. ESLint has three existing no-img-element warnings.",
+        "Prettier and git diff --check passed. Final browser console check returned zero errors."
+      ],
+      "finish": [
+        "F7: Repeated sponsor surfaces intentionally share a recipe for the same commercial role.",
+        "F18: Shadcn button and navigation-menu-item data slots identify compact controls, not collapsed media.",
+        "Visual review completed in-thread against Hallmark render captures."
+      ],
+      "preview": ".hallmark/shots/localhost-3000-1440x900.png"
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "partner aside spacing and submission action cleanup",
+      "changes": [
+        "Added 24px of padding above the partner aside, beneath the catalogue toolbar or category header.",
+        "Sponsor and affiliate placements now share PartnerCard, composed from installed shadcn Card, CardHeader, CardTitle, CardDescription, CardFooter, Button and Badge.",
+        "Removed the separate Affiliate picks heading and wrapper card; the two preview affiliate placements sit directly alongside sponsors. The become-a-sponsor placement is last.",
+        "Only the navbar Submit remains on desktop; the mobile submission action remains inside the Sheet. Removed submission duplicates from the hero, toolbar and bottom CTA section.",
+        "Mock affiliate placements retain the Preview badge and disabled action until URLs are provided."
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 0,
+        "warns": 5,
+        "notes": 2,
+        "files": 8,
+        "urls": 2
+      },
+      "validation": [
+        "TypeScript and targeted ESLint passed; Prettier and git diff --check passed.",
+        "Playwright MCP at 375 and 1440: no affiliate heading, five unified aside cards, 24px top spacing, no horizontal overflow.",
+        "Playwright MCP: exactly one visible desktop Submit button; mobile submission remains available in the menu; navbar submission dialog opens.",
+        "Final browser console check returned zero errors; Hallmark visual review completed in-thread."
+      ],
+      "finish": [
+        "F7 is the shared surface recipe for repeated commercial placements.",
+        "F18 flags compact shadcn control and breadcrumb slots, not collapsed media."
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "real affiliate links and logos, separate aside sections",
+      "changes": [
+        "Replaced both mock placements with Claude, v0, Raycast, Lovable and Hostinger, retaining the exact user-provided referral URLs and parameters.",
+        "Four logos were downloaded from SVGL, with the Hostinger mark from Iconify Simple Icons; all seven SVG files are served locally from public/affiliates.",
+        "Light and dark theme variants are used for v0 and Hostinger. All five logos render at 20x20 with explicit dimensions.",
+        "Sponsors and Affiliate links are separate sections inside the shared aside.",
+        "Removed the affiliate block below the table; AffiliateLinks is rendered only from SponsorRail."
+      ],
+      "validation": [
+        "TypeScript, targeted ESLint, Prettier and git diff --check passed.",
+        "Playwright MCP verified all five exact URLs and loaded logos in both light and dark themes on home and category pages.",
+        "No affiliate links are rendered outside the aside, including on mobile; no horizontal overflow or browser console errors.",
+        "Hallmark render: 0 FAIL, 5 WARN, 2 NOTE across five files and two URLs."
+      ],
+      "finish": [
+        "F7 is the repeated commercial card recipe.",
+        "F18 refers to compact shadcn text/control slots, not collapsed media."
+      ],
+      "sources": ".hallmark/affiliate-logo-sources.json"
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "refine",
+      "scope": "catalogue-first home and navbar branding",
+      "changes": [
+        "Removed the hero from HomeContent; the home page starts at the resource catalogue.",
+        "Changed the catalogue heading to a single H1, Resources, with a brief description based on the real resource/category counts.",
+        "Restored the logo and wordmark as a home link in the shared navbar.",
+        "Desktop navigation and Submit appear from 1024px; smaller screens use the existing Sheet menu. GitHub stars are hidden on the narrowest screens to keep the wordmark readable.",
+        "Active navbar links have transparent backgrounds at rest, hover and focus; the colour and underline retain the current-page indication.",
+        "Sponsors and affiliate sections remain in their existing aside."
+      ],
+      "after": {
+        "fails": 0,
+        "reflex": 0,
+        "warns": 3,
+        "notes": 3,
+        "files": 4,
+        "urls": 1
+      },
+      "validation": [
+        "TypeScript, targeted ESLint, Prettier and git diff --check passed.",
+        "Playwright MCP verified the home page and shared navbar at 320, 375, 768, 1024, 1440 and 1920px: no hero, one H1, no horizontal overflow, working home links and menu navigation.",
+        "Search still returns matching resources; the single desktop submission action is preserved.",
+        "Playwright MCP verified transparent active-link backgrounds on Index, Categories and Bookmarks in normal, hover and focus states, with the 1px underline retained.",
+        "Hallmark render captures reviewed in-thread; the table begins around 324px from the top at 1440px width."
+      ],
+      "finish": [
+        "F7 concerns repeated commercial surfaces with the same role.",
+        "F18 identifies compact shadcn navigation/control slots, not collapsed media."
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "skill": "hallmark",
+      "version": "2.0.0",
+      "mode": "fix",
+      "scope": "navbar hover backgrounds",
+      "changes": [
+        "Applied transparent base, hover and focus backgrounds to every navbar link, including inactive links, alongside the existing active-state overrides."
+      ],
+      "validation": [
+        "Playwright MCP checked all three links on all three routes in light and dark themes: 18 route/theme/link combinations, each at rest, hovered and focused, all transparent.",
+        "Targeted ESLint, Prettier and git diff --check passed.",
+        "Hallmark render completed."
+      ]
+    }
+  ]
+}

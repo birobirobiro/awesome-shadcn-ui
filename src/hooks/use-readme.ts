@@ -42,10 +42,39 @@ const GITHUB_FETCH_INIT: RequestInit = {
   cache: "force-cache",
   headers: {
     Accept: "application/vnd.github+json",
-    "User-Agent": GITHUB_CONFIG.API_HEADERS["User-Agent"] ?? "awesome-shadcn-ui",
+    "User-Agent":
+      GITHUB_CONFIG.API_HEADERS["User-Agent"] ?? "awesome-shadcn-ui",
   },
   redirect: "follow",
 } as const;
+
+/** Read public repository files even when the Contents API is rate limited. */
+async function fetchRepositoryFile(path: string): Promise<string> {
+  const repository = `${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}`;
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${repository}/contents/${path}`,
+      GITHUB_FETCH_INIT,
+    );
+    if (response.ok) {
+      const data = (await response.json()) as { content?: string };
+      if (data.content) return Buffer.from(data.content, "base64").toString();
+    }
+  } catch {
+    // Network errors on the API can also fall back to the public file host.
+  }
+
+  const response = await fetch(
+    `https://raw.githubusercontent.com/${repository}/main/${path}`,
+    { cache: "force-cache" },
+  );
+  if (!response.ok) {
+    throw new Error(
+      `Unable to load ${path}: ${response.status} ${response.statusText}`,
+    );
+  }
+  return response.text();
+}
 
 /** Cached resource data */
 let cachedData: Resource[] | null = null;
@@ -86,20 +115,7 @@ export function githubRepoFromUrl(rawUrl: string): string | null {
  */
 async function fetchStarCounts(): Promise<Record<string, number>> {
   try {
-    const response = await fetch(
-      `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/public/stars.json`,
-      GITHUB_FETCH_INIT,
-    );
-
-    if (!response.ok) {
-      return {};
-    }
-
-    const data = (await response.json()) as { content?: string };
-
-    const parsed = JSON.parse(
-      Buffer.from(data.content ?? "", "base64").toString(),
-    );
+    const parsed = JSON.parse(await fetchRepositoryFile("public/stars.json"));
     return parsed?.stars && typeof parsed.stars === "object"
       ? parsed.stars
       : {};
@@ -212,22 +228,11 @@ export async function fetchAndParseReadme(): Promise<Resource[]> {
   }
 
   try {
-    const [readmeResponse, starCounts] = await Promise.all([
-      fetch(
-        `https://api.github.com/repos/${GITHUB_CONFIG.REPO_OWNER}/${GITHUB_CONFIG.REPO_NAME}/contents/README.md`,
-        GITHUB_FETCH_INIT,
-      ),
+    const [content, starCounts] = await Promise.all([
+      fetchRepositoryFile("README.md"),
       fetchStarCounts(),
     ]);
 
-    if (!readmeResponse.ok) {
-      throw new Error(
-        `Invalid response data: ${readmeResponse.status} ${readmeResponse.statusText}`,
-      );
-    }
-
-    const readmeData = (await readmeResponse.json()) as { content?: string };
-    const content = Buffer.from(readmeData.content ?? "", "base64").toString();
     const lines = content.split("\n");
 
     const resources: Resource[] = [];

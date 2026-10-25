@@ -1,48 +1,40 @@
 "use client";
 
+import { Skeleton } from "@/components/ui/skeleton";
+
 import { ItemGrid, SPONSOR_INTERVAL } from "@/components/item-grid";
 import { PageHeader } from "@/components/layout/page-header";
 import { PaginationControls } from "@/components/pagination-controls";
+import {
+  Empty,
+  EmptyHeader,
+  EmptyMedia,
+  EmptyTitle,
+  EmptyDescription,
+  EmptyContent,
+} from "@/components/ui/empty";
 import { Button } from "@/components/ui/button";
 import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-} from "@/components/ui/dialog";
-import { Input } from "@/components/ui/input";
-import { Skeleton } from "@/components/ui/skeleton";
+  AlertDialog,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogAction,
+  AlertDialogCancel,
+} from "@/components/ui/alert-dialog";
+import {
+  InputGroup,
+  InputGroupAddon,
+  InputGroupInput,
+} from "@/components/ui/input-group";
 import { useBookmarks } from "@/hooks/use-bookmark";
 import { useDebounce } from "@/hooks/use-debounce";
 import { fetchAndParseReadme, type Resource } from "@/hooks/use-readme";
 import { Bookmark, Search } from "lucide-react";
-import { motion } from "motion/react";
 import Link from "next/link";
-import { useCallback, useEffect, useState } from "react";
-
-const containerVariants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 10 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.3,
-      ease: [0.22, 1, 0.36, 1] as const,
-    },
-  },
-};
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 const ITEMS_PER_PAGE_OPTIONS = [20, 40, 60, 80];
 
@@ -51,10 +43,26 @@ function itemSlotsFor(itemsPerPage: number) {
   return itemsPerPage - sponsorsPerPage;
 }
 
+function BookmarksSkeleton() {
+  return (
+    <div className="resource-list" aria-hidden="true">
+      {Array.from({ length: 6 }).map((_, index) => (
+        <div key={index} className="skeleton-row">
+          <Skeleton className="skeleton--index" />
+          <div>
+            <Skeleton className="skeleton--title" />
+            <Skeleton className="skeleton--line" />
+            <Skeleton className="skeleton--line" />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function BookmarksPage() {
   const [items, setItems] = useState<Resource[]>([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [filteredItems, setFilteredItems] = useState<Resource[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(ITEMS_PER_PAGE_OPTIONS[0]);
   const [isLoading, setIsLoading] = useState(true);
@@ -79,7 +87,7 @@ export default function BookmarksPage() {
         );
 
         setItems(bookmarkedResources);
-        setFilteredItems(bookmarkedResources);
+        setCurrentPage(1);
       } catch (error) {
         console.error("Error fetching bookmarked items:", error);
       } finally {
@@ -92,28 +100,23 @@ export default function BookmarksPage() {
     }
   }, [bookmarkedItems, isBookmarkLoading]);
 
-  useEffect(() => {
-    if (debouncedSearchQuery) {
-      const filtered = items.filter(
-        (item) =>
-          item.name
-            ?.toLowerCase()
-            .includes(debouncedSearchQuery.toLowerCase()) ||
-          item.description
-            ?.toLowerCase()
-            .includes(debouncedSearchQuery.toLowerCase()),
-      );
-      setFilteredItems(filtered);
-    } else {
-      setFilteredItems(items);
-    }
-    setCurrentPage(1);
+  const filteredItems = useMemo(() => {
+    const query = debouncedSearchQuery.toLowerCase();
+    return items.filter(
+      (item) =>
+        !query ||
+        item.name?.toLowerCase().includes(query) ||
+        item.description?.toLowerCase().includes(query),
+    );
   }, [debouncedSearchQuery, items]);
+
   const itemsPerPageActual = itemSlotsFor(itemsPerPage);
   const totalPages = Math.ceil(filteredItems.length / itemsPerPageActual);
   const indexOfLastItem = currentPage * itemsPerPageActual;
   const indexOfFirstItem = indexOfLastItem - itemsPerPageActual;
   const currentItems = filteredItems.slice(indexOfFirstItem, indexOfLastItem);
+  const showingFrom = filteredItems.length === 0 ? 0 : indexOfFirstItem + 1;
+  const showingTo = Math.min(indexOfLastItem, filteredItems.length);
 
   const handlePageChange = useCallback((pageNumber: number) => {
     setCurrentPage(pageNumber);
@@ -132,189 +135,161 @@ export default function BookmarksPage() {
 
   if (isLoading || isBookmarkLoading) {
     return (
-      <div className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8">
-        <div className="space-y-6 sm:space-y-8">
-          <div className="space-y-3 sm:space-y-4">
-            <Skeleton className="h-8 sm:h-12 w-full max-w-96" />
-            <Skeleton className="h-4 sm:h-6 w-full max-w-64" />
-            <div className="flex items-center gap-2 sm:gap-4">
-              <Skeleton className="h-4 w-20" />
-              <Skeleton className="h-4 w-2" />
-              <Skeleton className="h-4 w-16" />
-            </div>
-            <Skeleton className="h-8 sm:h-10 w-full max-w-md" />
-          </div>
-
-          <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-            {[...Array(6)].map((_, i) => (
-              <div key={i} className="border p-4 sm:p-6 space-y-3 sm:space-y-4">
-                <div className="space-y-2">
-                  <Skeleton className="h-5 sm:h-6 w-3/4" />
-                  <Skeleton className="h-4 sm:h-5 w-20" />
-                </div>
-                <div className="space-y-2">
-                  <Skeleton className="h-3 sm:h-4 w-full" />
-                  <Skeleton className="h-3 sm:h-4 w-5/6" />
-                </div>
-                <div className="flex justify-between items-center">
-                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9" />
-                  <Skeleton className="h-8 w-8 sm:h-9 sm:w-9" />
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-col sm:flex-row items-center justify-between space-y-3 sm:space-y-0 gap-3 sm:gap-0">
-            <div className="flex items-center space-x-2">
-              <Skeleton className="h-4 w-20 sm:w-24" />
-              <Skeleton className="h-8 sm:h-10 w-[60px] sm:w-[70px]" />
-            </div>
-            <div className="flex items-center space-x-1 sm:space-x-2">
-              <Skeleton className="h-8 w-8 sm:h-10 sm:w-10" />
-              <Skeleton className="h-8 w-8 sm:h-10 sm:w-10" />
-              <Skeleton className="h-4 w-12 sm:w-16" />
-              <Skeleton className="h-8 w-8 sm:h-10 sm:w-10" />
-              <Skeleton className="h-8 w-8 sm:h-10 sm:w-10" />
-            </div>
-          </div>
+      <div className="shell">
+        <PageHeader
+          title="Bookmarks"
+          description="Your saved shadcn/ui resources."
+          breadcrumbs={[{ label: "Bookmarks", href: "/bookmarks" }]}
+        />
+        <div className="catalog-results py-8">
+          <BookmarksSkeleton />
         </div>
       </div>
     );
   }
 
   return (
-    <motion.div
-      className="container mx-auto max-w-7xl px-3 sm:px-4 py-4 sm:py-8"
-      variants={containerVariants}
-      initial="hidden"
-      animate="visible"
-    >
-      <motion.div variants={itemVariants}>
-        <PageHeader
-          title="Bookmarks"
-          description="Your saved shadcn/ui resources"
-          breadcrumbs={[{ label: "Bookmarks", href: "/bookmarks" }]}
-          actions={
-            <div className="space-y-3 sm:space-y-4 w-full">
-              <div className="flex items-center gap-2 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
-                <span>
-                  {items.length} {items.length === 1 ? "bookmark" : "bookmarks"}
-                </span>
-              </div>
-              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 w-full">
-                <div className="w-full sm:flex-1 max-w-md">
-                  <Input
-                    type="text"
-                    placeholder="Search your bookmarks..."
+    <div className="shell">
+      <PageHeader
+        title="Bookmarks"
+        description="Your saved shadcn/ui resources. Bookmarks stay in this browser."
+        breadcrumbs={[{ label: "Bookmarks", href: "/bookmarks" }]}
+        actions={
+          <div className="flex w-full flex-col gap-3">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <p className="text-sm text-muted-foreground">
+                {items.length} {items.length === 1 ? "bookmark" : "bookmarks"}
+              </p>
+              <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+                <InputGroup className="catalog-search w-full sm:w-64">
+                  <InputGroupInput
+                    type="search"
+                    placeholder="Search bookmarks…"
                     value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="h-10"
+                    onChange={(event) => {
+                      setSearchQuery(event.target.value);
+                      setCurrentPage(1);
+                    }}
+                    aria-label="Search bookmarks"
+                    className="w-full"
                   />
-                </div>
+                  <InputGroupAddon>
+                    <Search aria-hidden="true" />
+                  </InputGroupAddon>
+                </InputGroup>
                 {items.length > 0 && (
-                  <div className="p-2">
-                    <Button
-                      variant="outline"
-                      onClick={() => setShowClearDialog(true)}
-                      className="w-full sm:w-auto text-sm sm:text-base"
-                    >
-                      Clear All
-                    </Button>
-                  </div>
+                  <Button
+                    variant="outline"
+                    onClick={() => setShowClearDialog(true)}
+                    className="h-10 whitespace-nowrap"
+                  >
+                    Clear all
+                  </Button>
                 )}
               </div>
             </div>
-          }
-        />
-      </motion.div>
+          </div>
+        }
+      />
 
-      <motion.div
-        variants={itemVariants}
-        className="min-h-[400px] mb-6 sm:mb-8"
-      >
-        {items.length === 0 ? (
-          <div className="flex flex-col items-center justify-center h-[400px] text-center px-4">
-            <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
-              <Bookmark className="h-8 w-8 text-muted-foreground" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">No bookmarks yet</h3>
-            <p className="text-sm text-muted-foreground mb-6 max-w-md">
+      {items.length === 0 ? (
+        <Empty className="py-16">
+          <EmptyHeader>
+            <EmptyMedia variant="icon">
+              <Bookmark className="h-4 w-4" aria-hidden="true" />
+            </EmptyMedia>
+            <EmptyTitle>
+              <h2>No bookmarks yet</h2>
+            </EmptyTitle>
+            <EmptyDescription>
               Start saving your favorite shadcn/ui resources by clicking the
               bookmark icon on any item.
-            </p>
-            <Button asChild>
+            </EmptyDescription>
+          </EmptyHeader>
+          <EmptyContent>
+            <Button asChild className="mt-2">
               <Link prefetch={false} href="/">
                 Browse resources
               </Link>
             </Button>
-          </div>
-        ) : filteredItems.length === 0 && debouncedSearchQuery ? (
-          <div className="flex flex-col items-center justify-center h-[400px] text-center px-4">
-            <div className="w-16 h-16 rounded-full bg-muted flex items-center justify-center mb-4">
-              <Search className="h-8 w-8 text-muted-foreground" />
-            </div>
-            <h3 className="text-lg font-semibold mb-2">No results found</h3>
-            <p className="text-sm text-muted-foreground mb-6">
-              No bookmarks match your search for "{debouncedSearchQuery}"
-            </p>
-            <Button variant="outline" onClick={() => setSearchQuery("")}>
+          </EmptyContent>
+        </Empty>
+      ) : filteredItems.length === 0 && debouncedSearchQuery ? (
+        <Empty className="py-16">
+          <EmptyHeader>
+            <EmptyMedia variant="icon">
+              <Search className="h-4 w-4" aria-hidden="true" />
+            </EmptyMedia>
+            <EmptyTitle>
+              <h2>No results found</h2>
+            </EmptyTitle>
+            <EmptyDescription>
+              No bookmarks match your search for “{debouncedSearchQuery}”.
+            </EmptyDescription>
+          </EmptyHeader>
+          <EmptyContent>
+            <Button
+              variant="outline"
+              className="mt-2"
+              onClick={() => setSearchQuery("")}
+            >
               Clear search
             </Button>
-          </div>
-        ) : (
+          </EmptyContent>
+        </Empty>
+      ) : (
+        <div className="catalog-results">
           <ItemGrid
             items={currentItems}
             bookmarkedItems={bookmarkedItems}
             onBookmark={toggleBookmark}
             isBookmarkLoading={isBookmarkLoading}
+            startIndex={indexOfFirstItem}
+            pageSize={totalPages > 1 ? itemsPerPage : undefined}
           />
-        )}
-      </motion.div>
-
-      {filteredItems.length > 0 && items.length > 0 && (
-        <motion.div variants={itemVariants}>
-          <PaginationControls
-            currentPage={currentPage}
-            totalPages={totalPages}
-            itemsPerPage={itemsPerPage}
-            handlePageChange={handlePageChange}
-            handleItemsPerPageChange={handleItemsPerPageChange}
-            itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
-          />
-        </motion.div>
+        </div>
       )}
 
-      {items.length > 0 && (
-        <motion.div
-          variants={itemVariants}
-          className="text-xs sm:text-sm text-muted-foreground text-center mt-4 sm:mt-6"
-        >
-          Showing {indexOfFirstItem + 1} -{" "}
-          {Math.min(indexOfLastItem, filteredItems.length)} of{" "}
-          {filteredItems.length}{" "}
-          {filteredItems.length === 1 ? "bookmark" : "bookmarks"}
-        </motion.div>
+      {filteredItems.length > 0 && (
+        <PaginationControls
+          currentPage={currentPage}
+          totalPages={totalPages}
+          itemsPerPage={itemsPerPage}
+          handlePageChange={handlePageChange}
+          handleItemsPerPageChange={handleItemsPerPageChange}
+          itemsPerPageOptions={ITEMS_PER_PAGE_OPTIONS}
+        />
       )}
 
-      <Dialog open={showClearDialog} onOpenChange={setShowClearDialog}>
-        <DialogContent>
-          <DialogHeader>
-            <DialogTitle>Clear All Bookmarks?</DialogTitle>
-            <DialogDescription>
+      {filteredItems.length > 0 && (
+        <div className="catalog-foot">
+          <span className="catalog-foot__count">
+            Showing {showingFrom} to {showingTo} of {filteredItems.length}
+          </span>
+          <span>{filteredItems.length === 1 ? "bookmark" : "bookmarks"}</span>
+        </div>
+      )}
+
+      <AlertDialog open={showClearDialog} onOpenChange={setShowClearDialog}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>Clear all bookmarks?</AlertDialogTitle>
+            <AlertDialogDescription>
               This will remove all your bookmarked items. This action cannot be
               undone.
-            </DialogDescription>
-          </DialogHeader>
-          <DialogFooter>
-            <Button variant="outline" onClick={() => setShowClearDialog(false)}>
-              Cancel
-            </Button>
-            <Button variant="destructive" onClick={handleClearBookmarks}>
-              Clear All
-            </Button>
-          </DialogFooter>
-        </DialogContent>
-      </Dialog>
-    </motion.div>
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>Cancel</AlertDialogCancel>
+            <AlertDialogAction
+              variant="destructive"
+              onClick={handleClearBookmarks}
+            >
+              Clear all
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </div>
   );
 }

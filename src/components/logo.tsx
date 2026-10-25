@@ -12,7 +12,7 @@ export const Logo = memo(function Logo({
     <Image
       src="/logo-mobile.svg"
       alt="awesome-shadcn/ui"
-      width={24}
+      width={46}
       height={24}
       className={className}
       priority

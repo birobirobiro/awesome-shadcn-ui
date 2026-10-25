@@ -1,11 +1,6 @@
-"use client";
-
-import { Separator } from "@/components/ui/separator";
 import { GitHubStars } from "@/components/github-stars";
-import { ArrowRight, ExternalLink } from "lucide-react";
-import { motion, useInView } from "motion/react";
 import Link from "next/link";
-import { useRef } from "react";
+import { sponsors } from "@/components/sponsors/sponsors";
 
 /** Static category links for footer navigation */
 const FOOTER_CATEGORIES = [
@@ -18,28 +13,10 @@ const FOOTER_CATEGORIES = [
 ];
 
 export function Footer() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
-
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.2,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
-
   const quickLinks = [
-    { name: "Home", href: "/" },
+    { name: "Index", href: "/" },
     { name: "Categories", href: "/categories" },
+    { name: "Bookmarks", href: "/bookmarks" },
     {
       name: "GitHub",
       href: "https://github.com/birobirobiro/awesome-shadcn-ui",
@@ -48,99 +25,148 @@ export function Footer() {
   ];
 
   return (
-    <footer className="border-t bg-background">
-      <motion.div
-        ref={ref}
-        variants={containerVariants}
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
-        className="container mx-auto max-w-7xl px-4 py-6 md:py-8"
-      >
-        {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
-          {/* Brand Section */}
-          <motion.div variants={itemVariants} className="lg:col-span-2">
-            <Link
-              prefetch={false}
-              href="/"
-              className="flex items-center space-x-2 mb-4 group"
-            >
+    <footer className="site-footer">
+      <div className="shell">
+        <div className="footer-mast">
+          <div className="footer-brand">
+            <Link prefetch={false} href="/" className="brand">
               <img
                 src="/logo.svg"
-                alt="logo"
-                className="h-8 w-auto transition-transform group-hover:scale-105"
+                alt="awesome-shadcn/ui"
+                className="footer-wordmark"
+                width={510}
+                height={343}
               />
-              <span className="text-lg font-bold">awesome-shadcn/ui</span>
+              <span className="brand__word">awesome-shadcn/ui</span>
             </Link>
-            <p className="text-sm text-muted-foreground mb-4 max-w-sm">
+            <p className="footer-tagline">
               A curated list of awesome things related to shadcn/ui. Discover,
               contribute, and grow the community.
             </p>
-            <GitHubStars />
-          </motion.div>
+            <div className="mt-4">
+              <GitHubStars />
+            </div>
 
-          {/* Quick Links */}
-          <motion.div variants={itemVariants}>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              {quickLinks.map((link) => (
-                <li key={link.name}>
-                  <Link
-                    prefetch={false}
-                    href={link.href}
-                    target={link.external ? "_blank" : undefined}
-                    rel={link.external ? "noopener noreferrer" : undefined}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 group"
+            <div className="sponsorship mt-6 border-t-0 pt-0">
+              <span className="sponsorship__label">Sponsored by</span>
+              <div className="sponsorship__links">
+                {sponsors.map((sponsor) => (
+                  <a
+                    key={sponsor.name}
+                    href={sponsor.url}
+                    target="_blank"
+                    rel="noopener sponsored"
+                    className="sponsorship__link"
                   >
-                    {link.name}
-                    {link.external && (
-                      <ExternalLink className="h-3 w-3 group-hover:translate-x-0.5 transition-transform" />
-                    )}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </motion.div>
+                    {sponsor.LogoComponent}
+                    {sponsor.name}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </div>
 
-          {/* Categories Preview */}
-          <motion.div variants={itemVariants}>
-            <h4 className="font-semibold mb-4">Categories</h4>
-            <ul className="space-y-2">
-              {FOOTER_CATEGORIES.map((category) => (
-                <li key={category.slug}>
-                  <Link
-                    prefetch={false}
-                    href={`/categories/${category.slug}`}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 group"
+          <div className="footer-grid">
+            <div className="footer-col">
+              <h2 className="footer-col__title">Quick links</h2>
+              <ul>
+                {quickLinks.map((link) => (
+                  <li key={link.name}>
+                    <Link
+                      prefetch={false}
+                      href={link.href}
+                      target={link.external ? "_blank" : undefined}
+                      rel={link.external ? "noopener noreferrer" : undefined}
+                      className="footer-link"
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <h2 className="footer-col__title">Categories</h2>
+              <ul>
+                {FOOTER_CATEGORIES.map((category) => (
+                  <li key={category.slug}>
+                    <Link
+                      prefetch={false}
+                      href={`/categories/${category.slug}`}
+                      className="footer-link"
+                    >
+                      {category.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="footer-col">
+              <h2 className="footer-col__title">Elsewhere</h2>
+              <ul>
+                <li>
+                  <a
+                    href="https://github.com/birobirobiro/awesome-shadcn-ui"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
                   >
-                    {category.title}
-                    <ArrowRight className="h-3 w-3 group-hover:translate-x-0.5 transition-transform" />
-                  </Link>
+                    GitHub repository
+                  </a>
                 </li>
-              ))}
-            </ul>
-          </motion.div>
+                <li>
+                  <a
+                    href="https://github.com/birobirobiro/awesome-shadcn-ui/blob/main/.github/pull_request_template.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
+                    Pull request template
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://ui.shadcn.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
+                    shadcn/ui
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <Separator className="mb-6" />
-
-        {/* Bottom Section */}
-        <motion.div
-          variants={itemVariants}
-          className="flex flex-col md:flex-row justify-between items-center gap-4"
-        >
-          <div className="flex flex-col md:flex-row items-center gap-4 text-xs text-muted-foreground font-mono">
-            <p>
-              © {new Date().getFullYear()} awesome-shadcn/ui. All rights
-              reserved.
-            </p>
-          </div>
-
-          <div className="flex items-center gap-4 text-xs text-muted-foreground font-mono">
-            <span>Built with Next.js & shadcn/ui</span>
-          </div>
-        </motion.div>
-      </motion.div>
+        <div className="footer-bottom">
+          <p>
+            © {new Date().getFullYear()} awesome-shadcn/ui. All rights
+            reserved.
+          </p>
+          <p>
+            Built with Next.js &amp; shadcn/ui. Created by{" "}
+            <a
+              href="https://birobirobiro.dev/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              birobirobiro.dev
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://vtxlabs.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              vtxlabs.dev
+            </a>
+            .
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }

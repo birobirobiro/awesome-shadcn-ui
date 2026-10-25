@@ -1,7 +1,9 @@
 "use client";
 
+import { StateMessage } from "@/components/layout/state-message";
 import { Button } from "@/components/ui/button";
 import { AlertOctagon } from "lucide-react";
+import Link from "next/link";
 import { useEffect } from "react";
 
 export default function GlobalError({
@@ -12,43 +14,31 @@ export default function GlobalError({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log error
+    console.error("Global error:", error);
   }, [error]);
 
   return (
     <html lang="en">
       <body className="bg-background text-foreground">
-        <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-4 py-20 text-center">
-          <div className="relative z-10 mx-auto max-w-xl">
-            <div className="mb-6 flex justify-center">
-              <div className="flex items-center justify-center w-20 h-20 border border-destructive/30 bg-destructive/5">
-                <AlertOctagon className="size-10 text-destructive" />
-              </div>
-            </div>
-            <h1 className="mb-4 text-3xl font-bold tracking-tight sm:text-5xl">
-              Critical Error
-            </h1>
-            <p className="mb-8 text-base text-muted-foreground sm:text-lg">
-              We've encountered a critical application error.
-              <br className="hidden sm:block" />
-              Our team has been automatically notified and is working to resolve
-              the issue.
+        <StateMessage
+          icon={<AlertOctagon className="h-5 w-5" aria-hidden="true" />}
+          title="Critical error"
+          description="We've encountered a critical application error. Reload the application or return home."
+        >
+          <Button onClick={() => reset()} className="gap-2">
+            Reload application
+          </Button>
+          <Button variant="outline" asChild>
+            <Link prefetch={false} href="/">
+              Return home
+            </Link>
+          </Button>
+          {error.digest && (
+            <p className="w-full text-center text-xs text-muted-foreground">
+              Error ID: {error.digest}
             </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <Button onClick={() => reset()} size="lg" variant="default">
-                Reload Application
-              </Button>
-              <Button asChild size="lg" variant="outline">
-                <a href="/">Return Home</a>
-              </Button>
-            </div>
-            {error.digest && (
-              <p className="mt-6 text-xs text-muted-foreground">
-                Error ID: {error.digest}
-              </p>
-            )}
-          </div>
-        </div>
+          )}
+        </StateMessage>
       </body>
     </html>
   );

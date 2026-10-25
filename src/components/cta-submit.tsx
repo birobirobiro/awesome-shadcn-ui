@@ -1,97 +1,63 @@
 "use client";
 
-import { ArrowRight, Github } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { motion, useInView } from "motion/react";
+import { Github } from "@/components/icons/github-icon";
+
+import {} from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { PRSubmissionDialog } from "@/components/pr-submission-dialog";
-import { useRef } from "react";
 
-export function SubmitCTA() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.5 });
+interface SubmitCTAProps {
+  totalItems: number;
+  totalCategories: number;
+}
 
-  const containerVariants = {
-    hidden: { opacity: 0, y: 10 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.3,
-        staggerChildren: 0.1,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 10 },
-    visible: { opacity: 1, y: 0 },
-  };
-
+export function SubmitCTA({ totalItems, totalCategories }: SubmitCTAProps) {
   return (
-    <Card className="w-full overflow-hidden my-16">
-      <CardContent className="p-6 sm:p-8 md:p-10">
-        <motion.div
-          ref={ref}
-          variants={containerVariants}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          className="flex flex-col lg:flex-row items-center justify-between gap-6"
-        >
-          <motion.div
-            variants={itemVariants}
-            className="text-center lg:text-left space-y-2 lg:space-y-4 max-w-2xl"
-          >
-            <motion.h2
-              variants={itemVariants}
-              className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight"
-            >
-              Contribute to awesome-shadcn/ui
-            </motion.h2>
-            <motion.p
-              variants={itemVariants}
-              className="text-sm sm:text-base text-muted-foreground max-w-prose"
-            >
-              Have an awesome shadcn/ui related project or resource? Share it
-              with the community! Open a PR and help grow this curated list.
-            </motion.p>
-          </motion.div>
-          <motion.div variants={itemVariants} className="w-full lg:w-auto">
-            <div className="flex flex-col sm:flex-row gap-2 w-full lg:w-auto">
-              <PRSubmissionDialog
-                trigger={
-                  <Button
-                    size="lg"
-                    className="w-full sm:w-auto text-base cursor-pointer"
-                  >
-                    <Github className="mr-2 h-5 w-5" />
-                    <span>Submit Resource</span>
-                    <ArrowRight className="ml-2 h-5 w-5" />
-                  </Button>
-                }
-              />
-              <Button
-                asChild
-                variant="outline"
-                size="lg"
-                className="w-full sm:w-auto text-base"
-              >
-                <a
-                  href="https://github.com/birobirobiro/awesome-shadcn-ui/blob/main/.github/pull_request_template.md"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center"
-                >
-                  <Github className="mr-2 h-5 w-5" />
-                  <span>Manual PR</span>
-                  <ArrowRight className="ml-2 h-5 w-5" />
-                </a>
-              </Button>
+    <section id="contribute" className="cta">
+      <div className="shell cta__grid">
+        <div>
+          <h2 className="cta__title">Contribute to awesome-shadcn/ui</h2>
+          <p className="cta__text">
+            Have an awesome shadcn/ui related project or resource? Share it with
+            the community. Open a PR and help grow this curated list.
+          </p>
+          <dl className="cta__stats" aria-label="Directory summary">
+            <div className="cta__stat">
+              <dt className="cta__stat-label">Resources</dt>
+              <dd className="cta__stat-value">{totalItems}</dd>
             </div>
-          </motion.div>
-        </motion.div>
-      </CardContent>
-    </Card>
+            <div className="cta__stat">
+              <dt className="cta__stat-label">Categories</dt>
+              <dd className="cta__stat-value">{totalCategories}</dd>
+            </div>
+            <div className="cta__stat">
+              <dt className="cta__stat-label">Pull request</dt>
+              <dd className="cta__stat-value">1</dd>
+            </div>
+          </dl>
+        </div>
+        <div className="cta__actions">
+          <PRSubmissionDialog
+            trigger={
+              <Button size="lg" className="gap-2">
+                <Github className="h-4 w-4" aria-hidden="true" />
+                Submit a resource
+              </Button>
+            }
+          />
+          <Button asChild variant="outline" size="lg" className="gap-2">
+            <a
+              href="https://github.com/birobirobiro/awesome-shadcn-ui/blob/main/.github/pull_request_template.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="h-4 w-4" aria-hidden="true" />
+              Manual PR
+            </a>
+          </Button>
+        </div>
+      </div>
+    </section>
   );
 }

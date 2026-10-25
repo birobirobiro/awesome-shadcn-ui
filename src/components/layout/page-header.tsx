@@ -1,5 +1,3 @@
-"use client";
-
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -8,9 +6,9 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { motion } from "motion/react";
 import Link from "next/link";
 import React, { ReactNode } from "react";
+import { cn } from "@/lib/utils";
 
 interface PageHeaderProps {
   title: string;
@@ -33,60 +31,53 @@ export function PageHeader({
   className = "",
 }: PageHeaderProps) {
   return (
-    <motion.div
-      className={`space-y-4 sm:space-y-6 mb-8 sm:mb-12 ${className}`}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
-    >
+    <header className={cn("page-header", className)}>
       {breadcrumbs.length > 0 && (
-        <Breadcrumb>
-          <BreadcrumbList className="flex-wrap">
-            <BreadcrumbItem>
-              <BreadcrumbLink asChild>
-                <Link prefetch={false} href="/" className="text-sm">
-                  Home
-                </Link>
-              </BreadcrumbLink>
-            </BreadcrumbItem>
-            {breadcrumbs.map((breadcrumb, index) => (
-              <React.Fragment key={index}>
-                <BreadcrumbSeparator />
-                <BreadcrumbItem>
-                  {index === breadcrumbs.length - 1 ? (
-                    <BreadcrumbPage className="text-sm truncate max-w-[150px] sm:max-w-none">
-                      {breadcrumb.label}
-                    </BreadcrumbPage>
-                  ) : (
-                    <BreadcrumbLink asChild>
-                      <Link
-                        prefetch={false}
-                        href={breadcrumb.href}
-                        className="text-sm truncate max-w-[100px] sm:max-w-none"
-                      >
+        <div className="page-header__top">
+          <Breadcrumb>
+            <BreadcrumbList className="flex-wrap text-xs">
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link prefetch={false} href="/">
+                    Home
+                  </Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+              {breadcrumbs.map((breadcrumb, index) => (
+                <React.Fragment key={`${breadcrumb.href}-${index}`}>
+                  <BreadcrumbSeparator />
+                  <BreadcrumbItem>
+                    {index === breadcrumbs.length - 1 ? (
+                      <BreadcrumbPage className="max-w-[18rem] truncate">
                         {breadcrumb.label}
-                      </Link>
-                    </BreadcrumbLink>
-                  )}
-                </BreadcrumbItem>
-              </React.Fragment>
-            ))}
-          </BreadcrumbList>
-        </Breadcrumb>
+                      </BreadcrumbPage>
+                    ) : (
+                      <BreadcrumbLink asChild>
+                        <Link
+                          prefetch={false}
+                          href={breadcrumb.href}
+                          className="max-w-[12rem] truncate"
+                        >
+                          {breadcrumb.label}
+                        </Link>
+                      </BreadcrumbLink>
+                    )}
+                  </BreadcrumbItem>
+                </React.Fragment>
+              ))}
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
       )}
 
-      <div className="space-y-3 sm:space-y-4">
-        <div className="flex items-start sm:items-center gap-2 sm:gap-3">
-          {icon}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight leading-tight break-words">
-            {title}
-          </h1>
-        </div>
-        <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-full break-words">
-          {description}
-        </p>
-        {actions && <div className="w-full overflow-hidden">{actions}</div>}
+      <div className="page-header__title-row">
+        {icon && <div className="page-header__icon">{icon}</div>}
+        <h1 className="page-header__title">{title}</h1>
       </div>
-    </motion.div>
+
+      <p className="page-header__description">{description}</p>
+
+      {actions && <div className="page-header__actions mt-5">{actions}</div>}
+    </header>
   );
 }

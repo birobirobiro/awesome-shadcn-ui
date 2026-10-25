@@ -1,17 +1,13 @@
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { ArrowRight, Bookmark, ExternalLink, Star } from "lucide-react";
-
-import { Button } from "@/components/ui/button";
-import { categoryNameToSlug } from "@/lib/slugs";
-import { cn, formatResourceDate, formatStarCount } from "@/lib/utils";
-import { motion } from "motion/react";
+import { ArrowUpRight, Bookmark, ExternalLink } from "lucide-react";
+import Link from "next/link";
 import React from "react";
+
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { TableCell, TableRow } from "@/components/ui/table";
+
+import { categoryNameToSlug } from "@/lib/slugs";
+import { formatResourceDate, formatStarCount } from "@/lib/utils";
 
 interface ItemCardProps {
   id: string;
@@ -24,14 +20,8 @@ interface ItemCardProps {
   isBookmarked: boolean;
   onBookmark: (id: string) => void;
   isBookmarkLoading?: boolean;
+  index?: number;
 }
-
-const standardAnimations = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0 },
-  exit: { opacity: 0, y: -20 },
-  transition: { duration: 0.2, ease: "easeOut" },
-};
 
 const ItemCard: React.FC<ItemCardProps> = ({
   id,
@@ -44,98 +34,105 @@ const ItemCard: React.FC<ItemCardProps> = ({
   isBookmarked,
   onBookmark,
   isBookmarkLoading = false,
+  index = 0,
 }) => {
-  const handleCardClick = () => {
-    window.location.href = `/categories/${categoryNameToSlug(category)}/${id}`;
-  };
+  const detailHref = `/categories/${categoryNameToSlug(category)}/${id}`;
+
+  const addedDate = date ? formatResourceDate(date) : "Unknown";
+  const starCount = stars !== undefined ? formatStarCount(stars) : "—";
 
   return (
-    <motion.div layout {...standardAnimations} className="h-full">
-      <Card
-        className="h-full group hover:border-primary/40 hover:shadow-lg transition-all duration-200 overflow-hidden cursor-pointer flex flex-col gap-0 py-0"
-        onClick={handleCardClick}
-      >
-        <CardHeader className="p-4 pb-3 shrink-0">
-          <div className="flex items-start justify-between gap-2 mb-2">
-            <span className="text-[10px] font-mono uppercase tracking-wider text-primary border border-primary/30 bg-primary/5 px-2 py-0.5">
-              [{category}]
-            </span>
-            <ArrowRight className="h-4 w-4 text-muted-foreground group-hover:text-primary group-hover:translate-x-0.5 transition-all flex-shrink-0" />
-          </div>
-          <CardTitle className="text-base font-bold group-hover:text-primary transition-colors duration-200 line-clamp-2 leading-snug">
+    <TableRow className="resource-row">
+      <TableCell className="resource-row__index">
+        <Badge variant="outline" className="resource-row__number">
+          {String(index + 1).padStart(2, "0")}
+        </Badge>
+      </TableCell>
+
+      <TableCell className="resource-row__main">
+        <h3 className="resource-row__title">
+          <Link
+            prefetch={false}
+            href={detailHref}
+            className="resource-row__link"
+          >
             {title}
-          </CardTitle>
-        </CardHeader>
+          </Link>
+        </h3>
+        <p className="resource-row__description">{description}</p>
+        <div className="resource-row__mobile-meta">
+          <span className="resource-row__mobile-category">{category}</span>
+          <span className="resource-row__mobile-figures">
+            <span>{addedDate}</span>
+            <span aria-label={`${starCount} stars`}>Stars {starCount}</span>
+          </span>
+        </div>
+      </TableCell>
 
-        <div className="h-px bg-border mx-4 shrink-0" />
+      <TableCell className="resource-row__category">{category}</TableCell>
+      <TableCell className="resource-row__added resource-row__figure">
+        {addedDate}
+      </TableCell>
+      <TableCell className="resource-row__stars resource-row__figure">
+        {starCount}
+      </TableCell>
 
-        <CardContent className="px-4 py-3 flex-1 flex flex-col gap-3 min-h-0">
-          <p className="text-sm text-muted-foreground line-clamp-3 flex-1 leading-relaxed overflow-hidden">
-            {description}
-          </p>
-
-          {(date || stars !== undefined) && (
-            <div className="flex items-center justify-between gap-2 text-xs font-mono text-muted-foreground/70">
-              {date && <span>Added: {formatResourceDate(date)}</span>}
-              {stars !== undefined && (
-                <span className="flex items-center gap-1 flex-shrink-0">
-                  <Star className="h-3 w-3" />
-                  {formatStarCount(stars)}
-                </span>
-              )}
-            </div>
-          )}
-        </CardContent>
-
-        <div className="h-px bg-border mx-4 shrink-0" />
-
-        <CardFooter className="flex gap-3 items-center p-4 pt-3 shrink-0">
-          {/* Bookmark Button */}
+      <TableCell className="resource-row__actions">
+        <div className="resource-row__action-group">
           <Button
-            variant={isBookmarked ? "default" : "ghost"}
-            size="icon"
+            variant="ghost"
+            size="icon-sm"
+            type="button"
+            className="resource-row__action"
+            data-bookmarked={isBookmarked}
+            onClick={() => onBookmark(id)}
             disabled={isBookmarkLoading}
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              if (!isBookmarkLoading) onBookmark(id);
-            }}
-            className={cn(
-              "h-8 w-8 transition-all duration-200",
+            aria-label={
               isBookmarked
-                ? "bg-primary hover:bg-primary/90 text-primary-foreground"
-                : "text-muted-foreground hover:text-foreground hover:bg-muted",
-              isBookmarkLoading && "opacity-50 cursor-not-allowed",
-            )}
+                ? `Remove ${title} from bookmarks`
+                : `Bookmark ${title}`
+            }
+            aria-pressed={isBookmarked}
           >
             <Bookmark
-              className={cn(
-                "h-3.5 w-3.5",
-                isBookmarked && "fill-current",
-                isBookmarkLoading && "animate-pulse",
-              )}
+              fill={isBookmarked ? "currentColor" : "none"}
+              aria-hidden="true"
             />
           </Button>
 
-          {/* External Link Button */}
           <Button
-            variant="ghost"
-            size="icon"
             asChild
-            className="h-8 w-8 text-muted-foreground hover:text-foreground hover:bg-muted transition-all duration-200"
+            variant="ghost"
+            size="icon-sm"
+            className="resource-row__action"
           >
             <a
               href={url}
               target="_blank"
               rel="noopener noreferrer"
-              onClick={(e) => e.stopPropagation()}
+              aria-label={`Visit ${title}`}
             >
-              <ExternalLink className="h-3.5 w-3.5" />
+              <ExternalLink aria-hidden="true" />
             </a>
           </Button>
-        </CardFooter>
-      </Card>
-    </motion.div>
+
+          <Button
+            asChild
+            variant="ghost"
+            size="icon-sm"
+            className="resource-row__action"
+          >
+            <Link
+              prefetch={false}
+              href={detailHref}
+              aria-label={`View details for ${title}`}
+            >
+              <ArrowUpRight aria-hidden="true" />
+            </Link>
+          </Button>
+        </div>
+      </TableCell>
+    </TableRow>
   );
 };
 

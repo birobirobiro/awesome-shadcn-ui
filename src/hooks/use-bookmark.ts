@@ -1,4 +1,10 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+  useCallback,
+  useMemo,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 
 /** Local storage key for persisting bookmarks */
 const STORAGE_KEY = "bookmarkedItems";
@@ -45,73 +51,75 @@ export interface UseBookmarksReturn {
  * )
  * ```
  */
+function subscribeToBookmarks(callback: () => void) {
+  window.addEventListener("storage", callback);
+  window.addEventListener("bookmarks-changed", callback);
+  return () => {
+    window.removeEventListener("storage", callback);
+    window.removeEventListener("bookmarks-changed", callback);
+  };
+}
+
+function getBookmarkSnapshot(): string {
+  try {
+    return localStorage.getItem(STORAGE_KEY) ?? "[]";
+  } catch {
+    return "[]";
+  }
+}
+const getServerBookmarkSnapshot = () => null;
+
 export function useBookmarks(): UseBookmarksReturn {
-  const [bookmarkedItems, setBookmarkedItems] = useState<string[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const snapshot = useSyncExternalStore(
+    subscribeToBookmarks,
+    getBookmarkSnapshot,
+    getServerBookmarkSnapshot,
+  );
+  const isLoading = snapshot === null;
+  const bookmarkedItems = useMemo<string[]>(() => {
+    try {
+      const value: unknown = JSON.parse(snapshot ?? "[]");
+      return Array.isArray(value) &&
+        value.every((item) => typeof item === "string")
+        ? value
+        : [];
+    } catch {
+      return [];
+    }
+  }, [snapshot]);
   const [error, setError] = useState<string | null>(null);
   const lastClickRef = useRef<{ id: string; time: number } | null>(null);
-
-  // Load bookmarks from localStorage on mount
-  useEffect(() => {
-    try {
-      const stored = localStorage.getItem(STORAGE_KEY);
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        if (
-          Array.isArray(parsed) &&
-          parsed.every((item) => typeof item === "string")
-        ) {
-          setBookmarkedItems(parsed);
-        }
-      }
-    } catch (err) {
-      console.error("Failed to load bookmarks:", err);
-    } finally {
-      setIsLoading(false);
-    }
-  }, []);
 
   const toggleBookmark = useCallback(
     (id: string) => {
       if (isLoading) return;
-
-      // Debounce rapid clicks on the same item
       const now = Date.now();
       if (
-        lastClickRef.current &&
-        lastClickRef.current.id === id &&
+        lastClickRef.current?.id === id &&
         now - lastClickRef.current.time < DEBOUNCE_DELAY
-      ) {
+      )
         return;
-      }
       lastClickRef.current = { id, time: now };
-
-      setBookmarkedItems((prev) => {
-        const isCurrentlyBookmarked = prev.includes(id);
-        const next = isCurrentlyBookmarked
-          ? prev.filter((bookmarkId) => bookmarkId !== id)
-          : [...prev, id];
-
-        try {
-          localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-          setError(null);
-        } catch (err) {
-          setError("Failed to save bookmark");
-          return prev;
-        }
-
-        return next;
-      });
+      const next = bookmarkedItems.includes(id)
+        ? bookmarkedItems.filter((bookmarkId) => bookmarkId !== id)
+        : [...bookmarkedItems, id];
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+        window.dispatchEvent(new Event("bookmarks-changed"));
+        setError(null);
+      } catch {
+        setError("Failed to save bookmark");
+      }
     },
-    [isLoading],
+    [bookmarkedItems, isLoading],
   );
 
   const clearBookmarks = useCallback(() => {
-    setBookmarkedItems([]);
     try {
       localStorage.removeItem(STORAGE_KEY);
+      window.dispatchEvent(new Event("bookmarks-changed"));
       setError(null);
-    } catch (err) {
+    } catch {
       setError("Failed to clear bookmarks");
     }
   }, []);
@@ -120,7 +128,6 @@ export function useBookmarks(): UseBookmarksReturn {
     (id: string) => bookmarkedItems.includes(id),
     [bookmarkedItems],
   );
-
   return {
     bookmarkedItems,
     toggleBookmark,
