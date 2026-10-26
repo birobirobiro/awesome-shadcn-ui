@@ -641,6 +641,7 @@
 | turborepo-shadcn-ui-tailwindcss | Turborepo starter with shadcn/ui & TailwindCSS pre-configured for shared UI components. | [Link](https://github.com/henriqpohl/turborepo-shadcn-ui-tailwindcss) | 2024-12-27T12:56:05.000Z |
 | waitly | A simple and useful waitlist Next.js and Shadcn UI template. | [Link](https://shadcnuikit.com/template/waitly-free-waitlist-template) | 2026-01-23T21:25:02.000Z |
 | wordpress-plugin-boilerplate | WordPress Plugin Boilerplate utilizing modern web technologies and tools such as React, TypeScript, SASS, TailwindCSS, Shadcn UI, Vite, Grunt.js, Storybook, HMR, and more. | [Link](https://github.com/prappo/wordpress-plugin-boilerplate) | 2024-12-27T12:56:05.000Z |
+| ZeroCRM | Open-source sales CRM dashboard. Next.js 16, Tailwind v4 & Radix UI, pixel-perfect and mobile-ready. | [Link](https://github.com/CerebralCEO/zerocrm) |
 
 ## Star History
 
