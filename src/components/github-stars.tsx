@@ -1,6 +1,7 @@
 "use client";
 
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
+import starCounts from "../../public/repo-stars.json";
 import { Button } from "@/components/ui/button";
 import {
   Tooltip,
@@ -11,35 +12,8 @@ import {
 const REPO_OWNER = "birobirobiro";
 const REPO_NAME = "awesome-shadcn-ui";
 
-let cachedStars: number | null = null;
-let starsRequest: Promise<number | null> | null = null;
-
-function getStars(): Promise<number | null> {
-  // Header, footer and Strict Mode share the same request, including failures.
-  starsRequest ??= fetch("/api/github-stars")
-    .then(async (response) => {
-      if (!response.ok) return null;
-      const data = await response.json();
-      if (!Number.isSafeInteger(data.stars) || data.stars < 0) return null;
-      cachedStars = data.stars;
-      return cachedStars;
-    })
-    .catch(() => null);
-  return starsRequest;
-}
-
 export const GitHubStars = memo(function GitHubStars() {
-  const [stars, setStars] = useState<number | null>(cachedStars);
-
-  useEffect(() => {
-    let active = true;
-    void getStars().then((value) => {
-      if (active) setStars(value);
-    });
-    return () => {
-      active = false;
-    };
-  }, []);
+  const stars: number | null = starCounts.stars ?? null;
 
   return (
     <Tooltip>

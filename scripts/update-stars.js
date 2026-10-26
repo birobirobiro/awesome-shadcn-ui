@@ -138,7 +138,7 @@ async function main() {
     process.exit(1);
   }
 
-  const repos = collectRepos(content);
+  const repos = [...new Set([...collectRepos(content), 'birobirobiro/awesome-shadcn-ui'])].sort();
   console.log(`Found ${repos.length} GitHub repositories in the README.`);
 
   const stars = {};
@@ -160,6 +160,11 @@ async function main() {
   };
 
   fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`);
+  const repoKey = 'birobirobiro/awesome-shadcn-ui';
+  // Keep the previous value if GitHub temporarily fails to return this repo.
+  if (typeof stars[repoKey] === 'number') {
+    fs.writeFileSync('public/repo-stars.json', `${JSON.stringify({ stars: stars[repoKey], updatedAt: output.updatedAt }, null, 2)}\n`);
+  }
   console.log(`Wrote ${Object.keys(stars).length} star counts to ${OUTPUT_PATH}.`);
 }
 

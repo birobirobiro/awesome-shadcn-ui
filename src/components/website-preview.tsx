@@ -111,18 +111,6 @@ export function WebsitePreview({ url, name }: WebsitePreviewProps) {
     );
   }
 
-  if (previewState === "iframe") {
-    return (
-      <iframe
-        src={url}
-        className="h-full min-h-[20rem] w-full border-0"
-        title={`Preview of ${name}`}
-        loading="lazy"
-        sandbox="allow-scripts allow-same-origin"
-      />
-    );
-  }
-
   if (previewState === "screenshot" && screenshotUrl) {
     return (
       <Screenshot

@@ -2,132 +2,53 @@
 
 import { useEffect, useState } from "react";
 
-/** Preview display modes */
-type PreviewState = "loading" | "iframe" | "screenshot" | "fallback";
+type PreviewState = "loading" | "screenshot" | "fallback";
 
-/**
- * Return type for the useWebsitePreview hook
- */
-export interface UseWebsitePreviewReturn {
-  /** Current preview display mode */
-  previewState: PreviewState;
-  /** Screenshot URL from Microlink API (when in screenshot mode) */
-  screenshotUrl: string | null;
-  /** Favicon URL from DuckDuckGo icons service */
-  faviconUrl: string | null;
-}
-
-/**
- * Manages website preview state with progressive fallback strategy.
- *
- * Attempts to display website in this order:
- * 1. **iframe** - Direct embedding, but only after /api/preview-check confirms
- *    the site's headers allow framing (blocked frames still fire onload, so
- *    this can't be detected client-side)
- * 2. **screenshot** - Microlink API screenshot if the site blocks embedding
- * 3. **fallback** - Generic placeholder if all else fails
- *
- * @param url - The website URL to preview
- * @returns Preview state and related URLs
- *
- * @example
- * ```tsx
- * const { previewState, screenshotUrl, faviconUrl } = useWebsitePreview({
- *   url: "https://example.com"
- * })
- *
- * if (previewState === "iframe") {
- *   return <iframe src={url} />
- * } else if (previewState === "screenshot" && screenshotUrl) {
- *   return <img src={screenshotUrl} />
- * }
- * ```
- */
-export function useWebsitePreview({
-  url,
-}: {
-  url: string;
-}): UseWebsitePreviewReturn {
-  const [previewState, setPreviewState] = useState<PreviewState>("loading");
-  const [screenshotUrl, setScreenshotUrl] = useState<string | null>(null);
-  let faviconUrl: string | null = null;
-  try {
-    faviconUrl = `https://icons.duckduckgo.com/ip3/${new URL(url).hostname}.ico`;
-  } catch {
-    /* Invalid URLs have no favicon. */
-  }
+export function useWebsitePreview({ url }: { url: string }) {
+  const [preview, setPreview] = useState<{
+    url: string;
+    state: PreviewState;
+    screenshotUrl: string | null;
+  }>({ url, state: "loading", screenshotUrl: null });
 
   useEffect(() => {
-    let isMounted = true;
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
+    let active = true;
 
-    const fetchWithTimeout = async (
-      input: RequestInfo | URL,
-      timeoutMs: number,
-    ) => {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), timeoutMs);
-
+    async function loadScreenshot() {
       try {
-        return await fetch(input, { signal: controller.signal });
+        const endpoint = `https://api.microlink.io?url=${encodeURIComponent(url)}&screenshot=true&meta=false`;
+        const response = await fetch(endpoint, { signal: controller.signal });
+        if (!response.ok) throw new Error("Preview request failed");
+        const data = await response.json();
+        if (!active) return;
+        const screenshotUrl =
+          data.status === "success" &&
+          typeof data.data?.screenshot?.url === "string"
+            ? data.data.screenshot.url
+            : null;
+        setPreview({
+          url,
+          state: screenshotUrl ? "screenshot" : "fallback",
+          screenshotUrl,
+        });
+      } catch {
+        if (active) setPreview({ url, state: "fallback", screenshotUrl: null });
       } finally {
         clearTimeout(timeout);
       }
-    };
+    }
 
-    const loadScreenshot = async () => {
-      try {
-        const microlinkUrl = `https://api.microlink.io?url=${encodeURIComponent(url)}&screenshot=true&meta=false`;
-        const response = await fetchWithTimeout(microlinkUrl, 12000);
-        const data = await response.json();
-
-        if (!isMounted) return;
-
-        if (data.status === "success" && data.data?.screenshot?.url) {
-          setScreenshotUrl(data.data.screenshot.url);
-          setPreviewState("screenshot");
-        } else {
-          setPreviewState("fallback");
-        }
-      } catch {
-        if (isMounted) {
-          setPreviewState("fallback");
-        }
-      }
-    };
-
-    const checkEmbeddable = async () => {
-      try {
-        const response = await fetchWithTimeout(
-          `/api/preview-check?url=${encodeURIComponent(url)}`,
-          8000,
-        );
-        const data = await response.json();
-
-        if (!isMounted) return;
-
-        if (data.embeddable) {
-          setPreviewState("iframe");
-        } else {
-          setPreviewState("screenshot");
-          loadScreenshot();
-        }
-      } catch {
-        if (!isMounted) return;
-        setPreviewState("screenshot");
-        loadScreenshot();
-      }
-    };
-
-    checkEmbeddable();
-
+    void loadScreenshot();
     return () => {
-      isMounted = false;
+      active = false;
+      clearTimeout(timeout);
+      controller.abort();
     };
   }, [url]);
 
-  return {
-    previewState,
-    screenshotUrl,
-    faviconUrl,
-  };
+  return preview.url === url
+    ? { previewState: preview.state, screenshotUrl: preview.screenshotUrl }
+    : { previewState: "loading" as const, screenshotUrl: null };
 }
