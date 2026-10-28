@@ -313,6 +313,7 @@
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
 | shadcn-store | A growing collection of shadcn/ui components, blocks, and templates for building modern web apps based on Base UI. | [Link](https://shadcnstore.com) | 2026-08-11T14:58:08.307Z |
 | shadcn-studio | Open Source Registry of Shadcn components and blocks. | [Link](https://shadcnstudio.com/) | 2025-04-24T12:04:47.000Z |
+| shadcn-table | MIT-licensed React data table for shadcn/ui built on TanStack Table, a port of material-react-table with sorting, filtering, grouping, pinning, row selection and virtualization, installed as editable source from its own registry for Radix UI and Base UI. | [Link](https://www.shadcn-table.com) |
 | shadcnship | Production-ready shadcn/ui component registry for building modern SaaS applications with Next.js, TypeScript, and Tailwind CSS. | [Link](https://github.com/arnaudvolp/shadcnship) | 2026-01-31T22:05:02.000Z |
 | signoff-ui | React components to review what an agent changed and approve what it may do, installable from its own shadcn registry or npm: multi-file diff review with per-hunk decisions and line comments, rule-based tool approvals and run telemetry, for AI SDK and AG-UI agents. | [Link](https://signoff-ui.vercel.app) | 2026-10-16T11:27:01.191Z |
 | skiper-ui | Stand out from others with this crazzy ui library built with shad-cn cli | [Link](https://skiper-ui.com/) | 2025-02-03T19:03:08.000Z |
