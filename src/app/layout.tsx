@@ -98,7 +98,7 @@ export default function RootLayout({
           atkinsonMono.variable,
         )}
       >
-        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ""} />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || "G-NVJMKMVP65"} />
         <Script id="openpanel-init" strategy="afterInteractive">
           {`
             window.op=window.op||function(){var n=[];return new Proxy(function(){arguments.length&&n.push([].slice.call(arguments))},{get:function(t,r){return"q"===r?n:function(){n.push([r].concat([].slice.call(arguments)))}},has:function(t,r){return"q"===r}}) }();
