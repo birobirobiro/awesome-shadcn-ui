@@ -160,7 +160,6 @@
 | plate-select-editor | Rich multi-select editor. | [Link](https://platejs.org/docs/multi-select) | 2024-12-27T12:56:05.000Z |
 | pricing-page-shadcn | Customizable pricing page with Next.js 14. | [Link](https://github.com/m4nute/pricing-page-shadcn) | 2024-12-27T12:56:05.000Z |
 | progress-button | Extended button component with progress UX. | [Link](https://github.com/tomredman/ProgressButton) | 2024-12-27T12:56:05.000Z |
-| re-ui | Open-source collection of UI components and animated effects built with React, Typescript, Tailwind CSS, and Motion. Pairs beautifully with shadcn/ui | [Link](https://reui.io/) | 2025-09-06T21:36:24.000Z |
 | react-dnd-kit-tailwind-shadcn-ui | Accessible kanban board with dnd-kit. | [Link](https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | react-highlight-popover | Headless component for text selection popovers. | [Link](https://react-highlight-popover.omsimos.com) | 2024-12-27T12:56:05.000Z |
 | react-pdf-flipbook-viewer | PDF flipbook viewer with zoom and fullscreen. | [Link](https://github.com/mohitkumawat310/react-pdf-flipbook-viewer) | 2024-12-27T12:56:05.000Z |
@@ -308,6 +307,7 @@
 | paceui | shadcn registry of React blocks, motion components, and templates for Next.js and TanStack Start, with free blocks and components and paid Basic and Pro licenses for the full catalog. | [Link](https://paceui.com/) | 2026-09-19T06:27:28.422Z |
 | pastaui | MIT-licensed shadcn registry of 50+ React components for AI and agent interfaces, from prompt inputs and model pickers to file diffs and approval cards, with a paid Pro tier of full-page blocks. | [Link](https://pastaui.com) | 2026-10-16T11:29:15.310Z |
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
+| reui | shadcn/ui registry of 1,200+ free components and 27 primitives such as data grid, kanban and gantt in Base UI and Radix UI, with an MCP server for coding agents and paid Pro blocks. | [Link](https://reui.io/) |
 | shadcn-io | Advanced Shadcn/UI components. | [Link](https://shadcn.io) | 2025-09-06T21:28:00.000Z |
 | shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
