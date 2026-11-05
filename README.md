@@ -68,6 +68,7 @@
 | cascader-shadcn | A cascading dropdown menu component for selecting hierarchical data like locations, categories, or organizational structures. | [Link](https://github.com/Ademking/cascader-shadcn) | 2025-12-04T15:21:56.000Z |
 | clerk-elements | Composable components for building custom UIs on top of Clerk's APIs. | [Link](https://clerk.com/docs/elements/examples/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | clerk-shadcn-theme | Synchronize Clerk SignIn/SignUp components with shadcn/ui styles. | [Link](https://github.com/stormynight9/clerk-shadcn-theme) | 2024-12-27T12:56:05.000Z |
+| cnippet-ui | 97 production-ready components you copy, paste and own. Built on Base UI primitives, styled with Tailwind CSS — accessible by default, yours to bend. | [Link](https://github.com/cnippet-dev/ui-cnippet) |
 | colorshot | Color and gradient picker for React and Vue that themes with your shadcn/ui tokens. | [Link](https://orshot.com/open-source/colorshot) | 2026-10-16T11:27:01.191Z |
 | commerce-ui | Components, blocks and examples to build e-commerce storefronts and apps. | [Link](https://github.com/stackzero-labs/ui) | 2025-02-20T17:48:50.000Z |
 | componentry | Beautiful Animated UI Components for React Effortlessly add polished, production-ready interactions to your projects, with the styling and animations already handled. Browse components | [Link](https://github.com/harshjdhv/componentry) | 2026-07-16 |
