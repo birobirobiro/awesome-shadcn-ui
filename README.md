@@ -581,6 +581,7 @@
 | cn | Plug-and-play shadcn/ui registry template, powered by TanStack Start | [Link](https://github.com/jakejarvis/_cn) | 2026-07-04T01:28:12.279Z |
 | create-tauri-core | A project template for creating a Tauri app with Vite, React, and Tailwind CSS. | [Link](https://github.com/mrlightful/create-tauri-core) | 2024-12-27T12:56:05.000Z |
 | create-tauri-ui | Create modern Tauri desktop apps with shadcn/ui, desktop-first defaults, and optional batteries. | [Link](https://github.com/agmmnn/tauri-ui) | 2026-03-31T13:03:03.000Z |
+| craftlum-lite | Free shadcn/ui dashboard template for LLM apps and AI agents with a trace explorer, span waterfall and latency against SLO. | [Link](https://github.com/maksymkoval/craftlum-lite) |
 | custom-admin-dashboard | A minimal, open-source ecommerce admin dashboard template built with shadcn/ui and Next.js. Includes products, products creation and details page, order, customer, and settings pages. | [Link](https://github.com/S5SAJID/custom-ecom) | 2025-09-06T21:28:00.000Z |
 | design-system-template | Turborepo + TailwindCSS + Storybook + shadcn/ui. | [Link](https://github.com/arevalolance/design-system-template) | 2024-12-27T12:56:05.000Z |
 | deska-dashboard-template | A dashboard template built with Nuxt, Tailwind and Shadcn. | [Link](https://github.com/yaminncco/deska-dashboard-template) | 2026-04-24T19:37:44.000Z |
