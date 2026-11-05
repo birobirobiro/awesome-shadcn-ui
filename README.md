@@ -476,6 +476,7 @@
 | devfolios | Find best portfolio inspiration from all over the internet | [Link](https://devfolios-one.vercel.app/) | 2025-10-25T16:06:54.000Z |
 | godly | Astronomically good web design inspiration. Only the best of the best. | [Link](https://godly.website/) | 2024-12-27T12:56:05.000Z |
 | hritu-art | A clean, modern designer portfolio blending minimal aesthetics with functional UI and built-in email support via React Email. | [Link](https://github.com/suraj-xd/design-portfolio) | 2025-06-10T16:50:50.000Z |
+| image-aspect-ratio | Free image aspect ratio calculator whose interface is built with shadcn/ui and Tailwind CSS v4; finds a photo's ratio, calculates matching dimensions, and previews square, portrait and widescreen framing. | [Link](https://imageaspectratio.com/) |
 | list-swajp-me | It has never been easier to find the right projects or designs by inspiring successful people. | [Link](https://list.swajp.me) | 2024-12-27T12:56:05.000Z |
 | nathans-ai | An AI Chatbot acting as a portfolio, built with shadcn/ui components. | [Link](https://chat.brodin.dev) | 2025-06-10T16:50:50.000Z |
 | shubhporwal-me | An eye-catching developer portfolio, built on NextJS, GSAP, Tailwind, and React. | [Link](https://www.shubhporwal.me/) | 2024-12-27T12:56:05.000Z |
