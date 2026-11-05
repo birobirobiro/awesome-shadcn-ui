@@ -537,6 +537,7 @@
 | angular-spartan | Angular port of shadcn/ui. | [Link](https://github.com/goetzrobin/spartan) | 2024-12-27T12:56:05.000Z |
 | basecoat | Vanilla HTML, CSS and JS port of shadcn/ui. | [Link](https://basecoatui.com) | 2025-07-07T12:15:40.000Z |
 | blazor-simple-ui | Razor component library for Blazor, inspired by shadcn/ui. | [Link](https://sysinfocus.github.io/shadcn-inspired/) | 2024-12-27T12:56:05.000Z |
+| ExpoKit | Animated, shadcn-style components, charts and screens for Expo and React Native, added to your app with a CLI; free and open source, with a paid Pro tier. | [Link](https://expokit.in/) |
 | flutter-forui | Forui is a Flutter UI library heavily inspired by shadcn/ui | [Link](https://forui.dev/) | 2026-05-26T13:47:30.335Z |
 | flutter-shadcn-ui | Flutter port of shadcn/ui. | [Link](https://github.com/nank1ro/shadcn-ui) | 2024-12-27T12:56:05.000Z |
 | franken-ui | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
