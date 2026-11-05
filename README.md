@@ -289,6 +289,7 @@
 | data-table-filters | Data table blocks for shadcn/ui with faceted filters, sorting, infinite scroll and a row detail sheet, installed as editable source with the shadcn CLI. | [Link](https://github.com/openstatusHQ/data-table-filters) | 2026-09-19T06:39:38.747Z |
 | diarmuradi | shadcn/ui registry of UI blocks and templates with a free block collection and paid Core and Complete plans. | [Link](https://www.diarmuradi.com/) | 2026-10-16T11:29:15.310Z |
 | dominik-ui | Opinionated components and tools for building modern websites and AI interfaces. | [Link](https://dominikkoch.dev/ui) | 2026-06-21T12:00:00.000Z |
+| drift-ui | MIT-licensed shadcn registry of 48 React components that shadcn/ui does not ship, such as tags input, tree view, stepper, filter builder and recurrence editor, each with a Radix and a Base UI build. | [Link](https://drift-ui.dev) |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
 | facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) | 2026-10-16T11:30:42.531Z |
