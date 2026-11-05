@@ -8,6 +8,13 @@ export interface Affiliate {
 
 export const affiliates: Affiliate[] = [
   {
+    name: "Pally",
+    description: "The AI personal assistant you text.",
+    url: "https://pally.com/r/BIRO",
+    cta: "Try Pally",
+    logo: { light: "/affiliates/pally.png", dark: "/affiliates/pally.png" },
+  },
+  {
     name: "Hostinger",
     description: "VPS hosting for your projects.",
     url: "https://www.hostinger.com/br/cart?product=vps%3Avps_kvm_2&period=12&referral_type=cart_link&REFERRALCODE=BIROBIROBIRO&referral_id=01a16ee0-3dd8-70c8-9539-b3bf71ad19cb",
