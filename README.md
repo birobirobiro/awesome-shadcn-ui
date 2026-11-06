@@ -428,6 +428,7 @@
 | 5devs | A website to get fake Brazilian data for testing purposes. | [Link](https://www.5devs.com.br/) | 2024-12-27T12:56:05.000Z |
 | bento-hub | BentoHub is an application where you can create a bento grid for your GitHub profile readme. | [Link](https://github.com/amittam104/BentoHub) | 2024-12-27T12:56:05.000Z |
 | blockdex | Item-level search across public shadcn/ui registries that shows each component's install command, dependencies, and whether it is free, paid, or no longer available. | [Link](https://blockdex.thecompound.tech) | 2026-09-19T06:37:39.430Z |
+| browsable-dev | Search 51,000 UI components from 313 shadcn registries by describing what you need; every result says what its code is built with before you install it. | [Link](https://browsable.dev) |
 | cheatsheet | A comprehensive, interactive reference for shadcn/ui components with live previews, code examples, and instant copy functionality. | [Link](https://shadcnstore.com/docs/cheatsheet) | 2025-09-23T23:27:50.000Z |
 | compify | Open-source CLI that packages selected React Storybook stories into reviewable shadcn registry items, with a public component registry and a hosted editor that offers paid credit-based plans. | [Link](https://compify.app) | 2026-09-19T06:25:19.361Z |
 | create-next-shadcn-kit | CLI to scaffold a production-ready Next.js app with shadcn/ui, Tailwind CSS, optional state management (Redux Toolkit/Zustand), and preconfigured tooling like Husky. | [Link](https://github.com/NikunjSonigara/create-next-shadcn-kit) | 2026-04-24T19:36:10.000Z |
