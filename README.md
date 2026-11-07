@@ -130,6 +130,7 @@
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-27T12:56:05.000Z |
 | manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-25T13:29:02.000Z |
 | marmo-ui | React components for Applications combined with MCP Server | [Link](https://marmoui.com) | 2026-07-14T12:56:05.000Z |
+| medium-zoom | Image zoom for React with keyboard controls and theme-aware styling, powered by medium-zoom. | [Link](https://medium-zoom.francoischalifour.com/react) |
 | mindmapcn | Beautiful mind maps, works seamlessly with shadcn/ui. | [Link](https://github.com/SSShooter/mindmapcn) | 2026-01-27T22:08:25.000Z |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-12-27T12:56:05.000Z |
 | modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-11-02T19:17:08.000Z |
