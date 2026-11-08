@@ -268,6 +268,7 @@
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
 | 000h | MIT-licensed shadcn registry of React components with organic shapes and adjustable motion, covering core UI, charts, drawers, text effects, animated backgrounds and WebGL sculptures. | [Link](https://cojeev.com/ui/) | 2026-09-19T06:41:47.735Z |
+| 0nlytype | MIT-licensed shadcn registry of React components made only of type, with no icons, cards or shadows: two typefaces, one accent and a lot of space. | [Link](https://thedirectors.agency/ui/) |
 | 1st-pouf | An open-source claymorphism UI kit and shadcn-style registry for React, with reusable components, blocks, and templates built for Tailwind CSS 4. | [Link](https://1st-pouf.worksonmy.dev) | 2026-08-11T14:27:05.834Z |
 | 21st-dev | Open source npm for shadcn/ui components. Also: Dribble for design engineers. Install UI components via shadcn CLI, or publish your own. | [Link](https://21st.dev/) | 2024-12-27T12:56:05.000Z |
 | 21st-dev-agent-elements | Open-source registry of agent UI primitives — chat shell, tool-call cards (Bash, Edit, Search, Todo, Plan), clarifying questions, input bar, streaming markdown. Built on React 19, Tailwind v4, and the Vercel AI SDK. | [Link](https://agent-elements.21st.dev) | 2026-04-24T19:36:48.000Z |
