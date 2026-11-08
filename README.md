@@ -398,6 +398,7 @@
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
 | illos | Animated SVG illustrations in Shader, HUD and Isometric styles that install with the shadcn CLI; spot illustrations are free and Illos Pro adds the full set plus agent skills. | [Link](https://illos.dev/) | 2026-10-23T22:39:15.997Z |
 | loading-ui | Curated, copy-friendly spinners, loaders, and loading-state animations for the web—free and open source. | [Link](https://loading-ui.com/) | 2026-04-25T12:00:00.000Z |
+| mekai-ui | Animated React components installed from their own shadcn registry: 53 free under MIT plus a paid Pro set, with text effects, WebGL backgrounds, app UI and game UI like XP bars and health bars. | [Link](https://github.com/mekai-ui/mekai-ui) |
 | microkit | Copy-paste microinteractions — animated buttons, hover effects, tabs and inputs — each with a live preview and copy-ready source in both Tailwind and plain CSS, installable with the shadcn CLI. | [Link](https://microkit.co) | 2026-09-19T06:40:24.048Z |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-12-27T12:56:05.000Z |
 | mizzle | Animated React components installed as source with the shadcn CLI, with a free core set and a one-time license for the remaining catalog. | [Link](https://mizzle.saddy.me) | 2026-10-23T23:13:43.570Z |
