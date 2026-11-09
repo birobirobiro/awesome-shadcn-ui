@@ -554,6 +554,7 @@
 | solid-shadcn-solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
 | svelte-shadcn-svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
 | swift-swiftcn-ui | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
+| swift-swiftui-flx | SwiftUI port of shadcn/ui for iPhone, iPad and Mac, built on native controls and installed with the shadcn CLI. | [Link](https://swiftui.flexnative.com) |
 | vue-shadcn-vue | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
 
 ## Design System
