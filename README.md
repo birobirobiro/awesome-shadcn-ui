@@ -91,6 +91,7 @@
 | emblor | Customizable, accessible tag input component with shadcn/ui. | [Link](https://github.com/JaleelB/emblor) | 2024-12-27T12:56:05.000Z |
 | enhanced-button | Enhanced version of the default shadcn-button component. | [Link](https://github.com/jakobhoeg/enhanced-button) | 2024-12-27T12:56:05.000Z |
 | eo-n-ui | Enhanced UI components built on shadcn’s robust foundation, integrated with Base UI and Tailwind CSS for a modern and customizable design system. | [Link](https://github.com/aeonzz/eo-n) | 2025-04-03T20:12:06.000Z |
+| ergonui | Editable React components with typed, composable APIs, interactive playgrounds, and advanced data controls. Built on shadcn/ui component source and community work. | [Link](https://github.com/ganonym741/ergon-shadcn-ui) |
 | extend-ui | Reusable components built on shadcn/ui for web applications. | [Link](https://www.extend-ui.com/) | 2024-12-27T12:56:05.000Z |
 | fancy-area | Textarea with @mention support inspired by GitHub's PR comment section. | [Link](https://craft.mxkaske.dev/post/fancy-area) | 2024-12-27T12:56:05.000Z |
 | fancy-box | GitHub PR label selector-inspired Combobox with radix-ui components. | [Link](https://craft.mxkaske.dev/post/fancy-box) | 2024-12-27T12:56:05.000Z |
