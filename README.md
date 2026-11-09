@@ -285,6 +285,7 @@
 | blode-ui | An open-source registry of accessible React components built on Base UI and Tailwind CSS v4, installable with the shadcn CLI. | [Link](https://blode.co/ui) | 2026-09-19T06:29:29.076Z |
 | chanhdai-components | A collection of reusable components. Trusted registry for shadcn/ui. | [Link](https://chanhdai.com/components) | 2026-03-01T13:34:15.000Z |
 | creance | React components for supervising AI agents, such as approval prompts, tool-call timelines, diff review and a kill switch, installed as editable source from their own shadcn registry. | [Link](https://creance.pages.dev) | 2026-10-16T11:26:26.718Z |
+| CupertinoUI | macOS-style components for React and shadcn/ui. | [Link](https://www.cupertino-ui.com/) |
 | dashboardblocks | Open-source dashboard blocks for shadcn/ui, including KPIs, charts, tables and full dashboards installed with the shadcn CLI for Radix UI, Base UI and React Aria. | [Link](https://github.com/LGLabGreg/dashboardblocks) | 2026-10-16T11:26:47.313Z |
 | data-table-filters | Data table blocks for shadcn/ui with faceted filters, sorting, infinite scroll and a row detail sheet, installed as editable source with the shadcn CLI. | [Link](https://github.com/openstatusHQ/data-table-filters) | 2026-09-19T06:39:38.747Z |
 | diarmuradi | shadcn/ui registry of UI blocks and templates with a free block collection and paid Core and Complete plans. | [Link](https://www.diarmuradi.com/) | 2026-10-16T11:29:15.310Z |
