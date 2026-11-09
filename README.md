@@ -76,6 +76,7 @@
 | creatorem-ui | Missing awesome shadcn components (like Tour, Stepper, QRCode Motion Dialog -> to imitate native behaviour ...) built on top of radix primitives and motion. | [Link](https://github.com/creatorem/ui) | 2025-10-25T16:07:32.000Z |
 | credenza | Ready-made responsive modal component for shadcn/ui. | [Link](https://github.com/redpangilinan/credenza) | 2024-12-27T12:56:05.000Z |
 | crypto-charts | Crypto charts made for shadcn/ui using PythNetwork. | [Link](https://github.com/jstnw10/crypto-charts) | 2024-12-27T12:56:05.000Z |
+| Cuelark UI | shadcn/ui registry of 107 MIT components, including a 30-piece AI agent kit (chat, reasoning, tool calls, approvals, citations, trace waterfall) and GSAP motion with one global dial. | [Link](https://github.com/cuelark/ui) |
 | data-command | Component for building dynamic command palettes with API-powered data. | [Link](https://shadcn.davidsling.in/components/data-command) | 2025-09-06T21:28:00.000Z |
 | date-range-picker-for-shadcn | Multi-month views, text entry, preset ranges, responsive design, and date range comparisons. | [Link](https://github.com/johnpolacek/date-range-picker-for-shadcn) | 2024-12-27T12:56:05.000Z |
 | date-time-picker-shadcn | Datetime Picker for shadNext Project. | [Link](https://shadcn-datetime-picker.vercel.app) | 2024-12-27T12:56:05.000Z |
