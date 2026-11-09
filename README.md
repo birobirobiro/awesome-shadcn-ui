@@ -292,6 +292,7 @@
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
 | facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) | 2026-10-16T11:30:42.531Z |
+| facadeui | Animated React components and page blocks for local business, real estate and agency websites: 59 items, 35 of them MIT, installed with the shadcn CLI, plus an MCP server for AI agents. | [Link](https://facadeui.com) |
 | glassy-ui | Open-source glass components for React and React Native, installed with shadcn; Pro is a separate paid offering. | [Link](https://glassyui.com) | 2026-10-23T22:39:52.345Z |
 | hextaui | React components, hooks and AI blocks for shadcn/ui on Base UI, installed from its own registry; the components are free and MIT licensed, with paid Pro blocks. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
 | interlace-ui | Design-system registry for the Interlace docs sites: theme baseline, layout and accessibility primitives, and MDX components. Installable with the shadcn CLI. | [Link](https://ds.interlace.tools) | 2026-08-11T14:21:17.397Z |
