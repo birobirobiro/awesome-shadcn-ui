@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <a href="https://awesomeshadcn.dev" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
   </a>
@@ -321,6 +321,7 @@
 | suiss-ui | MIT-licensed shadcn registry of components, patterns, interactions, charts and blocks for React on Base UI, Radix or React Aria, React Native, SwiftUI and Jetpack Compose, in nine styles. | [Link](https://suiss.app/ui) | 2026-10-23T22:39:15.997Z |
 | sureui | MIT-licensed shadcn registry of confirmation components built on Base UI, covering undo, hold to confirm, type to confirm, confirm dialogs and AI tool-call approval, installed as editable source with the shadcn CLI. | [Link](https://sureui.com) | 2026-10-16T11:27:18.323Z |
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
+| tree-ui | MIT-licensed shadcn registry that adds an accessible, zero-dependency tree view with windowing for 10k+ rows, label filtering and async children. | [Link](https://github.com/Alan-donk/tree-ui) |
 | uai | MIT-licensed shadcn registry of 108 compound React components and page blocks with built-in motion and micro-interactions, including AI agent UI (prompt composer, thinking, approvals) and Brazilian commerce (Pix, CEP, installments). | [Link](https://uaiblocks.dev) | 2026-10-23T22:39:52.345Z |
 | ui-nference-sh | a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai agent interfaces. | [Link](https://ui.inference.sh/) | 2026-02-13T17:47:21.000Z |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
@@ -676,3 +677,4 @@ rules, and what a resource has to clear to be accepted.
 
 - **Via Website**: Use the built-in submission form at [awesomeshadcn.dev](https://awesomeshadcn.dev/)
 - **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
+
