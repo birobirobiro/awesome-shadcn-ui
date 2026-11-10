@@ -677,4 +677,3 @@ rules, and what a resource has to clear to be accepted.
 
 - **Via Website**: Use the built-in submission form at [awesomeshadcn.dev](https://awesomeshadcn.dev/)
 - **Via GitHub**: Follow the [PR template](.github/pull_request_template.md) when creating pull requests
-
