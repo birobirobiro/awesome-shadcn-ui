@@ -124,6 +124,7 @@
 | launch-ui | Landing page components with React, Shadcn/ui and Tailwind. | [Link](https://www.launchuicomponents.com/) | 2024-12-27T12:56:05.000Z |
 | lingua-time | Smart datetime picker with natural language input. | [Link](https://github.com/nainglinnkhant/lingua-time) | 2024-12-27T12:56:05.000Z |
 | linked-chart | Chart component linked with data-table. | [Link](https://github.com/ardasisbot/linked-chart) | 2025-02-03T19:05:16.000Z |
+| lucide-extended | Filled and duotone versions of Lucide icons for React, with matching names. Unofficial. | [Link](https://github.com/applifted/lucide-extended) |
 | lukacho-ui | Next Generation UI Components. | [Link](https://ui.lukacho.com/components) | 2024-12-27T12:56:05.000Z |
 | magicui | React components for landing pages with tailwindcss + framer motion. | [Link](https://magicui.design) | 2024-12-27T12:56:05.000Z |
 | maily-to | Notion-like powerful email editor. | [Link](https://github.com/arikchakma/maily.to) | 2024-12-27T12:56:05.000Z |
