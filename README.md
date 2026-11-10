@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <a href="https://awesomeshadcn.dev" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
   </a>
