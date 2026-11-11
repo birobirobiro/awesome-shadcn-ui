@@ -355,6 +355,7 @@
 | Name | Description | Link | Date |
 | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------- |
 | 10000-themes-for-shadcn-ui | 10000+ Themes for shadcn/ui. | [Link](https://ui.jln.dev/) | 2024-12-27T12:56:05.000Z |
+| codex-design-shadcn-theme-generator | Free in-browser generator that builds a complete light and dark shadcn/ui theme from one brand color, radius and font, previews it on shadcn components, and exports globals.css or shadcn registry JSON. | [Link](https://codexdesign.io/tools/shadcn-theme-generator) |
 | dialectcn | A living catalog of shadcn presets — brand-inspired, community-submitted, and occasionally random. Pick one, copy the code, ship the UI. | [Link](https://dialectcn.xyz/) | 2026-04-24T20:07:56.000Z |
 | dizzy | Bootstrap a new Next or Vite project with shadcn/ui. Customize font, icons, colors, spacing, radii, and shadows. | [Link](https://dizzy.systems) | 2024-12-27T12:56:05.000Z |
 | ewgenius-ui | Create custom themes for shadcn/ui effortlessly using vibrant palettes from Radix Colors. | [Link](https://ui.ewgenius.me/shadcn-radix-colors) | 2024-12-27T12:56:05.000Z |
