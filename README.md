@@ -515,6 +515,7 @@
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | pastecode | Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. | [Link](https://github.com/Quorin/PasteCode.app) | 2024-12-27T12:56:05.000Z |
 | pdfmavericks | 40+ free browser-based PDF tools (compress, merge, split, sign, watermark, redact, OCR, convert) with client-side processing — files never leave the device. Built with Next.js 15 App Router, shadcn/ui, and Tailwind CSS. | [Link](https://pdfmavericks.com/) | 2026-05-20T12:30:00.000Z |
+| PicYep | AI photo generator with a UI built with shadcn/ui; turns text or a reference photo into realistic photos, with free credits and paid plans. | [Link](https://picyep.com/) |
 | plotwist | Easy management and reviews of your movies, series, and animes using Next.js, Tailwind CSS, Supabase, and shadcn/ui. | [Link](https://plotwist.app/en-US) | 2024-12-27T12:56:05.000Z |
 | s5arc-ecommerce-platform | S5ARC is an open-source, multi-tenant e-commerce SaaS platform designed to help non-technical founders launch online stores quickly built with shadcn & nextjs etc. | [Link](https://github.com/S5SAJID/next-dashcommerce) | 2026-04-24T19:39:08.000Z |
 | solidping | AGPL-3.0 self-hosted uptime monitoring app with a shadcn/ui dashboard for checks, incidents and status pages, plus an optional paid hosted version. | [Link](https://github.com/fclairamb/solidping) | 2026-10-23T22:38:43.242Z |
