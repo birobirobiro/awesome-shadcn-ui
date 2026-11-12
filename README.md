@@ -262,6 +262,7 @@
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06T17:57:41.000Z |
 | zepa-ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-12-27T12:56:05.000Z |
+| zriz | Shadcn registry with an image cropper that feels like the crop tool in iOS Photos | [Link](https://github.com/pqoqubbw/zriz) |
 
 ## Registries
 
