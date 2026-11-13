@@ -332,6 +332,7 @@
 | watermelon-ui | MIT-licensed shadcn registry (@watermelon) with 516 component variants, 131 animated components, 189 blocks and 12 dashboards, plus a free keyless MCP server for AI agents. | [Link](https://ui.watermelon.sh) | 2026-10-23T22:40:20.057Z |
 | wds-registry | A collection of components that you can use to build your own component library. | [Link](https://wds-shadcn-registry.netlify.app) | 2025-09-06T21:28:00.000Z |
 | we-inc-components | Free shadcn registry of 667 React and Tailwind CSS components and page sections in 35 categories, each with a live preview, the React code and a plain HTML version, installable with `npx shadcn@latest add`. | [Link](https://we.inc/components) | 2026-10-23T22:39:00.412Z |
+| weatheo-ui | Weather components (current-conditions card, hourly strip, daily list) in server and client versions, installable from its own shadcn registry. | [Link](https://github.com/weatheo-com/weatheo-ui) |
 | wensity | Free, MIT-licensed React UI primitives, components, and motion for Next.js and Tailwind CSS v4, themeable from one design token contract; a paid Pro catalog is also available. | [Link](https://ui.wensity.com) | 2026-09-19T06:32:52.017Z |
 | wick-charts | MIT-licensed shadcn registry of realtime canvas charts for React and shadcn-vue that stay smooth while data streams in and take their colors from your theme tokens. | [Link](https://wick-charts.eeff.io/integrations/shadcn/) | 2026-10-23T22:39:35.545Z |
 
