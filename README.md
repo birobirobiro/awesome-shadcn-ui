@@ -323,6 +323,7 @@
 | tailark | Shadcn blocks for building modern marketing websites | [Link](https://tailark.com) | 2026-02-06T17:56:55.000Z |
 | uai | MIT-licensed shadcn registry of 108 compound React components and page blocks with built-in motion and micro-interactions, including AI agent UI (prompt composer, thinking, approvals) and Brazilian commerce (Pix, CEP, installments). | [Link](https://uaiblocks.dev) | 2026-10-23T22:39:52.345Z |
 | ui-nference-sh | a shadcn registry of react ui components for building ai-powered applications, chatbots, and ai agent interfaces. | [Link](https://ui.inference.sh/) | 2026-02-13T17:47:21.000Z |
+| uiset | MIT-licensed shadcn registry of components, kits, templates and themes built on Vercel's UI SDK, including a data grid, chat, rich text, charts, a scheduler and five skins. | [Link](https://uiset.dev) |
 | undraw-cn | Beautiful, customizable React components for unDraw illustrations. | [Link](https://undraw-cn.vaatun.com) | 2025-12-04T15:15:06.000Z |
 | upfork | shadcn registry of animated React and Tailwind CSS components and landing pages (WebGL heroes, 3D carousels, bento grids) with live previews and an MCP server; a few are free under MIT, most of the catalog needs a paid Pro plan. | [Link](https://upfork.dev) | 2026-10-16T11:31:04.236Z |
 | uploadcn | MIT-licensed shadcn registry of file upload components and 58 blocks, with resumable S3, R2 and Cloudinary uploads, installable in every shadcn style. | [Link](https://uploadcn.dev) | 2026-10-13T13:24:36.938Z |
