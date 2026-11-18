@@ -25,4 +25,15 @@ export const sponsors: Sponsor[] = [
     cta: "Browse dashboards",
     LogoComponent: <ShadcnUiKitLogo className="w-5 h-5 shrink-0" />,
   },
+  {
+    name: "UIAble",
+    description: "shadcn/ui components. Get 50% off any license with AWE50.",
+    url: "https://links.codedthemes.com/cEYIF",
+    cta: "Explore UIAble",
+    LogoComponent: (
+      <svg viewBox="0 0 130 124" className="h-5 w-5 shrink-0" aria-hidden="true">
+        <image href="/sponsors/uiable.svg" width="422" height="124" />
+      </svg>
+    ),
+  },
 ];

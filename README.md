@@ -37,6 +37,10 @@
   <a href="https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=github" target="_blank">
     <img src="public/sponsors/shadcnuikit.svg" alt="shadcnuikit.com" width="150">
   </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://links.codedthemes.com/cEYIF" target="_blank">
+    <img src="public/sponsors/uiable.svg" alt="UIAble" width="150">
+  </a>
 </p>
 
 ## Libs and Components
