@@ -310,7 +310,7 @@
 | paceui | shadcn registry of React blocks, motion components, and templates for Next.js and TanStack Start, with free blocks and components and paid Basic and Pro licenses for the full catalog. | [Link](https://paceui.com/) | 2026-09-19T06:27:28.422Z |
 | pastaui | MIT-licensed shadcn registry of 50+ React components for AI and agent interfaces, from prompt inputs and model pickers to file diffs and approval cards, with a paid Pro tier of full-page blocks. | [Link](https://pastaui.com) | 2026-10-16T11:29:15.310Z |
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
-| prestige-ui | shadcn registry of animated React components and full-page blocks built with Tailwind CSS and Motion, with free components and a paid Pro tier for the blocks and templates. | [Link](https://prestigeui.com) |
+| prestige-ui | shadcn registry of animated React components and full-page blocks built with Tailwind CSS and Motion, with free components and a paid Pro tier for the blocks and templates. | [Link](https://prestigeui.com) | 2026-11-18T17:36:24.110Z |
 | shadcn-io | Advanced Shadcn/UI components. | [Link](https://shadcn.io) | 2025-09-06T21:28:00.000Z |
 | shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
@@ -559,7 +559,7 @@
 | solid-shadcn-solid | Solid port of shadcn/ui. | [Link](https://github.com/hngngn/shadcn-solid) | 2024-12-27T12:56:05.000Z |
 | svelte-shadcn-svelte | Svelte port of shadcn/ui. | [Link](https://github.com/huntabyte/shadcn-svelte) | 2024-12-27T12:56:05.000Z |
 | swift-swiftcn-ui | Swift port of shadcn/ui. | [Link](https://github.com/Mobilecn-UI/swiftcn-ui) | 2024-12-27T12:56:05.000Z |
-| swift-swiftui-flx | SwiftUI port of shadcn/ui for iPhone, iPad and Mac, built on native controls and installed with the shadcn CLI. | [Link](https://swiftui.flexnative.com) |
+| swift-swiftui-flx | SwiftUI port of shadcn/ui for iPhone, iPad and Mac, built on native controls and installed with the shadcn CLI. | [Link](https://swiftui.flexnative.com) | 2026-11-18T17:36:24.110Z |
 | vue-shadcn-vue | Vue port of shadcn/ui. | [Link](https://github.com/radix-vue/shadcn-vue) | 2024-12-27T12:56:05.000Z |
 
 ## Design System
@@ -581,7 +581,7 @@
 | agentic-react-nextjs-shadcn | Agent-testable SaaS starter built with Next.js 16, shadcn/ui, and Tailwind CSS. Includes accessibility-first components, semantic HTML for AI agent testing, and production-ready patterns. | [Link](https://github.com/iscale-llc/agentic-react-nextjs-shadcn) | 2026-03-03T22:35:00.000Z |
 | astro-erudite | An opinionated, unstyled static blogging template—built with Astro, Tailwind, and shadcn/ui. | [Link](https://github.com/jktrn/astro-erudite) | 2025-10-25T16:15:21.000Z |
 | browser-extension-starter-plasmo-shadcn-trpc | Browser extension starter kit featuring Plasmo, React, Shadcn, and tRPC. | [Link](https://github.com/poweroutlet2/browser-extension-starter-plasmo-shadcn-trpc) | 2024-12-27T12:56:05.000Z |
-| burntop | Full-stack starter for AI coding agents with a React 19 and TanStack Start frontend built on shadcn/ui and Tailwind 4, a FastAPI and Postgres backend, auth, CRUD and end-to-end tests. | [Link](https://github.com/agusmdev/fullstack-ai-template) |
+| burntop | Full-stack starter for AI coding agents with a React 19 and TanStack Start frontend built on shadcn/ui and Tailwind 4, a FastAPI and Postgres backend, auth, CRUD and end-to-end tests. | [Link](https://github.com/agusmdev/fullstack-ai-template) | 2026-11-18T17:36:24.110Z |
 | chadnext | Quick Starter Template includes Next.js 14 App Router, shadcn/ui, LuciaAuth, Prisma, Server Actions, Stripe, Internationalization, and more. | [Link](https://github.com/moinulmoin/chadnext) | 2024-12-27T12:56:05.000Z |
 | chatdeck-shadcn-saas-landing-template | ChatDeck — Free Shadcn UI SaaS landing page template built with Next.js and Tailwind CSS. | [Link](https://github.com/ShadcnDeck/chatdeck-shadcn-saas-landing-page-template) | 2026-05-24 |
 | cloudflare-saas-stack | An opinionated, batteries-included starter kit for quickly building and deploying SaaS products on Cloudflare. | [Link](https://github.com/Dhravya/cloudflare-saas-stack) | 2024-12-27T12:56:05.000Z |
