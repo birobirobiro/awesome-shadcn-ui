@@ -40,6 +40,7 @@
 </p>
 
 ## Libs and Components
+| ergonui | Editable React components with typed, composable APIs, interactive playgrounds, and advanced data controls. Built on shadcn/ui component source and community work. | [Link](https://github.com/ganonym741/ergon-shadcn-ui) |
 
 | Name | Description | Link | Date |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ---------- |
@@ -266,6 +267,8 @@
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-12-27T12:56:05.000Z |
 
 ## Registries
+| caliper-ui | Shadcn registry of React controls, charts, and product UI blocks with an MIT-licensed free collection and paid Pro screens and app templates. | [Link](https://caliperui.site/) |
+| mebius-starter | MIT shadcn registry of 10 animated chart cards and 10 forms for React 19 and Tailwind CSS v4, designed in Figma and installable by URL with no account; 170 more items need a free account. | [Link](https://github.com/mebius-designs/mebius-starter) |
 
 | Name | Description | Link | Date |
 | ------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------ | ---------- |
@@ -297,6 +300,7 @@
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
 | facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) | 2026-10-16T11:30:42.531Z |
+| prequelui | MIT-licensed shadcn registry of 23 animated dashboard blocks with an MCP server; complete premium dashboards are a separate paid product. | [Link](https://prequelui.terravidhal.me) |
 | glassy-ui | Open-source glass components for React and React Native, installed with shadcn; Pro is a separate paid offering. | [Link](https://glassyui.com) | 2026-10-23T22:39:52.345Z |
 | goodui | Free MIT registry of 132 animated components and 39 app blocks (scheduling, dashboards, AI chat), installable with `npx shadcn add`; an optional paid Pro tier adds more blocks and kits. | [Link](https://goodui.dev) | 2026-11-18T17:38:46.816Z |
 | hextaui | React components, hooks and AI blocks for shadcn/ui on Base UI, installed from its own registry; the components are free and MIT licensed, with paid Pro blocks. | [Link](https://hextaui.com) | 2025-05-14T18:28:21.000Z |
@@ -305,6 +309,8 @@
 | keyline-icons | MIT-licensed icon set drawn on one 24×24 grid in stroke, two-tone, duotone and fill styles with rounded or sharp corners, installable icon by icon with the shadcn CLI. | [Link](https://keylineicons.com/) | 2026-09-19T06:30:09.746Z |
 | keyline-ui | MIT-licensed shadcn registry of 66 React components for dense, work-heavy screens such as toolbars, data tables, menus, inspectors and app shells, built on Base UI and installed beside stock shadcn under components/keyline. | [Link](https://keyline-ui.dev/) | 2026-11-18T17:38:46.816Z |
 | liquikit | MIT-licensed shadcn registry of 32 liquid glass React components built on Base UI, with physically based refraction that works in Chrome, Safari and Firefox. | [Link](https://liquikit.dev/) | 2026-10-16T11:26:26.718Z |
+| plopui | Open-source shadcn registry of hand-drawn React components and ready-made blocks (sign-up card, settings panel, empty state), built on accessible native elements to WCAG AA and installing the MIT-licensed @plop-ui/react npm package. | [Link](https://plopui.com) |
+| qrdx | shadcn registry of QR code components: a styled QR code with download buttons, a card, a share dialog, a generator, a scanner, and Wi-Fi and vCard codes. | [Link](https://qrdx.dev/docs/developers/shadcn) |
 | localmode | Local-first AI UI registry with 107 copy-owned primitives and 36 composed blocks (chat, RAG, Whisper transcription, CLIP image search) that run entirely in the browser, no servers or API keys. Installable via the shadcn CLI. | [Link](https://localmode.ai) | 2026-07-16T01:32:42.992Z |
 | logoforge | Open-source shadcn registry of 900+ brand logos as typed React components with automatic dark mode and mono variants, plus a logo cloud builder and African brands, installable with the shadcn CLI. | [Link](https://logoforge.terravidhal.me) | 2026-10-16T11:31:04.236Z |
 | minidev-ui | Free, MIT-licensed shadcn registry of 548 React and Tailwind CSS v4 components, blocks and templates for product screens such as data tables, billing, settings, dashboards and AI chat, built on Base UI. | [Link](https://ui.minidev.pro) | 2026-11-18T17:36:41.187Z |
@@ -314,6 +320,7 @@
 | nasaq | Open-source shadcn registry of React components, themes and page templates with Arabic and right-to-left layout built in, plus an MCP server. | [Link](https://nasaqui.com) | 2026-10-16T11:26:26.718Z |
 | neobrutalism-vue | A vue-based registry of neobrutalism-styled Tailwind components. | [Link](https://github.com/michaelsieminski/neobrutalism-vue) | 2025-12-04T15:20:34.000Z |
 | ns-ui | Open-source registry of React components, each built around a single interaction, from heroes and animated backgrounds to charts, loaders and form controls, installable by URL with the shadcn CLI. | [Link](https://design.helpmarq.com) | 2026-09-19T06:31:31.355Z |
+| shadcn-table | MIT-licensed React data table for shadcn/ui built on TanStack Table, a port of material-react-table with sorting, filtering, grouping, pinning, row selection and virtualization, installed as editable source from its own registry for Radix UI and Base UI. | [Link](https://www.shadcn-table.com) |
 | paceui | shadcn registry of React blocks, motion components, and templates for Next.js and TanStack Start, with free blocks and components and paid Basic and Pro licenses for the full catalog. | [Link](https://paceui.com/) | 2026-09-19T06:27:28.422Z |
 | pastaui | MIT-licensed shadcn registry of 50+ React components for AI and agent interfaces, from prompt inputs and model pickers to file diffs and approval cards, with a paid Pro tier of full-page blocks. | [Link](https://pastaui.com) | 2026-10-16T11:29:15.310Z |
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
@@ -434,6 +441,7 @@
 | slidytabs | A tool that adds a sliding indicator animation to shadcn `<Tabs />` without changing how you use or customize the component | [Link](https://slidytabs.dev) | 2026-01-23T21:13:51.000Z |
 | smooth-ui | Highly customizable, production-ready UI blocks for building beautiful websites and apps that look and feel the way you mean it. | [Link](https://smoothui.dev/) | 2025-10-15T03:04:19.000Z |
 | sora-ui | Motion-first React component registry on the shadcn model. Install @soralabs/* primitives via the CLI, own the code in your repo. Includes scroll reveals, text effects, magnetic UI, and more, powered by Motion and GSAP with reduced-motion support built in. | [Link](https://ui.soralabs.studio/) | 2026-08-11T14:27:05.834Z |
+| tentui | Free, source-available registry of interactive React components and landing-page blocks for shadcn/ui, with motion, sound and haptic details, installable with the shadcn CLI. | [Link](https://tentui.com/) |
 | svg-scroll-draw | MIT shadcn registry of scroll-driven blocks (SVG signature drawing, reveal cards, counters, pinned tours, text reveal, video scrub) on the native CSS scroll timeline, installable with the shadcn, shadcn-vue and shadcn-svelte CLIs. | [Link](https://svg-scroll-draw.vercel.app/blocks) | 2026-11-18T17:38:25.233Z |
 | tailwindcss-motion | A new simple syntax animation library. Batteries included. Infinitely configurable. | [Link](https://rombo.co/tailwind/) | 2024-12-27T12:56:05.000Z |
 | ui-beats | Animated React components installable from its own registry with the shadcn CLI, each with a props table, interactive playground and reduced-motion support. | [Link](https://uibeats.com) | 2024-12-27T12:56:05.000Z |
