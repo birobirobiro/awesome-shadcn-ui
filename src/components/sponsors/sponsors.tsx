@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import KerryStudioLogo from "./kerry-studio-logo";
 import ShadcnStudioLogo from "./shadcn-studio-logo";
 import ShadcnUiKitLogo from "./shadcn-ui-kit-logo";
 
@@ -35,5 +36,12 @@ export const sponsors: Sponsor[] = [
         <image href="/sponsors/uiable.svg" width="422" height="124" />
       </svg>
     ),
+  },
+  {
+    name: "Kerry Studio",
+    description: "A modern SQL database manager.",
+    url: "https://kerry.studio/",
+    cta: "Explore Kerry Studio",
+    LogoComponent: <KerryStudioLogo className="h-5 w-5 shrink-0" />,
   },
 ];
