@@ -260,6 +260,7 @@
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-16T12:35:38.000Z |
 | w3-kit | A comprehensive library of accessible React components for building high-quality Web3 applications and dApps | [Link](https://github.com/w3-kit/ui) | 2026-04-24T19:41:27.000Z |
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06T17:57:41.000Z |
+| yayaw-table | Shadcn Table System | [Link](https://github.com/Yayaw-SAS/Yayaw-Table) |
 | zepa-ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-12-27T12:56:05.000Z |
 
