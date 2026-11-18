@@ -406,6 +406,7 @@
 | animated-header | Vercel-like animated header. | [Link](https://github.com/mehrdadrafiee/animated-header) | 2025-10-25T16:09:52.000Z |
 | animated-tabs | Vercel-like animated tabs. | [Link](https://github.com/mehrdadrafiee/animated-tabs) | 2025-04-06T14:14:05.000Z |
 | atelier-ui | A React Three Fiber and Motion component system for React and Next.js. WebGL galleries, interactive cursors, smooth scroll effects and page transitions, built on one shared canvas and one scroll loop. | [Link](https://github.com/whatisjery/atelier-ui) | 2026-08-11T14:27:05.834Z |
+| bencho | Interactive React components and micro-interactions you can tune live, installable from its own shadcn registry; 48 are free and MIT licensed, the rest need a paid Pro plan. | [Link](https://bencho.dev) |
 | beui | Copy-paste animated components built on Framer Motion and Tailwind. Free and open source. | [Link](https://beui.dev/) | 2026-08-11T14:27:05.834Z |
 | bundui | A collection of reusable animated components built with Tailwind CSS and Framer Motion. | [Link](https://bundui.io) | 2024-12-27T12:56:05.000Z |
 | chewypixel | Free animated components for shadcn/ui, built with Motion and installable with the shadcn CLI. | [Link](https://chewypixel.io/components) | 2026-10-23T23:15:52.460Z |
