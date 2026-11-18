@@ -130,7 +130,7 @@
 | manfromexistence-ui | Components to build beautiful designs. | [Link](https://github.com/manfromexistence/ui) | 2024-12-27T12:56:05.000Z |
 | manifest-ui | Components for ChatGPT Apps and MCP Apps. | [Link](https://ui.manifest.build) | 2025-12-25T13:29:02.000Z |
 | marmo-ui | React components for Applications combined with MCP Server | [Link](https://marmoui.com) | 2026-07-14T12:56:05.000Z |
-| medium-zoom | Image zoom for React with keyboard controls and theme-aware styling, powered by medium-zoom. | [Link](https://medium-zoom.francoischalifour.com/react) |
+| medium-zoom | Image zoom for React with keyboard controls and theme-aware styling, powered by medium-zoom. | [Link](https://medium-zoom.francoischalifour.com/react) | 2026-11-18T17:37:41.082Z |
 | mindmapcn | Beautiful mind maps, works seamlessly with shadcn/ui. | [Link](https://github.com/SSShooter/mindmapcn) | 2026-01-27T22:08:25.000Z |
 | minimal-tiptap | Minimal WYSIWYG editor with shadcn/ui and tiptap. | [Link](https://github.com/Aslam97/shadcn-minimal-tiptap) | 2024-12-27T12:56:05.000Z |
 | modal-control-query | A hook to control shadcn modal components using query params | [Link](https://shadcn.davidsling.in/hooks/use-modal-control-query) | 2025-11-02T19:17:08.000Z |
@@ -408,7 +408,7 @@
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
 | illos | Animated SVG illustrations in Shader, HUD and Isometric styles that install with the shadcn CLI; spot illustrations are free and Illos Pro adds the full set plus agent skills. | [Link](https://illos.dev/) | 2026-10-23T22:39:15.997Z |
 | loading-ui | Curated, copy-friendly spinners, loaders, and loading-state animations for the web—free and open source. | [Link](https://loading-ui.com/) | 2026-04-25T12:00:00.000Z |
-| mekai-ui | Animated React components installed from their own shadcn registry: 53 free under MIT plus a paid Pro set, with text effects, WebGL backgrounds, app UI and game UI like XP bars and health bars. | [Link](https://github.com/mekai-ui/mekai-ui) |
+| mekai-ui | Animated React components installed from their own shadcn registry: 53 free under MIT plus a paid Pro set, with text effects, WebGL backgrounds, app UI and game UI like XP bars and health bars. | [Link](https://github.com/mekai-ui/mekai-ui) | 2026-11-18T17:37:41.082Z |
 | microkit | Copy-paste microinteractions — animated buttons, hover effects, tabs and inputs — each with a live preview and copy-ready source in both Tailwind and plain CSS, installable with the shadcn CLI. | [Link](https://microkit.co) | 2026-09-19T06:40:24.048Z |
 | mixcnui | Collection of animated components for Nextjs. | [Link](https://github.com/taqui-786/mixcnui) | 2024-12-27T12:56:05.000Z |
 | mizzle | Animated React components installed as source with the shadcn CLI, with a free core set and a one-time license for the remaining catalog. | [Link](https://mizzle.saddy.me) | 2026-10-23T23:13:43.570Z |
@@ -602,7 +602,7 @@
 | devstarter | Devstarter is a bold, one-page developer portfolio template with a distinctive cyberpunk aesthetic. Built with Next.js, shadcn/ui, and Tailwind CSS, it's designed to help developers showcase their work, skills, and personality in a way that stands out. | [Link](https://github.com/zippystarter/template-devstarter) | 2026-01-27T22:06:21.000Z |
 | easy-ui | 50+ High Quality Open Source Website Templates built using NextJS + shadcn/ui + Tailwind CSS + Framer Motion and more. | [Link](https://github.com/DarkInventor/easy-ui) | 2024-12-27T12:56:05.000Z |
 | ecommerce-kit | Next.js starter kit with the tools you need to quickly launch your e-commerce site. | [Link](https://ecommercekit.dev) | 2025-09-06T21:28:00.000Z |
-| electron-appstack | Electron desktop app template with its UI built on shadcn/ui and Tailwind CSS, plus a typed tRPC backend, SQLite, auto update and signed releases. | [Link](https://electron-appstack.com) |
+| electron-appstack | Electron desktop app template with its UI built on shadcn/ui and Tailwind CSS, plus a typed tRPC backend, SQLite, auto update and signed releases. | [Link](https://electron-appstack.com) | 2026-11-18T17:37:41.082Z |
 | electron-shadcn | Electron app template with shadcn/ui and a bunch of other libs and tools ready to use. | [Link](https://github.com/LuanRoger/electron-shadcn) | 2024-12-27T12:56:05.000Z |
 | extension-js-sidebar-shadcn | Browser extension side panel starter for Chrome, Edge, and Firefox from a single manifest, built with shadcn/ui, Tailwind, and Radix primitives. | [Link](https://github.com/extension-js/examples/tree/main/examples/sidebar-shadcn) | 2026-09-19T06:41:04.139Z |
 | fastapi-react-admin | Open-source admin foundation with a FastAPI backend and a React 19 frontend built on shadcn/ui, featuring row-level permissions, multi-tab pages that keep their state, approval workflows and a permission-bound AI assistant. | [Link](https://github.com/yilecoding/fastapi-react-admin) | 2026-11-18T17:36:41.187Z |
