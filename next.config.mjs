@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  experimental: {
+    agentUpgrade: "security",
+  },
   compiler: {
     removeConsole:
       process.env.NODE_ENV === "production" ? { exclude: ["error"] } : false,
