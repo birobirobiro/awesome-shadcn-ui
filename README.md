@@ -260,7 +260,7 @@
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-16T12:35:38.000Z |
 | w3-kit | A comprehensive library of accessible React components for building high-quality Web3 applications and dApps | [Link](https://github.com/w3-kit/ui) | 2026-04-24T19:41:27.000Z |
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06T17:57:41.000Z |
-| yayaw-table | Shadcn Table System | [Link](https://github.com/Yayaw-SAS/Yayaw-Table) |
+| yayaw-table | Shadcn Table System | [Link](https://github.com/Yayaw-SAS/Yayaw-Table) | 2026-11-18T17:36:59.027Z |
 | zepa-ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-12-27T12:56:05.000Z |
 
@@ -400,7 +400,7 @@
 | eldora-ui | free and open-source animated components built with React, Typescript, Tailwind CSS, and Framer Motion. | [Link](https://eldoraui.site/) | 2025-10-25T16:07:53.000Z |
 | fluid-functionalism | Refined shadcn/ui-compatible components with spring physics, proximity hover, and font weight transitions. Every animation serves a functional purpose. | [Link](https://fluid-functionalism.vercel.app) | 2026-04-24T19:38:06.000Z |
 | forgeui | Animation-first shadcn/ui registry with free motion components and WebGL backgrounds, plus a paid Pro tier that unlocks blocks, templates, and the rest of the catalog. | [Link](https://github.com/AmanShakya0018/forgeui) | 2026-09-19T06:34:50.502Z |
-| gradients-sh | Animated mesh, aurora and grain gradient backgrounds for React that pause when scrolled off screen, installable with the shadcn CLI; free MIT components plus a paid Pro collection. | [Link](https://gradients.sh) |
+| gradients-sh | Animated mesh, aurora and grain gradient backgrounds for React that pause when scrolled off screen, installable with the shadcn CLI; free MIT components plus a paid Pro collection. | [Link](https://gradients.sh) | 2026-11-18T17:36:59.027Z |
 | heroicons-animated | An open-source collection of 316 beautifully animated heroicons for your projects. | [Link](https://heroicons-animated.vercel.app/) | 2026-01-23T21:15:24.000Z |
 | hugeicons-animated | Open-source shadcn registry of hand-animated Hugeicons for React, built with Motion and installed icon by icon as editable source with the shadcn CLI. | [Link](https://hugeicons-animated.com) | 2026-09-29T14:52:15.077Z |
 | illos | Animated SVG illustrations in Shader, HUD and Isometric styles that install with the shadcn CLI; spot illustrations are free and Illos Pro adds the full set plus agent skills. | [Link](https://illos.dev/) | 2026-10-23T22:39:15.997Z |
@@ -609,7 +609,7 @@
 | kirimase | A template and boilerplate for quickly starting your next project with shadcn/ui, Tailwind CSS, and Next.js. | [Link](https://kirimase.dev/) | 2024-12-27T12:56:05.000Z |
 | login-auth | A login authentication web app built with Vite + React, Tailwind CSS, and Shadcn UI. It uses Firebase for Google sign-in, email sign-up, and password reset. | [Link](https://shadcn-login-auth.vercel.app/) | 2026-03-15T08:16:31.000Z |
 | magicui-startup-templates | Magic UI Startup template built using shadcn/ui + TailwindCSS + Framer Motion. | [Link](https://magicui.design/docs/templates/startup) | 2024-12-27T12:56:05.000Z |
-| midnight-lite | Free MIT dark landing page for AI and SaaS products, built on shadcn/ui with a night sky and guilloche hero; its theme and sections install with npx shadcn add from the @vilqor registry, and a paid full version adds more sections. | [Link](https://github.com/vilqor/midnight-lite) |
+| midnight-lite | Free MIT dark landing page for AI and SaaS products, built on shadcn/ui with a night sky and guilloche hero; its theme and sections install with npx shadcn add from the @vilqor registry, and a paid full version adds more sections. | [Link](https://github.com/vilqor/midnight-lite) | 2026-11-18T17:36:59.027Z |
 | next-js-boilerplate | Next.js starter with TypeScript, NextAuth.js, PostgreSQL, Prisma, Sentry, Tailwind CSS, shadcn/ui, Zod, Zustand, nuqs, ESLint, Husky and Prettier. | [Link](https://github.com/AbhishekSharma55/next-js-boilerplate) | 2025-09-08T13:07:36.000Z |
 | next-js-views-template | An open-source collection of reusable view components like Calendar, Table, etc., built with Next.js and ShadCN. Easily copy and paste these pre-built UI elements into your project for fast, responsive, and customizable layouts. | [Link](https://next-js-views-template.vercel.app) | 2024-12-27T12:56:05.000Z |
 | next-motion | Webdev portfolio template with Nodemailer integrated for easy contact form setup. Uses shadcn/ui + TailwindCSS + Framer Motion. | [Link](https://github.com/yoyocharlie/nextMotion) | 2024-12-27T12:56:05.000Z |
