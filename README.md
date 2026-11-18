@@ -30,17 +30,11 @@
 <h3 align="center">Sponsors</h3>
 
 <p align="center">
-  <a href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=github" target="_blank">
-    <img src="public/sponsors/shadcnstudio.svg" alt="shadcnstudio.com" width="150">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=github" target="_blank">
-    <img src="public/sponsors/shadcnuikit.svg" alt="shadcnuikit.com" width="150">
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://links.codedthemes.com/cEYIF" target="_blank">
-    <img src="public/sponsors/uiable.svg" alt="UIAble" width="150">
-  </a>
+  <a href="https://shadcnstudio.com/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=github" target="_blank"><img src="public/sponsors/readme/shadcnstudio.svg" alt="shadcnstudio.com" width="160" height="80"></a>
+  &nbsp;
+  <a href="https://shadcnuikit.com/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=github" target="_blank"><img src="public/sponsors/readme/shadcnuikit.svg" alt="shadcnuikit.com" width="160" height="80"></a>
+  &nbsp;
+  <a href="https://links.codedthemes.com/cEYIF" target="_blank"><img src="public/sponsors/readme/uiable.svg" alt="UIAble" width="160" height="80"></a>
 </p>
 
 ## Libs and Components

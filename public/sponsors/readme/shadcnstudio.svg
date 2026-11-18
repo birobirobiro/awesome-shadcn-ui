@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="80" viewBox="0 0 160 80">
+  <rect x=".5" y=".5" width="159" height="79" rx="10" fill="#fff" stroke="#d1d9e0"/>
+  <rect x="55" y="15" width="50" height="50" rx="12.5" fill="#000"/>
+<svg x="59.5" y="19.5" width="41" height="41" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="300" fill="black"/>
+<path d="M275 150C275 80.9644 219.036 25 150 25C80.9644 25 25 80.9644 25 150C25 219.036 80.9644 275 150 275C219.036 275 275 219.036 275 150Z" fill="white"/>
+<path d="M150.776 79.7261V125.816C150.776 140.97 138.491 153.255 123.337 153.255H78.5278" stroke="black" stroke-width="15.3132"/>
+<path d="M152.002 226.784V180.694C152.002 165.54 164.287 153.255 179.441 153.255H224.25" stroke="black" stroke-width="15.3132"/>
+<path d="M206.506 99.9377L174.969 131.103" stroke="black" stroke-width="15.3132"/>
+<path d="M128.421 177.787L96.8848 208.952" stroke="black" stroke-width="15.3132"/>
+<path d="M126.897 129.439L95.5461 98.0879" stroke="black" stroke-width="15.3132"/>
+<path d="M206.158 208.92L174.807 177.569" stroke="black" stroke-width="15.3132"/>
+</svg>
+</svg>
