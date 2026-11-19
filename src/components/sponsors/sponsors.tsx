@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import KerryStudioLogo from "./kerry-studio-logo";
 import ShadcnStudioLogo from "./shadcn-studio-logo";
 import ShadcnUiKitLogo from "./shadcn-ui-kit-logo";
+import TurboStarterLogo from "./turbostarter-logo";
 
 export interface Sponsor {
   name: string;
@@ -43,5 +44,12 @@ export const sponsors: Sponsor[] = [
     url: "https://kerry.studio/",
     cta: "Explore Kerry Studio",
     LogoComponent: <KerryStudioLogo className="h-5 w-5 shrink-0" />,
+  },
+  {
+    name: "TurboStarter",
+    description: "SaaS starter kits for web, mobile and browser extensions.",
+    url: "https://www.turbostarter.dev/?utm_source=awesome-shadcn-ui&utm_medium=site&utm_campaign=turbostarter",
+    cta: "Explore TurboStarter",
+    LogoComponent: <TurboStarterLogo className="h-5 w-5 shrink-0" />,
   },
 ];

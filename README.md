@@ -37,6 +37,8 @@
   <a href="https://links.codedthemes.com/cEYIF" target="_blank"><img src="public/sponsors/readme/uiable.svg" alt="UIAble" width="160" height="80"></a>
   &nbsp;
   <a href="https://kerry.studio/" target="_blank"><img src="public/sponsors/readme/kerry.svg" alt="Kerry Studio" width="160" height="80"></a>
+  &nbsp;
+  <a href="https://www.turbostarter.dev/?utm_source=awesome-shadcn-ui&utm_medium=readme&utm_campaign=turbostarter" target="_blank"><img src="public/sponsors/readme/turbostarter.svg" alt="TurboStarter" width="160" height="80"></a>
 </p>
 
 ## Libs and Components
