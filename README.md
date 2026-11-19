@@ -267,6 +267,7 @@
 | yayaw-table | Shadcn Table System | [Link](https://github.com/Yayaw-SAS/Yayaw-Table) | 2026-11-18T17:36:59.027Z |
 | zepa-ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
 | zoom-charts | Zoomable Charts with shadcn/ui. | [Link](https://github.com/shelwinsunga/zoom-chart-demo) | 2024-12-27T12:56:05.000Z |
+| zriz | Shadcn registry with an image cropper that feels like the crop tool in iOS Photos | [Link](https://github.com/pqoqubbw/zriz) |
 
 ## Registries
 | caliper-ui | Shadcn registry of React controls, charts, and product UI blocks with an MIT-licensed free collection and paid Pro screens and app templates. | [Link](https://caliperui.site/) |
