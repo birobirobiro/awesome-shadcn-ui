@@ -540,6 +540,7 @@
 | mini-golf-spots | Free US mini golf course finder whose shadcn/ui interface includes course sorting, a mobile filter sheet and course-action buttons. | [Link](https://minigolfspots.com/) | 2026-10-23T23:13:05.392Z |
 | mix-cn | Fully functional dj console app built using shadcn | [Link](https://github.com/melromyeah/MixCN) | 2026-06-13 |
 | multiboard | Minimal Kanban platform. Built with Better-Auth, Next.js, ZenStack, Prisma, and shadcn/ui. | [Link](https://github.com/olliethedev/multiboard) | 2025-07-15T17:11:44.000Z |
+| najamstanova | Free site for finding and renting out long-term flats in Zagreb, Croatia, whose search filters, listing sheets, dialogs, tabs and toasts are built from shadcn/ui components. | [Link](https://najamstanova.com/en) |
 | openhive | Open-source, self-hosted Slack alternative with channels, DMs, threads, reactions, file uploads, and video/audio calls. Built with Next.js, Supabase, Zustand, and shadcn/ui. | [Link](https://github.com/arseneHuot/openhive) | 2026-03-14T18:15:08.000Z |
 | opensearch-ai | SearchGPT/Perplexity clone but personalized for you. | [Link](https://github.com/supermemoryai/opensearch-ai) | 2024-12-27T12:56:05.000Z |
 | pastecode | Pastebin alternative built with TypeScript, Next.js, Drizzle, shadcn/ui, and RSC. | [Link](https://github.com/Quorin/PasteCode.app) | 2024-12-27T12:56:05.000Z |
