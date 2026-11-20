@@ -552,6 +552,7 @@
 | someday | Free to host and open-source Cal.com/Calendly alternative built on Google Apps Script for Gmail users. | [Link](https://github.com/rbbydotdev/someday) | 2024-12-27T12:56:05.000Z |
 | stock-expert-ai | A free US-stock research app demonstrating shadcn/ui cards, badges, buttons, dropdowns, and accordions across stock screening and company research interfaces. | [Link](https://www.stockexpertai.com/) | 2026-10-23T23:11:27.591Z |
 | stocks | Stock Picker with Next.js charts. | [Link](https://github.com/aryanvichare/stocks) | 2024-12-27T12:56:05.000Z |
+| tattootryon | Tattoo try-on web app whose interface is built from 53 shadcn/ui components (base-nova style): place a design on a photo of your own body for free, then render it healed with AI using credits (5 free credits a month, paid plans from $4.99 a month). | [Link](https://tattootryon.app) |
 | translate-app | Translate App using TypeScript, Tailwind CSS, NextJS, Bun, shadcn/ui, AI SDK/OpenAI, and Zod. | [Link](https://github.com/developaul/translate-app) | 2024-12-27T12:56:05.000Z |
 | typelabs | MonkeyType-inspired typing test app built with React, shadcn, and Zustand at its core. | [Link](https://github.com/imsandeshpandey/typelabs) | 2024-12-27T12:56:05.000Z |
 | vercel-status-tracker | Track the status of all of your projects deployed via Vercel. Built with shadcn/ui and TailwindCSS. | [Link](https://vercel-status-tracker.vercel.app) | 2025-01-02T18:24:01.000Z |
