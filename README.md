@@ -573,6 +573,7 @@
 | franken-ui | HTML-first, framework-agnostic, beautifully designed components that you can truly copy and paste into your site. Accessible. Customizable. Open Source. | [Link](https://www.franken-ui.dev/) | 2024-12-27T12:56:05.000Z |
 | go-shadcn-templ | Go and templ port of shadcn/ui. | [Link](https://github.com/axadrn/shadcn-templ) | 2026-08-11T14:24:58.708Z |
 | kotlin-shadcn-kotlin | Kotlin port of shadcn/ui. | [Link](https://github.com/dead8309/shadcn-kotlin) | 2024-12-27T12:56:05.000Z |
+| lvgl-lvgl-theme-shadcn | LVGL port of shadcn/ui for microcontroller touchscreens, with every widget styled and light and dark palettes switchable at runtime. | [Link](https://github.com/AlixANNERAUD/lvgl_theme_shadcn) |
 | mkdocs-mkdocs-shadcn | MkDocs port of shadcn/ui. | [Link](https://github.com/asiffer/mkdocs-shadcn) | 2025-07-07T12:20:11.000Z |
 | net-shadui | Avalonia port of shadcn/ui. Based on SukiUI | [Link](https://github.com/accntech/shad-ui/) | 2025-10-13T13:42:09.000Z |
 | phoenix-liveview-salad-ui | Phoenix LiveView port of shadcn/ui. | [Link](https://github.com/bluzky/salad_ui) | 2024-12-27T12:56:05.000Z |
