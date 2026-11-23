@@ -327,6 +327,7 @@
 | pastaui | MIT-licensed shadcn registry of 50+ React components for AI and agent interfaces, from prompt inputs and model pickers to file diffs and approval cards, with a paid Pro tier of full-page blocks. | [Link](https://pastaui.com) | 2026-10-16T11:29:15.310Z |
 | payload-components | MIT registry and CLI for installing wired Payload CMS blocks into Payload v3 and Next.js projects. | [Link](https://www.payload-components.xyz) | 2026-06-19T13:17:34.000Z |
 | prestige-ui | shadcn registry of animated React components and full-page blocks built with Tailwind CSS and Motion, with free components and a paid Pro tier for the blocks and templates. | [Link](https://prestigeui.com) | 2026-11-18T17:36:24.110Z |
+| radix-shadcn | MIT-licensed shadcn/ui registry rebuilding Radix Themes' visual language and 12-step Radix Colors on Base UI and Tailwind CSS v4, with zero @radix-ui/react-* dependencies. | [Link](https://radix-shadcn.dev/#create) |
 | shadcn-io | Advanced Shadcn/UI components. | [Link](https://shadcn.io) | 2025-09-06T21:28:00.000Z |
 | shadcn-rjsf-form-builder | A shadcn/ui registry for react-jsonschema-form with a themed JSON Schema form renderer and a drag-and-drop visual form builder with live preview. | [Link](https://shadcn-rjsf-form-builder.noowah.dev/) | 2026-09-19T06:23:20.915Z |
 | shadcn-space | Open-source shadcn/ui blocks, components, and templates built with React, Tailwind, and Base UI. | [Link](https://github.com/shadcnspace/shadcnspace) | 2026-02-27T22:12:12.000Z |
