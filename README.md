@@ -640,6 +640,7 @@
 | next-shadcn-admin-dashboard | Modern Admin Dashboard Template built with Shadcn UI and Next.js 15 | [Link](https://github.com/arhamkhnz/next-shadcn-admin-dashboard) | 2025-10-25T16:04:38.000Z |
 | next-shadcn-dashboard-starter | Admin Dashboard Starter with Nextjs 14 and shadcn/ui. | [Link](https://github.com/Kiranism/next-shadcn-dashboard-starter) | 2024-12-27T12:56:05.000Z |
 | next-starter | A Next.js starter template packed with features like TypeScript, TailwindCSS, Next-auth, Eslint, Stripe, testing tools, and more. Jumpstart your project with efficiency and style. | [Link](https://github.com/Skolaczk/next-starter) | 2024-12-27T12:56:05.000Z |
+| next-vibe | Open-source TypeScript SaaS starter whose UI layer wraps shadcn/ui on the web and mirrors the same component props for React Native and the terminal (Ink), so one endpoint definition renders as web UI, CLI and MCP tool. | [Link](https://github.com/techfreaque/next-vibe) |
 | next-wp | Headless Wordpress Starter built with the NextJS App Router and React Server Components. | [Link](https://github.com/9d8dev/next-wp) | 2024-12-27T12:56:05.000Z |
 | nextjs-mdx-blog | Starter template built with Contentlayer, MDX, shadcn/ui, and Tailwind CSS. | [Link](https://github.com/ChangoMan/nextjs-mdx-blog) | 2024-12-27T12:56:05.000Z |
 | onyx | Full stack, batteries-included MVP Template with NextJS 14, Supabase SSR Auth & Postgres DB with CRUD operations, RBAC, Tanstack React Query, Zod Validation, MDX components, Resend, and more. | [Link](https://github.com/rmourey26/onyx) | 2024-12-27T12:56:05.000Z |
