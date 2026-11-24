@@ -122,7 +122,7 @@
 | kalyx | Headless React DatePicker family — single / range / time / date+time / month / year / week pickers behind one composition API. ISO 8601 UTC values, IANA timezone-safe, ~13.6 KB gzip. v1.0 RC. | [Link](https://github.com/jiji-hoon96/kalyx) | 2026-05-12T02:43:00.343Z |
 | kanban-board | A production‑ready Kanban board built on shadcn/ui with React & Tailwind CSS: zero dependencies, drag‑and‑drop, keyboard accessibility and seamless theming. | [Link](https://shadcn-kanban-board.com/) | 2025-07-15T17:19:11.000Z |
 | kibo-ui | Kibo UI is designed to be a more comprehensive library of components that can be used to build more complex applications. | [Link](https://www.kibo-ui.com/overview) | 2025-04-03T20:05:04.000Z |
-| kokonut-ui | Free Modern and Customizable components for Next.js. | [Link](https://kokonutui.com/) | 2024-12-27T12:56:05.000Z |
+| kokonut-ui | Open-source shadcn/ui registry of 100+ React components for AI chat and agents, plus inputs, cards and buttons; a paid Pro tier adds blocks and templates. | [Link](https://kokonutui.com/) | 2024-12-27T12:56:05.000Z |
 | ktui | Open-source collection of customizable UI components for Tailwind CSS and vanilla JavaScript | [Link](https://github.com/keenthemes/ktui) | 2025-06-10T16:47:36.000Z |
 | launch-ui | Landing page components with React, Shadcn/ui and Tailwind. | [Link](https://www.launchuicomponents.com/) | 2024-12-27T12:56:05.000Z |
 | lingua-time | Smart datetime picker with natural language input. | [Link](https://github.com/nainglinnkhant/lingua-time) | 2024-12-27T12:56:05.000Z |
