@@ -301,6 +301,7 @@
 | drift-ui | MIT-licensed shadcn registry of 48 React components that shadcn/ui does not ship, such as tags input, tree view, stepper, filter builder and recurrence editor, each with a Radix and a Base UI build. | [Link](https://drift-ui.dev) | 2026-11-18T17:37:21.072Z |
 | efferd | ready-to-use shadcn blocks that just work — modern, responsive, and built for speed. | [Link](http://efferd.com/) | 2026-03-05T23:46:18.000Z |
 | evex | Open-source shadcn registry of AI agents for Vercel's Eve framework, installable into an Eve app with the shadcn CLI. | [Link](https://evex.sh) | 2026-09-19T06:26:43.475Z |
+| fable-ui | Copy-and-own registry of AI-intent-aware UI: the model calls one render_ui tool with a bounded, validated block catalog, installed with the shadcn CLI. | [Link](https://fable-ui.shobky.com) | 2026-11-25 |
 | facade-ui | Open-source registry of accessible sections and page templates for marketing websites — heroes, pricing tables, FAQs, footers and complete landing pages — built on Base UI and Tailwind CSS v4 and installed with the shadcn CLI. | [Link](https://facadeui.dev) | 2026-10-16T11:30:42.531Z |
 | prequelui | MIT-licensed shadcn registry of 23 animated dashboard blocks with an MCP server; complete premium dashboards are a separate paid product. | [Link](https://prequelui.terravidhal.me) |
 | glassy-ui | Open-source glass components for React and React Native, installed with shadcn; Pro is a separate paid offering. | [Link](https://glassyui.com) | 2026-10-23T22:39:52.345Z |
