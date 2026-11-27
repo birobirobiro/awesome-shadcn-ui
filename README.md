@@ -263,6 +263,7 @@
 | vaul | Drawer component for React. | [Link](https://vaul.emilkowal.ski/) | 2024-12-27T12:56:05.000Z |
 | vyoma-ui | Beautiful Components Made on top of Shadcn/ui with Spatial Wisdom Inside. Truly Beyond UI. | [Link](https://vyomaui.design/) | 2025-07-16T12:35:38.000Z |
 | w3-kit | A comprehensive library of accessible React components for building high-quality Web3 applications and dApps | [Link](https://github.com/w3-kit/ui) | 2026-04-24T19:41:27.000Z |
+| waffle-ui | 338+ interactive React & Tailwind UI components, bento dashboards, and 3D hero sections for fintech, crypto, and AI products with one-command shadcn CLI install. | [Link](https://wafflexui.vercel.app) | 2026-11-27 |
 | warcraftcn | A set of components inspired by classic Warcraft III RTS UI aesthetics | [Link](https://www.warcraftcn.com/) | 2026-02-06T17:57:41.000Z |
 | yayaw-table | Shadcn Table System | [Link](https://github.com/Yayaw-SAS/Yayaw-Table) | 2026-11-18T17:36:59.027Z |
 | zepa-ui | zepa is a growing collection of curated UI components, hero sections, and motion systems for React & Next.js. Copy & paste, fully customizable, free and open source. | [Link](https://zepa.design/) | 2026-06-28 |
