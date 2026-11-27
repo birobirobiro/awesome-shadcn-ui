@@ -50,6 +50,7 @@
 | aceternity-ui | Copy paste the most trending react components without having to worry about styling and animations. | [Link](https://ui.aceternity.com/) | 2024-12-27T12:56:05.000Z |
 | adapttable | Data table for shadcn/ui in one import — URL-synced state, declarative filters with chips, column management and virtualization. Unstyled core pre-wired with the shadcn class preset. | [Link](https://github.com/orwa-mahmoud/adapttable) | 2026-07-11 |
 | agentcn | Production-ready agents, made simple. Ready to use, customizable AI agent recipes. Built on Eve and Flue. | [Link](https://agentcn.vercel.app) | 2026-06-21T12:00:00.000Z |
+| agentdeck-ui | Free React base components for data-dense apps, with light and dark tokens and a Tailwind preset. | [Link](https://github.com/ravijoon/agentdeck-ui) |
 | agents-ui | Agents UI is LiveKit’s open source component library built with React and shadcn for designing voice agent interfaces. Start with production-ready defaults, then customize every detail to match your brand. | [Link](https://livekit.io/ui) | 2026-03-03T17:54:22.000Z |
 | assistant-ui | React Components for AI Chat. | [Link](https://github.com/Yonom/assistant-ui) | 2024-12-27T12:56:05.000Z |
 | async-select | Async Select component built with shadcn/ui with debounce search. | [Link](https://async.rdsx.dev) | 2024-12-27T12:56:05.000Z |
