@@ -1,3 +1,5 @@
+<img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/392a0819-3529-43e0-8022-238a2856beb6" />
+<img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/487ae63d-34ae-448e-b03c-3550913e8e8c" />
 <p align="center">
   <a href="https://awesomeshadcn.dev" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
@@ -175,6 +177,7 @@
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
 | rivelle-ui | Rivelle is an open-source UI library for React and Next.js with editable components, interactive effects, reusable blocks, and complete templates. Install only what you need and fully own the source. | [Link](https://github.com/w3cproject/rivelle-ui) | 2026-08-11T14:27:05.834Z |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-27T12:56:05.000Z |
+| [snapicon](https://snapicon.dev) | 1,671+ micro-animated SVG icons & 28 UI font suites for designers and developers. Download SVG/PNG/GIF/Figma or install via Shadcn CLI. | [Link](https://snapicon.dev) |
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-12-27T12:56:05.000Z |
