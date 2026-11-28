@@ -1,3 +1,5 @@
+<img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/392a0819-3529-43e0-8022-238a2856beb6" />
+<img width="1100" height="705" alt="image" src="https://github.com/user-attachments/assets/487ae63d-34ae-448e-b03c-3550913e8e8c" />
 <p align="center">
   <a href="https://awesomeshadcn.dev" target="_blank">
     <img width="400" src="public/logo.svg" alt="awesome-shadcn/ui logo">
@@ -235,6 +237,7 @@
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-04-03T20:06:16.000Z |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-12-27T12:56:05.000Z |
 | snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) | 2026-08-11T14:27:05.834Z |
+| snapicon | 1,671+ micro-animated SVG icons and 28 UI font suites for designers and developers. Download SVG, PNG, GIF, or Figma files, or install via Shadcn CLI. | [Link](https://snapicon.dev) | 2026-11-28T06:10:00.000Z |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
