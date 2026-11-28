@@ -177,7 +177,6 @@
 | retro-ui | An open source component library, inspred by neo brutalism design system | [Link](https://retroui.dev) | 2025-05-13T14:14:25.000Z |
 | rivelle-ui | Rivelle is an open-source UI library for React and Next.js with editable components, interactive effects, reusable blocks, and complete templates. Install only what you need and fully own the source. | [Link](https://github.com/w3cproject/rivelle-ui) | 2026-08-11T14:27:05.834Z |
 | roadmap-ui | Components for interactive roadmaps. | [Link](https://github.com/haydenbleasel/roadmap-ui) | 2024-12-27T12:56:05.000Z |
-| [snapicon](https://snapicon.dev) | 1,671+ micro-animated SVG icons & 28 UI font suites for designers and developers. Download SVG/PNG/GIF/Figma or install via Shadcn CLI. | [Link](https://snapicon.dev) |
 | scificn-ui | A retro sci-fi UI design system inspired by classic starship consoles and alien computer terminals, featuring modular HUD components, neon data grids, tactical panels, and cinematic interface elements that blend 70s–80s futurism with modern usability. | [Link](https://github.com/baxy5/scificn-ui) | 2026-03-31T13:02:21.000Z |
 | search-address | Interactive address search using OpenStreetMap. | [Link](https://github.com/UretzkyZvi/search-address) | 2024-12-27T12:56:05.000Z |
 | shadcn-address-autocomplete | Address autocomplete with Google Places API. | [Link](https://github.com/NiazMorshed2007/shadcn-address-autocomplete) | 2024-12-27T12:56:05.000Z |
@@ -238,6 +237,7 @@
 | simple-image-uploader | Image uploader with dnd, validation and previews | [Link](https://simple-image-uploader-bice.vercel.app/) | 2025-04-03T20:06:16.000Z |
 | simplekit | Wallet and account component for Wagmi. | [Link](https://github.com/vaunblu/SimpleKit) | 2024-12-27T12:56:05.000Z |
 | snapcn | Video components that look like software, for Remotion. AI answer streams, terminal sessions, device frames, captions and full scenes. | [Link](https://snapcn.dev) | 2026-08-11T14:27:05.834Z |
+| snapicon | 1,671+ micro-animated SVG icons and 28 UI font suites for designers and developers. Download SVG, PNG, GIF, or Figma files, or install via Shadcn CLI. | [Link](https://snapicon.dev) | 2026-11-28T06:10:00.000Z |
 | solanauth | Solana wallet authentication modal. | [Link](https://solanauth.vercel.app/) | 2024-12-27T12:56:05.000Z |
 | sortable | Sortable component with dnd-kit. | [Link](https://github.com/sadmann7/sortable) | 2024-12-27T12:56:05.000Z |
 | spectrum-ui | Collection using Aceternity UI Magic UI. | [Link](https://github.com/arihantcodes/spectrum-ui) | 2024-12-27T12:56:05.000Z |
